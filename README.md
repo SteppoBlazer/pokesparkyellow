@@ -1,6 +1,6 @@
-# Pokémon Yellow
+# Pokémon Spark Yellow
 
-This is a disassembly of Pokémon Yellow.
+This is a custom Pokémon game made using the disassembly of Pokémon Yellow.
 
 It builds the following rom:
 
