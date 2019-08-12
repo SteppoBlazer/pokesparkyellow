@@ -1355,22 +1355,6 @@ _CF4BText::
 	text "!"
 	done
 
-_ExclamationPoint2Text::
-	text "!"
-	done
-
-_ExclamationPoint3Text::
-	text "!"
-	done
-
-_ExclamationPoint4Text::
-	text "!"
-	done
-
-_ExclamationPoint5Text::
-	text "!"
-	done
-
 _AttackMissedText::
 	text "<USER>'s"
 	line "attack missed!"
