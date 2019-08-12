@@ -538,7 +538,6 @@ RaichuPicFront::      INCBIN "pic/ymon/raichu.pic"
 RaichuPicBack::       INCBIN "pic/monback/raichub.pic"
 
 INCLUDE "engine/battle/print_type.asm"
-INCLUDE "engine/battle/save_trainer_name.asm"
 
 
 SECTION "Pics 2", ROMX, BANK[PICS_2]
