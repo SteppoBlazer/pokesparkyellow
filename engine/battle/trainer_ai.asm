@@ -19,16 +19,6 @@ AIEnemyTrainerChooseMoves:
 	ld [hl], $50  ; forbid (highly discourage) disabled move
 .noMoveDisabled
 	ld hl, TrainerClassMoveChoiceModifications
-	ld a, [wTrainerClass]
-	ld b, a
-.loopTrainerClasses
-	dec b
-	jr z, .readTrainerClassData
-.loopTrainerClassData
-	ld a, [hli]
-	and a
-	jr nz, .loopTrainerClassData
-	jr .loopTrainerClasses
 .readTrainerClassData
 	ld a, [hl]
 	and a
@@ -150,6 +140,7 @@ StatusAilmentMoveEffects:
 	db SLEEP_EFFECT
 	db POISON_EFFECT
 	db PARALYZE_EFFECT
+	db HAZE_EFFECT
 	db $FF
 
 ; slightly encourage moves with specific effects.
@@ -172,12 +163,12 @@ AIMoveChoiceModification2:
 	inc de
 	call ReadMove
 	ld a, [wEnemyMoveEffect]
-	cp ATTACK_UP1_EFFECT
-	jr c, .nextMove
+	;cp ATTACK_UP1_EFFECT
+	;jr c, .nextMove
 	cp BIDE_EFFECT
 	jr c, .preferMove
-	cp ATTACK_UP2_EFFECT
-	jr c, .nextMove
+	;cp ATTACK_UP2_EFFECT
+	;jr c, .nextMove
 	cp POISON_EFFECT
 	jr c, .preferMove
 	jr .nextMove
@@ -255,8 +246,83 @@ AIMoveChoiceModification3:
 	jr z, .nextMove
 	inc [hl] ; sligthly discourage this move
 	jr .nextMove
+
+
 AIMoveChoiceModification4:
-	ret
+	ld hl, wBuffer - 1 ; temp move selection array (-1 byte offest)
+	ld de, wEnemyMonMoves ; enemy moves
+	ld b, NUM_MOVES + 1
+.nextMove
+	dec b
+	ret z ; processed all 4 moves
+	inc hl
+	ld a, [de]
+	and a
+	ret z ; no more moves in move set
+	inc de
+	call ReadMove
+	ld a, [wEnemyMoveEffect]
+	push hl
+	push de
+	push bc
+	ld hl, StatsChange1MoveEffects
+	ld de, $0001
+	call IsInArray
+	pop bc
+	pop de
+	pop hl
+	jr nc, .isTwoStatsMove
+	ld a, [hl]
+	add $3 ; discourage a little moves that change stats by 1
+	ld [hl], a
+    jr .nextMove
+.isTwoStatsMove
+    push hl
+	push de
+	push bc
+	ld hl, StatsChange2MoveEffects
+	ld de, $0001
+	call IsInArray
+	pop bc
+	pop de
+	pop hl
+	jr nc, .nextMove
+	
+	inc [hl] ; sligthly discourage moves that change stats by 2
+
+	jr .nextMove
+
+
+StatsChange1MoveEffects:
+    db ATTACK_UP1_EFFECT
+    db DEFENSE_UP1_EFFECT
+    db SPEED_UP1_EFFECT
+    db SPECIAL_UP1_EFFECT
+    db ACCURACY_UP1_EFFECT
+    db EVASION_UP1_EFFECT
+    db ATTACK_DOWN1_EFFECT
+    db DEFENSE_DOWN1_EFFECT
+    db SPEED_DOWN1_EFFECT
+    db SPECIAL_DOWN1_EFFECT
+    db ACCURACY_DOWN1_EFFECT
+    db EVASION_DOWN1_EFFECT
+    db -1
+
+StatsChange2MoveEffects:
+    db ATTACK_UP2_EFFECT
+    db DEFENSE_UP2_EFFECT
+    db SPEED_UP2_EFFECT
+    db SPECIAL_UP2_EFFECT
+    db ACCURACY_UP2_EFFECT
+    db EVASION_UP2_EFFECT
+    db ATTACK_DOWN2_EFFECT
+    db DEFENSE_DOWN2_EFFECT
+    db SPEED_DOWN2_EFFECT
+    db SPECIAL_DOWN2_EFFECT
+    db ACCURACY_DOWN2_EFFECT
+    db EVASION_DOWN2_EFFECT
+    db -1
+
 
 ReadMove:
 	push hl
@@ -276,53 +342,7 @@ ReadMove:
 ; move choice modification methods that are applied for each trainer class
 ; 0 is sentinel value
 TrainerClassMoveChoiceModifications:
-	db 0      ; YOUNGSTER
-	db 1,0    ; BUG CATCHER
-	db 1,0    ; LASS
-	db 1,3,0  ; SAILOR
-	db 1,0    ; JR_TRAINER_M
-	db 1,0    ; JR_TRAINER_F
-	db 1,2,3,0; POKEMANIAC
-	db 1,2,0  ; SUPER_NERD
-	db 1,0    ; HIKER
-	db 1,0    ; BIKER
-	db 1,3,0  ; BURGLAR
-	db 1,0    ; ENGINEER
-	db 1,2,0  ; JUGGLER_X
-	db 1,3,0  ; FISHER
-	db 1,3,0  ; SWIMMER
-	db 0      ; CUE_BALL
-	db 1,0    ; GAMBLER
-	db 1,3,0  ; BEAUTY
-	db 1,2,0  ; PSYCHIC_TR
-	db 1,0    ; ROCKER
-	db 1,0    ; JUGGLER
-	db 1,0    ; TAMER
-	db 1,0    ; BIRD_KEEPER
-	db 1,0    ; BLACKBELT
-	db 1,0    ; SONY1
-	db 1,3,0  ; PROF_OAK
-	db 1,2,0  ; CHIEF
-	db 1,2,0  ; SCIENTIST
-	db 1,3,0  ; GIOVANNI
-	db 1,0    ; ROCKET
-	db 1,3,0  ; COOLTRAINER_M
-	db 1,3,0  ; COOLTRAINER_F
-	db 1,0    ; BRUNO
-	db 1,0    ; BROCK
-	db 1,3,0  ; MISTY
-	db 1,0    ; LT_SURGE
-	db 1,3,0  ; ERIKA
-	db 1,3,0  ; KOGA
-	db 1,0  ; BLAINE
-	db 1,0    ; SABRINA
-	db 1,2,0  ; GENTLEMAN
-	db 1,3,0  ; SONY2
-	db 1,3,0  ; SONY3
-	db 1,2,3,0; LORELEI
-	db 1,0    ; CHANNELER
-	db 1,0    ; AGATHA
-	db 1,3,0  ; LANCE
+	db 1,2,4,3,0
 
 INCLUDE "engine/battle/trainer_pic_money_pointers.asm"
 
