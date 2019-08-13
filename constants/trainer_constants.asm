@@ -53,3 +53,11 @@ const_value = 1
 	trainer_const CHANNELER     ; $2D | OPP = $F5
 	trainer_const AGATHA        ; $2E | OPP = $F6
 	trainer_const LANCE         ; $2F | OPP = $F7
+
+
+
+; trainer type constants
+; used in data/trainer_parties.asm to define trainer party info
+const_value = 0
+	const TRAINERTYPE_NORMAL
+	const TRAINERTYPE_MOVES

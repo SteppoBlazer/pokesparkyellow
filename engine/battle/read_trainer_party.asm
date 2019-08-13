@@ -1,13 +1,11 @@
 ReadTrainer:
 
-; don't change any moves in a link battle
+; don't do anything in a link battle
 	ld a,[wLinkState]
 	and a
 	ret nz
 
-; set [wEnemyPartyCount] to 0, [wEnemyPartyMons] to FF
-; XXX first is total enemy pokemon?
-; XXX second is species of first pokemon?
+; initialize [wEnemyPartyCount] to 0,[wEnemyPartyMons] to FF
 	ld hl,wEnemyPartyCount
 	xor a
 	ld [hli],a
@@ -36,39 +34,38 @@ ReadTrainer:
 	jr z,.IterateTrainer
 .inner
 	ld a,[hli]
-	and a
+	cp $FF
 	jr nz,.inner
 	jr .outer
 
-; if the first byte of trainer data is FF,
-; - each pokemon has a specific level
-;      (as opposed to the whole team being of the same level)
-; - if [wLoneAttackNo] != 0, one pokemon on the team has a special move
-; else the first byte is the level of every pokemon on the team
 .IterateTrainer
 	ld a,[hli]
-	cp $FF ; is the trainer special?
-	jr z,.SpecialTrainer ; if so, check for special moves
-	ld [wCurEnemyLVL],a
-.LoopTrainerData
+	cp TRAINERTYPE_MOVES ; does the trainer use custom moves?
+	jr z,.SpecialTrainer ; if so, use the correct loop
+.NormalTrainer
+; if this code is being run:
+; - each pokemon has a specific level
+; - just uses default moves for each mon
 	ld a,[hli]
-	and a ; have we reached the end of the trainer data?
-	jp z, .AddAdditionalMoveData
-	ld [wcf91],a ; write species somewhere (XXX why?)
+	cp $FF ; have we reached the end of the trainer data?
+	jp z, .FinishUp
+	ld [wCurEnemyLVL], a
+	ld a, [hli]
+	ld [wcf91], a
 	ld a,ENEMY_PARTY_DATA
 	ld [wMonDataLocation],a
 	push hl
 	call AddPartyMon
 	pop hl
-	jr .LoopTrainerData
+	jr .NormalTrainer
+
 .SpecialTrainer
 ; if this code is being run:
 ; - each pokemon has a specific level
-;      (as opposed to the whole team being of the same level)
-; - if [wLoneAttackNo] != 0, one pokemon on the team has a special move
+; - each pokemon has a custom moveset
 	ld a,[hli]
-	and a ; have we reached the end of the trainer data?
-	jr z,.AddAdditionalMoveData
+	cp $FF ; have we reached the end of the trainer data?
+	jr z, .FinishUp
 	ld [wCurEnemyLVL],a
 	ld a,[hli]
 	ld [wcf91],a
@@ -77,49 +74,9 @@ ReadTrainer:
 	push hl
 	call AddPartyMon
 	pop hl
+	call AddCustomMoves
 	jr .SpecialTrainer
-.AddAdditionalMoveData
-; does the trainer have additional move data?
-	ld a, [wTrainerClass]
-	ld b, a
-	ld a, [wTrainerNo]
-	ld c, a
-	ld hl, SpecialTrainerMoves
-.loopAdditionalMoveData
-	ld a, [hli]
-	cp $ff
-	jr z, .FinishUp
-	cp b
-	jr nz, .asm_39c46
-	ld a, [hli]
-	cp c
-	jr nz, .asm_39c46
-	ld d, h
-	ld e, l
-.writeAdditionalMoveDataLoop
-	ld a, [de]
-	inc de
-	and a
-	jp z, .FinishUp
-	dec a
-	ld hl, wEnemyMon1Moves
-	ld bc, wEnemyMon2 - wEnemyMon1
-	call AddNTimes
-	ld a, [de]
-	inc de
-	dec a
-	ld c, a
-	ld b, 0
-	add hl,bc
-	ld a, [de]
-	inc de
-	ld [hl], a
-	jr .writeAdditionalMoveDataLoop
-.asm_39c46
-	ld a, [hli]
-	and a
-	jr nz, .asm_39c46
-	jr .loopAdditionalMoveData
+
 .FinishUp
 ; clear wAmountMoneyWon addresses
 	xor a
@@ -131,6 +88,7 @@ ReadTrainer:
 	ld [de],a
 	ld a,[wCurEnemyLVL]
 	ld b,a
+
 .LastLoop
 ; update wAmountMoneyWon addresses (money to win) based on enemy's level
 	ld hl,wTrainerBaseMoney + 1
@@ -142,4 +100,25 @@ ReadTrainer:
 	inc de
 	dec b
 	jr nz,.LastLoop ; repeat wCurEnemyLVL times
+	ret
+
+; Original R/B Routines removed
+; Custom routine to add moves stored after each Pokemon/Level combo, like GSC
+AddCustomMoves:
+	push hl
+	ld a, [wEnemyPartyCount] ; which mon is this?
+	dec a
+	ld hl, wEnemyMon1Moves
+	ld bc, wEnemyMon2 - wEnemyMon1
+	call AddNTimes
+	ld d, h
+	ld e, l ; de now holds this mon's moves
+	pop hl ; get our spot back in the party data
+	ld b, NUM_MOVES
+.addMoveLoop
+	ld a, [hli]
+	ld [de], a
+	inc de
+	dec b
+	jr nz, .addMoveLoop
 	ret

@@ -1920,6 +1920,13 @@ RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 INCLUDE "data/animations.asm"
 
 
+
+SECTION "Trainer Parties",ROMX
+
+INCLUDE "engine/battle/read_trainer_party.asm"
+INCLUDE "data/trainer_parties.asm"
+
+
 SECTION "bank2f",ROMX[$5000],BANK[$2F]
 
 INCLUDE "engine/bg_map_attributes.asm"

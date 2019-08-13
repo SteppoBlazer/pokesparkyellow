@@ -24,7 +24,7 @@ $(foreach obj, $(objs:.o=), \
 .PRECIOUS: %.2bpp
 .PHONY: all clean yellow compare
 
-rom := pokeyellow.gbc
+rom := pokesparky.gbc
 
 all: $(rom)
 yellow: $(rom)
@@ -41,7 +41,7 @@ clean:
 $(objs): %.o: %.asm $$(%_dep)
 	rgbasm -h -o $@ $*.asm
 
-opts = -cjsv -k 01 -l 0x33 -m 0x1b -p 0 -r 03 -t "POKEMON YELLOW"
+opts = -cjsv -k 01 -l 0x33 -m 0x1b -p 0 -r 03 -t "POKESPARKY"
 
 $(rom): $(objs)
 	rgblink -n $*.sym -o $@ $^
