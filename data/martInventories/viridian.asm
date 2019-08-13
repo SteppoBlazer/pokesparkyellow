@@ -1,3 +1,0 @@
-; Viridian
-ViridianCashierText::
-	TX_MART POKE_BALL,POTION,ANTIDOTE,PARLYZ_HEAL,BURN_HEAL
