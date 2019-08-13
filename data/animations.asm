@@ -857,7 +857,9 @@ ReflectAnim:
 	db $FF
 
 FocusEnergyAnim:
-	db SE_SPIRAL_BALLS_INWARD, $73
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_SHOOT_MANY_BALLS_UPWARD, $73
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 BideAnim:

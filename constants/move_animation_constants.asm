@@ -13,7 +13,7 @@ const_value = $D8
 	const SE_HIDE_ENEMY_MON_PIC        ; $DF used in Seismic Toss
 	const SE_FLASH_ENEMY_MON_PIC       ; $E0 unused
 	const SE_DELAY_ANIMATION_10        ; $E1 used in lots of animations
-	const SE_SPIRAL_BALLS_INWARD       ; $E2 used in Growth/Focus Energy/Hyper Beam etc.
+	const SE_SPIRAL_BALLS_INWARD       ; $E2 used in Growth/Recover/Hyper Beam etc.
 	const SE_SHAKE_ENEMY_HUD_2         ; $E3 unused
 	const SE_SHAKE_ENEMY_HUD           ; $E4
 	const SE_SLIDE_MON_HALF_OFF        ; $E5 used in Softboiled
@@ -23,7 +23,7 @@ const_value = $D8
 	const SE_SLIDE_MON_DOWN_AND_HIDE   ; $E9 used in Acid Armor
 	const SE_MINIMIZE_MON              ; $EA used in Minimize
 	const SE_BOUNCE_UP_AND_DOWN        ; $EB used in Splash
-	const SE_SHOOT_MANY_BALLS_UPWARD   ; $EC used in an unused animation
+	const SE_SHOOT_MANY_BALLS_UPWARD   ; $EC used in Focus Energy
 	const SE_SHOOT_BALLS_UPWARD        ; $ED used in Teleport/Sky Attack
 	const SE_SQUISH_MON_PIC            ; $EE used in Teleport/Sky Attack
 	const SE_HIDE_MON_PIC              ; $EF
