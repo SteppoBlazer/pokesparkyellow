@@ -103,6 +103,9 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld a, [wcf91] ; last item used
 	cp b ; was the evolution item in this entry used?
 	jp nz, .nextEvoEntry1 ; if not, go to the next evolution entry
+	ld a, [wIsInBattle] ; Are we in a battle?
+	and a
+	jp nz, .nextEvoEntry1 ; If we're in a battle, do not continue trying to evolve
 .checkLevel
 	ld a, [hli] ; level requirement
 	ld b, a
