@@ -1932,10 +1932,7 @@ SECTION "bank2f",ROMX[$5000],BANK[$2F]
 INCLUDE "engine/bg_map_attributes.asm"
 
 
-SECTION "bank30",ROMX,BANK[$30]
-
-; This whole bank is garbage data.
-INCBIN "engine/bank30.bin"
+SECTION "bank30",ROMX,BANK[$30] ;Empty
 
 
 SECTION "bank39",ROMX,BANK[$39]

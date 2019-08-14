@@ -667,6 +667,13 @@ LassData:
 	db 23,GLOOM
 	db -1 ; end
 
+; Viridian Forest
+	; OPP_LASS, 19
+	db TRAINERTYPE_NORMAL
+	db 6,NIDORAN_F
+	db 6,NIDORAN_M
+	db -1 ; end
+
 SailorData:
 ; SS Anne Stern
 	; OPP_SAILOR, 1

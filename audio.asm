@@ -466,7 +466,7 @@ PlayBattleMusic::
 	jr .playSong
 .notGymLeaderBattle
 	ld a, [wCurOpponent]
-	cp 200
+	cp 156
 	jr c, .wildBattle
 	cp OPP_SONY3
 	jr z, .finalBattle

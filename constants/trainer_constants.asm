@@ -1,6 +1,6 @@
 trainer_const: MACRO
 \1     EQU const_value
-OPP_\1 EQU const_value + 200
+OPP_\1 EQU const_value + 156
 const_value = const_value + 1
 ENDM
 

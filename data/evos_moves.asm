@@ -29,8 +29,6 @@ EvosMovesPointerTable:
 	dw Mon009_EvosMoves
 	dw Mon127_EvosMoves
 	dw Mon114_EvosMoves
-	dw Mon152_EvosMoves	;MissingNo
-	dw Mon153_EvosMoves	;MissingNo
 	dw Mon058_EvosMoves
 	dw Mon095_EvosMoves
 	dw Mon022_EvosMoves
@@ -48,26 +46,17 @@ EvosMovesPointerTable:
 	dw Mon054_EvosMoves
 	dw Mon096_EvosMoves
 	dw Mon076_EvosMoves
-	dw Mon154_EvosMoves	;MissingNo
 	dw Mon126_EvosMoves
-	dw Mon155_EvosMoves	;MissingNo
 	dw Mon125_EvosMoves
 	dw Mon082_EvosMoves
 	dw Mon109_EvosMoves
-	dw Mon156_EvosMoves	;MissingNo
 	dw Mon056_EvosMoves
 	dw Mon086_EvosMoves
 	dw Mon050_EvosMoves
 	dw Mon128_EvosMoves
-	dw Mon157_EvosMoves	;MissingNo
-	dw Mon158_EvosMoves	;MissingNo
-	dw Mon159_EvosMoves	;MissingNo
 	dw Mon083_EvosMoves
 	dw Mon048_EvosMoves
 	dw Mon149_EvosMoves
-	dw Mon160_EvosMoves	;MissingNo
-	dw Mon161_EvosMoves	;MissingNo
-	dw Mon162_EvosMoves	;MissingNo
 	dw Mon084_EvosMoves
 	dw Mon060_EvosMoves
 	dw Mon124_EvosMoves
@@ -77,23 +66,16 @@ EvosMovesPointerTable:
 	dw Mon132_EvosMoves
 	dw Mon052_EvosMoves
 	dw Mon098_EvosMoves
-	dw Mon163_EvosMoves	;MissingNo
-	dw Mon164_EvosMoves	;MissingNo
-	dw Mon165_EvosMoves	;MissingNo
 	dw Mon037_EvosMoves
 	dw Mon038_EvosMoves
 	dw Mon025_EvosMoves
 	dw Mon026_EvosMoves
-	dw Mon166_EvosMoves	;MissingNo
-	dw Mon167_EvosMoves	;MissingNo
 	dw Mon147_EvosMoves
 	dw Mon148_EvosMoves
 	dw Mon140_EvosMoves
 	dw Mon141_EvosMoves
 	dw Mon116_EvosMoves
 	dw Mon117_EvosMoves
-	dw Mon168_EvosMoves	;MissingNo
-	dw Mon169_EvosMoves	;MissingNo
 	dw Mon027_EvosMoves
 	dw Mon028_EvosMoves
 	dw Mon138_EvosMoves
@@ -113,38 +95,29 @@ EvosMovesPointerTable:
 	dw Mon013_EvosMoves
 	dw Mon014_EvosMoves
 	dw Mon015_EvosMoves
-	dw Mon170_EvosMoves	;MissingNo
 	dw Mon085_EvosMoves
 	dw Mon057_EvosMoves
 	dw Mon051_EvosMoves
 	dw Mon049_EvosMoves
 	dw Mon087_EvosMoves
-	dw Mon171_EvosMoves	;MissingNo
-	dw Mon172_EvosMoves	;MissingNo
 	dw Mon010_EvosMoves
 	dw Mon011_EvosMoves
 	dw Mon012_EvosMoves
 	dw Mon068_EvosMoves
-	dw Mon173_EvosMoves	;MissingNo
 	dw Mon055_EvosMoves
 	dw Mon097_EvosMoves
 	dw Mon042_EvosMoves
 	dw Mon150_EvosMoves
 	dw Mon143_EvosMoves
 	dw Mon129_EvosMoves
-	dw Mon174_EvosMoves	;MissingNo
-	dw Mon175_EvosMoves	;MissingNo
 	dw Mon089_EvosMoves
-	dw Mon176_EvosMoves	;MissingNo
 	dw Mon099_EvosMoves
 	dw Mon091_EvosMoves
-	dw Mon177_EvosMoves	;MissingNo
 	dw Mon101_EvosMoves
 	dw Mon036_EvosMoves
 	dw Mon110_EvosMoves
 	dw Mon053_EvosMoves
 	dw Mon105_EvosMoves
-	dw Mon178_EvosMoves	;MissingNo
 	dw Mon093_EvosMoves
 	dw Mon063_EvosMoves
 	dw Mon065_EvosMoves
@@ -154,13 +127,8 @@ EvosMovesPointerTable:
 	dw Mon001_EvosMoves
 	dw Mon003_EvosMoves
 	dw Mon073_EvosMoves
-	dw Mon179_EvosMoves	;MissingNo
 	dw Mon118_EvosMoves
 	dw Mon119_EvosMoves
-	dw Mon180_EvosMoves	;MissingNo
-	dw Mon181_EvosMoves	;MissingNo
-	dw Mon182_EvosMoves	;MissingNo
-	dw Mon183_EvosMoves	;MissingNo
 	dw Mon077_EvosMoves
 	dw Mon078_EvosMoves
 	dw Mon019_EvosMoves
@@ -170,19 +138,13 @@ EvosMovesPointerTable:
 	dw Mon074_EvosMoves
 	dw Mon137_EvosMoves
 	dw Mon142_EvosMoves
-	dw Mon184_EvosMoves	;MissingNo
 	dw Mon081_EvosMoves
-	dw Mon185_EvosMoves	;MissingNo
-	dw Mon186_EvosMoves	;MissingNo
 	dw Mon004_EvosMoves
 	dw Mon007_EvosMoves
 	dw Mon005_EvosMoves
 	dw Mon008_EvosMoves
 	dw Mon006_EvosMoves
-	dw Mon187_EvosMoves	;MissingNo
-	dw Mon188_EvosMoves	;MissingNo
-	dw Mon189_EvosMoves	;MissingNo
-	dw Mon190_EvosMoves	;MissingNo
+	dw Mon190_EvosMoves
 	dw Mon043_EvosMoves
 	dw Mon044_EvosMoves
 	dw Mon045_EvosMoves
@@ -572,20 +534,6 @@ Mon114_EvosMoves:
 	db 48,GROWTH
 	db 0
 
-Mon152_EvosMoves:
-;MISSINGNO_1F
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon153_EvosMoves:
-;MISSINGNO_20
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon058_EvosMoves:
 ;GROWLITHE
 ;Evolutions
@@ -806,13 +754,6 @@ Mon076_EvosMoves:
 	db 43,EXPLOSION
 	db 0
 
-Mon154_EvosMoves:
-;MISSINGNO_32
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon126_EvosMoves:
 ;MAGMAR
 ;Evolutions
@@ -824,13 +765,6 @@ Mon126_EvosMoves:
 	db 48,SMOKESCREEN
 	db 52,SMOG
 	db 55,FLAMETHROWER
-	db 0
-
-Mon155_EvosMoves:
-;MISSINGNO_34
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon125_EvosMoves:
@@ -869,13 +803,6 @@ Mon109_EvosMoves:
 	db 40,SELFDESTRUCT
 	db 45,HAZE
 	db 48,EXPLOSION
-	db 0
-
-Mon156_EvosMoves:
-;MISSINGNO_38
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon056_EvosMoves:
@@ -931,27 +858,6 @@ Mon128_EvosMoves:
 	db 51,TAKE_DOWN
 	db 0
 
-Mon157_EvosMoves:
-;MISSINGNO_3D
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon158_EvosMoves:
-;MISSINGNO_3E
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon159_EvosMoves:
-;MISSINGNO_3F
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon083_EvosMoves:
 ;FARFETCH_D
 ;Evolutions
@@ -990,27 +896,6 @@ Mon149_EvosMoves:
 	db 35,SLAM
 	db 45,DRAGON_RAGE
 	db 60,HYPER_BEAM
-	db 0
-
-Mon160_EvosMoves:
-;MISSINGNO_43
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon161_EvosMoves:
-;MISSINGNO_44
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon162_EvosMoves:
-;MISSINGNO_45
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon084_EvosMoves:
@@ -1117,27 +1002,6 @@ Mon098_EvosMoves:
 	db 40,HARDEN
 	db 0
 
-Mon163_EvosMoves:
-;MISSINGNO_4F
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon164_EvosMoves:
-;MISSINGNO_50
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon165_EvosMoves:
-;MISSINGNO_51
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon037_EvosMoves:
 ;VULPIX
 ;Evolutions
@@ -1177,20 +1041,6 @@ Mon025_EvosMoves:
 
 Mon026_EvosMoves:
 ;RAICHU
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon166_EvosMoves:
-;MISSINGNO_56
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon167_EvosMoves:
-;MISSINGNO_57
 ;Evolutions
 	db 0
 ;Learnset
@@ -1268,20 +1118,6 @@ Mon117_EvosMoves:
 	db 30,WATER_GUN
 	db 41,AGILITY
 	db 52,HYDRO_PUMP
-	db 0
-
-Mon168_EvosMoves:
-;MISSINGNO_5E
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon169_EvosMoves:
-;MISSINGNO_5F
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon027_EvosMoves:
@@ -1520,13 +1356,6 @@ Mon015_EvosMoves:
 	db 35,AGILITY
 	db 0
 
-Mon170_EvosMoves:
-;MISSINGNO_73
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon085_EvosMoves:
 ;DODRIO
 ;Evolutions
@@ -1592,20 +1421,6 @@ Mon087_EvosMoves:
 	db 56,ICE_BEAM
 	db 0
 
-Mon171_EvosMoves:
-;MISSINGNO_79
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon172_EvosMoves:
-;MISSINGNO_7A
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon010_EvosMoves:
 ;CATERPIE
 ;Evolutions
@@ -1648,13 +1463,6 @@ Mon068_EvosMoves:
 	db 36,FOCUS_ENERGY
 	db 44,SEISMIC_TOSS
 	db 52,SUBMISSION
-	db 0
-
-Mon173_EvosMoves:
-;MISSINGNO_7F
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon055_EvosMoves:
@@ -1726,20 +1534,6 @@ Mon129_EvosMoves:
 	db 15,TACKLE
 	db 0
 
-Mon174_EvosMoves:
-;MISSINGNO_86
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon175_EvosMoves:
-;MISSINGNO_87
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon089_EvosMoves:
 ;MUK
 ;Evolutions
@@ -1751,13 +1545,6 @@ Mon089_EvosMoves:
 	db 45,HARDEN
 	db 53,SCREECH
 	db 60,ACID_ARMOR
-	db 0
-
-Mon176_EvosMoves:
-;MISSINGNO_8A
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon099_EvosMoves:
@@ -1778,13 +1565,6 @@ Mon091_EvosMoves:
 	db 0
 ;Learnset
 	db 50,SPIKE_CANNON
-	db 0
-
-Mon177_EvosMoves:
-;MISSINGNO_8C
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon101_EvosMoves:
@@ -1843,13 +1623,6 @@ Mon105_EvosMoves:
 	db 41,THRASH
 	db 48,BONEMERANG
 	db 55,RAGE
-	db 0
-
-Mon178_EvosMoves:
-;MISSINGNO_92
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon093_EvosMoves:
@@ -1961,13 +1734,6 @@ Mon073_EvosMoves:
 	db 50,HYDRO_PUMP
 	db 0
 
-Mon179_EvosMoves:
-;MISSINGNO_9C
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon118_EvosMoves:
 ;GOLDEEN
 ;Evolutions
@@ -1993,34 +1759,6 @@ Mon119_EvosMoves:
 	db 39,WATERFALL
 	db 48,HORN_DRILL
 	db 54,AGILITY
-	db 0
-
-Mon180_EvosMoves:
-;MISSINGNO_9F
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon181_EvosMoves:
-;MISSINGNO_A0
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon182_EvosMoves:
-;MISSINGNO_A1
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon183_EvosMoves:
-;MISSINGNO_A2
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon077_EvosMoves:
@@ -2137,13 +1875,6 @@ Mon142_EvosMoves:
 	db 54,HYPER_BEAM
 	db 0
 
-Mon184_EvosMoves:
-;MISSINGNO_AC
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
 Mon081_EvosMoves:
 ;MAGNEMITE
 ;Evolutions
@@ -2156,20 +1887,6 @@ Mon081_EvosMoves:
 	db 35,THUNDER_WAVE
 	db 41,SWIFT
 	db 47,SCREECH
-	db 0
-
-Mon185_EvosMoves:
-;MISSINGNO_AE
-;Evolutions
-	db 0
-;Learnset
-	db 0
-
-Mon186_EvosMoves:
-;MISSINGNO_AF
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon004_EvosMoves:
@@ -2239,13 +1956,6 @@ Mon006_EvosMoves:
 	db 36,SLASH
 	db 46,FLAMETHROWER
 	db 55,FIRE_SPIN
-	db 0
-
-Mon187_EvosMoves:
-;MISSINGNO_B5
-;Evolutions
-	db 0
-;Learnset
 	db 0
 
 Mon188_EvosMoves:

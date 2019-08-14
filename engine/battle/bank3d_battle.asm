@@ -30,7 +30,7 @@ asm_f601d:
 	res 1, [hl]
 	call InitBattleVariables ; 3d:6236
 	ld a, [wEnemyMonSpecies2]
-	sub $c8
+	sub 156
 	jp c, InitWildBattle
 	ld [wTrainerClass], a
 	call GetTrainerInformation
