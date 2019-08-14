@@ -30,6 +30,8 @@ PlayDefaultMusicCommon::
 	jr .next
 
 .surfing
+	call CheckForNoSurfingMusicMap
+	jr c, .walking
 	ld a, MUSIC_SURFING
 
 .next
@@ -68,8 +70,41 @@ PlayDefaultMusicCommon::
 	ld [wNewSoundID], a
 	jp PlaySound
 
+CheckForNoSurfingMusicMap::
+; used to not change music upon surfing
+	ld a, [wCurMap]
+	cp SEAFOAM_ISLANDS_2
+	jr z, .found
+	cp SEAFOAM_ISLANDS_3
+	jr z, .found
+	cp SEAFOAM_ISLANDS_4
+	jr z, .found
+	cp SEAFOAM_ISLANDS_5
+	jr z, .found
+	cp INDIGO_PLATEAU
+	jr z, .found
+	cp UNKNOWN_DUNGEON_2
+	jr z, .found
+	cp UNKNOWN_DUNGEON_3
+	jr z, .found
+	cp UNKNOWN_DUNGEON_1
+	jr z, .found
+	cp SAFARI_ZONE_EAST
+	jr z, .found
+	cp SAFARI_ZONE_NORTH
+	jr z, .found
+	cp SAFARI_ZONE_WEST
+	jr z, .found
+	cp SAFARI_ZONE_CENTER
+	jr z, .found
+	and a
+	ret
+.found
+	scf
+	ret
+
 CheckForNoBikingMusicMap::
-; probably used to not change music upon getting on bike
+; used to not change music upon getting on bike
 	ld a, [wCurMap]
 	cp ROUTE_23
 	jr z, .found
