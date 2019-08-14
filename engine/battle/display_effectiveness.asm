@@ -1,6 +1,6 @@
 DisplayEffectiveness:
 	ld a, [wDamageMultipliers]
-	and a, $7F
+	and $7F
 	and a
 	ret z ; neutral
 	cp %00000011
