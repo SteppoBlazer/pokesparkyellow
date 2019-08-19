@@ -73,8 +73,8 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	callba SendPikaPal
-	ld a,PIKACHU
+	callba SendNidoPal
+	ld a,NIDORINO
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader

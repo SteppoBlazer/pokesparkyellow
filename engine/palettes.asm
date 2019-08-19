@@ -326,7 +326,7 @@ DeterminePaletteIDBack:
 	jp nz, GetMonPalID
 	ld a, [wBattleType]
 	cp BATTLE_TYPE_PIKACHU
-	ld a, PAL_OAKB
+	ld a, PAL_OAK
 	ret z
 	ld a, PAL_HERO
 	ret
@@ -1168,8 +1168,8 @@ SendOakPal:
 	ld a, PAL_OAK
 	jr SendCustomPacket
 
-SendPikaPal:
-	ld a, PAL_PIKACHU
+SendNidoPal:
+	ld a, PAL_NIDORINO
 	jr SendCustomPacket
 
 SendPlayerPal:

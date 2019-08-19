@@ -1301,7 +1301,7 @@ SuperPalettes:
 	RGB 15, 10, 07
 	RGB 00, 00, 00
 
-	; PAL_OAKB
+	; PAL_CHIEF
 	RGB 31, 31, 31
 	RGB 30, 24, 16
 	RGB 15, 10, 07
@@ -2697,7 +2697,7 @@ GBCBasePalettes:
 	RGB 15, 10, 07
 	RGB 00, 00, 00
 
-	; PAL_OAKB
+	; PAL_CHIEF
 	RGB 31, 31, 31
 	RGB 30, 24, 16
 	RGB 15, 10, 07
