@@ -1872,7 +1872,7 @@ PrintListMenuEntries::
 	cp c ; is it this item?
 	jr nz, .nextListEntry
 	dec hl
-	ld a, $ec ; unfilled right arrow menu cursor to indicate an item being swapped
+	ld a, "▷"
 	ld [hli], a
 .nextListEntry
 	ld bc, 2 * SCREEN_WIDTH ; 2 rows
@@ -1881,7 +1881,7 @@ PrintListMenuEntries::
 	inc c
 	dec b
 	jp nz, .loop
-	ld bc, -8
+	ld bc, SCREEN_WIDTH -8
 	add hl, bc
 	ld a, $ee ; down arrow
 	ld [hl], a
@@ -3562,7 +3562,8 @@ WaitForTextScrollButtonPress::
 	pop bc
 	pop de
 .skipAnimation
-	coord hl, 18, 16
+	coord hl, 18, 17
+	ld a, "─"
 	call HandleDownArrowBlinkTiming
 	pop hl
 	call JoypadLowSensitivity
@@ -4011,7 +4012,8 @@ HandleMenuInputPokemonSelection::
 	and a ; was a key pressed?
 	jr nz, .keyPressed
 	push hl
-	coord hl, 18, 11 ; coordinates of blinking down arrow in some menus
+	coord hl, 18, 12 ; coordinates of blinking down arrow in some menus
+	ld a, " "
 	call HandleDownArrowBlinkTiming ; blink down arrow (if any)
 	pop hl
 	ld a, [wMenuJoypadPollCount]
@@ -4181,7 +4183,7 @@ PlaceUnfilledArrowMenuCursor::
 	ld l, a
 	ld a, [wMenuCursorLocation + 1]
 	ld h, a
-	ld [hl], $ec ; outline of right arrow
+	ld [hl], "▷"
 	ld a, b
 	ret
 
@@ -4203,6 +4205,7 @@ EraseMenuCursor::
 ; That allows this to be called without worrying about if a down arrow should
 ; be blinking.
 HandleDownArrowBlinkTiming::
+	push af
 	ld a, [hl]
 	ld b, a
 	ld a, $ee ; down arrow
@@ -4212,19 +4215,23 @@ HandleDownArrowBlinkTiming::
 	ld a, [H_DOWNARROWBLINKCNT1]
 	dec a
 	ld [H_DOWNARROWBLINKCNT1], a
-	ret nz
+	jr nz, .return
 	ld a, [H_DOWNARROWBLINKCNT2]
 	dec a
 	ld [H_DOWNARROWBLINKCNT2], a
-	ret nz
-	ld a, " "
+	jr nz, .return
+	pop af
 	ld [hl], a
 	ld a, $ff
 	ld [H_DOWNARROWBLINKCNT1], a
 	ld a, $06
 	ld [H_DOWNARROWBLINKCNT2], a
 	ret
+.return
+	pop af
+	ret
 .downArrowOff
+	pop af
 	ld a, [H_DOWNARROWBLINKCNT1]
 	and a
 	ret z
