@@ -6,6 +6,10 @@ LavenderMartTextPointers:
 	dw LavenderMartText2
 	dw LavenderMartText3
 
+; Lavender
+LavenderCashierText::
+	TX_MART GREAT_BALL,SUPER_POTION,REVIVE,ESCAPE_ROPE,SUPER_REPEL,ANTIDOTE,BURN_HEAL,ICE_HEAL,PARLYZ_HEAL
+
 LavenderMartText2:
 	TX_FAR _LavenderMartText2
 	db "@"

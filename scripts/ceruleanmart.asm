@@ -6,6 +6,10 @@ CeruleanMartTextPointers:
 	dw CeruleanMartText2
 	dw CeruleanMartText3
 
+; Cerulean
+CeruleanCashierText::
+	TX_MART POKE_BALL,POTION,ESCAPE_ROPE,REPEL,ANTIDOTE,BURN_HEAL,AWAKENING,PARLYZ_HEAL
+
 CeruleanMartText2:
 	TX_FAR _CeruleanMartText2
 	db "@"

@@ -33,6 +33,10 @@ IndigoPlateauLobbyText3:
 	TX_FAR _IndigoPlateauLobbyText3
 	db "@"
 
+; Indigo
+IndigoCashierText::
+	TX_MART ULTRA_BALL,GREAT_BALL,FULL_RESTORE,MAX_POTION,FULL_HEAL,REVIVE,MAX_REPEL
+
 IndigoTradeNurseText:
 	TX_CABLE_CLUB_RECEPTIONIST
 

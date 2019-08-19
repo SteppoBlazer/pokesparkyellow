@@ -96,6 +96,10 @@ ViridianMartText5:
 	TX_SFX_KEY_ITEM
 	db "@"
 
+; Viridian
+ViridianCashierText::
+	TX_MART POKE_BALL,POTION,ANTIDOTE,PARLYZ_HEAL,BURN_HEAL
+
 ViridianMartText2:
 	TX_FAR _ViridianMartText2
 	db "@"
