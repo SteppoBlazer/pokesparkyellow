@@ -36,13 +36,15 @@ _GaryChampionIntroText::
 	done
 
 _GaryDefeatedText::
-	text "NO!"
+	text $53, ": NO!"
 	line "That can't be!"
 	cont "You beat my best!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "After all the hard"
+	line "work I put in to"
+	cont "become Indigo"
+	cont "League new"
+	cont "Champion..."
 
 	para "My reign is over"
 	line "already?"
@@ -50,7 +52,7 @@ _GaryDefeatedText::
 	prompt
 
 _GaryVictoryText::
-	text "Hahaha!"
+	text $53, ": Hahaha!"
 	line "I won, I won!"
 
 	para "I'm too good for"
@@ -74,8 +76,8 @@ _GaryText_76103::
 	cont "my #MON..."
 
 	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	line "the new Indigo"
+	cont "League Champion!"
 
 	para "Although I don't"
 	line "like to admit it."

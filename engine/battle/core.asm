@@ -1267,16 +1267,17 @@ HandlePlayerBlackOut:
 	cp LINK_STATE_BATTLING
 	jr z, .notSony1Battle
 	ld a, [wCurOpponent]
-	cp OPP_SONY1
-	jr nz, .notSony1Battle
+	cp OPP_SONY1 ;is the current opponent Rival1?
+  jr nz, .checkSony2 ;if not, check if other Rivals
+	jr .isRivalBattle
+.isRivalBattle
 	coord hl, 0, 0  ; sony 1 battle
 	lb bc, 8, 21
-	call ClearScreenArea
+	call ClearScreenArea	;clear the top-right of the screen in case there's a Pokémon there.
 	call ScrollTrainerPicAfterBattle
 	ld c, 40
 	call DelayFrames
-	ld hl, Sony1WinText
-	call PrintText
+	call PrintEndBattleText
 	ld a, [wCurMap]
 	cp OAKS_LAB
 	ret z            ; starter battle in oak's lab: don't black out
@@ -1304,6 +1305,16 @@ HandlePlayerBlackOut:
 	call ClearScreen
 	scf
 	ret
+.checkSony2
+	ld a, [wCurOpponent]
+	cp OPP_SONY2 ;is the current opponent Rival2?
+	jr nz, .checkSony3 ;if not, check if Rival3
+	jr .isRivalBattle
+.checkSony3
+	ld a, [wCurOpponent]
+	cp OPP_SONY3 ;is the current opponent Rival3?
+	jr nz, .notSony1Battle ;if not, don't print our message.
+	jr .isRivalBattle
 
 Sony1WinText:
 	TX_FAR _Sony1WinText

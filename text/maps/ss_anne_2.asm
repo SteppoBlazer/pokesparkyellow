@@ -32,11 +32,12 @@ _SSAnneRivalBeforeBattleText::
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
+	text $53, ": Darn it!"
+	line "At least you're"
+	cont "raising your"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "#MON right, it"
+	line "seems..."
 	prompt
 
 _SSAnneRivalWonText::

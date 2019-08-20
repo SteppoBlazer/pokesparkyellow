@@ -1,20 +1,24 @@
 _Route22RivalDefeatedText1::
-	text "Awww!"
+	text $53, ": Argh!"
 	line "You just lucked"
 	cont "out!"
 	prompt
 
 _Route22Text_511bc::
-	text $53, ": What?"
+	text $53, ": Uh?"
 	line "Why do I have 2"
-	cont "#MON?"
+	cont "#mon you ask?"
+    cont "Dontcha know!?"
 
-	para "You should catch"
+	para "Building a better"
+	line "team, is the key"
+	cont "to victory!"
+	cont "You should catch"
 	cont "some more too!"
 	prompt
 
 _Route22RivalDefeatedText2::
-	text "What!?"
+	text $53, ": What!?"
 
 	para "I was just"
 	line "careless!"

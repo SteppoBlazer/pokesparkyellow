@@ -11,11 +11,11 @@ _PokemonTower2Text_6062d::
 	done
 
 _PokemonTower2Text_60632::
-	text "What?"
+	text $53, ": What!?"
 	line "You stinker!"
 
-	para "I took it easy on"
-	line "you too!"
+	para "I went easy on"
+	line "you!"
 	prompt
 
 _PokemonTower2Text_60637::

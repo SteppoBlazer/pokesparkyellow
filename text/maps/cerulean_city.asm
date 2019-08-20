@@ -17,13 +17,13 @@ _CeruleanCityText_19668::
 	done
 
 _CeruleanCityText_1966d::
-	text "Hey!"
+	text $53, ": Hey!"
 	line "Take it easy!"
 	cont "You won already!"
 	prompt
 
 _CeruleanCityText_19672::
-	text "Heh!"
+	text $53, ": Heh!"
 	line "You're no match"
 	cont "for my genius!"
 	prompt
