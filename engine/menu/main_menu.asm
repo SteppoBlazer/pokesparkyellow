@@ -125,7 +125,7 @@ MainMenu:
 InitOptions:
 	ld a,1 ; no delay
 	ld [wLetterPrintingDelayFlags],a
-	ld a,3 ; medium speed
+	ld a,1 ; medium speed
 	ld [wOptions],a
 	ld a,64 ; audio?
 	ld [wPrinterSettings], a

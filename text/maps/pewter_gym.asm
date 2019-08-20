@@ -52,14 +52,13 @@ _TM34ExplanationText::
 	para "A TM contains a"
 	line "technique that"
 	cont "can be taught to"
-	cont "#MON!"
-
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	cont "#mon."
+	
+	para "It can be used"
+	line "again and again!"
+	cont "But remember, not"
+	cont "all #mon can learn"
+	cont "a certain technique."
 
 	para "TM34 contains"
 	line "BIDE!"

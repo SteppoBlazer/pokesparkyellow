@@ -2536,7 +2536,7 @@ ItemUseTMHM:
 	ld [wWhichPokemon], a
 	ld a, b
 	and a
-	ret z
+	ret
 
 	ld a, [wWhichPokemon]
 	push af
