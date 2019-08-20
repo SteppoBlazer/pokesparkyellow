@@ -52,8 +52,8 @@ In the **Cygwin terminal**:
 	lynx -source bootstrap.pypa.io/get-pip.py | python
 	pip install pypng
 
-	git clone --recursive https://github.com/pret/pokeyellow
-	cd pokeyellow
+	git clone --recursive https://github.com/SteppoBlazer/pokesparkyellow
+	cd pokesparkyellow
 
 Copy the ROM "Pokemon Yellow (U) [C][!].gbc" to the same directory as the disassembly under the name "baserom.gbc".
 
