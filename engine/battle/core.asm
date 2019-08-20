@@ -7027,6 +7027,7 @@ MoveEffectPointerTable:
 	 dw LeechSeedEffect           ; LEECH_SEED_EFFECT
 	 dw SplashEffect              ; SPLASH_EFFECT
 	 dw DisableEffect             ; DISABLE_EFFECT
+	 dw TriAttackEffect           ; TRI_ATTACK_EFFECT
 
 SleepEffect:
 	ld de, wEnemyMonStatus
@@ -7205,6 +7206,26 @@ ExplodeEffect:
 	res Seeded, a ; clear mon's leech seed status
 	ld [de], a
 	ret
+
+TriAttackEffect:
+	ld b, BURN_SIDE_EFFECT1
+	ld a, [hRandomSub] ; grab a random number
+	cp 85 ; 85 / 256 chance = 33%
+	jr c, .gotStatusEffect
+	inc b ; FREEZE_SIDE_EFFECT
+	cp 170 ; (170-85) / 256 chance = 33%
+	jr c, .gotStatusEffect
+	inc b ; PARALYZE_SIDE_EFFECT1 ; remaining 33%
+.gotStatusEffect
+	ld a, [H_WHOSETURN] ; check if it is the player's turn or the opponent's
+	and a
+	ld a, b ; get the effect we chose earlier
+	jr nz, .opponent
+	ld [wPlayerMoveEffect], a ; store it as the player's move effect if player's turn
+	jr FreezeBurnParalyzeEffect
+.opponent
+	ld [wEnemyMoveEffect], a ; store it as the enemy's move effect if enemy's turn
+; fallthrough to FreezeBurnParalyzeEffect
 
 FreezeBurnParalyzeEffect:
 	xor a
