@@ -12,7 +12,7 @@ endm
 
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 35
 MoveEnd:
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,   100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING, 100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,    85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,    85, 20
@@ -26,7 +26,7 @@ MoveEnd:
 	move RAZOR_WIND,   CHARGE_EFFECT,               80, NORMAL,    75, 10
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,   100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,    95, 30
-	move GUST,         NO_ADDITIONAL_EFFECT,        40, NORMAL,   100, 35
+	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,   100, 35
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,   100, 35
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,    85, 20
 	move FLY,          FLY_EFFECT,                  70, FLYING,    95, 15
@@ -38,7 +38,7 @@ MoveEnd:
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,    75,  5
 	move JUMP_KICK,    JUMP_KICK_EFFECT,            70, FIGHTING,  95, 25
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         60, FIGHTING,  85, 15
-	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,   100, 15
+	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, GROUND,   100, 15
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,   100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,   100, 25
 	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 20
@@ -54,12 +54,12 @@ MoveEnd:
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,      100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  14, BUG,       85, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,   100, 30
-	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,   100, 25
+	move BITE,         FLINCH_SIDE_EFFECT1,         60, DARK,     100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,   100, 40
 	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,   100, 20
-	move SING,         SLEEP_EFFECT,                 0, NORMAL,    55, 15
+	move SING,         SLEEP_EFFECT,                 0, FAIRY,     55, 15
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,    55, 20
-	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,    90, 20
+	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, STEEL,     90, 20
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,    55, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,   100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,     100, 25
@@ -112,7 +112,7 @@ MoveEnd:
 	move RAGE,         RAGE_EFFECT,                 20, NORMAL,   100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC,  100, 20
 	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        0, GHOST,    100, 15
-	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,   100, 10
+	move MIMIC,        MIMIC_EFFECT,                 0, FAIRY,    100, 10
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, NORMAL,    85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, NORMAL,   100, 15
 	move RECOVER,      HEAL_EFFECT,                  0, NORMAL,   100, 20
@@ -152,7 +152,7 @@ MoveEnd:
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,    55, 40
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,    85, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             20, BUG,      100, 15
-	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,    75, 10
+	move LOVELY_KISS,  SLEEP_EFFECT,                 0, FAIRY,    75, 10
 	move SKY_ATTACK,   CHARGE_EFFECT,              140, FLYING,    90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,   100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,    100, 30
@@ -175,4 +175,4 @@ MoveEnd:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,    90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,   100, 10
-	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,   100, 10
+	move STRUGGLE,     RECOIL_EFFECT,               50, UNK_TYPE, 100, 10
