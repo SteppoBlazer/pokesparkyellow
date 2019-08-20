@@ -1431,6 +1431,9 @@ EnemySendOut:
 ; don't change wPartyGainExpFlags or wPartyFoughtCurrentEnemyFlags
 EnemySendOutFirstMon:
 	xor a
+	ld hl, wDamage
+	ld [hli], a
+	ld [hl], a
 	ld hl,wEnemyStatsToDouble ; clear enemy statuses
 	ld [hli],a
 	ld [hli],a
@@ -1874,6 +1877,9 @@ SendOutMon:
 	predef LoadMonBackPic
 	xor a
 	ld [hStartTileID], a
+	ld hl, wDamage
+	ld [hli], a
+	ld [hl], a
 	ld hl, wBattleAndStartSavedMenuItem
 	ld [hli], a
 	ld [hl], a
@@ -3690,7 +3696,7 @@ CheckPlayerStatusConditions:
 	ld hl,wPlayerBattleStatus1
 	ld a,[hl]
 	; clear bide, thrashing, charging up, and trapping moves such as warp (already cleared for confusion damage)
-	and $ff ^ ((1 << StoringEnergy) | (1 << ThrashingAbout) | (1 << ChargingUp) | (1 << UsingTrappingMove))
+	and $ff ^ ((1 << StoringEnergy) | (1 << ThrashingAbout) | (1 << ChargingUp) | (1 << UsingTrappingMove) | (1 << Invulnerable))
 	ld [hl],a
 	ld a,[wPlayerMoveEffect]
 	cp a,FLY_EFFECT
@@ -4324,6 +4330,7 @@ GetDamageVarsForPlayerAttack:
 ; if the enemy has used Reflect, double the enemy's defense
 	sla c
 	rl b
+	call CapBCAt1023
 .physicalAttackCritCheck
 	ld hl, wBattleMonAttack
 	ld a, [wCriticalHitOrOHKO]
@@ -4366,6 +4373,7 @@ GetDamageVarsForPlayerAttack:
 ; if the enemy has used Light Screen, double the enemy's special
 	sla c
 	rl b
+	call CapBCAt1023
 ; reflect and light screen boosts do not cap the stat at 999, so weird things will happen during stats scaling if
 ; a Pokemon with 512 or more Defense has ued Reflect, or if a Pokemon with 512 or more Special has used Light Screen
 .specialAttackCritCheck
@@ -4440,6 +4448,13 @@ GetDamageVarsForPlayerAttack:
 	and a
 	ret
 
+CapBCAt1023:
+	ld a, b
+	cp 4
+	ret c
+	lb bc, 3, 255
+	ret
+
 ; sets b, c, d, and e for the CalculateDamage routine in the case of an attack by the enemy mon
 GetDamageVarsForEnemyAttack:
 	ld hl, wDamage ; damage to eventually inflict, initialise to zero
@@ -4465,6 +4480,7 @@ GetDamageVarsForEnemyAttack:
 ; if the player has used Reflect, double the player's defense
 	sla c
 	rl b
+	call CapBCAt1023
 .physicalAttackCritCheck
 	ld hl, wEnemyMonAttack
 	ld a, [wCriticalHitOrOHKO]
@@ -4509,6 +4525,7 @@ GetDamageVarsForEnemyAttack:
 ; if the player has used Light Screen, double the player's special
 	sla c
 	rl b
+	call CapBCAt1023
 ; reflect and light screen boosts do not cap the stat at 999, so weird things will happen during stats scaling if
 ; a Pokemon with 512 or more Defense has ued Reflect, or if a Pokemon with 512 or more Special has used Light Screen
 .specialAttackCritCheck
@@ -5678,11 +5695,18 @@ MoveHitTest:
 	ld a,[wEnemyMoveAccuracy]
 	ld b,a
 .doAccuracyCheck
-; if the random number generated is greater than or equal to the scaled accuracy, the move misses
-; note that this means that even the highest accuracy is still just a 255/256 chance, not 100%
+; if the move is 100% accurate, don't miss
+	ld a, b
+	cp $FF
+	jr z, .moveHits
+; else if the random number generated is greater than or equal to the scaled accuracy, the move misses
 	call BattleRandom
 	cp b
 	jr nc,.moveMissed
+.moveHits
+; make sure wMoveMissed is 0 if it hits
+	xor a
+	ld [wMoveMissed],a
 	ret
 .moveMissed
 	xor a
@@ -6194,7 +6218,7 @@ CheckEnemyStatusConditions:
 	ld hl, wEnemyBattleStatus1
 	ld a, [hl]
 	; clear bide, thrashing about, charging up, and multi-turn moves such as warp
-	and $ff ^ ((1 << StoringEnergy) | (1 << ThrashingAbout) | (1 << ChargingUp) | (1 << UsingTrappingMove))
+	and $ff ^ ((1 << StoringEnergy) | (1 << ThrashingAbout) | (1 << ChargingUp) | (1 << UsingTrappingMove) | (1 << Invulnerable))
 	ld [hl], a
 	ld a, [wEnemyMoveEffect]
 	cp FLY_EFFECT
@@ -7106,11 +7130,8 @@ SleepEffect:
 
 .sleepEffect
 	ld a, [bc]
-	bit NeedsToRecharge, a ; does the target need to recharge? (hyper beam)
 	res NeedsToRecharge, a ; target no longer needs to recharge
 	ld [bc], a
-	jr nz, .setSleepCounter ; if the target had to recharge, all hit tests will be skipped
-	                        ; including the event where the target already has another status
 	ld a, [de]
 	ld b, a
 	and $7
@@ -7128,20 +7149,13 @@ SleepEffect:
 	and a
 	jr nz, .didntAffect
 .setSleepCounter
-; set target's sleep counter to a random number between 1 and 7
+; set target's sleep counter to a random number between 3 and 6
+; changed to make this in line with Gen II's sleep mechanics
 	call BattleRandom
-	and $7
-	jr z, .setSleepCounter
-	ld b, a
-	ld a, [wUnknownSerialFlag_d499]
-	and a
-	jr z, .asm_3f1ba ; XXX stadium stuff?
-	ld a, b
 	and $3
-	jr z, .setSleepCounter
-	ld b, a
-.asm_3f1ba
-	ld a, b
+	inc a ; Random number between 0 - 3, inc 3 times to make 3 - 6
+	inc a ; always at least 3, since 1 is now functionally 0
+	inc a ; this means you will always have one turn where you can't attack
 	ld [de], a
 	call PlayCurrentMoveAnimation2
 	ld hl, FellAsleepText

@@ -27,16 +27,24 @@ HealEffect_:
 	push af
 	ld c, 50
 	call DelayFrames
-	ld hl, wBattleMonStatus
+	ld bc, wBattleMonStatus
+	ld de, wPlayerToxicCounter
+	ld hl, wPlayerBattleStatus3
 	ld a, [H_WHOSETURN]
 	and a
 	jr z, .restEffect
-	ld hl, wEnemyMonStatus
+	ld bc, wEnemyMonStatus
+	ld de, wEnemyToxicCounter
+	ld hl, wEnemyBattleStatus3
 .restEffect
-	ld a, [hl]
+	xor a
+	ld [de], a
+	res 0, [hl]
+	ld a, [bc]
 	and a
-	ld [hl], 2 ; clear status and set number of turns asleep to 2
-	ld hl, StartedSleepingEffect ; if mon didn't have an status
+	ld a, 4 ; Number of turns to Rest (effectively for 3 turns, attack on 3rd)
+	ld [bc], a
+	ld hl, StartedSleepingEffect
 	jr z, .printRestText
 	ld hl, FellAsleepBecameHealthyText ; if mon had an status
 .printRestText
