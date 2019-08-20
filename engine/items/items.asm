@@ -262,14 +262,18 @@ ItemUseBall:
 	ld [H_MULTIPLIER],a
 	call Multiply
 
-; Determine BallFactor. It's 8 for Great Balls and 12 for the others.
+; Determine BallFactor. It's 8 for Great Balls, 4 for Ultra Balls, and 12 for the others.
 	ld a,[wcf91]
 	cp GREAT_BALL
-	ld a,12
-	jr nz,.skip1
-	ld a,8
+	ld b,8
+	jr z,.skip1
+	cp ULTRA_BALL
+	ld b,4
+	jr z,.skip1
+	ld b,12
 
 .skip1
+	ld a,b
 ; Note that the results of all division operations are floored.
 
 ; Calculate (MaxHP * 255) / BallFactor.
@@ -386,7 +390,7 @@ ItemUseBall:
 	ld [H_DIVISOR],a
 	ld b,4
 	call Divide
-	
+
 ; Determine Status2.
 ; no status ailment:     Status2 = 0
 ; Burn/Paralysis/Poison: Status2 = 5
