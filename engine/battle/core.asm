@@ -4475,6 +4475,7 @@ GetDamageVarsForEnemyAttack:
 	ld a, [wPlayerMonDefenseMod]
 	cp 7 ; neutral
 	jr c, .dontNegateDefense
+	push hl
 	ld hl, wPartyMon1Defense
 	ld a, [wPlayerMonNumber]
 	ld bc, wPartyMon2 - wPartyMon1
@@ -4482,6 +4483,7 @@ GetDamageVarsForEnemyAttack:
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
+	pop hl
 .dontNegateDefense
 	push bc
 	; does the opponent have boosted attack?
@@ -4519,6 +4521,7 @@ GetDamageVarsForEnemyAttack:
 	ld a, [wPlayerMonSpecialMod]
 	cp 7 ; neutral
 	jr c, .dontNegateSpecial1
+	push hl
 	ld hl, wPartyMon1Special
 	ld a, [wPlayerMonNumber]
 	ld bc, wPartyMon2 - wPartyMon1
@@ -4526,6 +4529,7 @@ GetDamageVarsForEnemyAttack:
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
+	pop hl
 .dontNegateSpecial1
 	push bc
 	; does the opponent have boosted special?
