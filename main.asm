@@ -2174,3 +2174,7 @@ ChannelerPic:     INCBIN "pic/trainer/channeler.pic"
 AgathaPic:        INCBIN "pic/trainer/agatha.pic"
 LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
+
+SECTION "Item Descriptions", ROMX
+
+INCLUDE "engine/menu/item_descriptions.asm"
