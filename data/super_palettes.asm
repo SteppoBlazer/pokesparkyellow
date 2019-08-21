@@ -139,9 +139,9 @@ SuperPalettes:
 
 	; PAL_PINKMON
 	RGB 31, 31, 31
-	RGB 30, 22, 24
-	RGB 28, 15, 21
-	RGB 00, 00, 00
+	RGB 26, 17, 08
+	RGB 20, 04, 03
+	RGB 05, 02, 09
 
 	; PAL_YELLOWMON
 	RGB 31, 31, 31
@@ -1551,9 +1551,9 @@ GBCBasePalettes:
 	RGB  3,  3,  3
 	; PAL_PINKMON
 	RGB 31, 31, 31
-	RGB 31, 15, 18
-	RGB 31,  0,  6
-	RGB  3,  3,  3
+	RGB 26, 17, 08
+	RGB 20, 04, 03
+	RGB 05, 02, 09
 	; PAL_YELLOWMON
 	RGB 31, 31, 31
 	RGB 31, 31,  0

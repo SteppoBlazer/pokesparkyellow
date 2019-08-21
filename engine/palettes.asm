@@ -1180,6 +1180,10 @@ SendRivalPal:
 	ld a, PAL_GARY1
 	jr SendCustomPacket
 
+SendPokedexPal:
+	ld a, PAL_PINKMON
+	jr SendCustomPacket
+
 SendCustomPacket:
 	ld [wWholeScreenPaletteMonSpecies], a
 	ld c, 2

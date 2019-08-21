@@ -791,6 +791,14 @@ OaksLabText2:
 	jp TextScriptEnd
 
 OaksLabText_1c9a7:
+	TX_ASM
+	ld hl, OakEeveeText
+	call PrintText
+	ld a, EEVEE
+	call DisplayPokedex
+	jp TextScriptEnd
+
+OakEeveeText:
 	TX_FAR _OaksLabText39
 	db "@"
 
