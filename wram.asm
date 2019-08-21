@@ -1166,8 +1166,6 @@ wOptionsTextSpeedCursorX:: ; cd3d
 
 wOptionsCursorLocation:: ; cd3d
 
-wTrainerInfoTextBoxWidthPlus1:: ; cd3d
-
 wSwappedMenuItem:: ; cd3d
 
 wHoFMonSpecies:: ; cd3d
@@ -1231,8 +1229,6 @@ wDayCareNumLevelsGrown:: ; cd3e
 
 wOptionsBattleAnimCursorX:: ; cd3e
 
-wTrainerInfoTextBoxWidth:: ; cd3e
-
 wHoFPartyMonIndex:: ; cd3e
 
 wNumCreditsMonsDisplayed:: ; cd3e
@@ -1272,8 +1268,6 @@ wDayCareTotalCost:: ; cd3f
 wJigglypuffFacingDirections:: ; cd3f
 
 wOptionsBattleStyleCursorX:: ; cd3f
-
-wTrainerInfoTextBoxNextRowOffset:: ; cd3f
 
 wHoFMonLevel:: ; cd3f
 

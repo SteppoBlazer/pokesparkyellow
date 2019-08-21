@@ -40,7 +40,7 @@ Func_f1f77:
 	ld [wPriceTemp + 1], a
 	ld a, $0
 	ld [wPriceTemp + 2], a
-	ld hl, wTrainerInfoTextBoxNextRowOffset
+	ld hl, wPriceTemp + 2
 	ld de, wPlayerMoney + 2
 	ld c, 3
 	predef SubBCDPredef

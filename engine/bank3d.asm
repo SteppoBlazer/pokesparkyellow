@@ -643,9 +643,12 @@ RemoveItemFromInventory_:
 
 TrainerInfoTextBoxTileGraphics:	INCBIN "gfx/trainer_info.2bpp"
 TrainerInfoTextBoxTileGraphicsEnd:
-BlankLeaderNames:				INCBIN "gfx/blank_leader_names.2bpp"
 CircleTile:						INCBIN "gfx/circle_tile.2bpp"
+
+TrainerCardGraphics:            INCBIN "gfx/trainer_card.2bpp"
+TrainerCardGraphicsEnd:
 BadgeNumbersTileGraphics:		INCBIN "gfx/badge_numbers.2bpp"
+BadgeNumbersTileGraphicsEnd:
 
 ReadSuperRodData:
 	ld a, [wCurMap]
