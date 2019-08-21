@@ -529,7 +529,6 @@ StartMenu_TrainerInfo:
 	call DrawTrainerInfo
 	predef DrawBadges ; draw badges
     callba SendPlayerPal
-	call RunPaletteCommand
 	call GBPalNormal
 	call WaitForTextScrollButtonPress ; wait for button press
 	call GBPalWhiteOut
