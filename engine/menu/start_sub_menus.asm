@@ -644,10 +644,10 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData
 
 TrainerInfo_NameMoneyTimeText:
-	db   "NAME/"
+	db   "Name/"
 	next $74,$75 ; ID No
-	next "MONEY/"
-	next "TIME/@"
+	next "Funds/"
+	next "Time/@"
 
 TrainerInfo_NameHeadingText:
 	db $76,$77,$78,$79,$7A,"@"

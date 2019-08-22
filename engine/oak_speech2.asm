@@ -187,20 +187,20 @@ DisplayIntroNameTextBox:
 	jp HandleMenuInput
 
 .namestring
-	db "NAME@"
+	db "Name@"
 
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "YELLOW"
-	next "ASH"
-	next "JACK"
+	db   "New Name"
+	next "Red"
+	next "Ash"
+	next "Ninten"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "New Name"
+	next "Green"
+	next "Gary"
+	next "Sony"
 	db   "@"
 
 GetDefaultName:
@@ -228,16 +228,16 @@ GetDefaultName:
 	jp CopyData
 
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "YELLOW@"
-	db "ASH@"
-	db "JACK@"
+	db "New Name@"
+	db "Red@"
+	db "Ash@"
+	db "Ninten@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "New Name@"
+	db "Green@"
+	db "Gary@"
+	db "Sony@"
 
 TextTerminator_6b20:
 	db "@"
