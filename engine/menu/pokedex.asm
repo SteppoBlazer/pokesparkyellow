@@ -469,13 +469,13 @@ PokedexSeenText:
 	db "Seen@"
 
 PokedexOwnText:
-	db "Owned@"
+	db "Own@"
 
 PokedexMenuItemsText:
 	db   "Data"
 	next "Cry"
 	next "Nest"
-	next "Close@"
+	next "Back@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:
