@@ -509,8 +509,7 @@ ShowPokedexDataInternal:
 	ld a, [wd11e] ; pokemon ID
 	ld [wcf91], a
 	push af
-	ld b, SET_PAL_POKEDEX
-	call RunPaletteCommand
+	callba SendPokedexPal ; Palette for the UI
 	pop af
 	ld [wd11e], a
 	ld a, [hTilesetType]
@@ -577,7 +576,7 @@ ShowPokedexDataInternal:
 	call GBPalNormal
 	call GetMonHeader ; load pokemon picture location
 	coord hl, 1, 1
-	call LoadFlippedFrontSpriteByMonIndex ; draw pokemon picture
+	call LoadFrontSpriteByMonIndex ; draw pokemon picture
 	ld a, [wcf91]
 	call PlayCry ; play pokemon cry
 
