@@ -1,55 +1,78 @@
 _OakSpeechText1::
 	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	line "Nice to meet you!"
+	cont "I'm Samuel Oak!"
+	cont "But I'm often"
+	cont "referred to as"
+	cont "#mon Professor!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Well, actually..."
+	line "People just call"
+	cont "me Prof. Oak!"
+	cont "Anyhow, before"
+	cont "you go..."
+
+	para "There are few"
+ 	line "things I'd like"
+	cont "to tell you about"
+	cont "this world!"
 	prompt
 
 _OakSpeechText2A::
 	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@@"
+	line "inhabited far and"
+	cont "wide by creatures"
+    cont "called #mon!@@"
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"We live"
+	line "alongside #mon"
+	cont "as friends."
+	cont "For some people,"
+	cont "they're pets."
 
-	para "Myself..."
+	para "Other use them"
+    line "for battling."
+	cont "As for myself..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "I study the"
+	line "relationships"
+	cont "between #mon"
+	cont "and humans!"
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Well my boy, you"
+	line "haven't told me"
+	cont "your name yet..."
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
-
-	para "...Erm, what is"
+	text "He's my grandson."
+	line "You two have been"
+	cont "friends since day"
+	cont "one. But not so"
+	cont "much lately..."
+	
+	para "...Erm, what was"
 	line "his name again?"
 	prompt
 
 _OakSpeechText3::
 	text $52,"!"
+	line "Now that you"
+	cont "passed the test"
+	cont "and obtained a"
+	cont "#mon Trainer's"
+	cont "License,"
 
-	para "Your very own"
-	line "#MON legend is"
+	para "your very own"
+	line "#mon story is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
 	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	cont "with #mon is"
+	cont "waiting for you!"
+	cont "Let's go!"
 	done

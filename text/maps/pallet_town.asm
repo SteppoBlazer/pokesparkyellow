@@ -1,40 +1,58 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "Oak: Hey! Hold on"
+	line "a sec!@@"
 
 _OakWalksUpText::
-	text "OAK: That was"
-	line "close!"
-
-	para "Wild #MON live"
-	line "in tall grass!"
-	done
+	text "Oak: PANT!"
+	line "That was close!"
+	cont "I'm so slow"
+	cont "since I don't have"
+	cont "Running Shoes"
+	
+	para "like you do."
+    line "Anyway, be more"
+	cont "carefull! Wild"
+	cont "#Mon live in" 
+	cont "tall grass!"
+    done
 
 _OakWhewText::
-	text "OAK: Whew..."
+	text "Oak: Whew..."
+	line "That was odd..."
+	cont "What was a Pikachu"
+	cont "doing here?" 
+	cont "According to my"
+	cont "studies..."
+
+	para "Pikachu's natural"
+	line "habitat is the"
+	cont "Viridian Forest."
+	cont "Oh, well..."
 	done
 
 _OakGrassText::
-	text "OAK: A #MON can"
-	line "appear anytime in"
-	cont "tall grass."
+	text "Oak: A #mon can"
+	line "appear anytime"
+	cont "out of nowhere."
+	cont "Now that you're"
+	cont "a #mon Trainer,"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "you need a #mon"
+	line "to keep you safe"
+	cont "during your"
+	cont "journey. I know!"
 
-	para "Here, come with"
-	line "me!"
+	para "Please follow me!"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "I'm a #mon"
+	line "Trainer too!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "I'll make my"
+	line "#mon strong, so"
+	cont "it'll be able to"
+    cont "protect me!"
 	done
 
 _PalletTownText3::
@@ -43,17 +61,17 @@ _PalletTownText3::
 
 	para "You can now store"
 	line "and recall items"
-	cont "and #MON as"
+	cont "and #mon as"
 	cont "data via PC!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "Oak's #mon"
+	line "Research centre"
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
+	text "Pallet Town"
 	line "Shades of your"
 	cont "journey await!"
 	done
