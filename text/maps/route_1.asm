@@ -30,20 +30,25 @@ _Route1Text_1caf3::
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "You can jump from"
+	line "those ledges along"
+    cont "the road and get"
+	cont "back to Pallet in"
+	cont "a jiffy!"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "But with those"
+	line "Running Shoes on,"
+	cont "I bet you don't"
+	cont "even need to!"
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Hold down the"
+	line "B Button to" 
+	cont "gallop fast like"
+	cont "a Rapidash!"
 	done
 
 _Route1Text3::
-	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	text "Route 1"
+	line "Pallet Town -"
+	cont "Viridian City"
 	done

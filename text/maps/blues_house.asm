@@ -23,19 +23,43 @@ _DaisyBagFullText::
 	done
 
 _DaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "It's a map of the"
+	line "region we live in."
+	cont "You don't know"
+    cont "much about it,"	
+	cont "do you?"
+	
+    para "Kanto is modern"
+	line "and technological,"
+	cont "which is reflected"
+	cont "in the look of its"
+	cont "many cities and"
+	cont "buildings"
+	
+	para "like the #mon"
+	line "Lab on Cinnabar"
+	cont "Island and the"
+	cont "Power Plant."
 	done
 
 _BluesHouseText2::
-	text "Spending time"
-	line "with your #MON"
-	cont "makes them more"
-	cont "friendly to you."
-	done
+	text "Spending quality"
+	line "time with your"
+	cont "#mon helps making"
+	cont "your bond with'em"
+	cont "much stronger."
+
+    para "The stronger your"
+	line "bond gets,"
+	cont "the stronger your"
+	cont "your #mon gets!"
+
+    para "Keep that in mind!"
+    done
 
 _BluesHouseText3::
-	text "It's a big map!"
-	line "This is useful!"
+	text "A map of the"
+	line "Kanto region!"
+	cont "I hope she gives"
+	cont "it to me..."
 	done

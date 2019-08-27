@@ -24,7 +24,7 @@ _LavenderMartNuggetText::
 	text "I found a NUGGET"
 	line "in the mountains."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "I thought was"
+	line "worthless, but I"
+	cont "got ¥5000 for it!"
 	done

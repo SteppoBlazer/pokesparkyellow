@@ -4,16 +4,16 @@ _OakAppearsText::
 
 _OakWalksUpText::
 	text "Oak: PANT!"
-	line "That was close!"
-	cont "I'm so slow"
-	cont "since I don't have"
-	cont "Running Shoes"
+	line "I can't keep up"
+	cont "with you wearing"
+	cont "those Running"
+	cont "Shoes!"
 	
-	para "like you do."
-    line "Anyway, be more"
-	cont "carefull! Wild"
-	cont "#Mon live in" 
-	cont "tall grass!"
+	para "It's dangerous"
+    line "to go alone!"
+	cont "Wild #mon roam"
+	cont "freely in"
+	cont "tall grass"
     done
 
 _OakWhewText::
@@ -42,27 +42,32 @@ _OakGrassText::
 	cont "during your"
 	cont "journey. I know!"
 
-	para "Please follow me!"
+	para "C'mon, follow me!"
 	done
 
 _PalletTownText2::
-	text "I'm a #mon"
-	line "Trainer too!"
+	text "Hiya! Didja know" 
+	line "that when you"
+	cont "select an Item"
+	cont "from you Pack,"
 
-	para "I'll make my"
-	line "#mon strong, so"
-	cont "it'll be able to"
-    cont "protect me!"
+	para "you can also"
+	line "check the Info tab"	
+	cont "to see what it"
+    cont "actually does?"
 	done
 
 _PalletTownText3::
 	text "Technology is"
 	line "incredible!"
-
-	para "You can now store"
-	line "and recall items"
+    cont "You can now store"
+	cont "and recall items"
 	cont "and #mon as"
 	cont "data via PC!"
+
+	para "And don't forget"
+	line "to store unneeded"
+	cont "items in the PC!"
 	done
 
 _PalletTownText4::
