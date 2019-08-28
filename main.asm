@@ -1532,8 +1532,6 @@ VictoryRoad1Blocks: INCBIN "maps/victoryroad1.blk"
 
 INCLUDE "engine/evolution.asm"
 
-INCLUDE "engine/predefs17_2.asm"
-
 INCLUDE "engine/hidden_object_functions17.asm"
 
 

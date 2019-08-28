@@ -750,8 +750,6 @@ INCLUDE "audio/music/surfingpikachu.asm"
 INCLUDE "audio/music/yellowunusedsong.asm"
 INCLUDE "audio/music/meetjessiejames.asm"
 
-INCBIN "audio/unknown_832b9.bin"
-
 SECTION "Pikachu Cries 1",ROMX,BANK[PCM_1]
 PikachuCry1::
 	dw (PikachuCry1_End - PikachuCry1) - 2 ; length of pcm data
