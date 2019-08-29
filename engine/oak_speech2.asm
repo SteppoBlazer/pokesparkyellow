@@ -193,7 +193,7 @@ DefaultNamesPlayer:
 	db   "New Name"
 	next "Red"
 	next "Ash"
-	next "Ninten"
+	next "Nintendo"
 	db   "@"
 
 DefaultNamesRival:
@@ -231,7 +231,7 @@ DefaultNamesPlayerList:
 	db "New Name@"
 	db "Red@"
 	db "Ash@"
-	db "Ninten@"
+	db "Nintendo@"
 
 DefaultNamesRivalList:
 	db "New Name@"

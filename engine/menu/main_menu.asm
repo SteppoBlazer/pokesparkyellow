@@ -172,11 +172,11 @@ SpecialEnterMap:
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE", $4e
+	db "Continue", $4e
 
 NewGameText:
-	db "NEW GAME", $4e
-	db "OPTION@"
+	db "New game", $4e
+	db "Option@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -257,10 +257,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
-	next "TIME@"
+	db   "Player"
+	next "Badges    "
+	next "Pokédex    "
+	next "Time@"
 
 DisplayOptionMenu:
 	callab DisplayOptionMenu_ ; 10:5c70

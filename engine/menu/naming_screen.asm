@@ -87,8 +87,6 @@ DisplayNamingScreen:
 	call GBPalWhiteOutWithDelay3
 	call ClearScreen
 	call UpdateSprites
-	ld b, SET_PAL_GENERIC
-	call RunPaletteCommand
 	call LoadHpBarAndStatusTilePatterns
 	call LoadEDTile
 	callba LoadMonPartySpriteGfx
@@ -514,13 +512,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "Your @"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "Rival's @"
 
 NameTextString:
-	db "NAME?@"
+	db "Name?@"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "Nickname?@"

@@ -1,10 +1,10 @@
 _MomWakeUpText::
 	text "Mom: I know..."
-	line "You're a #mon"
+	line "You're a Pokémon"
 	cont "Trainer now! It's"
 	cont "time you set off"
 	cont "for your own"
-	cont "#mon journey..."
+	cont "Pokémon journey..."
 
 	para "Just like"
 	line "your Dad did..."
@@ -34,7 +34,7 @@ _MomWakeUpText::
 _MomHealText1::
 	text "Mom: <PLAYER>, if"
 	line "you drive your"
-	cont "#MON too hard,"
+	cont "Pokémon too hard,"
 	cont "they'll dislike"
 	cont "you."
 
@@ -45,7 +45,7 @@ _MomHealText1::
 _MomHealText2::
 	text "Mom: Oh good!"
 	line "You and your"
-	cont "#MON are"
+	cont "Pokémon are"
 	cont "looking great!"
 	cont "Take care now!"
 	done

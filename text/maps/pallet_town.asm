@@ -11,7 +11,7 @@ _OakWalksUpText::
 	
 	para "It's dangerous"
     line "to go alone!"
-	cont "Wild #mon roam"
+	cont "Wild Pokémon roam"
 	cont "freely in"
 	cont "tall grass"
     done
@@ -31,13 +31,13 @@ _OakWhewText::
 	done
 
 _OakGrassText::
-	text "Oak: A #mon can"
+	text "Oak: A Pokémon can"
 	line "appear anytime"
 	cont "out of nowhere."
 	cont "Now that you're"
-	cont "a #mon Trainer,"
+	cont "a Pokémon Trainer,"
 
-	para "you need a #mon"
+	para "you need a Pokémon"
 	line "to keep you safe"
 	cont "during your"
 	cont "journey. I know!"
@@ -62,7 +62,7 @@ _PalletTownText3::
 	line "incredible!"
     cont "You can now store"
 	cont "and recall items"
-	cont "and #mon as"
+	cont "and Pokémon as"
 	cont "data via PC!"
 
 	para "And don't forget"

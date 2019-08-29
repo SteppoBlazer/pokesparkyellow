@@ -36,7 +36,7 @@ _DaisyUseMapText::
 	cont "many cities and"
 	cont "buildings"
 	
-	para "like the #mon"
+	para "like the Pokémon"
 	line "Lab on Cinnabar"
 	cont "Island and the"
 	cont "Power Plant."
@@ -45,14 +45,14 @@ _DaisyUseMapText::
 _BluesHouseText2::
 	text "Spending quality"
 	line "time with your"
-	cont "#mon helps making"
+	cont "Pokémon helps making"
 	cont "your bond with'em"
 	cont "much stronger."
 
     para "The stronger your"
 	line "bond gets,"
 	cont "the stronger your"
-	cont "your #mon gets!"
+	cont "your Pokémon gets!"
 
     para "Keep that in mind!"
     done

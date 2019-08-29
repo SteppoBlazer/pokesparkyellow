@@ -90,11 +90,11 @@ TextSpeedStringsPointerTable:
 	dw SlowText
 
 FastText:
-	db "FAST@"
+	db "Fast@"
 MidText:
-	db "MID @"
+	db "Mid @"
 SlowText:
-	db "SLOW@"
+	db "Slow@"
 
 Func_41d07:
 	ld a, [wOptions]
@@ -147,9 +147,9 @@ AnimationOptionStringsPointerTable:
 	dw AnimationOffText
 
 AnimationOnText:
-	db "ON @"
+	db "On @"
 AnimationOffText:
-	db "OFF@"
+	db "Off@"
 
 OptionsMenu_BattleStyle:
 	ld a, [hJoy5]
@@ -183,9 +183,9 @@ BattleStyleOptionStringsPointerTable:
 	dw BattleStyleSetText
 
 BattleStyleShiftText:
-	db "SHIFT@"
+	db "Shift@"
 BattleStyleSetText:
-	db "SET  @"
+	db "Set  @"
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -237,13 +237,13 @@ SpeakerOptionStringsPointerTable:
 	dw Earphone3SoundText
 
 MonoSoundText:
-	db "MONO     @"
+	db "Mono     @"
 Earphone1SoundText:
-	db "EARPHONE1@"
+	db "Earphone1@"
 Earphone2SoundText:
-	db "EARPHONE2@"
+	db "Earphone2@"
 Earphone3SoundText:
-	db "EARPHONE3@"
+	db "Earphone3@"
 
 OptionsMenu_GBPrinterBrightness:
 	call Func_41e7b
@@ -294,15 +294,15 @@ GBPrinterOptionStringsPointerTable:
 	dw DarkestPrintText
 
 LightestPrintText:
-	db "LIGHTEST@"
+	db "Lightest@"
 LighterPrintText:
-	db "LIGHTER @"
+	db "Lighter @"
 NormalPrintText:
-	db "NORMAL  @"
+	db "Normal  @"
 DarkerPrintText:
-	db "DARKER  @"
+	db "Darker  @"
 DarkestPrintText:
-	db "DARKEST @"
+	db "Darkest @"
 
 Func_41e7b:
 	ld a, [wPrinterSettings]
@@ -433,11 +433,11 @@ Func_41f06:
 	ret
 
 AllOptionsText:
-	db "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db "Text speed :"
+	next "Animation  :"
+	next "Battlestyle:"
+	next "Sound:"
+	next "Print:@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "Cancel@"

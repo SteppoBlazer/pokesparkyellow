@@ -157,37 +157,37 @@ PokedexEntryPointers:
 ; text entry
 
 BulbasaurDexEntry:
-	db "SEED@"
-	db 2,4
-	dw 150
+	db "Seed@"
+	db 0,70
+	dw 069
 	TX_FAR _BulbasaurDexEntry
 	db "@"
 
 IvysaurDexEntry:
-	db "SEED@"
-	db 3,3
-	dw 290
+	db "Seed@"
+	db 1,0
+	dw 113
 	TX_FAR _IvysaurDexEntry
 	db "@"
 
 VenusaurDexEntry:
-	db "SEED@"
-	db 6,7
-	dw 2210
+	db "Seed@"
+	db 2,0
+	dw 1000
 	TX_FAR _VenusaurDexEntry
 	db "@"
 
 CharmanderDexEntry:
-	db "LIZARD@"
-	db 2,
-	dw 190
+	db "Lizard@"
+	db 0,60
+	dw 085
 	TX_FAR _CharmanderDexEntry
 	db "@"
 
 CharmeleonDexEntry:
-	db "FLAME@"
-	db 3,7
-	dw 420
+	db "Flame@"
+	db 1,1
+	dw 119
 	TX_FAR _CharmeleonDexEntry
 	db "@"
 
@@ -325,9 +325,9 @@ ArbokDexEntry:
 	db "@"
 
 PikachuDexEntry:
-	db "MOUSE@"
-	db 1,4
-	dw 130
+	db "Mouse@"
+	db 0,40
+	dw 060
 	TX_FAR _PikachuDexEntry
 	db "@"
 

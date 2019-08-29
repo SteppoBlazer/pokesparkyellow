@@ -4,7 +4,7 @@ _OakSpeechText1::
 	cont "I'm Samuel Oak!"
 	cont "But I'm often"
 	cont "referred to as"
-	cont "#mon Professor!"
+	cont "Pokémon Professor!"
 
 	para "Well, actually..."
 	line "People just call"
@@ -22,11 +22,11 @@ _OakSpeechText2A::
 	text "This world is"
 	line "inhabited far and"
 	cont "wide by creatures"
-    cont "called #mon!@@"
+    cont "called Pokémon!@@"
 
 _OakSpeechText2B::
 	text $51,"We live"
-	line "alongside #mon"
+	line "alongside Pokémon"
 	cont "as friends."
 	cont "For some people,"
 	cont "they're pets."
@@ -37,7 +37,7 @@ _OakSpeechText2B::
 
 	para "I study the"
 	line "relationships"
-	cont "between #mon"
+	cont "between Pokémon"
 	cont "and humans!"
 	prompt
 
@@ -63,16 +63,16 @@ _OakSpeechText3::
 	line "Now that you"
 	cont "passed the test"
 	cont "and obtained a"
-	cont "#mon Trainer's"
+	cont "Pokémon Trainer's"
 	cont "License,"
 
 	para "your very own"
-	line "#mon story is"
+	line "Pokémon story is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
 	line "and adventures"
-	cont "with #mon is"
+	cont "with Pokémon is"
 	cont "waiting for you!"
 	cont "Let's go!"
 	done

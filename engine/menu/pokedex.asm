@@ -509,7 +509,8 @@ ShowPokedexDataInternal:
 	ld a, [wd11e] ; pokemon ID
 	ld [wcf91], a
 	push af
-	callba SendPokedexPal ; Palette for the UI
+	ld b, SET_PAL_POKEDEX
+	call RunPaletteCommand
 	pop af
 	ld [wd11e], a
 	ld a, [hTilesetType]
@@ -666,7 +667,7 @@ ShowPokedexDataInternal:
 
 HeightWeightText:
 	db   "HT  ?",$60,"??",$61
-	next "WT   ???lb@"
+	next "WT   ???Kg@"
 
 DrawDexEntryOnScreen:
 	call ClearScreen
