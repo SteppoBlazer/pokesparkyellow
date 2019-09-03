@@ -1,4 +1,4 @@
-Museum1F_Script:
+Museum1FScript:
 	ld a, $1
 	ld [wAutoTextBoxDrawingControl], a
 	xor a
@@ -32,7 +32,7 @@ Museum1FScript0:
 Museum1FScript1:
 	ret
 
-Museum1F_TextPointers:
+Museum1FTextPointers:
 	dw Museum1FText1
 	dw Museum1FText2
 	dw Museum1FText3

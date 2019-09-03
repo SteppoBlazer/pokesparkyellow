@@ -1,4 +1,4 @@
-ViridianGym_Script:
+ViridianGymScript:
 	ld hl, Gym8CityName
 	ld de, Gym8LeaderName
 	call LoadGymLeaderAndCityName
@@ -168,7 +168,7 @@ ViridianGymScript3_74995:
 	SetEvents EVENT_2ND_ROUTE22_RIVAL_BATTLE, EVENT_ROUTE22_RIVAL_WANTS_BATTLE
 	jp ViridianGymScript_748d6
 
-ViridianGym_TextPointers:
+ViridianGymTextPointers:
 	dw ViridianGymText1
 	dw ViridianGymText2
 	dw ViridianGymText3

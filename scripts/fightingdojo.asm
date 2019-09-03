@@ -1,4 +1,4 @@
-FightingDojo_Script:
+FightingDojoScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, FightingDojoTrainerHeaders
 	ld de, FightingDojoScriptPointers
@@ -80,7 +80,7 @@ FightingDojoScript3:
 	ld [wCurMapScript], a
 	ret
 
-FightingDojo_TextPointers:
+FightingDojoTextPointers:
 	dw FightingDojoText1
 	dw FightingDojoText2
 	dw FightingDojoText3

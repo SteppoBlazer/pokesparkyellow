@@ -1,10 +1,10 @@
-PewterMart_Script:
+PewterMartScript:
 	call EnableAutoTextBoxDrawing
 	ld a, $1
 	ld [wAutoTextBoxDrawingControl], a
 	ret
 
-PewterMart_TextPointers:
+PewterMartTextPointers:
 	dw PewterCashierText
 	dw PewterMartText2
 	dw PewterMartText3

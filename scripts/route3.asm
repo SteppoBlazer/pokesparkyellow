@@ -1,4 +1,4 @@
-Route3_Script:
+Route3Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route3TrainerHeader0
 	ld de, Route3ScriptPointers
@@ -12,7 +12,7 @@ Route3ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route3_TextPointers:
+Route3TextPointers:
 	dw Route3Text1
 	dw Route3Text2
 	dw Route3Text3

@@ -1,4 +1,4 @@
-IndigoPlateau_Script:
+IndigoPlateauScript:
 	ret
 
-IndigoPlateau_TextPointers:
+IndigoPlateauTextPointers:

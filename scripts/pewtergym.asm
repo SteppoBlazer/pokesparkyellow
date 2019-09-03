@@ -1,4 +1,4 @@
-PewterGym_Script:
+PewterGymScript:
 	ld hl, wCurrentMapScriptFlags
 	bit 6, [hl]
 	res 6, [hl]
@@ -80,7 +80,7 @@ PewterGymScript_5c3df:
 
 	jp PewterGymScript_5c3bf
 
-PewterGym_TextPointers:
+PewterGymTextPointers:
 	dw PewterGymText1
 	dw PewterGymText2
 	dw PewterGymText3

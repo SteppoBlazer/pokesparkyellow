@@ -1,14 +1,14 @@
-DiglettsCave_Object:
+DiglettsCaveObject:
 	db $19 ; border block
 
-	db 2 ; warps
-	warp 5, 5, 2, DIGLETTS_CAVE_ROUTE_2
-	warp 37, 31, 2, DIGLETTS_CAVE_ROUTE_11
+	db $2 ; warps
+	db $5, $5, $2, DIGLETTS_CAVE_EXIT
+	db $1f, $25, $2, DIGLETTS_CAVE_ENTRANCE
 
-	db 0 ; signs
+	db $0 ; signs
 
-	db 0 ; objects
+	db $0 ; objects
 
 	; warp-to
-	warp_to 5, 5, DIGLETTS_CAVE_WIDTH ; DIGLETTS_CAVE_ROUTE_2
-	warp_to 37, 31, DIGLETTS_CAVE_WIDTH ; DIGLETTS_CAVE_ROUTE_11
+	EVENT_DISP DIGLETTS_CAVE_WIDTH, $5, $5 ; DIGLETTS_CAVE_EXIT
+	EVENT_DISP DIGLETTS_CAVE_WIDTH, $1f, $25 ; DIGLETTS_CAVE_ENTRANCE

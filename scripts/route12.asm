@@ -1,4 +1,4 @@
-Route12_Script:
+Route12Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route12TrainerHeaders
 	ld de, Route12ScriptPointers
@@ -60,7 +60,7 @@ Route12Script3:
 	ld [wCurMapScript], a
 	ret
 
-Route12_TextPointers:
+Route12TextPointers:
 	dw Route12Text1
 	dw Route12Text2
 	dw Route12Text3

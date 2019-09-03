@@ -1,4 +1,4 @@
-PewterCity_Script:
+PewterCityScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, wd492
 	res 7, [hl]
@@ -176,7 +176,7 @@ PewterCityScript6:
 	ld [wPewterCityCurScript], a
 	ret
 
-PewterCity_TextPointers:
+PewterCityTextPointers:
 	dw PewterCityText1
 	dw PewterCityText2
 	dw PewterCityText3

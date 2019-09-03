@@ -1,4 +1,4 @@
-VermilionDock_Script:
+VermilionDockScript:
 	call EnableAutoTextBoxDrawing
 	CheckEventHL EVENT_STARTED_WALKING_OUT_OF_DOCK
 	jr nz, .asm_1db8d
@@ -207,7 +207,7 @@ VermilionDock_EraseSSAnne:
 	call DelayFrames
 	ret
 
-VermilionDock_TextPointers:
+VermilionDockTextPointers:
 	dw VermilionDockText1
 
 VermilionDockText1:

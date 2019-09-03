@@ -1,8 +1,8 @@
-VermilionPokecenter_Script:
+VermilionPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-VermilionPokecenter_TextPointers:
+VermilionPokecenterTextPointers:
 	dw VermilionHealNurseText
 	dw VermilionPokecenterText2
 	dw VermilionPokecenterText3

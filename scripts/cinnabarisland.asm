@@ -1,4 +1,4 @@
-CinnabarIsland_Script:
+CinnabarIslandScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, wCurrentMapScriptFlags
 	set 5, [hl]
@@ -50,7 +50,7 @@ CinnabarIslandScript1:
 	ld [wCinnabarIslandCurScript], a
 	ret
 
-CinnabarIsland_TextPointers:
+CinnabarIslandTextPointers:
 	dw CinnabarIslandText1
 	dw CinnabarIslandText2
 	dw CinnabarIslandText3

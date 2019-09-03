@@ -1,4 +1,4 @@
-Route22_Script:
+Route22Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route22ScriptPointers
 	ld a, [wRoute22CurScript]
@@ -373,7 +373,7 @@ Route22Script6:
 	ld [wRoute22CurScript], a
 	ret
 
-Route22_TextPointers:
+Route22TextPointers:
 	dw Route22Text1
 	dw Route22Text2
 	dw Route22FrontGateText

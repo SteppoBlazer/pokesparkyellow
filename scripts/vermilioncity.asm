@@ -1,4 +1,4 @@
-VermilionCity_Script:
+VermilionCityScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, wd492
 	res 7, [hl]
@@ -131,7 +131,7 @@ VermilionCityScript1:
 	ld [wVermilionCityCurScript], a
 	ret
 
-VermilionCity_TextPointers:
+VermilionCityTextPointers:
 	dw VermilionCityText1
 	dw VermilionCityText2
 	dw VermilionCityText3

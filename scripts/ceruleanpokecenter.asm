@@ -1,8 +1,8 @@
-CeruleanPokecenter_Script:
+CeruleanPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-CeruleanPokecenter_TextPointers:
+CeruleanPokecenterTextPointers:
 	dw CeruleanHealNurseText
 	dw CeruleanPokecenterText2
 	dw CeruleanPokecenterText3

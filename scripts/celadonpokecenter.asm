@@ -1,8 +1,8 @@
-CeladonPokecenter_Script:
+CeladonPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-CeladonPokecenter_TextPointers:
+CeladonPokecenterTextPointers:
 	dw CeladonHealNurseText
 	dw CeladonPokecenterText2
 	dw CeladonPokecenterText3

@@ -1,8 +1,8 @@
-Route7_Script:
+Route7Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
-Route7_TextPointers:
+Route7TextPointers:
 	dw Route7Text1
 
 Route7Text1:

@@ -1,4 +1,4 @@
-Route5Gate_Script:
+Route5GateScript:
 	call EnableAutoTextBoxDrawing
 	ld a, [wRoute5GateCurScript]
 	ld hl, Route5GateScriptPointers
@@ -60,7 +60,7 @@ Route5GateScript1:
 	ld [wRoute5GateCurScript], a
 	ret
 
-Route5Gate_TextPointers:
+Route5GateTextPointers:
 	dw Route5GateText1
 	dw Route5GateText2
 	dw Route5GateText3

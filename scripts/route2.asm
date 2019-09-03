@@ -1,7 +1,7 @@
-Route2_Script:
+Route2Script:
 	jp EnableAutoTextBoxDrawing
 
-Route2_TextPointers:
+Route2TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw Route2Text3

@@ -1,4 +1,4 @@
-CinnabarGym_Script:
+CinnabarGymScript:
 	call CinnabarGymScript_75759
 	call EnableAutoTextBoxDrawing
 	ld hl, CinnabarGymScriptPointers
@@ -230,7 +230,7 @@ CinnabarGymScript3_75857:
 
 	jp CinnabarGymScript_75792
 
-CinnabarGym_TextPointers:
+CinnabarGymTextPointers:
 	dw CinnabarGymText1
 	dw CinnabarGymText2
 	dw CinnabarGymText3

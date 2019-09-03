@@ -343,40 +343,40 @@ MapHS2D:
 MapHS34:
 	db MUSEUM_1F, $05, Show
 MapHS3F: ; c92e (3:492e) ; bulbasaur adoption house
-	db CERULEAN_TRADE_HOUSE, $02, Show
+	db CERULEAN_HOUSE_1, $02, Show
 MapHSE4:
-	db CERULEAN_CAVE_1F, $01, Show
-	db CERULEAN_CAVE_1F, $02, Show
-	db CERULEAN_CAVE_1F, $03, Show
-	db CERULEAN_CAVE_1F, $04, Show
+	db UNKNOWN_DUNGEON_1, $01, Show
+	db UNKNOWN_DUNGEON_1, $02, Show
+	db UNKNOWN_DUNGEON_1, $03, Show
+	db UNKNOWN_DUNGEON_1, $04, Show
 MapHS8F:
-	db POKEMON_TOWER_2F, $01, Show
+	db POKEMONTOWER_2, $01, Show
 MapHS90:
-	db POKEMON_TOWER_3F, $04, Show
+	db POKEMONTOWER_3, $04, Show
 MapHS91:
-	db POKEMON_TOWER_4F, $04, Show
-	db POKEMON_TOWER_4F, $05, Show
-	db POKEMON_TOWER_4F, $06, Show
+	db POKEMONTOWER_4, $04, Show
+	db POKEMONTOWER_4, $05, Show
+	db POKEMONTOWER_4, $06, Show
 MapHS92:
-	db POKEMON_TOWER_5F, $06, Show
+	db POKEMONTOWER_5, $06, Show
 MapHS93:
-	db POKEMON_TOWER_6F, $04, Show
-	db POKEMON_TOWER_6F, $05, Show
+	db POKEMONTOWER_6, $04, Show
+	db POKEMONTOWER_6, $05, Show
 MapHS94:
-	db POKEMON_TOWER_7F, $01, Hide ; jessie & james?
-	db POKEMON_TOWER_7F, $02, Hide
-	db POKEMON_TOWER_7F, $03, Show
+	db POKEMONTOWER_7, $01, Hide ; jessie & james?
+	db POKEMONTOWER_7, $02, Hide
+	db POKEMONTOWER_7, $03, Show
 MapHS95:
-	db MR_FUJIS_HOUSE, $05, Hide
+	db LAVENDER_HOUSE_1, $05, Hide
 MapHS84:
-	db CELADON_MANSION_ROOF_HOUSE, $02, Show
+	db CELADON_MANSION_5, $02, Show
 MapHS87:
 	db GAME_CORNER, $0B, Show
 MapHS9B:
-	db WARDENS_HOUSE, $02, Show
+	db FUCHSIA_HOUSE_2, $02, Show
 MapHSA5:
-	db POKEMON_MANSION_1F, $02, Show
-	db POKEMON_MANSION_1F, $03, Show
+	db MANSION_1, $02, Show
+	db MANSION_1, $03, Show
 MapHSB1:
 	db FIGHTING_DOJO, $06, Show
 	db FIGHTING_DOJO, $07, Show
@@ -398,12 +398,12 @@ MapHS53:
 	db POWER_PLANT, $0D, Show
 	db POWER_PLANT, $0E, Show
 MapHSC2:
-	db VICTORY_ROAD_2F, $06, Show
-	db VICTORY_ROAD_2F, $07, Show
-	db VICTORY_ROAD_2F, $08, Show
-	db VICTORY_ROAD_2F, $09, Show
-	db VICTORY_ROAD_2F, $0A, Show
-	db VICTORY_ROAD_2F, $0D, Show
+	db VICTORY_ROAD_2, $06, Show
+	db VICTORY_ROAD_2, $07, Show
+	db VICTORY_ROAD_2, $08, Show
+	db VICTORY_ROAD_2, $09, Show
+	db VICTORY_ROAD_2, $0A, Show
+	db VICTORY_ROAD_2, $0D, Show
 MapHS58:
 	db BILLS_HOUSE, $01, Show
 	db BILLS_HOUSE, $02, Hide
@@ -413,54 +413,54 @@ MapHS33:
 	db VIRIDIAN_FOREST, $08, Show
 	db VIRIDIAN_FOREST, $09, Show
 MapHS3B:
-	db MT_MOON_1F, $08, Show
-	db MT_MOON_1F, $09, Show
-	db MT_MOON_1F, $0A, Show
-	db MT_MOON_1F, $0B, Show
-	db MT_MOON_1F, $0C, Show
-	db MT_MOON_1F, $0D, Show
+	db MT_MOON_1, $08, Show
+	db MT_MOON_1, $09, Show
+	db MT_MOON_1, $0A, Show
+	db MT_MOON_1, $0B, Show
+	db MT_MOON_1, $0C, Show
+	db MT_MOON_1, $0D, Show
 MapHS3D:
-	db MT_MOON_B2F, $02, Hide
-	db MT_MOON_B2F, $06, Hide
-	db MT_MOON_B2F, $07, Show
-	db MT_MOON_B2F, $08, Show
-	db MT_MOON_B2F, $09, Show
-	db MT_MOON_B2F, $0A, Show
+	db MT_MOON_3, $02, Hide
+	db MT_MOON_3, $06, Hide
+	db MT_MOON_3, $07, Show
+	db MT_MOON_3, $08, Show
+	db MT_MOON_3, $09, Show
+	db MT_MOON_3, $0A, Show
 MapHS60:
-	db SS_ANNE_2F, $02, Hide
+	db SS_ANNE_2, $02, Hide
 MapHS66:
-	db SS_ANNE_1F_ROOMS, $0A, Show
+	db SS_ANNE_8, $0A, Show
 MapHS67:
-	db SS_ANNE_2F_ROOMS, $06, Show
-	db SS_ANNE_2F_ROOMS, $09, Show
+	db SS_ANNE_9, $06, Show
+	db SS_ANNE_9, $09, Show
 MapHS68:
-	db SS_ANNE_B1F_ROOMS, $09, Show
-	db SS_ANNE_B1F_ROOMS, $0A, Show
-	db SS_ANNE_B1F_ROOMS, $0B, Show
+	db SS_ANNE_10, $09, Show
+	db SS_ANNE_10, $0A, Show
+	db SS_ANNE_10, $0B, Show
 MapHSC6:
-	db VICTORY_ROAD_3F, $05, Show
-	db VICTORY_ROAD_3F, $06, Show
-	db VICTORY_ROAD_3F, $0A, Show
+	db VICTORY_ROAD_3, $05, Show
+	db VICTORY_ROAD_3, $06, Show
+	db VICTORY_ROAD_3, $0A, Show
 MapHSC7:
-	db ROCKET_HIDEOUT_B1F, $06, Show
-	db ROCKET_HIDEOUT_B1F, $07, Show
+	db ROCKET_HIDEOUT_1, $06, Show
+	db ROCKET_HIDEOUT_1, $07, Show
 MapHSC8:
-	db ROCKET_HIDEOUT_B2F, $02, Show
-	db ROCKET_HIDEOUT_B2F, $03, Show
-	db ROCKET_HIDEOUT_B2F, $04, Show
-	db ROCKET_HIDEOUT_B2F, $05, Show
+	db ROCKET_HIDEOUT_2, $02, Show
+	db ROCKET_HIDEOUT_2, $03, Show
+	db ROCKET_HIDEOUT_2, $04, Show
+	db ROCKET_HIDEOUT_2, $05, Show
 MapHSC9:
-	db ROCKET_HIDEOUT_B3F, $03, Show
-	db ROCKET_HIDEOUT_B3F, $04, Show
+	db ROCKET_HIDEOUT_3, $03, Show
+	db ROCKET_HIDEOUT_3, $04, Show
 MapHSCA:
-	db ROCKET_HIDEOUT_B4F, $01, Show
-	db ROCKET_HIDEOUT_B4F, $02, Hide
-	db ROCKET_HIDEOUT_B4F, $03, Hide
-	db ROCKET_HIDEOUT_B4F, $05, Show
-	db ROCKET_HIDEOUT_B4F, $06, Show
-	db ROCKET_HIDEOUT_B4F, $07, Show
-	db ROCKET_HIDEOUT_B4F, $08, Hide
-	db ROCKET_HIDEOUT_B4F, $09, Hide
+	db ROCKET_HIDEOUT_4, $01, Show
+	db ROCKET_HIDEOUT_4, $02, Hide
+	db ROCKET_HIDEOUT_4, $03, Hide
+	db ROCKET_HIDEOUT_4, $05, Show
+	db ROCKET_HIDEOUT_4, $06, Show
+	db ROCKET_HIDEOUT_4, $07, Show
+	db ROCKET_HIDEOUT_4, $08, Hide
+	db ROCKET_HIDEOUT_4, $09, Hide
 MapHSCF:
 	db SILPH_CO_2F, $01, Show
 	db SILPH_CO_2F, $02, Show
@@ -522,18 +522,18 @@ MapHSEB:
 	db SILPH_CO_11F, $05, Show
 	db SILPH_CO_11F, $06, Show
 MapHSF4:
-	db UNUSED_MAP_F4, $02, Show
+	db $F4, $02, Show
 MapHSD6:
-	db POKEMON_MANSION_2F, $02, Show
+	db MANSION_2, $02, Show
 MapHSD7:
-	db POKEMON_MANSION_3F, $03, Show
-	db POKEMON_MANSION_3F, $04, Show
+	db MANSION_3, $03, Show
+	db MANSION_3, $04, Show
 MapHSD8:
-	db POKEMON_MANSION_B1F, $03, Show
-	db POKEMON_MANSION_B1F, $04, Show
-	db POKEMON_MANSION_B1F, $05, Show
-	db POKEMON_MANSION_B1F, $06, Show
-	db POKEMON_MANSION_B1F, $08, Show
+	db MANSION_4, $03, Show
+	db MANSION_4, $04, Show
+	db MANSION_4, $05, Show
+	db MANSION_4, $06, Show
+	db MANSION_4, $08, Show
 MapHSD9:
 	db SAFARI_ZONE_EAST, $01, Show
 	db SAFARI_ZONE_EAST, $02, Show
@@ -550,39 +550,39 @@ MapHSDB:
 MapHSDC:
 	db SAFARI_ZONE_CENTER, $01, Show
 MapHSE2:
-	db CERULEAN_CAVE_2F, $01, Show
-	db CERULEAN_CAVE_2F, $02, Show
-	db CERULEAN_CAVE_2F, $03, Show
-	db CERULEAN_CAVE_2F, $04, Show
+	db UNKNOWN_DUNGEON_2, $01, Show
+	db UNKNOWN_DUNGEON_2, $02, Show
+	db UNKNOWN_DUNGEON_2, $03, Show
+	db UNKNOWN_DUNGEON_2, $04, Show
 MapHSE3:
-	db CERULEAN_CAVE_B1F, $01, Show
-	db CERULEAN_CAVE_B1F, $02, Show
-	db CERULEAN_CAVE_B1F, $03, Show
-	db CERULEAN_CAVE_B1F, $04, Show
-	db CERULEAN_CAVE_B1F, $05, Show
+	db UNKNOWN_DUNGEON_3, $01, Show
+	db UNKNOWN_DUNGEON_3, $02, Show
+	db UNKNOWN_DUNGEON_3, $03, Show
+	db UNKNOWN_DUNGEON_3, $04, Show
+	db UNKNOWN_DUNGEON_3, $05, Show
 MapHS6C:
-	db VICTORY_ROAD_1F, $03, Show
-	db VICTORY_ROAD_1F, $04, Show
+	db VICTORY_ROAD_1, $03, Show
+	db VICTORY_ROAD_1, $04, Show
 MapHS78:
 	db CHAMPIONS_ROOM, $02, Hide
 MapHSC0:
-	db SEAFOAM_ISLANDS_1F, $01, Show
-	db SEAFOAM_ISLANDS_1F, $02, Show
+	db SEAFOAM_ISLANDS_1, $01, Show
+	db SEAFOAM_ISLANDS_1, $02, Show
 MapHS9F:
-	db SEAFOAM_ISLANDS_B1F, $01, Hide
-	db SEAFOAM_ISLANDS_B1F, $02, Hide
+	db SEAFOAM_ISLANDS_2, $01, Hide
+	db SEAFOAM_ISLANDS_2, $02, Hide
 MapHSA0:
-	db SEAFOAM_ISLANDS_B2F, $01, Hide
-	db SEAFOAM_ISLANDS_B2F, $02, Hide
+	db SEAFOAM_ISLANDS_3, $01, Hide
+	db SEAFOAM_ISLANDS_3, $02, Hide
 MapHSA1:
-	db SEAFOAM_ISLANDS_B3F, $02, Show
-	db SEAFOAM_ISLANDS_B3F, $03, Show
-	db SEAFOAM_ISLANDS_B3F, $05, Hide
-	db SEAFOAM_ISLANDS_B3F, $06, Hide
+	db SEAFOAM_ISLANDS_4, $02, Show
+	db SEAFOAM_ISLANDS_4, $03, Show
+	db SEAFOAM_ISLANDS_4, $05, Hide
+	db SEAFOAM_ISLANDS_4, $06, Hide
 MapHSA2:
-	db SEAFOAM_ISLANDS_B4F, $01, Hide
-	db SEAFOAM_ISLANDS_B4F, $02, Hide
-	db SEAFOAM_ISLANDS_B4F, $03, Show
+	db SEAFOAM_ISLANDS_5, $01, Hide
+	db SEAFOAM_ISLANDS_5, $02, Hide
+	db SEAFOAM_ISLANDS_5, $03, Show
 
 MapHS27Copy:
 ; doesn't seem to be referenced

@@ -466,7 +466,7 @@ IsSurfingAllowed:
 	bit 5, a
 	jr nz, .forcedToRideBike
 	ld a, [wCurMap]
-	cp SEAFOAM_ISLANDS_B4F
+	cp SEAFOAM_ISLANDS_5
 	ret nz
 	CheckBothEventsSet EVENT_SEAFOAM4_BOULDER1_DOWN_HOLE, EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	ret z

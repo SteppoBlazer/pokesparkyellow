@@ -1,8 +1,8 @@
-RedsHouse1F_Script:
+RedsHouse1FScript:
 	call EnableAutoTextBoxDrawing
 	ret
 
-RedsHouse1F_TextPointers:
+RedsHouse1FTextPointers:
 	dw RedsHouse1FText1
 	dw RedsHouse1FText2
 

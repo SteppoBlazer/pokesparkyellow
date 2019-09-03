@@ -1,5 +1,5 @@
-DiglettsCave_Script:
+DiglettsCaveScript:
 	jp EnableAutoTextBoxDrawing
 
-DiglettsCave_TextPointers:
+DiglettsCaveTextPointers:
 	db "@"

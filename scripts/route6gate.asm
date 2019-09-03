@@ -1,4 +1,4 @@
-Route6Gate_Script:
+Route6GateScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route6GateScriptPointers
 	ld a, [wRoute6GateCurScript]
@@ -64,7 +64,7 @@ Route6GateScript_1e0a1:
 	ld [wOverrideSimulatedJoypadStatesMask], a
 	ret
 
-Route6Gate_TextPointers:
+Route6GateTextPointers:
 	dw Route6GateText1
 	dw Route6GateText2
 	dw Route6GateText3

@@ -1,4 +1,4 @@
-Route17_Script:
+Route17Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route17TrainerHeaders
 	ld de, Route17ScriptPointers
@@ -12,7 +12,7 @@ Route17ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route17_TextPointers:
+Route17TextPointers:
 	dw Route17Text1
 	dw Route17Text2
 	dw Route17Text3

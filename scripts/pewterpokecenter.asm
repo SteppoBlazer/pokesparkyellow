@@ -1,11 +1,11 @@
-PewterPokecenter_Script:
+PewterPokecenterScript:
 	ld hl, wd492
 	set 7, [hl]
 	call Serial_TryEstablishingExternallyClockedConnection
 	call EnableAutoTextBoxDrawing
 	ret
 
-PewterPokecenter_TextPointers:
+PewterPokecenterTextPointers:
 	dw PewterHealNurseText
 	dw PewterPokecenterText2
 	dw PewterJigglypuffText

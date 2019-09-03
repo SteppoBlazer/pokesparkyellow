@@ -1,8 +1,8 @@
-BikeShop_Script:
+BikeShopScript:
 	call EnableAutoTextBoxDrawing
 	ret
 
-BikeShop_TextPointers:
+BikeShopTextPointers:
 	dw BikeShopText1
 	dw BikeShopText2
 	dw BikeShopText3

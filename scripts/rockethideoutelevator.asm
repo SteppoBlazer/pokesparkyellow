@@ -1,4 +1,4 @@
-RocketHideoutElevator_Script:
+RocketHideoutElevatorScript:
 	ld hl, wCurrentMapScriptFlags
 	bit 5, [hl]
 	res 5, [hl]
@@ -51,9 +51,9 @@ RocketHideoutElevatorWarpMaps:
 ; first byte is warp number
 ; second byte is map number
 ; These specify where the player goes after getting out of the elevator.
-	db $04, ROCKET_HIDEOUT_B1F
-	db $04, ROCKET_HIDEOUT_B2F
-	db $02, ROCKET_HIDEOUT_B4F
+	db $04, ROCKET_HIDEOUT_1
+	db $04, ROCKET_HIDEOUT_2
+	db $02, ROCKET_HIDEOUT_4
 RocketHideoutElevatorWarpMapsEnd:
 
 RocketHideoutElevatorScript_4575f:
@@ -61,7 +61,7 @@ RocketHideoutElevatorScript_4575f:
 	callba ShakeElevator
 	ret
 
-RocketHideoutElevator_TextPointers:
+RocketHideoutElevatorTextPointers:
 	dw RocketHideoutElevatorText1
 
 RocketHideoutElevatorText1:

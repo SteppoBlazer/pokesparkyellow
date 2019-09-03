@@ -1,7 +1,7 @@
-LavenderMart_Script:
+LavenderMartScript:
 	jp EnableAutoTextBoxDrawing
 
-LavenderMart_TextPointers:
+LavenderMartTextPointers:
 	dw LavenderCashierText
 	dw LavenderMartText2
 	dw LavenderMartText3

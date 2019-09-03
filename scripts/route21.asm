@@ -1,4 +1,4 @@
-Route21_Script:
+Route21Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route21TrainerHeaders
 	ld de, Route21ScriptPointers
@@ -12,7 +12,7 @@ Route21ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route21_TextPointers:
+Route21TextPointers:
 	dw Route21Text1
 	dw Route21Text2
 	dw Route21Text3

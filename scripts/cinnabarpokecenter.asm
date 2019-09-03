@@ -1,8 +1,8 @@
-CinnabarPokecenter_Script:
+CinnabarPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-CinnabarPokecenter_TextPointers:
+CinnabarPokecenterTextPointers:
 	dw CinnabarHealNurseText
 	dw CinnabarPokecenterText2
 	dw CinnabarPokecenterText3

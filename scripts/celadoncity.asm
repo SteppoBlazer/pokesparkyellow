@@ -1,4 +1,4 @@
-CeladonCity_Script:
+CeladonCityScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, CeladonCityScriptPointers
 	ld a, [wCeladonCityCurScript]
@@ -13,7 +13,7 @@ CeladonCityScript1:
 	ResetEvent EVENT_67F
 	ret
 
-CeladonCity_TextPointers:
+CeladonCityTextPointers:
 	dw CeladonCityText1
 	dw CeladonCityText2
 	dw CeladonCityText3

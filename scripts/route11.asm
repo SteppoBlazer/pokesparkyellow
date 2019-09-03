@@ -1,4 +1,4 @@
-Route11_Script:
+Route11Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route11TrainerHeaders
 	ld de, Route11ScriptPointers
@@ -12,7 +12,7 @@ Route11ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route11_TextPointers:
+Route11TextPointers:
 	dw Route11Text1
 	dw Route11Text2
 	dw Route11Text3

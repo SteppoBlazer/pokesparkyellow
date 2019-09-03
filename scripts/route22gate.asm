@@ -1,4 +1,4 @@
-Route22Gate_Script:
+Route22GateScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route22GateScriptPointers
 	ld a, [wRoute22GateCurScript]
@@ -56,7 +56,7 @@ Route22GateScript1:
 Route22GateScript2:
 	ret
 
-Route22Gate_TextPointers:
+Route22GateTextPointers:
 	dw Route22GateText1
 
 Route22GateText1:

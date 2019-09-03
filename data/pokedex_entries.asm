@@ -367,7 +367,7 @@ NidorinaDexEntry:
 	db "@"
 
 NidoqueenDexEntry:
-	db "Venom Horn@"
+	db "Venom Rhino@"
 	db 1,3
 	dw 600
 	TX_FAR _NidoqueenDexEntry
@@ -388,7 +388,7 @@ NidorinoDexEntry:
 	db "@"
 
 NidokingDexEntry:
-	db "Venom Horn@"
+	db "Venom Rhino@"
 	db 1,4
 	dw 620
 	TX_FAR _NidokingDexEntry
@@ -472,14 +472,14 @@ VileplumeDexEntry:
 	db "@"
 
 ParasDexEntry:
-	db "Host Bug@"
+	db "Cicada@"
 	db 0,30
 	dw 054
 	TX_FAR _ParasDexEntry
 	db "@"
 
 ParasectDexEntry:
-	db "Host Bug@"
+	db "Cicada@"
 	db 1,0
 	dw 295
 	TX_FAR _ParasectDexEntry

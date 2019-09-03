@@ -1,8 +1,8 @@
-LavenderPokecenter_Script:
+LavenderPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-LavenderPokecenter_TextPointers:
+LavenderPokecenterTextPointers:
 	dw LavenderHealNurseText
 	dw LavenderPokecenterText2
 	dw LavenderPokecenterText3

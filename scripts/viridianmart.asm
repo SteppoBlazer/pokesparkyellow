@@ -1,4 +1,4 @@
-ViridianMart_Script:
+ViridianMartScript:
 	call ViridianMartScript_1d47d
 	call EnableAutoTextBoxDrawing
 	ld hl, ViridianMartScriptPointers
@@ -9,10 +9,10 @@ ViridianMart_Script:
 ViridianMartScript_1d47d:
 	CheckEvent EVENT_OAK_GOT_PARCEL
 	jr nz, .asm_1d489
-	ld hl, ViridianMart_TextPointers
+	ld hl, ViridianMartTextPointers
 	jr .asm_1d48c
 .asm_1d489
-	ld hl, ViridianMart_TextPointers + $a ; starts at ViridianCashierText
+	ld hl, ViridianMartTextPointers + $a ; starts at ViridianCashierText
 .asm_1d48c
 	ld a, l
 	ld [wMapTextPtr], a
@@ -58,11 +58,22 @@ ViridianMartScript1:
 	SetEvent EVENT_GOT_OAKS_PARCEL
 	ld a, $2
 	ld [wViridianMarketCurScript], a
-	; fallthrough	
-ViridianMartScript2:
 	ret
 
-ViridianMart_TextPointers:
+ViridianMartScript2:
+	CheckEventHL EVENT_02D
+	ret z
+	CheckAndSetEventReuseHL EVENT_02C
+	ret nz
+	ld a, HS_OLD_MAN
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_OLD_MAN_1
+	ld [wMissableObjectIndex], a
+	predef ShowObject
+	ret
+
+ViridianMartTextPointers:
 	dw ViridianMartText1
 	dw ViridianMartText2
 	dw ViridianMartText3

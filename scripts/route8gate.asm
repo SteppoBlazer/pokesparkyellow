@@ -1,4 +1,4 @@
-Route8Gate_Script:
+Route8GateScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route8GateScriptPointers
 	ld a, [wRoute8GateCurScript]
@@ -64,7 +64,7 @@ Route8GateScript1:
 	ld [wRoute8GateCurScript], a
 	ret
 
-Route8Gate_TextPointers:
+Route8GateTextPointers:
 	dw Route8GateText1
 	dw Route8GateText2
 	dw Route8GateText3

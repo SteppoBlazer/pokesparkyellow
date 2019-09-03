@@ -1,4 +1,4 @@
-SaffronGym_Script:
+SaffronGymScript:
 	ld hl, wCurrentMapScriptFlags
 	bit 6, [hl]
 	res 6, [hl]
@@ -70,7 +70,7 @@ SaffronGymText_5d068:
 
 	jp SaffronGymText_5d048
 
-SaffronGym_TextPointers:
+SaffronGymTextPointers:
 	dw SaffronGymText1
 	dw SaffronGymText2
 	dw SaffronGymText3

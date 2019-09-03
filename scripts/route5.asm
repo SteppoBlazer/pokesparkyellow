@@ -1,7 +1,7 @@
-Route5_Script:
+Route5Script:
 	jp EnableAutoTextBoxDrawing
 
-Route5_TextPointers:
+Route5TextPointers:
 	dw Route5Text1
 
 Route5Text1:

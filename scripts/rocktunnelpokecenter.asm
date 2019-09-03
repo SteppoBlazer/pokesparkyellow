@@ -1,8 +1,8 @@
-RockTunnelPokecenter_Script:
+RockTunnelPokecenterScript:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-RockTunnelPokecenter_TextPointers:
+RockTunnelPokecenterTextPointers:
 	dw RockTunnelHealNurseText
 	dw RockTunnelPokecenterText2
 	dw RockTunnelPokecenterText3

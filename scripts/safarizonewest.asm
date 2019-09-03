@@ -1,7 +1,7 @@
-SafariZoneWest_Script:
+SafariZoneWestScript:
 	jp EnableAutoTextBoxDrawing
 
-SafariZoneWest_TextPointers:
+SafariZoneWestTextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText

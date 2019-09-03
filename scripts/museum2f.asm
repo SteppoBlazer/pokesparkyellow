@@ -1,8 +1,8 @@
-Museum2F_Script:
+Museum2FScript:
 	call EnableAutoTextBoxDrawing
 	ret
 
-Museum2F_TextPointers:
+Museum2FTextPointers:
 	dw Museum2FText1
 	dw Museum2FText2
 	dw Museum2FText3

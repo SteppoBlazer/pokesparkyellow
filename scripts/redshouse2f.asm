@@ -1,4 +1,4 @@
-RedsHouse2F_Script:
+RedsHouse2FScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, RedsHouse2FScriptPointers
 	ld a, 0
@@ -19,5 +19,5 @@ RedsHouse2FScript3:
 RedsHouse2FScript4:
 	ret
 
-RedsHouse2F_TextPointers:
+RedsHouse2FTextPointers:
 	db "@"

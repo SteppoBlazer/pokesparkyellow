@@ -3,9 +3,9 @@ PrintBeginningBattleText:
 	dec a
 	jr nz, .trainerBattle
 	ld a, [wCurMap]
-	cp POKEMON_TOWER_3F
+	cp POKEMONTOWER_3
 	jr c, .notPokemonTower
-	cp MR_FUJIS_HOUSE
+	cp LAVENDER_HOUSE_1
 	jr c, .pokemonTower
 .notPokemonTower
 	ld a,[wBattleType]

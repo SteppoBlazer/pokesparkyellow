@@ -1,4 +1,4 @@
-Route9_Script:
+Route9Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route9TrainerHeaders
 	ld de, Route9ScriptPointers
@@ -12,7 +12,7 @@ Route9ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route9_TextPointers:
+Route9TextPointers:
 	dw Route9Text1
 	dw Route9TextAJ
 	dw Route9Text3

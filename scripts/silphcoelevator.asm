@@ -1,4 +1,4 @@
-SilphCoElevator_Script:
+SilphCoElevatorScript:
 	ld hl, wCurrentMapScriptFlags
 	bit 5, [hl]
 	res 5, [hl]
@@ -77,7 +77,7 @@ SilphCoElevatorScript_45827:
 	callba ShakeElevator
 	ret
 
-SilphCoElevator_TextPointers:
+SilphCoElevatorTextPointers:
 	dw SilphCoElevatorText1
 
 SilphCoElevatorText1:

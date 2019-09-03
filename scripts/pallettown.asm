@@ -1,4 +1,4 @@
-PalletTown_Script:
+PalletTownScript:
 	CheckEvent EVENT_GOT_POKEBALLS_FROM_OAK
 	jr z, .next
 	SetEvent EVENT_PALLET_AFTER_GETTING_POKEBALLS
@@ -220,7 +220,7 @@ PalletTownScript8:
 PalletTownScript9:
 	ret
 
-PalletTown_TextPointers:
+PalletTownTextPointers:
 	dw PalletTownText1
 	dw PalletTownText2
 	dw PalletTownText3

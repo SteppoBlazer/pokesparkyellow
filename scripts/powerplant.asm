@@ -1,4 +1,4 @@
-PowerPlant_Script:
+PowerPlantScript:
 	call EnableAutoTextBoxDrawing
 	ld hl, PowerPlantTrainerHeaders
 	ld de, .ScriptPointers
@@ -12,7 +12,7 @@ PowerPlant_Script:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-PowerPlant_TextPointers:
+PowerPlantTextPointers:
 	dw Voltorb0Text
 	dw Voltorb1Text
 	dw Voltorb2Text

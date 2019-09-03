@@ -1,4 +1,4 @@
-Route10_Script:
+Route10Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route10TrainerHeaders
 	ld de, Route10ScriptPointers
@@ -12,7 +12,7 @@ Route10ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route10_TextPointers:
+Route10TextPointers:
 	dw Route10Text1
 	dw Route10Text2
 	dw Route10Text3
