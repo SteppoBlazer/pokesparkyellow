@@ -192,8 +192,6 @@ SECTION "NPC Sprites 2", ROMX, BANK[NPC_SPRITES_2]
 INCLUDE "engine/load_pokedex_tiles.asm"
 INCLUDE "engine/overworld/map_sprites.asm"
 
-RedCyclingSprite:     INCBIN "gfx/sprites/cycling.2bpp"
-RedSprite:            INCBIN "gfx/sprites/red.2bpp"
 BlueSprite:           INCBIN "gfx/sprites/blue.2bpp"
 OakSprite:            INCBIN "gfx/sprites/oak.2bpp"
 BugCatcherSprite:     INCBIN "gfx/sprites/bug_catcher.2bpp"
@@ -1675,8 +1673,6 @@ Plateau_Block:     INCBIN "gfx/blocksets/plateau.bst"
 
 SECTION "bank1A",ROMX,BANK[$1A]
 
-INCBIN "gfx/blueversion.1bpp" ; unused
-
 Dojo_GFX:
 Gym_GFX:           INCBIN "gfx/tilesets/gym.2bpp"
 Dojo_Block:
@@ -2047,6 +2043,11 @@ INCLUDE "engine/unknown_ea3ea.asm"
 
 INCLUDE "engine/overworld/npc_movement_2.asm"
 
+SECTION "bank3B",ROMX,BANK[$3B]
+
+RedCyclingSprite:     INCBIN "gfx/sprites/cycling.2bpp"
+RedSprite:            INCBIN "gfx/sprites/red.2bpp"
+
 SECTION "bank3C",ROMX,BANK[$3C]
 
 INCLUDE "engine/bank3c.asm"
@@ -2120,7 +2121,6 @@ KabutoPicBack::       INCBIN "pic/monback/kabutob.pic"
 KabutopsPicFront::    INCBIN "pic/ymon/kabutops.pic"
 KabutopsPicBack::     INCBIN "pic/monback/kabutopsb.pic"
 
-
 SECTION "bank41",ROMX,BANK[$41]
 
 AerodactylPicFront::  INCBIN "pic/ymon/aerodactyl.pic"
@@ -2143,7 +2143,6 @@ MewtwoPicFront::      INCBIN "pic/ymon/mewtwo.pic"
 MewtwoPicBack::       INCBIN "pic/monback/mewtwob.pic"
 MewPicFront::         INCBIN "pic/ymon/mew.pic"
 MewPicBack::          INCBIN "pic/monback/mewb.pic"
-
 
 SECTION "bank42",ROMX,BANK[$42]
 
@@ -2177,3 +2176,12 @@ JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 SECTION "Item Descriptions", ROMX
 
 INCLUDE "engine/menu/item_descriptions.asm"
+
+SECTION "bank44",ROMX,BANK[$44]
+
+PartyMonSprites:  INCBIN "gfx/party_mon_sprites1.w32.2bpp"
+
+SECTION "bank45",ROMX,BANK[$45]
+INCBIN "gfx/party_mon_sprites2.w32.2bpp"
+
+INCLUDE "engine/mon_party_sprites2.asm"

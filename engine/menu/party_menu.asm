@@ -22,7 +22,8 @@ DrawPartyMenu_:
 	ld [H_AUTOBGTRANSFERENABLED],a
 	call ClearScreen
 	call UpdateSprites
-	callba LoadMonPartySpriteGfxWithLCDDisabled ; load pokemon icon graphics
+RedrawPartyMenu_ReloadSprites:
+	callba LoadPartyMonSprites ; load pokemon icon graphics
 
 RedrawPartyMenu_:
 	ld a,[wPartyMenuTypeOrMessageID]
@@ -49,17 +50,9 @@ RedrawPartyMenu_:
 	call GetPartyMonName
 	pop hl
 	call PlaceString ; print the pokemon's name
-	ld a,[hPartyMonIndex]
+	callba PlacePartyMonSprite ; place the appropriate pokemon icon
+	ld a,[hPartyMonIndex] ; loop counter
 	ld [wWhichPokemon],a
-	callab IsThisPartymonStarterPikachu_Party
-	jr nc, .regularMon
-	call CheckPikachuFollowingPlayer
-	jr z, .regularMon
-	ld a, $ff
-	ld [hPartyMonIndex], a
-.regularMon
-	callba WriteMonPartySpriteOAMByPartyIndex ; place the appropriate pokemon icon
-	ld a, [wWhichPokemon]
 	inc a
 	ld [hPartyMonIndex],a
 	call LoadMonData
@@ -78,7 +71,7 @@ RedrawPartyMenu_:
 	dec hl
 	dec hl
 	dec hl
-	ld a,$EC ; unfilled right arrow menu cursor
+	ld a,"▷" ; unfilled right arrow menu cursor
 	ld [hli],a ; place the cursor
 	inc hl
 	inc hl

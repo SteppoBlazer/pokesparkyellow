@@ -55,19 +55,7 @@ GetAnimationSpeed:
 	ld bc, $10
 	ld a, [wCurrentMenuItem]
 	call AddNTimes
-	ld c, $40 ; amount to increase the tile id by
-	ld a, [hl]
-	cp $4 ; tile ID for SPRITE_BALL_M
-	jr z, .editCoords
-	cp $8 ; tile ID for SPRITE_HELIX
-	jr nz, .editTileIDS
-; SPRITE_BALL_M and SPRITE_HELIX only shake up and down
-.editCoords
-	dec hl
-	dec hl ; dec hl to the OAM y coord
-	ld c, $1 ; amount to increase the y coord by
-; otherwise, load a second sprite frame
-.editTileIDS
+	ld c, $2
 	ld b, $4
 	ld de, $4
 .loop
@@ -86,12 +74,12 @@ GetAnimationSpeed:
 ; that each frame lasts for green HP, yellow HP, and red HP in order.
 ; On the naming screen, the yellow HP speed is always used.
 PartyMonSpeeds:
-	db 5, 16, 32
+	db 10, 24, 32
 
 LoadMonPartySpriteGfx:
 ; Load mon party sprite tile patterns into VRAM during V-blank.
 	ld hl, MonPartySpritePointers
-	ld a, $1e
+	ld a, $1c
 
 LoadAnimSpriteGfx:
 ; Load animated sprite tile patterns into VRAM during V-blank. hl is the address
@@ -130,7 +118,7 @@ LoadMonPartySpriteGfxWithLCDDisabled:
 ; LCD.
 	call DisableLCD
 	ld hl, MonPartySpritePointers
-	ld a, $1e
+	ld a, $1c
 	ld bc, $0
 .loop
 	push af
@@ -228,11 +216,6 @@ MonPartySpritePointers:
 	db BANK(MonPartySprites)
 	dw vSprites + $260
 
-	dw PikachuSprite
-	db $40 / $10 ; $40 bytes
-	db BANK(PikachuSprite)
-	dw vSprites + $280
-
 	dw MonPartySprites + $100
 	db $40 / $10 ; $40 bytes
 	db BANK(MonPartySprites)
@@ -303,11 +286,6 @@ MonPartySpritePointers:
 	db BANK(MonPartySprites)
 	dw vSprites + $660
 
-	dw PikachuSprite + $C0
-	db $40 / $10 ; $40 bytes
-	db BANK(PikachuSprite)
-	dw vSprites + $680
-
 	dw MonPartySprites + $140
 	db $40 / $10 ; $40 bytes
 	db BANK(MonPartySprites)
@@ -319,8 +297,6 @@ WriteMonPartySpriteOAMByPartyIndex:
 	push de
 	push bc
 	ld a, [hPartyMonIndex]
-	cp $ff
-	jr z, .asm_7191f
 	ld hl, wPartySpecies
 	ld e, a
 	ld d, 0
@@ -329,16 +305,6 @@ WriteMonPartySpriteOAMByPartyIndex:
 	call GetPartyMonSpriteID
 	ld [wOAMBaseTile], a
 	call WriteMonPartySpriteOAM
-	pop bc
-	pop de
-	pop hl
-	ret
-
-.asm_7191f
-	ld hl, wOAMBuffer
-	ld de, wMonPartySpritesSavedOAM
-	ld bc, $60
-	call CopyData
 	pop bc
 	pop de
 	pop hl
@@ -365,7 +331,7 @@ UnusedPartyMonSpriteFunction:
 	ld hl, vSprites
 	call .LoadTilePatterns
 	pop af
-	add $5A
+	add $54
 	ld hl, vSprites + $40
 	call .LoadTilePatterns
 	xor a
