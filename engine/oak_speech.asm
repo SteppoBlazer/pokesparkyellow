@@ -138,6 +138,11 @@ OakSpeech:
 	ld de,ShrinkPic2
 	lb bc, BANK(ShrinkPic2), $00
 	call IntroDisplayPicCenteredOrUpperRight
+	ld c,4
+	call DelayFrames
+	ld de,ShrinkPic3
+	lb bc, BANK(ShrinkPic3), $00
+	call IntroDisplayPicCenteredOrUpperRight
 	call ResetPlayerSpriteData
 	ld a,[H_LOADEDROMBANK]
 	push af

@@ -140,6 +140,7 @@ INCLUDE "engine/menu/party_menu.asm"
 RedPicFront: INCBIN "pic/ytrainer/red.pic"
 ShrinkPic1:  INCBIN "pic/trainer/shrink1.pic"
 ShrinkPic2:  INCBIN "pic/trainer/shrink2.pic"
+ShrinkPic3:  INCBIN "pic/trainer/shrink3.pic"
 RedPicTC:    INCBIN "pic/ytrainer/TCRed.pic"
 
 INCLUDE "engine/menu/start_sub_menus.asm"
