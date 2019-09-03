@@ -1,4 +1,4 @@
-Route6Script:
+Route6_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route6TrainerHeaders
 	ld de, Route6ScriptPointers
@@ -12,7 +12,7 @@ Route6ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route6TextPointers:
+Route6_TextPointers:
 	dw Route6Text1
 	dw Route6Text2
 	dw Route6Text3

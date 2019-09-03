@@ -1,4 +1,4 @@
-CeruleanGymScript:
+CeruleanGym_Script:
 	ld hl, wCurrentMapScriptFlags
 	bit 6, [hl]
 	res 6, [hl]
@@ -71,7 +71,7 @@ CeruleanGymScript_5c70d:
 
 	jp CeruleanGymScript_5c6ed
 
-CeruleanGymTextPointers:
+CeruleanGym_TextPointers:
 	dw CeruleanGymText1
 	dw CeruleanGymText2
 	dw CeruleanGymText3

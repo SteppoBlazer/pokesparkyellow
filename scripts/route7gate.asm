@@ -1,4 +1,4 @@
-Route7GateScript:
+Route7Gate_Script:
 	call EnableAutoTextBoxDrawing
 	ld a, [wRoute7GateCurScript]
 	ld hl, Route7GateScriptPointers
@@ -67,7 +67,7 @@ Route7GateScript1:
 	ld [wCurMapScript], a
 	ret
 
-Route7GateTextPointers:
+Route7Gate_TextPointers:
 	dw Route7GateText1
 	dw Route7GateText2
 	dw Route7GateText3

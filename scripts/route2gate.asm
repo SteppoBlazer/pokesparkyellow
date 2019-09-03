@@ -1,7 +1,7 @@
-Route2GateScript:
+Route2Gate_Script:
 	jp EnableAutoTextBoxDrawing
 
-Route2GateTextPointers:
+Route2Gate_TextPointers:
 	dw Route2GateText1
 	dw Route2GateText2
 

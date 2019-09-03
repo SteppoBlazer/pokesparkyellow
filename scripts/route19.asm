@@ -1,4 +1,4 @@
-Route19Script:
+Route19_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route19TrainerHeaders
 	ld de, Route19ScriptPointers
@@ -12,7 +12,7 @@ Route19ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route19TextPointers:
+Route19_TextPointers:
 	dw Route19Text1
 	dw Route19Text2
 	dw Route19Text3

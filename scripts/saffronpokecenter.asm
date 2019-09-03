@@ -1,8 +1,8 @@
-SaffronPokecenterScript:
+SaffronPokecenter_Script:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-SaffronPokecenterTextPointers:
+SaffronPokecenter_TextPointers:
 	dw SaffronHealNurseText
 	dw SaffronPokecenterText2
 	dw SaffronPokecenterText3

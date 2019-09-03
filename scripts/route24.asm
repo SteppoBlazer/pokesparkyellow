@@ -1,4 +1,4 @@
-Route24Script:
+Route24_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route24TrainerHeaders
 	ld de, Route24ScriptPointers
@@ -75,7 +75,7 @@ Route24Script3:
 	ld [wCurMapScript], a
 	ret
 
-Route24TextPointers:
+Route24_TextPointers:
 	dw Route24Text1
 	dw Route24Text2
 	dw Route24Text3

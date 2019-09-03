@@ -1,4 +1,4 @@
-CeruleanCityScript:
+CeruleanCity_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, CeruleanCityScriptPointers
 	ld a, [wCeruleanCityCurScript]
@@ -208,7 +208,7 @@ CeruleanCityScript3:
 	ld [wCeruleanCityCurScript], a
 	ret
 
-CeruleanCityTextPointers:
+CeruleanCity_TextPointers:
 	dw CeruleanCityText1
 	dw CeruleanCityText2
 	dw CeruleanCityText3

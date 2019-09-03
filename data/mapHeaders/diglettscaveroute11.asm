@@ -1,6 +1,8 @@
-DiglettsCaveEntranceRoute11_h:
+DiglettsCaveRoute11_h:
 	db CAVERN ; tileset
-	db DIGLETTS_CAVE_ENTRANCE_HEIGHT, DIGLETTS_CAVE_ENTRANCE_WIDTH ; dimensions (y, x)
-	dw DiglettsCaveEntranceRoute11Blocks, DiglettsCaveEntranceRoute11TextPointers, DiglettsCaveEntranceRoute11Script ; blocks, texts, scripts
-	db $00 ; connections
-	dw DiglettsCaveEntranceRoute11Object ; objects
+	db DIGLETTS_CAVE_ROUTE_11_HEIGHT, DIGLETTS_CAVE_ROUTE_11_WIDTH ; dimensions (y, x)
+	dw DiglettsCaveRoute11_Blocks ; blocks
+	dw DiglettsCaveRoute11_TextPointers ; texts
+	dw DiglettsCaveRoute11_Script ; scripts
+	db 0 ; connections
+	dw DiglettsCaveRoute11_Object ; objects

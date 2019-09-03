@@ -1,4 +1,4 @@
-Route20Script:
+Route20_Script:
 	CheckAndResetEvent EVENT_IN_SEAFOAM_ISLANDS
 	call nz, Route20Script_50cc6
 	call EnableAutoTextBoxDrawing
@@ -61,7 +61,7 @@ Route20ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route20TextPointers:
+Route20_TextPointers:
 	dw Route20Text1
 	dw Route20Text2
 	dw Route20Text3

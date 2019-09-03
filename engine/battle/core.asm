@@ -3558,9 +3558,9 @@ IsGhostBattle:
 	dec a
 	ret nz
 	ld a,[wCurMap]
-	cp a,POKEMONTOWER_1
+	cp a,POKEMON_TOWER_1F
 	jr c,.next
-	cp a,LAVENDER_HOUSE_1
+	cp a,MR_FUJIS_HOUSE
 	jr nc,.next
 	ld b,SILPH_SCOPE
 	call IsItemInBag

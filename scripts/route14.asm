@@ -1,4 +1,4 @@
-Route14Script:
+Route14_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route14TrainerHeaders
 	ld de, Route14ScriptPointers
@@ -12,7 +12,7 @@ Route14ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route14TextPointers:
+Route14_TextPointers:
 	dw Route14Text1
 	dw Route14Text2
 	dw Route14Text3

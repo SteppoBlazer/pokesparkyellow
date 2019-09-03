@@ -85,17 +85,17 @@ SetMapSpecificScriptFlagsOnMapReload:
 	db SILPH_CO_9F
 	db SILPH_CO_10F
 	db SILPH_CO_11F
-	db MANSION_2
-	db MANSION_3
-	db MANSION_4
-	db MANSION_1
+	db POKEMON_MANSION_2F
+	db POKEMON_MANSION_3F
+	db POKEMON_MANSION_B1F
+	db POKEMON_MANSION_1F
 	db CINNABAR_GYM
 	db GAME_CORNER
-	db ROCKET_HIDEOUT_1
-	db ROCKET_HIDEOUT_4
-	db VICTORY_ROAD_3
-	db VICTORY_ROAD_1
-	db VICTORY_ROAD_2
+	db ROCKET_HIDEOUT_B1F
+	db ROCKET_HIDEOUT_B4F
+	db VICTORY_ROAD_3F
+	db VICTORY_ROAD_1F
+	db VICTORY_ROAD_2F
 	db LANCES_ROOM
 	db LORELEIS_ROOM
 	db BRUNOS_ROOM
@@ -143,9 +143,9 @@ LoadUnusedBluesHouseMissableObjectData:
 	db $ff
 
 .Start:
-	db 1, HS_DAISY_SITTING_COPY
-	db 2, HS_DAISY_WALKING_COPY
-	db 3, HS_TOWN_MAP_COPY
+	db 1, HS_DAISY_SITTING
+	db 2, HS_DAISY_WALKING
+	db 3, HS_TOWN_MAP
 	db $ff
 .End:
 
@@ -219,11 +219,10 @@ INCLUDE "scripts/safarizoneentrance2.asm"
 INCLUDE "scripts/cinnabargym3.asm"
 INCLUDE "scripts/mtmoonpokecenter2.asm"
 
-INCLUDE "data/mapHeaders/beach_house.asm"
-INCLUDE "scripts/beach_house.asm"
-BeachHouseBlockdata:
-INCBIN "maps/beach_house.blk"
-INCLUDE "data/mapObjects/beach_house.asm"
+INCLUDE "data/mapHeaders/BeachHouse.asm"
+INCLUDE "scripts/BeachHouse.asm"
+INCLUDE "data/mapObjects/BeachHouse.asm"
+BeachHouse_Blocks:INCBIN "maps/BeachHouse.blk"
 
 INCLUDE "scripts/beach_house2.asm"
 INCLUDE "scripts/billshouse2.asm"

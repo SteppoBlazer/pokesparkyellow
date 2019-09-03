@@ -1,8 +1,8 @@
-FuchsiaMartScript:
+FuchsiaMart_Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
-FuchsiaMartTextPointers:
+FuchsiaMart_TextPointers:
 	dw FuchsiaCashierText
 	dw FuchsiaMartText2
 	dw FuchsiaMartText3

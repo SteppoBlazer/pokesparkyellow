@@ -1,4 +1,4 @@
-BluesHouseScript:
+BluesHouse_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, BluesHouseScriptPointers
 	xor a
@@ -18,7 +18,7 @@ BluesHouseScript0:
 BluesHouseScript1:
 	ret
 
-BluesHouseTextPointers:
+BluesHouse_TextPointers:
 	dw BluesHouseText1
 	dw BluesHouseText2
 	dw BluesHouseText3

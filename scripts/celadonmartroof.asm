@@ -1,4 +1,4 @@
-CeladonMartRoofScript:
+CeladonMartRoof_Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
@@ -209,7 +209,7 @@ CeladonMartRoofScript_PrintDrinksInBag:
 	pop hl
 	jr .loop
 
-CeladonMartRoofTextPointers:
+CeladonMartRoof_TextPointers:
 	dw CeladonMartRoofText1
 	dw CeladonMartRoofText2
 	dw CeladonMartRoofText5

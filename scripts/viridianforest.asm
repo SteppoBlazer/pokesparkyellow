@@ -1,4 +1,4 @@
-ViridianForestScript:
+ViridianForest_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, ViridianForestTrainerHeaders
 	ld de, ViridianForestScriptPointers
@@ -12,7 +12,7 @@ ViridianForestScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-ViridianForestTextPointers:
+ViridianForest_TextPointers:
 	dw ViridianForestText1
 	dw ViridianForestText2
 	dw ViridianForestText3

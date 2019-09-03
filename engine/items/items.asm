@@ -178,7 +178,7 @@ ItemUseBall:
 ; If the player is fighting the ghost Marowak, set the value that indicates the
 ; Pokémon can't be caught and skip the capture calculations.
 	ld a,[wCurMap]
-	cp a,POKEMONTOWER_6
+	cp a,POKEMON_TOWER_6F
 	jr nz,.loop
 	ld a,[wEnemyMonSpecies2]
 	cp a,MAROWAK

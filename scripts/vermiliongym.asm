@@ -1,4 +1,4 @@
-VermilionGymScript:
+VermilionGym_Script:
 	ld hl, wCurrentMapScriptFlags
 	bit 5, [hl]
 	res 5, [hl]
@@ -91,7 +91,7 @@ VermilionGymScript_5caaa:
 
 	jp VermilionGymScript_5ca8a
 
-VermilionGymTextPointers:
+VermilionGym_TextPointers:
 	dw VermilionGymText1
 	dw VermilionGymText2
 	dw VermilionGymText3

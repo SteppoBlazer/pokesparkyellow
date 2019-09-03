@@ -1,4 +1,4 @@
-BillsHouseScript:
+BillsHouse_Script:
 	call BillsHouseScript_1e09e
 	call EnableAutoTextBoxDrawing
 	ld a, [wBillsHouseCurScript]
@@ -253,7 +253,7 @@ BillsHouseScript8:
 BillsHouseScript9:
 	ret
 
-BillsHouseTextPointers:
+BillsHouse_TextPointers:
 	dw BillsHouseText1
 	dw BillsHouseText2
 	dw BillsHouseText3

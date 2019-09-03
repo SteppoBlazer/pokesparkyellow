@@ -1,4 +1,4 @@
-OaksLabScript:
+OaksLab_Script:
 	CheckEvent EVENT_PALLET_AFTER_GETTING_POKEBALLS_2
 	call nz, OaksLabScript_1d076
 	ld a, $1
@@ -705,7 +705,7 @@ OaksLabScript_1d076:
 	ld [wMapTextPtr + 1], a
 	ret
 
-OaksLabTextPointers:
+OaksLab_TextPointers:
 	dw OaksLabText1
 	dw OaksLabText2
 	dw OaksLabText3

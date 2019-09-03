@@ -1,7 +1,7 @@
-LavenderTownScript:
+LavenderTown_Script:
 	jp EnableAutoTextBoxDrawing
 
-LavenderTownTextPointers:
+LavenderTown_TextPointers:
 	dw LavenderTownText1
 	dw LavenderTownText2
 	dw LavenderTownText3

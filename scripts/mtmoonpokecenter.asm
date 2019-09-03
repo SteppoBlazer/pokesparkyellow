@@ -1,8 +1,8 @@
-MtMoonPokecenterScript:
+MtMoonPokecenter_Script:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-MtMoonPokecenterTextPointers:
+MtMoonPokecenter_TextPointers:
 	dw MtMoonHealNurseText
 	dw MtMoonPokecenterText2
 	dw MtMoonPokecenterText3

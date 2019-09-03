@@ -1,7 +1,7 @@
-ColosseumScript:
-	jp TradeCenterScript
+Colosseum_Script:
+	jp TradeCenter_Script
 
-ColosseumTextPointers:
+Colosseum_TextPointers:
 	dw ColosseumText1
 
 ColosseumText1:

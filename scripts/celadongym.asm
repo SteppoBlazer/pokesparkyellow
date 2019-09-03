@@ -1,4 +1,4 @@
-CeladonGymScript:
+CeladonGym_Script:
 	ld hl, wCurrentMapScriptFlags
 	bit 6, [hl]
 	res 6, [hl]
@@ -70,7 +70,7 @@ CeladonGymText_48963:
 
 	jp CeladonGymText_48943
 
-CeladonGymTextPointers:
+CeladonGym_TextPointers:
 	dw CeladonGymText1
 	dw CeladonGymText2
 	dw CeladonGymText3

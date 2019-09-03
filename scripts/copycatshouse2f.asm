@@ -1,7 +1,7 @@
-CopycatsHouse2FScript:
+CopycatsHouse2F_Script:
 	jp EnableAutoTextBoxDrawing
 
-CopycatsHouse2FTextPointers:
+CopycatsHouse2F_TextPointers:
 	dw CopycatsHouse2FText1
 	dw CopycatsHouse2FText2
 	dw CopycatsHouse2FText3

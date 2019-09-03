@@ -1,4 +1,4 @@
-Route16Script:
+Route16_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route16TrainerHeaders
 	ld de, Route16ScriptPointers
@@ -61,7 +61,7 @@ Route16Script3:
 	ld [wCurMapScript], a
 	ret
 
-Route16TextPointers:
+Route16_TextPointers:
 	dw Route16Text1
 	dw Route16Text2
 	dw Route16Text3

@@ -1,8 +1,8 @@
-ViridianPokeCenterScript:
+ViridianPokecenter_Script:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-ViridianPokecenterTextPointers:
+ViridianPokecenter_TextPointers:
 	dw ViridianHealNurseText
 	dw ViridianPokeCenterText2
 	dw ViridianPokeCenterText3

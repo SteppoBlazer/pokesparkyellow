@@ -1,8 +1,8 @@
-CeladonDinerScript:
+CeladonDiner_Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
-CeladonDinerTextPointers:
+CeladonDiner_TextPointers:
 	dw CeladonDinerText1
 	dw CeladonDinerText2
 	dw CeladonDinerText3

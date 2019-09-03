@@ -1,4 +1,4 @@
-Route8Script:
+Route8_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route8TrainerHeaders
 	ld de, Route8ScriptPointers
@@ -12,7 +12,7 @@ Route8ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route8TextPointers:
+Route8_TextPointers:
 	dw Route8Text1
 	dw Route8Text2
 	dw Route8Text3

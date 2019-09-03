@@ -1,7 +1,7 @@
-VermilionMartScript:
+VermilionMart_Script:
 	jp EnableAutoTextBoxDrawing
 
-VermilionMartTextPointers:
+VermilionMart_TextPointers:
 	dw VermilionCashierText
 	dw VermilionMartText2
 	dw VermilionMartText3

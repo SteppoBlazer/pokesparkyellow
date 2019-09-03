@@ -55,12 +55,12 @@ CheckForceBikeOrSurf:
 	cp c ;compare x-coord
 	jr nz, .loop ; incorrect x-coord, check next item
 	ld a, [wCurMap]
-	cp SEAFOAM_ISLANDS_4
+	cp SEAFOAM_ISLANDS_B3F
 	ld a, $2
 	ld [wSeafoamIslands4CurScript], a
 	jr z, .forceSurfing
 	ld a, [wCurMap]
-	cp SEAFOAM_ISLANDS_5
+	cp SEAFOAM_ISLANDS_B4F
 	ld a, $2
 	ld [wSeafoamIslands5CurScript], a
 	jr z, .forceSurfing
@@ -158,7 +158,7 @@ IsWarpTileInFrontOfPlayer:
 	push bc
 	call _GetTileAndCoordsInFrontOfPlayer
 	ld a, [wCurMap]
-	cp SS_ANNE_5
+	cp SS_ANNE_BOW
 	jr z, .ssAnne5
 	ld a, [wPlayerFacingDirection] ; player sprite's facing direction
 	srl a

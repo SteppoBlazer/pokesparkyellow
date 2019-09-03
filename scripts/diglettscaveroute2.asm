@@ -1,9 +1,9 @@
-DiglettsCaveRoute2Script:
+DiglettsCaveRoute2_Script:
 	ld a, ROUTE_2
 	ld [wLastMap], a
 	jp EnableAutoTextBoxDrawing
 
-DiglettsCaveRoute2TextPointers:
+DiglettsCaveRoute2_TextPointers:
 	dw DiglettsCaveRoute2Text1
 
 DiglettsCaveRoute2Text1:

@@ -1,6 +1,8 @@
 SafariZoneNorth_h:
 	db FOREST ; tileset
 	db SAFARI_ZONE_NORTH_HEIGHT, SAFARI_ZONE_NORTH_WIDTH ; dimensions (y, x)
-	dw SafariZoneNorthBlocks, SafariZoneNorthTextPointers, SafariZoneNorthScript ; blocks, texts, scripts
-	db $00 ; connections
-	dw SafariZoneNorthObject ; objects
+	dw SafariZoneNorth_Blocks ; blocks
+	dw SafariZoneNorth_TextPointers ; texts
+	dw SafariZoneNorth_Script ; scripts
+	db 0 ; connections
+	dw SafariZoneNorth_Object ; objects

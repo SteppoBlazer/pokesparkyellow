@@ -1,4 +1,4 @@
-ViridianCityScript:
+ViridianCity_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, ViridianCityScriptPointers
 	ld a, [wViridianCityCurScript]
@@ -255,7 +255,7 @@ ViridianCityScript10:
 	ld [wViridianCityCurScript], a
 	ret
 
-ViridianCityTextPointers:
+ViridianCity_TextPointers:
 	dw ViridianCityText_0
 	dw ViridianCityText_1
 	dw ViridianCityText_2

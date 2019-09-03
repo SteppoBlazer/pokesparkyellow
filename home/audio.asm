@@ -73,21 +73,21 @@ PlayDefaultMusicCommon::
 CheckForNoSurfingMusicMap::
 ; used to not change music upon surfing
 	ld a, [wCurMap]
-	cp SEAFOAM_ISLANDS_2
+	cp SEAFOAM_ISLANDS_B1F
 	jr z, .found
-	cp SEAFOAM_ISLANDS_3
+	cp SEAFOAM_ISLANDS_B2F
 	jr z, .found
-	cp SEAFOAM_ISLANDS_4
+	cp SEAFOAM_ISLANDS_B3F
 	jr z, .found
-	cp SEAFOAM_ISLANDS_5
+	cp SEAFOAM_ISLANDS_B4F
 	jr z, .found
 	cp INDIGO_PLATEAU
 	jr z, .found
-	cp UNKNOWN_DUNGEON_2
+	cp CERULEAN_CAVE_2F
 	jr z, .found
-	cp UNKNOWN_DUNGEON_3
+	cp CERULEAN_CAVE_B1F
 	jr z, .found
-	cp UNKNOWN_DUNGEON_1
+	cp CERULEAN_CAVE_1F
 	jr z, .found
 	cp SAFARI_ZONE_EAST
 	jr z, .found
@@ -108,11 +108,11 @@ CheckForNoBikingMusicMap::
 	ld a, [wCurMap]
 	cp ROUTE_23
 	jr z, .found
-	cp VICTORY_ROAD_1
+	cp VICTORY_ROAD_1F
 	jr z, .found
-	cp VICTORY_ROAD_2
+	cp VICTORY_ROAD_2F
 	jr z, .found
-	cp VICTORY_ROAD_3
+	cp VICTORY_ROAD_3F
 	jr z, .found
 	cp INDIGO_PLATEAU
 	jr z, .found

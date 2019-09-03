@@ -1,7 +1,7 @@
-FuchsiaCityScript:
+FuchsiaCity_Script:
 	jp EnableAutoTextBoxDrawing
 
-FuchsiaCityTextPointers:
+FuchsiaCity_TextPointers:
 	dw FuchsiaCityText1
 	dw FuchsiaCityText2
 	dw FuchsiaCityText3

@@ -1,4 +1,4 @@
-IndigoPlateauLobbyScript:
+IndigoPlateauLobby_Script:
 	call Serial_TryEstablishingExternallyClockedConnection
 	call EnableAutoTextBoxDrawing
 	ld hl, wCurrentMapScriptFlags
@@ -14,7 +14,7 @@ IndigoPlateauLobbyScript:
 	ResetEventRange ELITE4_EVENTS_START, EVENT_LANCES_ROOM_LOCK_DOOR
 	ret
 
-IndigoPlateauLobbyTextPointers:
+IndigoPlateauLobby_TextPointers:
 	dw IndigoHealNurseText
 	dw IndigoPlateauLobbyText2
 	dw IndigoPlateauLobbyText3

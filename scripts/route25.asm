@@ -1,4 +1,4 @@
-Route25Script:
+Route25_Script:
 	call EnableAutoTextBoxDrawing
 	ld hl, Route25TrainerHeaders
 	ld de, Route25ScriptPointers
@@ -51,7 +51,7 @@ Route25ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-Route25TextPointers:
+Route25_TextPointers:
 	dw Route25Text1
 	dw Route25Text2
 	dw Route25Text3

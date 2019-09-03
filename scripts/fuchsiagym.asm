@@ -1,4 +1,4 @@
-FuchsiaGymScript:
+FuchsiaGym_Script:
 	call FuchsiaGymScript_75453
 	call EnableAutoTextBoxDrawing
 	ld hl, FuchsiaGymTrainerHeaders
@@ -70,7 +70,7 @@ FuchsiaGymScript3_75497:
 
 	jp FuchsiaGymScript_75477
 
-FuchsiaGymTextPointers:
+FuchsiaGym_TextPointers:
 	dw FuchsiaGymText1
 	dw FuchsiaGymText2
 	dw FuchsiaGymText3
