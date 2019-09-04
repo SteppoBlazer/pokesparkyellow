@@ -169,7 +169,7 @@ StatusScreen:
 	call Delay3
 	call GBPalNormal
 	coord hl, 1, 0
-	call LoadFlippedFrontSpriteByMonIndex ; draw Pokémon picture
+	call LoadFrontSpriteByMonIndex ; draw Pokémon picture
 	ld a, [wMonDataLocation]
 	cp ENEMY_PARTY_DATA
 	jr z, .playRegularCry
