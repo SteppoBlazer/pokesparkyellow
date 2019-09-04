@@ -30,6 +30,19 @@ SetPal_Battle:
 	ld de, wPalPacket
 	ld bc, $10
 	call CopyData
+	;Shiny
+	ld hl, wShinyMonFlag
+	res 0, [hl]
+	ld a, [wBattleMonSpecies]
+	and a
+	jr z, .getPALID
+	ld de, wBattleMonDVs
+	callba IsMonShiny
+	jr z, .getPALID
+	ld hl, wShinyMonFlag
+	set 0, [hl]
+.getPALID
+    ;shiny2 
 	;ld a, [wPlayerBattleStatus3]
 	ld hl, wBattleMonSpecies
 	ld a, [hl]
@@ -42,9 +55,24 @@ SetPal_Battle:
 .asm_71ef9
 	call DeterminePaletteIDBack
 	ld b, a
+	;shiny3
+	push bc
+	ld hl, wShinyMonFlag
+	res 0, [hl]
+	ld a, [wEnemyMonSpecies2]
+	and a
+	jr z, .getPalID2
+	ld de, wEnemyMonDVs
+	callba IsMonShiny
+	jr z, .getPalID2
+	ld hl, wShinyMonFlag
+	set 0, [hl]
+.getPalID2
+    ;shiny4
 	;ld a, [wEnemyBattleStatus3]
 	ld hl, wEnemyMonSpecies2
 	call DeterminePaletteIDFront
+	pop bc
 	ld c, a
 	ld hl, wPalPacket + 1
 	ld a, [wPlayerHPBarColor]
@@ -312,6 +340,27 @@ GetMonPalID:
 	pop bc
 	ld a, [wd11e]
 	ld hl, MonsterPalettes
+	;shiny
+	ld e, a
+	ld d, $00
+	add hl, de
+	ld a, [hl]
+	push bc
+	ld d, a
+	ld a, e
+	and a
+	ld a, d
+	jr z, .done
+	ld b, a
+	ld a, [wShinyMonFlag]
+	bit 0, a ; is mon supposed to be shiny?
+	ld a, b
+	jr z, .done
+	add PAL_SHINYMEWMON - PAL_MEWMON
+.done
+	pop bc
+    ret
+
 GetPalID:
 	ld e, a
 	ld d, 0

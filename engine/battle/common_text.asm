@@ -8,6 +8,12 @@ PrintBeginningBattleText:
 	cp LAVENDER_HOUSE_1
 	jr c, .pokemonTower
 .notPokemonTower
+	ld de, wEnemyMonDVs
+	callba IsMonShiny
+	jr z, .noFlash
+    callba AnimationFlashScreen
+	callba PlayShinySparkleAnimation
+.noFlash
 	ld a,[wBattleType]
 	cp BATTLE_TYPE_PIKACHU
 	jr nz,.notPikachuBattle
@@ -55,7 +61,7 @@ PrintBeginningBattleText:
 	and a
 	jr z, .noSilphScope
 	callab LoadEnemyMonData
-	jr .notPokemonTower
+	jp .notPokemonTower
 .noSilphScope
 	ld hl, EnemyAppearedText
 	call PrintText

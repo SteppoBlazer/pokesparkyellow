@@ -831,6 +831,10 @@ wNPCMovementDirections2:: ; cc97
 
 wPikaPicAnimObjectDataBufferSize:: ; cc97
 
+wShinyMonFlag:: ; cc97
+; Bit 0 is set if the mon should be shiny
+; Bit 1 is set for enemy mon animation, reset for player mon animation
+
 wSwitchPartyMonTempBuffer:: ; cc97
 ; temporary buffer when swapping party mon data
 	ds 1
@@ -2812,7 +2816,10 @@ wSpriteSetID:: ; d3a7
 wObjectDataPointerTemp:: ; d3a8
 	ds 2
 
-	ds 2
+wNextEncounterLevel:: ; d3aa
+	ds 1
+wNextEncounterSpecies:: ; d3ab
+	ds 1
 
 wMapBackgroundTile:: ; d3ac
 ; the tile shown outside the boundaries of the map

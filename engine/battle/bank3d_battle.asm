@@ -22,6 +22,8 @@ asm_f6003:
 	callab TryDoWildEncounter
 	ret nz
 asm_f601d:
+	xor a
+	ld [wNextEncounterSpecies], a
 	ld a, [wMapPalOffset]
 	push af
 	ld hl, wLetterPrintingDelayFlags

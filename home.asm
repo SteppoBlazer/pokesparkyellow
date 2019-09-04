@@ -3259,7 +3259,7 @@ LoadHpBarAndStatusTilePatterns::
 	call GoodCopyVideoData
 	ld de,EXPBarGraphics
 	ld hl,vChars1 + $400
-	lb bc,BANK(EXPBarGraphics), (EXPBarGraphicsEnd - EXPBarGraphics) / $10
+	lb bc,BANK(EXPBarGraphics), (EXPBarShinySparkleGraphicsEnd - EXPBarGraphics) / $10
 	jp GoodCopyVideoData
 
 UncompressSpriteFromDE::
