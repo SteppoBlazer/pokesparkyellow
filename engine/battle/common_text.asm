@@ -8,11 +8,19 @@ PrintBeginningBattleText:
 	cp LAVENDER_HOUSE_1
 	jr c, .pokemonTower
 .notPokemonTower
+	; play animation if mon is shiny
+	ld b, Bank(IsMonShiny)
+	ld hl, IsMonShiny
 	ld de, wEnemyMonDVs
-	callba IsMonShiny
+	call Bankswitch
 	jr z, .noFlash
-    callba AnimationFlashScreen
-	callba PlayShinySparkleAnimation
+	; play shiny animation
+	ld hl, wShinyMonFlag
+	set 1, [hl]
+	ld hl, PlayShinySparkleAnimation
+	ld b, Bank(PlayShinySparkleAnimation)
+	call Bankswitch
+	callba AnimationFlashScreen
 .noFlash
 	ld a,[wBattleType]
 	cp BATTLE_TYPE_PIKACHU

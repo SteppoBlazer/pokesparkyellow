@@ -1584,13 +1584,19 @@ EnemySendOutFirstMon:
 	ld [hStartTileID],a
 	coord hl, 15, 6
 	predef AnimateSendingOutMon
+	; play animation if mon is shiny
+	ld b, Bank(IsMonShiny)
+	ld hl, IsMonShiny
 	ld de, wEnemyMonDVs
-	callba IsMonShiny
+	call Bankswitch
 	jr z, .noFlash
+	; play shiny animation
 	ld hl, wShinyMonFlag
 	set 1, [hl]
-    callba AnimationFlashScreen
-	callba PlayShinySparkleAnimation
+	ld hl, PlayShinySparkleAnimation
+	ld b, Bank(PlayShinySparkleAnimation)
+	call Bankswitch
+	callba AnimationFlashScreen
 .noFlash
 	ld a,[wEnemyMonSpecies2]
 	call PlayCry
@@ -1944,13 +1950,19 @@ SendOutMon:
 	callab PlayPikachuSoundClip
 	jr .done
 .playRegularCry
-	ld de, wBattleMonDVs
-	callba IsMonShiny
+	; play animation if mon is shiny
+	ld b, Bank(IsMonShiny)
+	ld hl, IsMonShiny
+	ld de, wEnemyMonDVs
+	call Bankswitch
 	jr z, .noFlash
+	; play shiny animation
 	ld hl, wShinyMonFlag
-	res 1, [hl]
-    callba AnimationFlashScreen
-	callba PlayShinySparkleAnimation
+	set 1, [hl]
+	ld hl, PlayShinySparkleAnimation
+	ld b, Bank(PlayShinySparkleAnimation)
+	call Bankswitch
+	callba AnimationFlashScreen
 .noFlash
 	ld a, [wcf91]
 	call PlayCry
