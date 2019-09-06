@@ -2045,6 +2045,7 @@ DrawPlayerHUDAndHPBar:
 	coord hl, 10, 7
 	call PlaceString
 	call PrintEXPBar
+	call PrintPlayerMonGender
 	call PrintPlayerMonShiny
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
@@ -2105,6 +2106,7 @@ DrawEnemyHUDAndHPBar:
 	coord hl, 1, 0
 	call CenterMonName
 	call PlaceString
+	call PrintEnemyMonGender
 	call PrintEnemyMonShiny
 	coord hl, 4, 1
 	push hl
@@ -2218,6 +2220,35 @@ CenterMonName:
 	jr nz, .loop
 .done
 	pop de
+	ret
+
+PrintPlayerMonGender:
+	ld a, [wBattleMonSpecies]
+	ld de, wBattleMonDVs
+	coord hl, 17, 8
+	jr PrintGenderCommon
+
+PrintEnemyMonGender:
+	ld a, [wEnemyMonSpecies]
+	ld de, wEnemyMonDVs
+	coord hl, 9, 1
+PrintGenderCommon:
+	ld [wGenderTemp], a
+	push hl
+	callba GetMonGender
+	ld a, [wGenderTemp]
+	and a
+	jr z, .genderless
+	dec a
+	ld a, "♂"
+	jr z, .ok
+	ld a, "♀"
+	jr .ok
+.genderless
+	ld a, " "
+.ok
+	pop hl
+	ld [hl], a
 	ret
 
 PrintPlayerMonShiny:

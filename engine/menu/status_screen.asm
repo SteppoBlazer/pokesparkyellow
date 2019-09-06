@@ -175,8 +175,10 @@ StatusScreen:
 	call PrintNumber ; ID Number	
 	ld d, $0
 	call PrintStatsBox
+	ld a, [wLoadedMonSpecies]
+	ld [wGenderTemp], a
+	call PrintGenderStatusScreen
 	call PrintShinySymbol
-	coord hl, 19, 1
 	call Delay3
 	call GBPalNormal
 	coord hl, 1, 0
@@ -278,6 +280,21 @@ PrintShinySymbol:
 	ret z
 	coord hl, 19, 2
 	ld [hl], "⁂"
+	ret
+
+PrintGenderStatusScreen:
+	ld de, wLoadedMonDVs
+	callba GetMonGender
+	ld a, [wGenderTemp]
+	and a
+	ret z
+	dec a
+	ld a, "♂"
+	jr z, .ok
+	ld a, "♀"
+.ok
+	coord hl, 18, 2
+	ld [hl], a
 	ret
 
 PrintStatsBox:

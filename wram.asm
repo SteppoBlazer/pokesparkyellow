@@ -491,7 +491,8 @@ wYellowIntroAnimatedObjectStructPointer:: ; c636
 wSurfingMinigameDataEnd:: ; c637
 
 	ds 177
-
+	
+wGenderTemp::
 wTempPic:: ; c6e8
 wPrinterData:: ; c6e8
 wOverworldMap:: ; c6e8

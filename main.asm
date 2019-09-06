@@ -2050,12 +2050,11 @@ SECTION "bank3B",ROMX,BANK[$3B]
 
 RedCyclingSprite:     INCBIN "gfx/sprites/cycling.2bpp"
 RedSprite:            INCBIN "gfx/sprites/red.2bpp"
+INCLUDE "engine/mon_gender.asm"
 
 SECTION "bank3C",ROMX,BANK[$3C]
 
 INCLUDE "engine/bank3c.asm"
-
-SECTION "bank3B",ROMX,BANK[$3B]
 
 SECTION "bank3D",ROMX,BANK[$3D]
 
