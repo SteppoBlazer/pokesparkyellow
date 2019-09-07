@@ -356,7 +356,7 @@ GetMonPalID:
 	bit 0, a ; is mon supposed to be shiny?
 	ld a, b
 	jr z, .done
-	add PAL_SHINYMEWMON - PAL_MEWMON
+	add PAL_SHINY_MEWMON - PAL_BULBASAUR
 .done
 	pop bc
     ret
