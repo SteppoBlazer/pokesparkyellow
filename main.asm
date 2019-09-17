@@ -353,9 +353,9 @@ INCLUDE "data/mapObjects/OaksLab.asm"
 
 INCLUDE "data/mapHeaders/viridianmart.asm"
 INCLUDE "scripts/viridianmart.asm"
-INCLUDE "data/mapObjects/viridianmart.asm"
+INCLUDE "data/mapObjects/ViridianMart.asm"
 ViridianMartBlocks:
-CeladonMartBlocks: INCBIN "maps/viridianmart.blk"
+CeladonMartBlocks: INCBIN "maps/ViridianMart.blk"
 
 INCLUDE "data/mapHeaders/school.asm"
 INCLUDE "scripts/school.asm"
@@ -404,8 +404,8 @@ INCLUDE "data/mapObjects/VermilionOldRodHouse.asm"
 
 INCLUDE "data/mapHeaders/vermiliondock.asm"
 INCLUDE "scripts/vermiliondock.asm"
-INCLUDE "data/mapObjects/vermiliondock.asm"
-VermilionDockBlocks: INCBIN "maps/vermiliondock.blk"
+INCLUDE "data/mapObjects/VermilionDock.asm"
+VermilionDockBlocks: INCBIN "maps/VermilionDock.blk"
 
 INCLUDE "data/mapHeaders/celadonmansion5.asm"
 INCLUDE "scripts/celadonmansion5.asm"
@@ -434,8 +434,8 @@ INCLUDE "data/mapObjects/Route16FlyHouse.asm"
 
 INCLUDE "data/mapHeaders/route5gate.asm"
 INCLUDE "scripts/route5gate.asm"
-INCLUDE "data/mapObjects/route5gate.asm"
-Route5GateBlocks: INCBIN "maps/route5gate.blk" ; 1d92f
+INCLUDE "data/mapObjects/Route5gate.asm"
+Route5GateBlocks: INCBIN "maps/Route5Gate.blk" ; 1d92f
 
 INCLUDE "data/mapHeaders/route6gate.asm"
 INCLUDE "scripts/route6gate.asm"
@@ -444,13 +444,13 @@ Route6GateBlocks: INCBIN "maps/Route6Gate.blk" ; 1d9f2
 
 INCLUDE "data/mapHeaders/route7gate.asm"
 INCLUDE "scripts/route7gate.asm"
-INCLUDE "data/mapObjects/route7gate.asm"
-Route7GateBlocks: INCBIN "maps/route7gate.blk" ; 1dab9
+INCLUDE "data/mapObjects/Route7Gate.asm"
+Route7GateBlocks: INCBIN "maps/Route7Gate.blk" ; 1dab9
 
 INCLUDE "data/mapHeaders/route8gate.asm"
 INCLUDE "scripts/route8gate.asm"
-INCLUDE "data/mapObjects/route8gate.asm"
-Route8GateBlocks: INCBIN "maps/route8gate.blk" ; 1dab9
+INCLUDE "data/mapObjects/Route8Gate.asm"
+Route8GateBlocks: INCBIN "maps/Route8Gate.blk" ; 1dab9
 
 INCLUDE "data/mapHeaders/undergroundpathentranceroute8.asm"
 INCLUDE "scripts/undergroundpathentranceroute8.asm"
@@ -802,7 +802,7 @@ INCLUDE "data/mapHeaders/lavendertown.asm"
 INCLUDE "data/mapObjects/LavenderTown.asm"
 LavenderTownBlocks: INCBIN "maps/LavenderTown.blk"
 
-ViridianPokecenterBlocks: INCBIN "maps/viridianpokecenter.blk"
+ViridianPokecenterBlocks: INCBIN "maps/ViridianPokecenter.blk"
 SafariZoneRestHouse1Blocks:
 SafariZoneRestHouse2Blocks:
 SafariZoneRestHouse3Blocks:
@@ -814,7 +814,7 @@ INCLUDE "engine/pokedex_rating.asm"
 
 INCLUDE "data/mapHeaders/viridianpokecenter.asm"
 INCLUDE "scripts/viridianpokecenter.asm"
-INCLUDE "data/mapObjects/viridianpokecenter.asm"
+INCLUDE "data/mapObjects/ViridianPokecenter.asm"
 
 INCLUDE "data/mapHeaders/celadonmart1.asm"
 INCLUDE "scripts/celadonmart1.asm"
@@ -1053,7 +1053,7 @@ INCLUDE "data/mapObjects/MtMoonPokecenter.asm"
 
 INCLUDE "data/mapHeaders/rocktunnelpokecenter.asm"
 INCLUDE "scripts/rocktunnelpokecenter.asm"
-INCLUDE "data/mapObjects/rocktunnelpokecenter.asm"
+INCLUDE "data/mapObjects/RockTunnelPokecenter.asm"
 
 INCLUDE "data/mapHeaders/route11gate.asm"
 INCLUDE "scripts/route11gate.asm"
@@ -1143,6 +1143,7 @@ SECTION "bank14",ROMX,BANK[$14]
 INCLUDE "data/mapHeaders/route22.asm"
 INCLUDE "data/mapObjects/Route22.asm"
 Route22Blocks: INCBIN "maps/Route22.blk"
+
 INCLUDE "data/mapHeaders/route20.asm"
 INCLUDE "data/mapObjects/Route20.asm"
 Route20Blocks: INCBIN "maps/Route20.blk"
@@ -1166,8 +1167,9 @@ INCLUDE "data/mapObjects/IndigoPlateau.asm"
 IndigoPlateauBlocks: INCBIN "maps/IndigoPlateau.blk" ; 50950 (14:4950)
 
 INCLUDE "data/mapHeaders/saffroncity.asm"
-INCLUDE "data/mapObjects/saffroncity.asm"
-SaffronCityBlocks: INCBIN "maps/saffroncity.blk" ; 50a98 (14:4a98)
+INCLUDE "data/mapObjects/SaffronCity.asm"
+SaffronCityBlocks: INCBIN "maps/SaffronCity.blk" ; 50a98 (14:4a98)
+
 INCLUDE "scripts/saffroncity.asm"
 INCLUDE "scripts/route20.asm"
 INCLUDE "scripts/route22.asm"
@@ -1231,16 +1233,16 @@ INCLUDE "data/mapObjects/Route5.asm"
 Route5Blocks: INCBIN "maps/Route5.blk" ; 545da
 
 INCLUDE "data/mapHeaders/route9.asm"
-INCLUDE "data/mapObjects/route9.asm"
-Route9Blocks: INCBIN "maps/route9.blk" ; 54706
+INCLUDE "data/mapObjects/Route9.asm"
+Route9Blocks: INCBIN "maps/Route9.blk" ; 54706
 
 INCLUDE "data/mapHeaders/route13.asm"
-INCLUDE "data/mapObjects/route13.asm"
-Route13Blocks: INCBIN "maps/route13.blk"
+INCLUDE "data/mapObjects/Route13.asm"
+Route13Blocks: INCBIN "maps/Route13.blk"
 
 INCLUDE "data/mapHeaders/route14.asm"
-INCLUDE "data/mapObjects/route14.asm"
-Route14Blocks: INCBIN "maps/route14.blk"
+INCLUDE "data/mapObjects/Route14.asm"
+Route14Blocks: INCBIN "maps/Route14.blk"
 
 INCLUDE "data/mapHeaders/route17.asm"
 INCLUDE "data/mapObjects/Route17.asm"
@@ -1251,8 +1253,8 @@ INCLUDE "data/mapObjects/Route19.asm"
 Route19Blocks: INCBIN "maps/Route19.blk"
 
 INCLUDE "data/mapHeaders/route21.asm"
-INCLUDE "data/mapObjects/route21.asm"
-Route21Blocks: INCBIN "maps/route21.blk" ; 5507d
+INCLUDE "data/mapObjects/Route21.asm"
+Route21Blocks: INCBIN "maps/Route21.blk" ; 5507d
 
 DayCareMBlocks:
 VermilionHouse2Blocks:
@@ -1456,16 +1458,16 @@ INCLUDE "data/mapObjects/LavenderMart.asm"
 
 INCLUDE "data/mapHeaders/vermilionpokecenter.asm"
 INCLUDE "scripts/vermilionpokecenter.asm"
-INCLUDE "data/mapObjects/vermilionpokecenter.asm"
+INCLUDE "data/mapObjects/VermilionPokecenter.asm"
 
 INCLUDE "data/mapHeaders/vermilionmart.asm"
 INCLUDE "scripts/vermilionmart.asm"
-INCLUDE "data/mapObjects/vermilionmart.asm"
+INCLUDE "data/mapObjects/VermilionMart.asm"
 
 INCLUDE "data/mapHeaders/vermiliongym.asm"
 INCLUDE "scripts/vermiliongym.asm"
-INCLUDE "data/mapObjects/vermiliongym.asm"
-VermilionGymBlocks: INCBIN "maps/vermiliongym.blk"
+INCLUDE "data/mapObjects/VermilionGym.asm"
+VermilionGymBlocks: INCBIN "maps/VermilionGym.blk"
 
 INCLUDE "data/mapHeaders/copycatshouse2f.asm"
 INCLUDE "scripts/copycatshouse2f.asm"
@@ -1539,7 +1541,7 @@ INCLUDE "engine/hidden_object_functions17.asm"
 
 SECTION "bank18",ROMX,BANK[$18]
 
-ViridianForestBlocks: INCBIN "maps/viridianforest.blk"
+ViridianForestBlocks: INCBIN "maps/ViridianForest.blk"
 UndergroundPathNSBlocks: INCBIN "maps/UndergroundPathNorthSouth.blk"
 UndergroundPathWEBlocks: INCBIN "maps/UndergroundPathWestEast.blk"
 
@@ -1550,46 +1552,46 @@ SSAnne10Blocks: INCBIN "maps/SSAnneB1FRooms.blk"
 
 INCLUDE "data/mapHeaders/pokemontower1.asm"
 INCLUDE "scripts/pokemontower1.asm"
-INCLUDE "data/mapObjects/pokemontower1.asm"
-PokemonTower1Blocks: INCBIN "maps/pokemontower1.blk"
+INCLUDE "data/mapObjects/PokemonTower1F.asm"
+PokemonTower1Blocks: INCBIN "maps/PokemonTower1F.blk"
 
 INCLUDE "data/mapHeaders/pokemontower2.asm"
 INCLUDE "scripts/pokemontower2.asm"
-INCLUDE "data/mapObjects/pokemontower2.asm"
-PokemonTower2Blocks: INCBIN "maps/pokemontower2.blk"
+INCLUDE "data/mapObjects/PokemonTower2F.asm"
+PokemonTower2Blocks: INCBIN "maps/PokemonTower2F.blk"
 
 INCLUDE "data/mapHeaders/pokemontower3.asm"
 INCLUDE "scripts/pokemontower3.asm"
-INCLUDE "data/mapObjects/pokemontower3.asm"
-PokemonTower3Blocks: INCBIN "maps/pokemontower3.blk"
+INCLUDE "data/mapObjects/PokemonTower3F.asm"
+PokemonTower3Blocks: INCBIN "maps/PokemonTower3F.blk"
 
 INCLUDE "data/mapHeaders/pokemontower4.asm"
 INCLUDE "scripts/pokemontower4.asm"
-INCLUDE "data/mapObjects/pokemontower4.asm"
-PokemonTower4Blocks: INCBIN "maps/pokemontower4.blk"
+INCLUDE "data/mapObjects/PokemonTower4F.asm"
+PokemonTower4Blocks: INCBIN "maps/PokemonTower4F.blk"
 
 INCLUDE "data/mapHeaders/pokemontower5.asm"
 INCLUDE "scripts/pokemontower5.asm"
-INCLUDE "data/mapObjects/pokemontower5.asm"
-PokemonTower5Blocks: INCBIN "maps/pokemontower5.blk"
+INCLUDE "data/mapObjects/PokemonTower5F.asm"
+PokemonTower5Blocks: INCBIN "maps/PokemonTower5F.blk"
 
 INCLUDE "data/mapHeaders/pokemontower6.asm"
 INCLUDE "scripts/pokemontower6.asm"
-INCLUDE "data/mapObjects/pokemontower6.asm"
-PokemonTower6Blocks: INCBIN "maps/pokemontower6.blk"
+INCLUDE "data/mapObjects/PokemonTower6F.asm"
+PokemonTower6Blocks: INCBIN "maps/PokemonTower6F.blk"
 
 INCBIN "maps/UnusedEmptyMap.blk"
 
 INCLUDE "data/mapHeaders/pokemontower7.asm"
 INCLUDE "scripts/pokemontower7.asm"
-INCLUDE "data/mapObjects/pokemontower7.asm"
-PokemonTower7Blocks: INCBIN "maps/pokemontower7.blk"
+INCLUDE "data/mapObjects/PokemonTower7F.asm"
+PokemonTower7Blocks: INCBIN "maps/PokemonTower7F.blk"
 
 INCLUDE "engine/overworld/cinnabar_lab.asm"
 
 INCLUDE "data/mapHeaders/viridianforest.asm"
 INCLUDE "scripts/viridianforest.asm"
-INCLUDE "data/mapObjects/viridianforest.asm"
+INCLUDE "data/mapObjects/ViridianForest.asm"
 
 INCLUDE "data/mapHeaders/ssanne1.asm"
 INCLUDE "scripts/ssanne1.asm"
@@ -1745,12 +1747,12 @@ INCLUDE "scripts/ceruleancity2.asm"
 
 INCLUDE "data/mapHeaders/viridiangym.asm"
 INCLUDE "scripts/viridiangym.asm"
-INCLUDE "data/mapObjects/viridiangym.asm"
-ViridianGymBlocks: INCBIN "maps/viridiangym.blk"
+INCLUDE "data/mapObjects/ViridianGym.asm"
+ViridianGymBlocks: INCBIN "maps/ViridianGym.blk"
 
 INCLUDE "data/mapHeaders/pewtermart.asm"
 INCLUDE "scripts/pewtermart.asm"
-INCLUDE "data/mapObjects/pewtermart.asm"
+INCLUDE "data/mapObjects/PewterMart.asm"
 
 INCLUDE "data/mapHeaders/unknowndungeon1.asm"
 INCLUDE "scripts/unknowndungeon1.asm"

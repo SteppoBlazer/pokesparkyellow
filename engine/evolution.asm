@@ -96,7 +96,7 @@ EvolutionSetWholeScreenPalette:
 Evolution_LoadPic:
 	call GetMonHeader
 	coord hl, 7, 2
-	jp LoadFlippedFrontSpriteByMonIndex
+	jp LoadFrontSpriteByMonIndex
 
 Evolution_BackAndForthAnim:
 ; show the mon change back and forth between the new and old species b times
