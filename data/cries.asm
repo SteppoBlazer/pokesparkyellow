@@ -17,7 +17,7 @@ CryData:
 	db $01, $00, $80; Nidoran♀
 	db $0A, $00, $80; Nidoqueen
 	db $19, $00, $80; Cubone
-	db $04, $00, $80; Rhyhorn
+	db $11, $20, $10; Rhyhorn
 	db $1B, $00, $80; Lapras
 	db $15, $00, $80; Arcanine
 	db $1E, $EE, $FF; Mew
@@ -37,7 +37,7 @@ CryData:
 	db $02, $00, $80; Slowpoke
 	db $1C, $A8, $C0; Kadabra
 	db $24, $00, $80; Graveler
-	db $14, $0A, $C0; Chansey
+	db $00, $80, $60; Chansey
 	db $1F, $48, $60; Machoke
 	db $20, $08, $40; Mr.Mime
 	db $12, $80, $C0; Hitmonlee
@@ -59,7 +59,7 @@ CryData:
 	db $1A, $44, $40; Venonat
 	db $0F, $3C, $C0; Dragonite
 	db $0B, $BB, $01; Doduo
-	db $0E, $FF, $FF; Poliwag
+	db $22, $FF, $40; Poliwag
 	db $0D, $FF, $FF; Jynx
 	db $09, $F8, $40; Moltres
 	db $09, $80, $40; Articuno
@@ -90,7 +90,7 @@ CryData:
 	db $1F, $EE, $01; Machop
 	db $1D, $E0, $80; Zubat
 	db $17, $12, $40; Ekans
-	db $1E, $20, $E0; Paras
+	db $0F, $40, $C0; Paras
 	db $0E, $77, $60; Poliwhirl
 	db $0E, $00, $FF; Poliwrath
 	db $15, $EE, $01; Weedle
@@ -128,7 +128,7 @@ CryData:
 	db $0F, $80, $01; Bulbasaur
 	db $0F, $00, $C0; Venusaur
 	db $1A, $EE, $FF; Tentacruel
-	db $16, $80, $40; Goldeen
+	db $0E, $E0, $60; Goldeen
 	db $16, $10, $FF; Seaking
 	db $25, $00, $80; Ponyta
 	db $25, $20, $C0; Rapidash
@@ -138,7 +138,7 @@ CryData:
 	db $01, $2C, $E0; Nidorina
 	db $24, $F0, $10; Geodude
 	db $25, $AA, $FF; Porygon
-	db $23, $20, $F0; Aerodactyl
+	db $1D, $00, $80; Aerodactyl
 	db $1C, $80, $60; Magnemite
 	db $04, $60, $40; Charmander
 	db $1D, $60, $40; Squirtle
