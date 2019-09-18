@@ -59,12 +59,12 @@ CryData:
 	db $1A, $44, $40; Venonat
 	db $0F, $3C, $C0; Dragonite
 	db $0B, $BB, $01; Doduo
-	db $22, $FF, $40; Poliwag
+	db $0E, $FF, $FF; Poliwag
 	db $0D, $FF, $FF; Jynx
 	db $09, $F8, $40; Moltres
 	db $09, $80, $40; Articuno
 	db $18, $FF, $80; Zapdos
-	db $0E, $FF, $FF; Ditto
+	db $22, $FF, $40; Ditto
 	db $19, $77, $10; Meowth
 	db $20, $20, $E0; Krabby
 	db $24, $4F, $10; Vulpix

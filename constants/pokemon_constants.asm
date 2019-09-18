@@ -145,12 +145,12 @@ const_value = 1
 	const CHARMELEON   ; $B2
 	const WARTORTLE    ; $B3
 	const CHARIZARD    ; $B4
-	const FOSSIL_KABUTOPS   ; $B6
-	const FOSSIL_AERODACTYL ; $B7
-	const MON_GHOST    ; $B8
 	const ODDISH       ; $B9
 	const GLOOM        ; $BA
 	const VILEPLUME    ; $BB
 	const BELLSPROUT   ; $BC
 	const WEEPINBELL   ; $BD
 	const VICTREEBEL   ; $BE
+	const FOSSIL_KABUTOPS   ; $B6
+	const FOSSIL_AERODACTYL ; $B7
+	const MON_GHOST    ; $B8

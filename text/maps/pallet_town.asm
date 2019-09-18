@@ -10,10 +10,10 @@ _OakWalksUpText::
 	cont "Shoes!"
 	
 	para "It's dangerous"
-    line "to go alone!"
-	cont "Wild Pokémon roam"
+    line "to go alone,"
+	cont "wild Pokémon roam"
 	cont "freely in"
-	cont "tall grass"
+	cont "tall grass!"
     done
 
 _OakWhewText::
