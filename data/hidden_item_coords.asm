@@ -5,7 +5,7 @@ HiddenItemCoords:
 	db MANSION_3, $09, $01
 	db MANSION_4, $09, $01
 	db SAFARI_ZONE_WEST, $05, $06
-	db UNKNOWN_DUNGEON_2, $0d, $10
+	db UNKNOWN_DUNGEON_2, $08, $0f
 	db UNKNOWN_DUNGEON_3, $0e, $08
 	db UNUSED_MAP_6F, $0b, $0e
 	db SEAFOAM_ISLANDS_3, $0f, $0f
