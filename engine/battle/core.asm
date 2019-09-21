@@ -1167,7 +1167,7 @@ RemoveFaintedPlayerMon:
 	      ; are we stronger than the opposing pokemon?
 	jr c, .regularFaint ; if so, deduct happiness regularly
 
-	cp 30 ; is the enemy 30 levels greater than us?
+	cp 10 ; is the enemy 30 levels greater than us?
 	jr nc, .carelessTrainer ; if so, punish the player for being careless, as they shouldn't be fighting a very high leveled trainer with such a level difference
 .regularFaint
 	callabd_ModifyPikachuHappiness PIKAHAPPY_FAINTED
@@ -2055,7 +2055,7 @@ DrawPlayerHUDAndHPBar:
 	ld de, wLoadedMonLevel
 	ld bc, wBattleMonPP - wBattleMonLevel
 	call CopyData
-	coord hl, 14, 8
+	coord hl, 12, 8
 	push hl
 	inc hl
 	ld de, wLoadedMonStatus
