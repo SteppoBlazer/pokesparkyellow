@@ -62,3 +62,7 @@ _StandByMeText::
 _TVWrongSideText::
 	text "Oops, wrong side."
 	done
+
+MomMrMimeText::
+	text "Mimey: Miiime..."
+	done

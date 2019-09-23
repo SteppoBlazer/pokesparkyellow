@@ -340,10 +340,10 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(LanceSprite)
 
-	; SPRITE_UNUSED_1
-	dw RedSprite
+	; SPRITE_MIMEY
+	dw MimeySprite
 	db $c0 ; byte count
-	db BANK(RedSprite)
+	db BANK(MimeySprite)
 
 	; SPRITE_OAK_AIDE
 	dw OakAideSprite

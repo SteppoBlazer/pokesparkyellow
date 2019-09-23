@@ -5,6 +5,7 @@ RedsHouse1FScript:
 RedsHouse1FTextPointers:
 	dw RedsHouse1FText1
 	dw RedsHouse1FText2
+	dw RedsHouse1FText3
 
 RedsHouse1FText1: ; Mom
 	TX_ASM
@@ -14,4 +15,11 @@ RedsHouse1FText1: ; Mom
 RedsHouse1FText2: ; TV
 	TX_ASM
 	callab Func_f1bc4
+	jp TextScriptEnd
+
+RedsHouse1FText3:
+	TX_FAR MomMrMimeText
+	TX_ASM
+	ld a, MR_MIME
+	call PlayCry
 	jp TextScriptEnd

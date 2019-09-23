@@ -15,5 +15,5 @@ CeladonPokecenterObject:
 	object SPRITE_CHANSEY, 4, 1, STAY, DOWN, 5 ; person
 
 	; warp-to
-	warp_to 3, 7 CELADON_POKECENTER_WIDTH
-	warp_to 4, 7 CELADON_POKECENTER_WIDTH
+	warp_to 3, 7, CELADON_POKECENTER_WIDTH
+	warp_to 4, 7, CELADON_POKECENTER_WIDTH

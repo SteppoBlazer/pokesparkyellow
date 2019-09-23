@@ -45,7 +45,7 @@ const_value = 1
 	const SPRITE_MOM_GEISHA                ; $1c
 	const SPRITE_BRUNETTE_GIRL             ; $1d
 	const SPRITE_LANCE                     ; $1e
-	const SPRITE_UNUSED_1                  ; $1f
+	const SPRITE_MIMEY                     ; $1f
 	const SPRITE_OAK_AIDE                  ; $20
 	const SPRITE_ROCKER                    ; $21
 	const SPRITE_SWIMMER                   ; $22

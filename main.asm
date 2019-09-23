@@ -1693,10 +1693,6 @@ Museum_GFX:        INCBIN "gfx/tilesets/museum.t1.2bpp"
 ForestGate_Block:
 Gate_Block:
 Museum_Block:      INCBIN "gfx/blocksets/museum.bst"
-Forest_GFX:        INCBIN "gfx/tilesets/forest.2bpp"
-Forest_Block:      INCBIN "gfx/blocksets/forest.bst"
-Facility_GFX:      INCBIN "gfx/tilesets/facility.2bpp"
-Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 
 
 SECTION "bank1B",ROMX,BANK[$1B]
@@ -1872,8 +1868,6 @@ RedFishingTilesSide:  INCBIN "gfx/red_fishing_tile_side.2bpp"
 RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 
 INCLUDE "data/animations.asm"
-
-
 
 SECTION "Trainer Parties",ROMX
 
@@ -2054,6 +2048,11 @@ SECTION "bank3B",ROMX,BANK[$3B]
 RedCyclingSprite:     INCBIN "gfx/sprites/cycling.2bpp"
 RedSprite:            INCBIN "gfx/sprites/red.2bpp"
 INCLUDE "engine/mon_gender.asm"
+
+Forest_GFX:        INCBIN "gfx/tilesets/forest.2bpp"
+Forest_Block:      INCBIN "gfx/blocksets/forest.bst"
+Facility_GFX:      INCBIN "gfx/tilesets/facility.2bpp"
+Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 
 SECTION "bank3C",ROMX,BANK[$3C]
 
