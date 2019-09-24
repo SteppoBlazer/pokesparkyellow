@@ -64,5 +64,5 @@ _TVWrongSideText::
 	done
 
 MomMrMimeText::
-	text "Mimey: Miiime..."
+	text "Mimey: Miiime?"
 	done

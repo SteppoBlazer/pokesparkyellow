@@ -7,13 +7,13 @@ RedsHouse1FObject:
 	warp 7,  1, 0, REDS_HOUSE_2F ; staircase
 
 	db 1 ; signs
-	sign 3, 1, 2 ; TV
+	sign 3, 1, 3 ; TV
 
 	db 2 ; objects
 	object SPRITE_MOM, 5, 4, STAY, LEFT, 1 ; Mom
-    object SPRITE_MIMEY, 2, 3, WALK, 0, 3 ; Mimey
+    object SPRITE_MIMEY, 2, 3, WALK, 0, 2 ; Mimey
 
 	; warp-to
 	warp_to 2, 7, REDS_HOUSE_1F_WIDTH
 	warp_to 3, 7, REDS_HOUSE_1F_WIDTH
-	warp_to 7,  1, REDS_HOUSE_1F_WIDTH
+	warp_to 7, 1, REDS_HOUSE_1F_WIDTH
