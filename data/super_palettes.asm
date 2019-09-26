@@ -120,10 +120,10 @@ SuperPalettes:
 	RGB 00, 00, 00
 
 	; PAL_PURPLEMON
-	RGB 31, 31, 31
-	RGB 27, 22, 24
-	RGB 21, 15, 23
-	RGB 00, 00, 00
+    RGB 20, 20, 25
+    RGB 08, 13, 19
+    RGB 05, 17, 14
+    RGB 03, 02, 02
 
 	; PAL_BROWNMON
 	RGB 31, 31, 31
@@ -2468,10 +2468,10 @@ GBCBasePalettes:
 	RGB  3,  3,  3
 
 	; PAL_PURPLEMON
-	RGB 31, 31, 31
-	RGB 25, 15, 31
-	RGB 19,  0, 22
-	RGB  3,  3,  3
+    RGB 20, 20, 25
+    RGB 08, 13, 19
+    RGB 05, 17, 14
+    RGB 03, 02, 02
 
 	; PAL_BROWNMON
 	RGB 31, 31, 31

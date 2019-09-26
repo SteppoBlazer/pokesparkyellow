@@ -197,12 +197,22 @@ SetPal_Overworld:
 	jr z, .trade_center_colosseum
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
+;	jr .town
 .townOrRoute
 	cp SAFFRON_CITY + 1
 	jr c, .town
 	ld a, PAL_ROUTE - 1
+;	call CheckDayNight
+;	jr nc, .night
+;	ld a, PAL_ROUTE
+;	jr .gotPaletteID
+;.night
+;	ld a, PAL_PURPLEMON
+;	jr .gotPaletteID
 .town
 	inc a ; a town's palette ID is its map ID + 1
+;.gotPaletteID
+	; a is the palette ID!
 	ld hl, wPalPacket + 1
 	ld [hld], a
 	ld de, BlkPacket_WholeScreen

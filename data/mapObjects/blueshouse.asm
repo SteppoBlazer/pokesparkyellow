@@ -2,15 +2,15 @@ BluesHouseObject:
 	db $0A ; border block
 
 	db 2 ; warps
-	db 2, 7, 1, $FF
-	db 3, 7, 1, $FF
+	warp 2, 7, 1, $ff
+	warp 3, 7, 1, $ff
 
 	db 0 ; signs
 
 	db 3 ; objects
-	object SPRITE_DAISY, 2, 3, STAY, RIGHT, 81, 0 ; Daisy, sitting by map
-	object SPRITE_DAISY, 6, 4, WALK, 1, 82, 0 ; Daisy, walking around
-	object SPRITE_BOOK_MAP_DEX, 3, 3, STAY, NONE, 83, 0 ; map on table
+	object SPRITE_DAISY, 2, 3, STAY, RIGHT, 129, 0 ; Daisy, sitting by map
+	object SPRITE_DAISY, 6, 4, WALK, 1, 130, 0 ; Daisy, walking around
+	object SPRITE_BOOK_MAP_DEX, 3, 3, STAY, NONE, 131, 0 ; map on table
 
 	; warp-to
 	warp_to 2, 7, BLUES_HOUSE_WIDTH
