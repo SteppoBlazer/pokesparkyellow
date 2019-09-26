@@ -4,7 +4,7 @@ Route8Mons:
 	db 22,PIDGEY
 	db 17,EKANS
 	db 15,MANKEY;
-	db 19,ABRA
+	db 19,EKANS
 	db 24,PIDGEOTTO
 	db 19,GROWLITHE;
 	db 24,SANDSHREW

@@ -1,14 +1,14 @@
 Route10Mons:
 	db $0F
 	db 16,MAGNEMITE ;
-	db 18,MACHOP
-	db 18,MAGNEMITE
+	db 18,VOLTORB
+	db 18,EKANS
 	db 20,MAGNEMITE ;
 	db 17,NIDORAN_M
 	db 17,NIDORAN_F
-	db 22,MAGNEMITE ;
-	db 20,MACHOP
-	db 16,MACHOP
-	db 18,MACHOP
+	db 22,EKANS ;
+	db 20,SPEAROW
+	db 16,SANDSHREW
+	db 18,EKANS
 	db $00
 

@@ -1,14 +1,14 @@
 Route11Mons:
 	db $0F
-	db 16,PIDGEY ;
+	db 16,EKANS ;
 	db 15,PIDGEY 
-	db 18,PIDGEY
+	db 18,SPEAROW
 	db 15,SANDSHREW ;
 	db 17,PIDGEY
 	db 17,EKANS
-	db 18,MAGNEMITE ;
-	db 19,PIDGEOTTO
+	db 18,SPEAROW;
+	db 19,SANDSHREW
+	db 17,PIDGEOTTO
 	db 20,PIDGEOTTO
-	db 17,PIDGEY
 	db $00
 

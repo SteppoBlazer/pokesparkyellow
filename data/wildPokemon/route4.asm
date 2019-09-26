@@ -1,14 +1,14 @@
 Route4Mons:
 	db $14
 	db 8,SPEAROW ;
-	db 9,SPEAROW
+	db 9,SANDSHREW
 	db 9,MANKEY
-	db 10,SPEAROW ;
+	db 10,EKANS;
 	db 8,SANDSHREW
 	db 10,MANKEY
 	db 10,SANDSHREW  ;
 	db 12,SANDSHREW
-	db 11,SPEAROW
+	db 11,EKANS
 	db 12,SPEAROW
 	db $00
 

@@ -3,12 +3,12 @@ Route9Mons:
 	db 16,NIDORAN_M ;
 	db 16,NIDORAN_F
 	db 18,SPEAROW
-	db 18,NIDORAN_M ;
+	db 15,EKANS ;
 	db 18,NIDORAN_F
 	db 17,SPEAROW
 	db 18,NIDORINO ;
-	db 18,NIDORINA
+	db 18,EKANS
+	db 20,NIDORINA
 	db 20,FEAROW
-	db 19,FEAROW
 	db $00
 

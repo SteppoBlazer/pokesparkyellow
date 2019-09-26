@@ -9,6 +9,6 @@ IslandMonsB2:
 	db 29,KRABBY
 	db 36,GOLBAT
 	db 31,SLOWPOKE
-	db 31,SLOWBRO
+	db 36,JYNX
 	db $00
 
