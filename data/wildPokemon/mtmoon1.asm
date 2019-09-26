@@ -1,14 +1,14 @@
 MoonMons1:
 	db $0A
-	db 8,ZUBAT
-	db 9,ZUBAT
+	db 8,SANDSHREW ;
+	db 9,PARAS
 	db 10,GEODUDE
-	db 6,ZUBAT
+	db 6,SANDSHREW;
 	db 7,ZUBAT
-	db 10,ZUBAT
-	db 10,GEODUDE
-	db 11,ZUBAT
+	db 10,SANDSHREW
+	db 10,GEODUDE ;
+	db 11,PARAS
 	db 12,SANDSHREW
-	db 11,CLEFAIRY
+	db 11,CLEFAIRY  ;1%
 	db $00
 

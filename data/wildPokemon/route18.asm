@@ -2,9 +2,9 @@ Route18Mons:
 	db $19
 	db 22,SPEAROW
 	db 22,DODUO
-	db 23,RATTATA
+	db 23,SPEAROW
 	db 24,DODUO
-	db 24,RATTATA
+	db 24,SPEAROW
 	db 26,DODUO
 	db 23,SPEAROW
 	db 24,FEAROW

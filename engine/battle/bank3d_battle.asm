@@ -104,6 +104,22 @@ InitWildBattle:
 	xor a
 	ld [wTrainerClass], a
 	ld [$ffe1], a
+	; check for night time, put enemy to sleep
+	ld a, [wPlayTimeMinutes + 1]
+	cp 30
+	jr c, .goOn
+	call Random
+	cp 36 ; only 10% of pokemon at night are asleep
+	jr nc, .goOn
+	ld a, [wCurMap]
+	cp REDS_HOUSE_1F
+	jr nc, .goOn ; must be on outdoor map
+.genRandomNum
+	call Random
+	and %00000111
+	jr z, .genRandomNum
+	ld [wEnemyMonStatus], a
+.goOn
 	coord hl, 12, 0
 	predef CopyUncompressedPicToTilemap
 

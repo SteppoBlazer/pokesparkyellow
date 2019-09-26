@@ -1,13 +1,13 @@
 Route24Mons:
 	db $19
-	db 12,ODDISH
+	db 12,ABRA ;
 	db 12,BELLSPROUT
 	db 13,PIDGEY
-	db 14,ODDISH
+	db 14,ABRA ;
 	db 14,BELLSPROUT
 	db 15,PIDGEY
-	db 13,VENONAT
-	db 16,VENONAT
+	db 13,CATERPIE ;
+	db 16,METAPOD
 	db 17,PIDGEY
 	db 17,PIDGEOTTO
 	db $00

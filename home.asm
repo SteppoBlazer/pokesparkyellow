@@ -3126,11 +3126,11 @@ YesNoChoice::
 	call InitYesNoTextBoxParameters
 	jr DisplayYesNoChoice
 
-;CheckDayNight::
+CheckDayNight::
 ; set carry flag if it's day
 ; Looks at total play time. Alternates between night and day every half hour.
 	ld a, [wPlayTimeMinutes + 1]
-	cp 8
+	cp 30
 	ret
 
 Func_35f7::
