@@ -204,10 +204,10 @@ SetPal_Overworld:
 ;	ld a, PAL_ROUTE - 1
 	call CheckDayNight
 	jr nc, .night
-	ld a, PAL_ROUTE
+	ld a, PAL_25
 	jr .gotPaletteID
 .night
-	ld a, PAL_PURPLEMON
+	ld a, PAL_27
 	jr .gotPaletteID
 .town
 	inc a ; a town's palette ID is its map ID + 1
@@ -366,7 +366,7 @@ GetMonPalID:
 	bit 0, a ; is mon supposed to be shiny?
 	ld a, b
 	jr z, .done
-	add PAL_SHINY_MEWMON - PAL_BULBASAUR
+	add PAL_SHINY_BULBASAUR - PAL_BULBASAUR
 .done
 	pop bc
     ret

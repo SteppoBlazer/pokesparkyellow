@@ -221,23 +221,23 @@ SuperPalettes:
 	RGB 24, 20, 10
 	RGB 00, 00, 00
 
-	; XXX
-	RGB 31, 31, 30
-	RGB 31, 30, 22
-	RGB 23, 27, 31
-	RGB  6,  6,  6
+	; PAL_25
+	RGB 31, 31, 31
+	RGB 16, 23, 13
+	RGB 05, 12, 09
+	RGB 00, 00, 00
 
-	; XXX
+	; PAL_26
 	RGB 31, 31, 30
 	RGB 28, 23,  9
 	RGB 18, 14, 10
 	RGB  6,  6,  6
 
-	; XXX
-	RGB 31, 31, 30
-	RGB 16, 16, 16
-	RGB 31, 25,  9
-	RGB  6,  6,  6
+	; PAL_27
+    RGB 20, 20, 25
+    RGB 08, 13, 19
+    RGB 05, 17, 14
+    RGB 03, 02, 02
 
 	; PAL_BULBASAUR
 	RGB 31, 31, 31
@@ -1432,12 +1432,6 @@ SuperPalettes:
 	RGB 28, 18, 17
 	RGB 22, 07, 08
 	RGB 00, 00, 00
-	
-; PAL_SHINY_MEWMON
-	RGB 31, 31, 31
-	RGB 18, 24, 31
-	RGB 07, 11, 26
-	RGB 03, 03, 03
 
 ; PAL_SHINY_BULBASAUR
 	RGB 31, 31, 31
@@ -2569,23 +2563,23 @@ GBCBasePalettes:
 	RGB 19, 19,  0
 	RGB  3,  3,  3
 
-	; XXX
+	; PAL_25
 	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 16, 23, 13
+	RGB 05, 12, 09
+	RGB 00, 00, 00
 
-	; XXX
+	; PAL_26
 	RGB 31, 31, 31
 	RGB 31, 18,  0
 	RGB 19,  7,  1
 	RGB  3,  3,  3
 
-	; XXX
-	RGB 31, 31, 31
-	RGB  9,  9,  9
-	RGB 31, 21,  0
-	RGB  3,  3,  3
+	; PAL_27
+    RGB 20, 20, 25
+    RGB 08, 13, 19
+    RGB 05, 17, 14
+    RGB 03, 02, 02
 
 	; PAL_BULBASAUR
 	RGB 31, 31, 31
@@ -3780,12 +3774,6 @@ GBCBasePalettes:
 	RGB 28, 18, 17
 	RGB 22, 07, 08
 	RGB 00, 00, 00
-
-; PAL_SHINY_MEWMON
-	RGB 31, 31, 31
-	RGB 18, 24, 31
-	RGB 07, 11, 26
-	RGB 03, 03, 03
 
 ; PAL_SHINY_BULBASAUR
 	RGB 31, 31, 31
