@@ -1,9 +1,9 @@
 SuperPalettes:
 	; PAL_ROUTE
-	RGB 31, 31, 31
-	RGB 16, 23, 13
-	RGB 05, 12, 09
-	RGB 00, 00, 00
+	RGB 31, 31, 30
+	RGB 23, 26, 19
+	RGB 23, 27, 31
+	RGB  6,  6,  6
 
 	; PAL_PALLET
 	RGB 31, 31, 31
@@ -84,12 +84,12 @@ SuperPalettes:
 	RGB 21, 00, 04
 
 	; PAL_LOGO2
-	RGB 31, 31, 31
-	RGB 30, 23, 09
-	RGB 18, 19, 18
-	RGB 05, 12, 22
+	RGB 31, 31, 30
+	RGB 30, 30, 17
+	RGB 18, 18, 24
+	RGB  7,  7, 16
 
-	; PAL_0F
+	; PAL_EXP
 	RGB 31, 31, 31
 	RGB 24, 20, 30
 	RGB 11, 20, 30
@@ -108,22 +108,22 @@ SuperPalettes:
 	RGB 00, 00, 00
 
 	; PAL_REDMON
-	RGB 31, 31, 31
-	RGB 31, 20, 10
-	RGB 26, 10, 06
-	RGB 00, 00, 00
+	RGB 31, 31, 30
+	RGB 31, 24, 11
+	RGB 26,  9,  6
+	RGB  6,  6,  6
 
 	; PAL_CYANMON
 	RGB 31, 31, 31
-	RGB 21, 25, 29
-	RGB 14, 19, 25
-	RGB 00, 00, 00
+	RGB 16, 23, 13
+	RGB  6,  8, 22
+	RGB  6,  6,  6
 
 	; PAL_PURPLEMON
-    RGB 20, 20, 25
-    RGB 08, 13, 19
-    RGB 05, 17, 14
-    RGB 03, 02, 02
+	RGB 31, 31, 30
+	RGB 27, 22, 30
+	RGB 22, 15, 23
+	RGB  6,  6,  6
 
 	; PAL_BROWNMON
 	RGB 31, 31, 31
@@ -132,10 +132,10 @@ SuperPalettes:
 	RGB 00, 00, 00
 
 	; PAL_GREENMON
-	RGB 31, 31, 31
-	RGB 20, 26, 16
-	RGB 09, 20, 11
-	RGB 00, 00, 00
+	RGB 31, 31, 30
+	RGB 26, 31, 21
+	RGB 23, 27, 31
+	RGB  6,  6,  6
 
 	; PAL_PINKMON
 	RGB 31, 31, 31
@@ -216,28 +216,28 @@ SuperPalettes:
 	RGB 00, 00, 00
 
 	; PAL_GAMEFREAK
-	RGB 31, 31, 31
-	RGB 31, 28, 14
-	RGB 24, 20, 10
-	RGB 00, 00, 00
-
-	; PAL_25
-	RGB 31, 31, 31
-	RGB 16, 23, 13
-	RGB 05, 12, 09
-	RGB 00, 00, 00
-
-	; PAL_26
 	RGB 31, 31, 30
-	RGB 28, 23,  9
-	RGB 18, 14, 10
+	RGB 28, 24, 14
+	RGB 20, 20, 11
 	RGB  6,  6,  6
 
-	; PAL_27
+	; PAL_25
+	RGB 31, 31, 30
+	RGB 31, 30, 22
+	RGB 23, 27, 31
+	RGB  6,  6,  6
+
+	; PAL_26
     RGB 20, 20, 25
     RGB 08, 13, 19
-    RGB 05, 17, 14
-    RGB 03, 02, 02
+	RGB  4,  6, 20
+    RGB 06, 06, 06
+
+	; PAL_27
+	RGB 31, 31, 30
+	RGB 16, 16, 16
+	RGB 31, 25,  9
+	RGB  6,  6,  6
 
 	; PAL_BULBASAUR
 	RGB 31, 31, 31
@@ -2343,9 +2343,9 @@ GBCBasePalettes:
 
 	; PAL_ROUTE
 	RGB 31, 31, 31
-	RGB 16, 23, 13
-	RGB 05, 12, 09
-	RGB 03, 03, 03
+	RGB 16, 31,  4
+	RGB 11, 23, 31
+	RGB  3,  3,  3
 
 	; PAL_PALLET
 	RGB 31, 31, 31
@@ -2431,7 +2431,7 @@ GBCBasePalettes:
 	RGB  7,  7, 25
 	RGB  0,  0, 17
 
-	; PAL_0F
+	; PAL_EXP
 	RGB 31, 31, 31
 	RGB 31, 31,  0
 	RGB  4, 17, 31
@@ -2457,15 +2457,15 @@ GBCBasePalettes:
 
 	; PAL_CYANMON
 	RGB 31, 31, 31
-	RGB 16, 26, 31
-	RGB  0, 17, 31
+	RGB 16, 23, 13
+	RGB  6,  8, 22
 	RGB  3,  3,  3
 
 	; PAL_PURPLEMON
-    RGB 20, 20, 25
-    RGB 08, 13, 19
-    RGB 05, 17, 14
-    RGB 03, 02, 02
+	RGB 31, 31, 31
+	RGB 25, 15, 31
+	RGB 19,  0, 22
+	RGB  3,  3,  3
 
 	; PAL_BROWNMON
 	RGB 31, 31, 31
@@ -2474,10 +2474,10 @@ GBCBasePalettes:
 	RGB  3,  3,  3
 
 	; PAL_GREENMON
-	RGB 31, 31, 31
-	RGB 17, 31, 11
-	RGB  1, 22,  6
-	RGB  3,  3,  3
+	RGB 31, 31, 30
+	RGB 26, 31, 21
+	RGB 23, 27, 31
+	RGB  6,  6,  6
 
 	; PAL_PINKMON
 	RGB 31, 31, 31
@@ -2565,21 +2565,21 @@ GBCBasePalettes:
 
 	; PAL_25
 	RGB 31, 31, 31
-	RGB 16, 23, 13
-	RGB 05, 12, 09
-	RGB 00, 00, 00
-
-	; PAL_26
-	RGB 31, 31, 31
-	RGB 31, 18,  0
-	RGB 19,  7,  1
+	RGB 31, 31,  0
+	RGB 11, 23, 31
 	RGB  3,  3,  3
 
-	; PAL_27
+	; PAL_26
     RGB 20, 20, 25
     RGB 08, 13, 19
-    RGB 05, 17, 14
+	RGB  4,  6, 20
     RGB 03, 02, 02
+
+	; PAL_27
+	RGB 31, 31, 31
+	RGB  9,  9,  9
+	RGB 31, 21,  0
+	RGB  3,  3,  3
 
 	; PAL_BULBASAUR
 	RGB 31, 31, 31

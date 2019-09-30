@@ -104,7 +104,6 @@ StarterPikachuEmotionCommand_pikapic:
 
 .RunPikapic:
 	call PlacePikapicTextBoxBorder
-	callab LoadOverworldPikachuFrontpicPalettes
 	call ResetPikaPicAnimBuffer
 	call LoadCurrentPikaPicAnimScriptPointer
 	call ExecutePikaPicAnimScript
