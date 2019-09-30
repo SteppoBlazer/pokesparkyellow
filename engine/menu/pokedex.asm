@@ -667,7 +667,7 @@ ShowPokedexDataInternal:
 
 HeightWeightText:
 	db   "HT  ?",$60,"??",$61
-	next "WT   ???Kg@"
+	next "WT   ???kg@"
 
 DrawDexEntryOnScreen:
 	call ClearScreen
