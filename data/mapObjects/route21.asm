@@ -1,7 +1,9 @@
 Route21Object:
 	db $43 ; border block
 
-	db 0 ; warps
+	db 1 ; warps
+	warp  5,  1, 0, ROUTE_21_GATE
+
 
 	db 0 ; signs
 
@@ -15,3 +17,7 @@ Route21Object:
 	object SPRITE_SWIMMER, 15, 71, STAY, LEFT, 7, OPP_SWIMMER, 15
 	object SPRITE_FISHER2, 14, 56, STAY, LEFT, 8, OPP_FISHER, 8
 	object SPRITE_FISHER2, 17, 57, STAY, RIGHT, 9, OPP_FISHER, 10
+
+	; warp-to
+	warp_to  5,  1, ROUTE_21_WIDTH
+

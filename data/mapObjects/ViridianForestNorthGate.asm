@@ -4,8 +4,8 @@ ViridianForestEntranceObject:
 	db 4 ; warps
 	warp 4, 0, 3, VIRIDIAN_FOREST
 	warp 5, 0, 3, VIRIDIAN_FOREST
-	warp 4, 7, 5, $ff
-	warp 5, 7, 5, $ff
+	warp 4, 7, 5, ROUTE_2
+	warp 5, 7, 5, ROUTE_2
 
 	db 0 ; signs
 

@@ -232,6 +232,10 @@ SetPal_Overworld:
 	ld a, PAL_GREYMON - 1
 	jr .town
 
+;	cp SAFFRON_CITY + 1
+;	jr c, .town
+;	ld a, PAL_ROUTE - 1
+
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame
 SetPal_PokemonWholeScreen:

@@ -105,9 +105,9 @@ MapHeaderBanks::
 	db BANK(SSAnne8_h)
 	db BANK(SSAnne9_h)
 	db BANK(SSAnne10_h)
-	db $1d ; unused
-	db $1d ; unused
-	db $1d ; unused
+	db BANK(Route19Gate_h)
+	db BANK(Route21Gate_h)
+	db BANK(Route9Gate_h)
 	db BANK(VictoryRoad1_h)
 	db $1d ; unused
 	db $1d ; unused

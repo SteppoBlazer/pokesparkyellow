@@ -1,8 +1,9 @@
 Route9Object:
 	db $2c ; border block
 
-	db 0 ; warps
-
+	db 1 ; warps
+	warp 2, 9, 0, ROUTE_9_GATE
+	
 	db 1 ; signs
 	sign 25, 7, 11 ; Route9Text11
 
@@ -17,3 +18,6 @@ Route9Object:
 	object SPRITE_HIKER, 45, 15, STAY, RIGHT, 8, OPP_HIKER, 5
 	object SPRITE_BUG_CATCHER, 40, 8, STAY, RIGHT, 9, OPP_BUG_CATCHER, 14
 	object SPRITE_BALL, 10, 15, STAY, NONE, 10, TM_30
+
+	; warp-to
+	warp_to 2, 9, ROUTE_9_WIDTH ; ROUTE_9_GATE

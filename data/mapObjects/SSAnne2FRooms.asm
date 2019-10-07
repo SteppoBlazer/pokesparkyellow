@@ -38,4 +38,4 @@ SSAnne10Object:
 	warp_to 2, 15, SS_ANNE_10_WIDTH ; SS_ANNE_4
 	warp_to 3, 15, SS_ANNE_10_WIDTH ; SS_ANNE_4
 	warp_to 12, 15, SS_ANNE_10_WIDTH ; SS_ANNE_4
-	warp_to 13, 15 SS_ANNE_10_WIDTH ; SS_ANNE_4
+	warp_to 13, 15, SS_ANNE_10_WIDTH ; SS_ANNE_4

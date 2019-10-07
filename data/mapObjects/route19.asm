@@ -1,8 +1,9 @@
 Route19Object:
 	db $43 ; border block
 
-	db 1 ; warps
+	db 2 ; warps
 	warp 5, 9, 0, BEACH_HOUSE
+	warp 7, 1, 1, ROUTE_19_GATE
 
 	db 1 ; signs
 	sign 11, 11, 11
@@ -21,3 +22,4 @@ Route19Object:
 
 	; warp-to
 	warp_to 5, 9, ROUTE_19_WIDTH ; BEACH_HOUSE
+	warp_to 7, 1, ROUTE_19_WIDTH ; ROUTE_19_GATE

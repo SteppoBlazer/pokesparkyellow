@@ -2,8 +2,8 @@ ViridianForestExitObject:
 	db $a ; border block
 
 	db 4 ; warps
-	warp 4, 0, 1, $ff
-	warp 5, 0, 1, $ff
+	warp 4, 0, 1, ROUTE_2
+	warp 5, 0, 1, ROUTE_2
 	warp 4, 7, 0, VIRIDIAN_FOREST
 	warp 5, 7, 0, VIRIDIAN_FOREST
 

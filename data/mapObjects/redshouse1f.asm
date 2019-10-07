@@ -2,8 +2,8 @@ RedsHouse1FObject:
 	db $0A ; border block
 
 	db 3 ; warps
-	warp 2, 7, 0, $FF ; exit1
-	warp 3, 7, 0, $FF ; exit2
+	warp 2, 7, 0, PALLET_TOWN ; exit1
+	warp 3, 7, 0, PALLET_TOWN ; exit2
 	warp 7,  1, 0, REDS_HOUSE_2F ; staircase
 
 	db 1 ; signs

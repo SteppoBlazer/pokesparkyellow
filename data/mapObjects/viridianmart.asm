@@ -2,8 +2,8 @@ ViridianMartObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 1, $ff
-	warp 4, 7, 1, $ff
+	warp 3, 7, 1, VIRIDIAN_CITY
+	warp 4, 7, 1, VIRIDIAN_CITY
 
 	db 0 ; signs
 

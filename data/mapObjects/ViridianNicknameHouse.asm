@@ -2,8 +2,8 @@ ViridianHouseObject:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 3, $ff
-	warp 3, 7, 3, $ff
+	warp 2, 7, 3, VIRIDIAN_CITY
+	warp 3, 7, 3, VIRIDIAN_CITY
 
 	db 0 ; signs
 

@@ -1,10 +1,11 @@
 PalletTownObject:
-	db $b ; border block
+	db $f ; border block
 
-	db 3 ; warps
+	db 4 ; warps
 	warp 5, 5, 0, REDS_HOUSE_1F
 	warp 13, 5, 0, BLUES_HOUSE
 	warp 12, 11, 1, OAKS_LAB
+	warp 5, 15, 2, ROUTE_21_GATE
 
 	db 4 ; signs
 	sign 13, 13, 4 ; PalletTownText4
@@ -21,6 +22,7 @@ PalletTownObject:
 	warp_to 5, 5, PALLET_TOWN_WIDTH
 	warp_to 13, 5, PALLET_TOWN_WIDTH
 	warp_to 12, 11, PALLET_TOWN_WIDTH
+	warp_to 5, 15, PALLET_TOWN_WIDTH
 	
 	
 	

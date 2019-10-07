@@ -353,7 +353,7 @@ SandslashDexEntry:
 	db "@"
 
 NidoranFDexEntry:
-	db "Venom Rodent@"
+	db "Venomrodent@"
 	db 0,40
 	dw 070
 	TX_FAR _NidoranFDexEntry
@@ -374,7 +374,7 @@ NidoqueenDexEntry:
 	db "@"
 
 NidoranMDexEntry:
-	db "Venom Rodent@"
+	db "Venomrodent@"
 	db 0,50
 	dw 090
 	TX_FAR _NidoranMDexEntry

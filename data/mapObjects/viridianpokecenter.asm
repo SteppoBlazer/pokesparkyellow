@@ -2,8 +2,8 @@ ViridianPokecenterObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 0, $ff
-	warp 4, 7, 0, $ff
+	warp 3, 7, 0, VIRIDIAN_CITY
+	warp 4, 7, 0, VIRIDIAN_CITY
 
 	db 0 ; signs
 

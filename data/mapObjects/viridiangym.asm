@@ -2,8 +2,8 @@ ViridianGymObject:
 	db $3 ; border block
 
 	db 2 ; warps
-	warp 16, 17, 4, $ff
-	warp 17, 17, 4, $ff
+	warp 16, 17, 4, VIRIDIAN_CITY
+	warp 17, 17, 4, VIRIDIAN_CITY
 
 	db 0 ; signs
 

@@ -452,6 +452,11 @@ INCLUDE "scripts/route8gate.asm"
 INCLUDE "data/mapObjects/Route8Gate.asm"
 Route8GateBlocks: INCBIN "maps/Route8Gate.blk" ; 1dab9
 
+INCLUDE "data/mapHeaders/route9gate.asm"
+INCLUDE "scripts/route9gate.asm"
+INCLUDE "data/mapObjects/Route9Gate.asm"
+Route9GateBlocks: INCBIN "maps/Route9Gate.blk"
+
 INCLUDE "data/mapHeaders/undergroundpathentranceroute8.asm"
 INCLUDE "scripts/undergroundpathentranceroute8.asm"
 INCLUDE "data/mapObjects/UndergroundPathRoute8.asm"
@@ -468,6 +473,16 @@ INCLUDE "data/mapObjects/DiglettsCaveEntrance.asm"
 INCLUDE "data/mapHeaders/route16house.asm"
 INCLUDE "scripts/route16house.asm"
 INCLUDE "data/mapObjects/Route12SuperRodHouse.asm"
+
+INCLUDE "data/mapHeaders/route19gate.asm"
+INCLUDE "scripts/route19gate.asm"
+INCLUDE "data/mapObjects/Route19Gate.asm"
+Route19GateBlocks: INCBIN "maps/Route19Gate.blk"
+
+INCLUDE "data/mapHeaders/route21gate.asm"
+INCLUDE "scripts/route21gate.asm"
+INCLUDE "data/mapObjects/Route21Gate.asm"
+Route21GateBlocks: INCBIN "maps/Route21Gate.blk"
 
 INCLUDE "data/mapHeaders/route22gate.asm"
 INCLUDE "scripts/route22gate.asm"
@@ -1656,7 +1671,6 @@ SilphCo11Blocks: INCBIN "maps/SilphCo11F.blk"
 
 INCLUDE "engine/hidden_object_functions18.asm"
 
-
 SECTION "bank19",ROMX,BANK[$19]
 
 Overworld_GFX:     INCBIN "gfx/tilesets/overworld.2bpp"
@@ -1676,7 +1690,6 @@ Interior_Block:    INCBIN "gfx/blocksets/interior.bst"
 Plateau_GFX:       INCBIN "gfx/tilesets/plateau.t10.2bpp"
 Plateau_Block:     INCBIN "gfx/blocksets/plateau.bst"
 
-
 SECTION "bank1A",ROMX,BANK[$1A]
 
 Dojo_GFX:
@@ -1694,7 +1707,6 @@ ForestGate_Block:
 Gate_Block:
 Museum_Block:      INCBIN "gfx/blocksets/museum.bst"
 
-
 SECTION "bank1B",ROMX,BANK[$1B]
 
 Cemetery_GFX:      INCBIN "gfx/tilesets/cemetery.t4.2bpp"
@@ -1703,15 +1715,6 @@ Cavern_GFX:        INCBIN "gfx/tilesets/cavern.t14.2bpp"
 Cavern_Block:      INCBIN "gfx/blocksets/cavern.bst"
 Lobby_GFX:         INCBIN "gfx/tilesets/lobby.t2.2bpp"
 Lobby_Block:       INCBIN "gfx/blocksets/lobby.bst"
-Ship_GFX:          INCBIN "gfx/tilesets/ship.t6.2bpp"
-Ship_Block:        INCBIN "gfx/blocksets/ship.bst"
-Lab_GFX:           INCBIN "gfx/tilesets/lab.t4.2bpp"
-Lab_Block:         INCBIN "gfx/blocksets/lab.bst"
-Club_GFX:          INCBIN "gfx/tilesets/club.t5.2bpp"
-Club_Block:        INCBIN "gfx/blocksets/club.bst"
-Underground_GFX:   INCBIN "gfx/tilesets/underground.t7.2bpp"
-Underground_Block: INCBIN "gfx/blocksets/underground.bst"
-
 
 SECTION "bank1C",ROMX,BANK[$1C]
 
@@ -1726,7 +1729,6 @@ INCLUDE "engine/mon_party_sprites.asm"
 INCLUDE "engine/in_game_trades.asm"
 INCLUDE "engine/palettes.asm"
 INCLUDE "engine/save.asm"
-
 
 SECTION "bank1D",ROMX,BANK[$1D]
 
@@ -2029,19 +2031,21 @@ INCBIN "gfx/pikachu/unknown_e7d13.2bpp"
 
 SECTION "bank3A",ROMX,BANK[$3A]
 
-INCLUDE "text/monster_names.asm"
-
-INCLUDE "engine/overworld/is_player_just_outside_map.asm"
-
-INCLUDE "engine/printer.asm"
-INCLUDE "engine/diploma_3a.asm"
-
 SurfingPikachu3Graphics:  INCBIN "gfx/surfing_pikachu_3.t1.2bpp"
 SurfingPikachu3GraphicsEnd:
 
 INCLUDE "engine/unknown_ea3ea.asm"
 
 INCLUDE "engine/overworld/npc_movement_2.asm"
+
+Ship_GFX:          INCBIN "gfx/tilesets/ship.t6.2bpp"
+Ship_Block:        INCBIN "gfx/blocksets/ship.bst"
+Lab_GFX:           INCBIN "gfx/tilesets/lab.t4.2bpp"
+Lab_Block:         INCBIN "gfx/blocksets/lab.bst"
+Club_GFX:          INCBIN "gfx/tilesets/club.t5.2bpp"
+Club_Block:        INCBIN "gfx/blocksets/club.bst"
+Underground_GFX:   INCBIN "gfx/tilesets/underground.t7.2bpp"
+Underground_Block: INCBIN "gfx/blocksets/underground.bst"
 
 SECTION "bank3B",ROMX,BANK[$3B]
 
@@ -2151,6 +2155,12 @@ MewPicBack::          INCBIN "pic/monback/mewb.pic"
 
 SECTION "bank42",ROMX,BANK[$42]
 
+INCLUDE "text/monster_names.asm"
+
+INCLUDE "engine/overworld/is_player_just_outside_map.asm"
+
+INCLUDE "engine/printer.asm"
+INCLUDE "engine/diploma_3a.asm"
 INCLUDE "data/super_palettes.asm"
 
 SECTION "bank43",ROMX,BANK[$43]

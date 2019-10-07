@@ -9,7 +9,7 @@ Route11Object:
 	warp 4, 5, 0, DIGLETTS_CAVE_ENTRANCE
 
 	db 1 ; signs
-	sign 5, 1, 11 ; Route11Text11
+	sign  1,  5, 11 ; Route11Text11
 
 	db 10 ; objects
 	object SPRITE_GAMBLER, 10, 14, STAY, DOWN, 1, OPP_GAMBLER, 1
