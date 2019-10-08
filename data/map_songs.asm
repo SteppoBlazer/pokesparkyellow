@@ -29,10 +29,10 @@ MapSongBanks:
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_16
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_17
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_18
-	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_19
-	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_20
-	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_21
-	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_22
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ; ROUTE_19
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ; ROUTE_20
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ; ROUTE_21
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ; ROUTE_22
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; ROUTE_23
 	db MUSIC_ROUTES2, BANK(Music_Routes2) ; ROUTE_24
 	db MUSIC_ROUTES2, BANK(Music_Routes2) ; ROUTE_25
@@ -104,9 +104,9 @@ MapSongBanks:
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne8
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne9
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne10
-	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;unused
-	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ;unused
+	db MUSIC_ROUTES4, BANK(Music_Routes4) ;unused
+	db MUSIC_ROUTES3, BANK(Music_Routes3) ;unused
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
 	db MUSIC_POKEMON_TOWER, BANK(Music_PokemonTower) ;unused
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ;unused

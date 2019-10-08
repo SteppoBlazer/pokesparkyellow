@@ -1673,7 +1673,7 @@ INCLUDE "engine/hidden_object_functions18.asm"
 
 SECTION "bank19",ROMX,BANK[$19]
 
-Overworld_GFX:     INCBIN "gfx/tilesets/overworld.2bpp"
+Overworld_GFX:     INCBIN "gfx/tilesets/overworld.t7.2bpp"
 Overworld_Block:   INCBIN "gfx/blocksets/overworld.bst"
 RedsHouse1_GFX:
 RedsHouse2_GFX:    INCBIN "gfx/tilesets/redshouse2.t7.2bpp"
@@ -1685,13 +1685,15 @@ Mansion_GFX:       INCBIN "gfx/tilesets/mansion.t2.2bpp"
 Mansion_Block:     INCBIN "gfx/blocksets/mansion.bst"
 ShipPort_GFX:      INCBIN "gfx/tilesets/shipport.t2.2bpp"
 ShipPort_Block:    INCBIN "gfx/blocksets/shipport.bst"
+
+
+SECTION "bank1A",ROMX,BANK[$1A]
+
+
 Interior_GFX:      INCBIN "gfx/tilesets/interior.t1.2bpp"
 Interior_Block:    INCBIN "gfx/blocksets/interior.bst"
 Plateau_GFX:       INCBIN "gfx/tilesets/plateau.t10.2bpp"
 Plateau_Block:     INCBIN "gfx/blocksets/plateau.bst"
-
-SECTION "bank1A",ROMX,BANK[$1A]
-
 Dojo_GFX:
 Gym_GFX:           INCBIN "gfx/tilesets/gym.2bpp"
 Dojo_Block:
@@ -1700,15 +1702,16 @@ Mart_GFX:
 Pokecenter_GFX:    INCBIN "gfx/tilesets/pokecenter.2bpp"
 Mart_Block:
 Pokecenter_Block:  INCBIN "gfx/blocksets/pokecenter.bst"
+
+
+SECTION "bank1B",ROMX,BANK[$1B]
+
 ForestGate_GFX:
 Gate_GFX:
 Museum_GFX:        INCBIN "gfx/tilesets/museum.t1.2bpp"
 ForestGate_Block:
 Gate_Block:
 Museum_Block:      INCBIN "gfx/blocksets/museum.bst"
-
-SECTION "bank1B",ROMX,BANK[$1B]
-
 Cemetery_GFX:      INCBIN "gfx/tilesets/cemetery.t4.2bpp"
 Cemetery_Block:    INCBIN "gfx/blocksets/cemetery.bst"
 Cavern_GFX:        INCBIN "gfx/tilesets/cavern.t14.2bpp"
