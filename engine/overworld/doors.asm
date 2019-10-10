@@ -40,6 +40,7 @@ DoorTileIDPointers:
 	dbw FACILITY,    FacilityDoorTileIDs
 	dbw PLATEAU,     PlateauDoorTileIDs
 	dbw INTERIOR,    InteriorDoorTileIDs
+	dbw MASARATOWN,  MasaraTownDoorTileIDs
 	db $ff
 
 OverworldDoorTileIDs:
@@ -77,3 +78,6 @@ PlateauDoorTileIDs:
 
 InteriorDoorTileIDs:
 	db $04,$15,$00
+
+MasaraTownDoorTileIDs:
+	db $1B,$00

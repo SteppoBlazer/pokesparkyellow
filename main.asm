@@ -2060,6 +2060,8 @@ Forest_GFX:        INCBIN "gfx/tilesets/forest.2bpp"
 Forest_Block:      INCBIN "gfx/blocksets/forest.bst"
 Facility_GFX:      INCBIN "gfx/tilesets/facility.2bpp"
 Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
+MasaraTown_GFX:    INCBIN "gfx/tilesets/masaratown.2bpp"
+MasaraTown_Block:  INCBIN "gfx/blocksets/masaratown.bst"
 
 SECTION "bank3C",ROMX,BANK[$3C]
 

@@ -25,3 +25,4 @@ Tilesets:
 	tileset Facility_Block,    Facility_GFX,    Facility_Coll,    $12,$FF,$FF, $FF, CAVE
 	tileset Plateau_Block,     Plateau_GFX,     Plateau_Coll,     $FF,$FF,$FF, $45, CAVE
 	tileset BeachHouse_Block,  BeachHouse_GFX,  BeachHouse_Coll,  $FF,$FF,$FF, $FF, INDOOR
+	tileset MasaraTown_Block,  MasaraTown_GFX,  MasaraTown_Coll,  $FF,$FF,$FF, $FF, OUTDOOR

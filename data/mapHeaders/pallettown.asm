@@ -1,5 +1,5 @@
 PalletTown_h:
-	db OVERWORLD ; tileset
+	db MASARATOWN ; tileset
 	db PALLET_TOWN_HEIGHT, PALLET_TOWN_WIDTH ; dimensions
 	dw PalletTownBlocks, PalletTownTextPointers, PalletTownScript
 	db NORTH | SOUTH ; connections

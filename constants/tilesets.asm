@@ -25,3 +25,4 @@ const_value = 0
 	const FACILITY     ; 22
 	const PLATEAU      ; 23
 	const BEACH_HOUSE_TILESET ; 24
+	const MASARATOWN ; 25
