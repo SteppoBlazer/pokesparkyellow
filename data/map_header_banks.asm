@@ -109,7 +109,7 @@ MapHeaderBanks::
 	db BANK(Route21Gate_h)
 	db BANK(Route9Gate_h)
 	db BANK(VictoryRoad1_h)
-	db $1d ; unused
+	db BANK(Route1Gate_h)
 	db $1d ; unused
 	db $1d ; unused
 	db $1d ; unused

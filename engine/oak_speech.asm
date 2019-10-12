@@ -74,7 +74,7 @@ OakSpeech:
 	call GBFadeOutToWhite
 	call ClearScreen
 	callba SendNidoPal
-	ld a,NIDORINO
+	ld a, NIDORINO
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader

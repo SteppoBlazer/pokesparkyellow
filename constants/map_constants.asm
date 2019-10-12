@@ -114,7 +114,7 @@ ENDM
 	mapconst ROUTE_21_GATE,               3,  4 ; $6A
 	mapconst ROUTE_9_GATE,                3,  4 ; $6B
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
-	mapconst UNUSED_MAP_6D,               0,  0 ; $6D
+	mapconst ROUTE_1_GATE,                3,  4 ; $6D
 	mapconst UNUSED_MAP_6E,               0,  0 ; $6E
 	mapconst UNUSED_MAP_6F,               0,  0 ; $6F
 	mapconst UNUSED_MAP_70,               0,  0 ; $70

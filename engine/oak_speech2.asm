@@ -231,7 +231,7 @@ DefaultNamesPlayerList:
 	db "New Name@"
 	db "Red@"
 	db "Ash@"
-	db "Ninty@"
+	db "Ninten@"
 
 DefaultNamesRivalList:
 	db "New Name@"

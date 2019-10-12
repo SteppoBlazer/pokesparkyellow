@@ -1,5 +1,5 @@
 Route1_h:
-	db OVERWORLD ; tileset
+	db MASARATOWN ; tileset
 	db ROUTE_1_HEIGHT, ROUTE_1_WIDTH ; dimensions (y, x)
 	dw Route1Blocks, Route1TextPointers, Route1Script ; blocks, texts, scripts
 	db NORTH | SOUTH ; connections

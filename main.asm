@@ -321,6 +321,11 @@ INCLUDE "data/mapHeaders/route1.asm"
 INCLUDE "data/mapObjects/Route1.asm"
 Route1Blocks: INCBIN "maps/Route1.blk" ; 1c0fc
 
+INCLUDE "data/mapHeaders/route1gate.asm"
+INCLUDE "scripts/route1gate.asm"
+INCLUDE "data/mapObjects/Route1Gate.asm"
+Route1GateBlocks: INCBIN "maps/Route1Gate.blk"
+
 UndergroundPathEntranceRoute8Blocks: INCBIN "maps/UndergroundPathRoute8.blk"
 OaksLabBlocks: INCBIN "maps/OaksLab.blk"
 ViridianHouseBlocks:

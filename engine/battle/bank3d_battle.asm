@@ -109,7 +109,7 @@ InitWildBattle:
 	cp 30
 	jr c, .goOn
 	call Random
-	cp 36 ; only 10% of pokemon at night are asleep
+	cp 26 ; only 10% of pokemon at night are asleep
 	jr nc, .goOn
 	ld a, [wCurMap]
 	cp REDS_HOUSE_1F

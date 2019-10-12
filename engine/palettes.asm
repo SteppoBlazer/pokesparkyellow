@@ -197,21 +197,21 @@ SetPal_Overworld:
 	jr z, .trade_center_colosseum
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
-	jr .town
+	;jr .town
 .townOrRoute
-;	cp SAFFRON_CITY + 1
-;	jr c, .town
-;	ld a, PAL_ROUTE - 1
-	callab CheckDayNight
-	jr nc, .night
-	ld a, PAL_CYANMON
-	jr .gotPaletteID
-.night
-	ld a, PAL_26
-	jr .gotPaletteID
+	cp SAFFRON_CITY + 1
+	jr c, .town
+	ld a, PAL_ROUTE - 1
+;	callab CheckDayNight
+;	jr nc, .night
+;	ld a, PAL_CYANMON
+;	jr .gotPaletteID
+;.night
+;	ld a, PAL_26
+;	jr .gotPaletteID
 .town
 	inc a ; a town's palette ID is its map ID + 1
-.gotPaletteID
+;.gotPaletteID
 	; a is the palette ID!
 	ld hl, wPalPacket + 1
 	ld [hld], a
@@ -231,10 +231,6 @@ SetPal_Overworld:
 .trade_center_colosseum
 	ld a, PAL_GREYMON - 1
 	jr .town
-
-;	cp SAFFRON_CITY + 1
-;	jr c, .town
-;	ld a, PAL_ROUTE - 1
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame

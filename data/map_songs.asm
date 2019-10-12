@@ -108,7 +108,7 @@ MapSongBanks:
 	db MUSIC_ROUTES4, BANK(Music_Routes4) ;unused
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ;unused
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
-	db MUSIC_POKEMON_TOWER, BANK(Music_PokemonTower) ;unused
+	db MUSIC_ROUTES1, BANK(Music_Routes1) ;unused
 	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ;unused
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused

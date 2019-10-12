@@ -1,12 +1,14 @@
 ViridianCityObject:
 	db $f ; border block
 
-	db 5 ; warps
+	db 7 ; warps
 	warp 23, 25, 0, VIRIDIAN_POKECENTER
 	warp 29, 19, 0, VIRIDIAN_MART
 	warp 21, 15, 0, VIRIDIAN_SCHOOL
 	warp 21,  9, 0, VIRIDIAN_HOUSE
 	warp 32,  7, 0, VIRIDIAN_GYM
+	warp 21, 33, 0, ROUTE_1_GATE
+	warp 22, 33, 0, ROUTE_1_GATE
 
 	db 6 ; signs
 	sign 17, 17, 9 ; ViridianCityText8
@@ -32,3 +34,5 @@ ViridianCityObject:
 	warp_to 21, 15, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_SCHOOL
 	warp_to 21,  9, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_HOUSE
 	warp_to 32,  7, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_GYM
+	warp_to 21, 33, VIRIDIAN_CITY_WIDTH ; ROUTE_1_GATE
+	warp_to 22, 33, VIRIDIAN_CITY_WIDTH ; ROUTE_1_GATE
