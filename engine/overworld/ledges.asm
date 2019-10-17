@@ -56,6 +56,7 @@ HandleLedges:
 
 	; (player direction) (tile player standing on) (ledge tile) (input required)
 LedgeTiles:
+	db SPRITE_FACING_DOWN, $1D,$37,D_DOWN
 	db SPRITE_FACING_DOWN, $2C,$37,D_DOWN
 	db SPRITE_FACING_DOWN, $39,$36,D_DOWN
 	db SPRITE_FACING_DOWN, $39,$37,D_DOWN
