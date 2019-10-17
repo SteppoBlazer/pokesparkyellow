@@ -26,3 +26,4 @@ const_value = 0
 	const PLATEAU      ; 23
 	const BEACH_HOUSE_TILESET ; 24
 	const MASARATOWN ; 25
+	const TOKIWACITY ; 26

@@ -306,6 +306,9 @@ INCLUDE "scripts/silphco6.asm"
 INCLUDE "data/mapObjects/SilphCo6F.asm"
 SilphCo6Blocks: INCBIN "maps/SilphCo6F.blk"
 
+TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
+TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
+
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/overworld/doors.asm"
 INCLUDE "engine/overworld/ledges.asm"
@@ -2068,6 +2071,7 @@ Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 MasaraTown_GFX:    INCBIN "gfx/tilesets/masaratown.2bpp"
 MasaraTown_Block:  INCBIN "gfx/blocksets/masaratown.bst"
 
+
 SECTION "bank3C",ROMX,BANK[$3C]
 
 INCLUDE "engine/bank3c.asm"
@@ -2085,7 +2089,6 @@ INCLUDE "engine/bank3e.asm"
 SECTION "bank3F",ROMX,BANK[$3F]
 
 INCLUDE "engine/bank3f.asm"
-
 
 SECTION "bank40",ROMX,BANK[$40]
 
@@ -2172,6 +2175,7 @@ INCLUDE "engine/overworld/is_player_just_outside_map.asm"
 INCLUDE "engine/printer.asm"
 INCLUDE "engine/diploma_3a.asm"
 INCLUDE "data/super_palettes.asm"
+
 
 SECTION "bank43",ROMX,BANK[$43]
 

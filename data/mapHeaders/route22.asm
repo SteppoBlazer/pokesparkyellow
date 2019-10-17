@@ -1,5 +1,5 @@
 Route22_h:
-	db OVERWORLD ; tileset
+	db TOKIWACITY ; tileset
 	db ROUTE_22_HEIGHT, ROUTE_22_WIDTH ; dimensions (y, x)
 	dw Route22Blocks, Route22TextPointers, Route22Script ; blocks, texts, scripts
 	db NORTH | EAST ; connections

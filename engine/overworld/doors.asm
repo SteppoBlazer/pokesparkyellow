@@ -41,10 +41,11 @@ DoorTileIDPointers:
 	dbw PLATEAU,     PlateauDoorTileIDs
 	dbw INTERIOR,    InteriorDoorTileIDs
 	dbw MASARATOWN,  MasaraTownDoorTileIDs
+	dbw TOKIWACITY,  TokiwaCityDoorTileIDs
 	db $ff
 
 OverworldDoorTileIDs:
-	db $1B,$58,$00
+	db $1b,$58,$00
 
 ForestDoorTileIDs:
 	db $3a,$00
@@ -80,4 +81,7 @@ InteriorDoorTileIDs:
 	db $04,$15,$00
 
 MasaraTownDoorTileIDs:
-	db $1B,$00
+	db $1b,$00
+
+TokiwaCityDoorTileIDs:
+	db $1b,$6e,$00
