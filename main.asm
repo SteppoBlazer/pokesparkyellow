@@ -309,9 +309,6 @@ SilphCo6Blocks: INCBIN "maps/SilphCo6F.blk"
 TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
 TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
 
-NibiCity_GFX:    INCBIN "gfx/tilesets/nibicity.2bpp"
-NibiCity_Block:  INCBIN "gfx/blocksets/nibicity.bst"
-
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/overworld/doors.asm"
 INCLUDE "engine/overworld/ledges.asm"
@@ -806,11 +803,9 @@ TradingAnimationGraphics2End:
 
 INCLUDE "engine/evos_moves.asm"
 
-
 SECTION "bank0F",ROMX,BANK[$0F]
 
 INCLUDE "engine/battle/core.asm"
-
 
 SECTION "bank10",ROMX,BANK[$10]
 
@@ -820,7 +815,8 @@ INCLUDE "engine/trade.asm"
 INCLUDE "engine/intro.asm"
 INCLUDE "engine/trade2.asm"
 INCLUDE "engine/menu/options.asm"
-
+NibiCity_GFX:    INCBIN "gfx/tilesets/nibicity.2bpp"
+NibiCity_Block:  INCBIN "gfx/blocksets/nibicity.bst"
 
 SECTION "bank11",ROMX,BANK[$11]
 
