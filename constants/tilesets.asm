@@ -27,3 +27,4 @@ const_value = 0
 	const BEACH_HOUSE_TILESET ; 24
 	const MASARATOWN ; 25
 	const TOKIWACITY ; 26
+	const NIBICITY ; 27

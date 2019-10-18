@@ -1,5 +1,5 @@
 Route3_h:
-	db OVERWORLD ; tileset
+	db NIBICITY ; tileset
 	db ROUTE_3_HEIGHT, ROUTE_3_WIDTH ; dimensions (y, x)
 	dw Route3Blocks, Route3TextPointers, Route3Script ; blocks, texts, scripts
 	db NORTH | WEST ; connections

@@ -309,6 +309,9 @@ SilphCo6Blocks: INCBIN "maps/SilphCo6F.blk"
 TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
 TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
 
+NibiCity_GFX:    INCBIN "gfx/tilesets/nibicity.2bpp"
+NibiCity_Block:  INCBIN "gfx/blocksets/nibicity.bst"
+
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/overworld/doors.asm"
 INCLUDE "engine/overworld/ledges.asm"
