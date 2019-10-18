@@ -24,6 +24,8 @@ WarpTileIDPointers:
 	dw FacilityWarpTileIDs
 	dw PlateauWarpTileIDs
 	dw BeachHouseWarpTileIDs
+	dw MasaraTownWarpTileIDs
+	dw TokiwaCityWarpTileIDs
 
 OverworldWarpTileIDs:
 	db $1B,$58,$FF
@@ -87,3 +89,9 @@ ClubWarpTileIDs:
 
 BeachHouseWarpTileIDs:
 	db $FF
+
+MasaraTownWarpTileIDs:
+	db $1B,$23,$39,$FF
+
+TokiwaCityWarpTileIDs:
+	db $1B,$38,$39,$4B,$6E,$FF

@@ -1243,6 +1243,11 @@ INCLUDE "data/mapHeaders/route2.asm"
 INCLUDE "data/mapObjects/Route2.asm"
 Route2Blocks: INCBIN "maps/Route2.blk" ; 54086
 
+INCLUDE "data/mapHeaders/route2north.asm"
+INCLUDE "scripts/route2north.asm"
+INCLUDE "data/mapObjects/Route2North.asm"
+Route2NorthBlocks: INCBIN "maps/Route2North.blk"
+
 INCLUDE "data/mapHeaders/route3.asm"
 INCLUDE "data/mapObjects/Route3.asm"
 Route3Blocks: INCBIN "maps/Route3.blk" ; 5425d
@@ -1432,7 +1437,7 @@ UndergroundPathEntranceRoute7Blocks:
 UndergroundPathEntranceRoute7CopyBlocks: INCBIN "maps/UndergroundPathRoute5.blk"
 ViridianForestEntranceBlocks:
 ViridianForestExitBlocks:
-Route2GateBlocks: INCBIN "maps/ViridianForestNorthGate.blk"
+Route2GateBlocks: INCBIN "maps/ViridianForestEntrance.blk"
 
 INCLUDE "data/mapHeaders/redshouse2f.asm"
 INCLUDE "scripts/redshouse2f.asm"
@@ -1521,7 +1526,7 @@ INCLUDE "data/mapObjects/SaffronPokecenter.asm"
 
 INCLUDE "data/mapHeaders/viridianforestexit.asm"
 INCLUDE "scripts/viridianforestexit.asm"
-INCLUDE "data/mapObjects/ViridianForestSouthGate.asm"
+INCLUDE "data/mapObjects/ViridianForestExit.asm"
 
 INCLUDE "data/mapHeaders/route2gate.asm"
 INCLUDE "scripts/route2gate.asm"
@@ -1529,7 +1534,7 @@ INCLUDE "data/mapObjects/Route2Gate.asm"
 
 INCLUDE "data/mapHeaders/viridianforestentrance.asm"
 INCLUDE "scripts/viridianforestentrance.asm"
-INCLUDE "data/mapObjects/ViridianForestNorthGate.asm"
+INCLUDE "data/mapObjects/ViridianForestEntrance.asm"
 
 INCLUDE "data/mapHeaders/undergroundpathentranceroute5.asm"
 INCLUDE "scripts/undergroundpathentranceroute5.asm"

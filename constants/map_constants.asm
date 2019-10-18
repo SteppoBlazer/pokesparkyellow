@@ -18,7 +18,7 @@ ENDM
 	mapconst SAFFRON_CITY,               18, 20 ; $0A
 	mapconst UNUSED_MAP_0B,               0,  0 ; $0B
 	mapconst ROUTE_1,                    18, 10 ; $0C
-	mapconst ROUTE_2,                    36, 10 ; $0D
+	mapconst ROUTE_2,                    18, 10 ; $0D
 	mapconst ROUTE_3,                     9, 35 ; $0E
 	mapconst ROUTE_4,                     9, 45 ; $0F
 	mapconst ROUTE_5,                    18, 10 ; $10
@@ -115,7 +115,7 @@ ENDM
 	mapconst ROUTE_9_GATE,                3,  4 ; $6B
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
 	mapconst ROUTE_1_GATE,                3,  4 ; $6D
-	mapconst UNUSED_MAP_6E,               0,  0 ; $6E
+	mapconst ROUTE_2_NORTH,              21, 10 ; $6E
 	mapconst UNUSED_MAP_6F,               0,  0 ; $6F
 	mapconst UNUSED_MAP_70,               0,  0 ; $70
 	mapconst LANCES_ROOM,                13, 13 ; $71

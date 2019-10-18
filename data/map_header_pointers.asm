@@ -110,7 +110,7 @@ MapHeaderPointers::
 	dw Route9Gate_h
 	dw VictoryRoad1_h
 	dw Route1Gate_h
-	dw Lance_h ; unused ;id=110
+	dw Route2North_h
 	dw Lance_h ; unused
 	dw Lance_h ; unused
 	dw Lance_h
