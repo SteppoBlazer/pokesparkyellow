@@ -2,8 +2,8 @@ MtMoonPokecenterObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 0, $ff
-	warp 4, 7, 0, $ff
+	warp 3, 7, 0, ROUTE_3
+	warp 4, 7, 0, ROUTE_3
 
 	db 0 ; signs
 

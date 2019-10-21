@@ -19,7 +19,7 @@ ENDM
 	mapconst UNUSED_MAP_0B,               0,  0 ; $0B
 	mapconst ROUTE_1,                    18, 10 ; $0C
 	mapconst ROUTE_2,                    18, 10 ; $0D
-	mapconst ROUTE_3,                     9, 35 ; $0E
+	mapconst ROUTE_3,                    13, 35 ; $0E
 	mapconst ROUTE_4,                     9, 45 ; $0F
 	mapconst ROUTE_5,                    18, 10 ; $10
 	mapconst ROUTE_6,                    18, 10 ; $11

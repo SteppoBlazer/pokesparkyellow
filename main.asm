@@ -306,13 +306,9 @@ INCLUDE "scripts/silphco6.asm"
 INCLUDE "data/mapObjects/SilphCo6F.asm"
 SilphCo6Blocks: INCBIN "maps/SilphCo6F.blk"
 
-TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
-TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
-
 INCLUDE "engine/overworld/npc_movement.asm"
 INCLUDE "engine/overworld/doors.asm"
 INCLUDE "engine/overworld/ledges.asm"
-
 
 SECTION "bank07",ROMX,BANK[$07]
 
@@ -2218,3 +2214,8 @@ SECTION "bank45",ROMX,BANK[$45]
 INCBIN "gfx/party_mon_sprites2.w32.2bpp"
 
 INCLUDE "engine/mon_party_sprites2.asm"
+
+SECTION "bank46",ROMX,BANK[$46]
+
+TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
+TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"

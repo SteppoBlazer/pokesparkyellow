@@ -23,6 +23,9 @@ Route3TextPointers:
 	dw Route3Text8
 	dw Route3Text9
 	dw Route3Text10
+	dw Route3Text11
+	dw PokeCenterSignText
+	dw Route3Text13
 
 Route3TrainerHeaders:
 Route3TrainerHeader0:
@@ -249,4 +252,12 @@ Route3AfterBattleText8:
 
 Route3Text10:
 	TX_FAR _Route3Text10
+	db "@"
+
+Route3Text11:
+	TX_FAR _Route4Text1
+	db "@"
+
+Route3Text13:
+	TX_FAR _Route4Text5
 	db "@"

@@ -1,5 +1,5 @@
 Route1Object:
-	db $b ; border block
+	db $1c ; border block
 
 	db 1 ; warps
 	warp 11, 1, 0, ROUTE_1_GATE

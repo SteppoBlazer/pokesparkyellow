@@ -2,8 +2,8 @@ MtMoon1Object:
 	db $3 ; border block
 
 	db 5 ; warps
-	warp 14, 35, 1, $ff
-	warp 15, 35, 1, $ff
+	warp 14, 35, 1, ROUTE_3
+	warp 15, 35, 1, ROUTE_3
 	warp  5,  5, 0, MT_MOON_2
 	warp 17, 11, 2, MT_MOON_2
 	warp 25, 15, 3, MT_MOON_2

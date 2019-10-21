@@ -13,11 +13,8 @@ Route4ScriptPointers:
 	dw EndTrainerBattle
 
 Route4TextPointers:
-	dw Route4Text1
 	dw Route4Text2
 	dw PickUpItemText
-	dw PokeCenterSignText
-	dw Route4Text5
 	dw Route4Text6
 
 Route4TrainerHeaders:
@@ -31,10 +28,6 @@ Route4TrainerHeader0:
 	dw Route4EndBattleText1 ; TextEndBattle
 
 	db $ff
-
-Route4Text1:
-	TX_FAR _Route4Text1
-	db "@"
 
 Route4Text2:
 	TX_ASM
@@ -52,10 +45,6 @@ Route4EndBattleText1:
 
 Route4AfterBattleText1:
 	TX_FAR _Route4AfterBattleText1
-	db "@"
-
-Route4Text5:
-	TX_FAR _Route4Text5
 	db "@"
 
 Route4Text6:
