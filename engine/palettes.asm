@@ -477,7 +477,7 @@ GetPal_Pikachu::
 	cp CAVERN
 	jr z, .caveOrBruno
 	ld a, [wCurMap]
-	cp ROUTE_1
+	cp REDS_HOUSE_1F
 	jr c, .townOrRoute
 	cp UNKNOWN_DUNGEON_2
 	jr c, .normalDungeonOrBuilding
@@ -494,16 +494,9 @@ GetPal_Pikachu::
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute
-;	cp SAFFRON_CITY + 1
-;	jr c, .town
-;	ld a, PAL_ROUTE - 1
-	callab CheckDayNight
-	jr nc, .night
-	ld a, PAL_CYANMON
-	jr .town
-.night
-	ld a, PAL_26
-	jr .town
+	cp SAFFRON_CITY + 1
+	jr c, .town
+	ld a, PAL_ROUTE - 1
 .town
 	inc a ; a town's pallete ID is its map ID + 1
 	ret

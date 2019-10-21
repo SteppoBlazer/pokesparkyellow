@@ -2802,7 +2802,7 @@ IsSurfingPikachuInParty::
 	ld [wd472], a
 	ld hl, wPartyMon1
 	ld c, PARTY_LENGTH
-	ld b, SURF
+	ld b, NO_MOVE
 .loop
 	ld a, [hl]
 	cp PIKACHU
@@ -3126,12 +3126,12 @@ YesNoChoice::
 	call InitYesNoTextBoxParameters
 	jr DisplayYesNoChoice
 
-CheckDayNight::
+;CheckDayNight::
 ; set carry flag if it's day
 ; Looks at total play time. Alternates between night and day every half hour.
-	ld a, [wPlayTimeMinutes + 1]
-	cp 30
-	ret
+;	ld a, [wPlayTimeMinutes + 1]
+;	cp 60
+;	ret
 
 Func_35f7::
 	ld a, TWO_OPTION_MENU

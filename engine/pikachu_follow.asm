@@ -1574,7 +1574,7 @@ ComparePikachuHappinessTo80:
 	push bc
 	push af
 	ld a, [wPikachuHappiness]
-	cp 80
+	cp 255
 	pop bc
 	ld a, b
 	pop bc

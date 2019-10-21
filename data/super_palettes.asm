@@ -2340,7 +2340,6 @@ SuperPalettes:
 	RGB 03, 03, 03
 
 GBCBasePalettes:
-
 	; PAL_ROUTE
 	RGB 31, 31, 31
 	RGB 16, 31,  4
