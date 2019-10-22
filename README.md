@@ -31,3 +31,5 @@ Exiting from viewing the town map causes tile on the map to glitch and do not di
 The palette switch for night n day system made so that certain interior maps, all the ones that are not in any town display a wrong palette for some unknown reason
 
 Occasionaly Pikas sprite dissappears when passing certain tile block of the new tilesets
+
+Ledges do not work as intended with the new inserted tilesets 
