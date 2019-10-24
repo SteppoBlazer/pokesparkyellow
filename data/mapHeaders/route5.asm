@@ -1,5 +1,5 @@
 Route5_h:
-	db OVERWORLD ; tileset
+	db HANADACITY ; tileset
 	db ROUTE_5_HEIGHT, ROUTE_5_WIDTH ; dimensions (y, x)
 	dw Route5Blocks, Route5TextPointers, Route5Script ; blocks, texts, scripts
 	db NORTH | SOUTH ; connections

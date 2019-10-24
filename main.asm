@@ -2219,3 +2219,5 @@ SECTION "bank46",ROMX,BANK[$46]
 
 TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
 TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
+HanadaCity_GFX:    INCBIN "gfx/tilesets/hanadacity.2bpp"
+HanadaCity_Block:  INCBIN "gfx/blocksets/hanadacity.bst"

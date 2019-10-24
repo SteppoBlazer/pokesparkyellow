@@ -28,3 +28,10 @@ const_value = 0
 	const MASARATOWN ; 25
 	const TOKIWACITY ; 26
 	const NIBICITY ; 27
+	const HANADACITY ; 28
+	const KUCHIBACITY ; 29
+	const SHIONTOWN ; 30
+	const TAMAMUSHICITY ; 31
+	const SEKICHIKUCITY ; 32
+	const YAMABUKICITY ; 33
+	const GURENTOWN ; 34

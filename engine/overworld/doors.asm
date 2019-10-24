@@ -42,6 +42,8 @@ DoorTileIDPointers:
 	dbw INTERIOR,    InteriorDoorTileIDs
 	dbw MASARATOWN,  MasaraTownDoorTileIDs
 	dbw TOKIWACITY,  TokiwaCityDoorTileIDs
+	dbw NIBICITY,    NibiCityDoorTileIDs
+	dbw HANADACITY,  HanadaCityDoorTileIDs
 	db $ff
 
 OverworldDoorTileIDs:
@@ -85,3 +87,9 @@ MasaraTownDoorTileIDs:
 
 TokiwaCityDoorTileIDs:
 	db $1b,$6e,$00
+
+NibiCityDoorTileIDs:
+	db $1a,$6e,$00
+
+HanadaCityDoorTileIDs:
+	db $1b,$5e,$6e,$00

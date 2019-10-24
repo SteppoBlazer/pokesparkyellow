@@ -1,5 +1,5 @@
 Route24_h:
-	db OVERWORLD ; tileset
+	db HANADACITY ; tileset
 	db ROUTE_24_HEIGHT, ROUTE_24_WIDTH ; dimensions (y, x)
 	dw Route24Blocks, Route24TextPointers, Route24Script ; blocks, texts, scripts
 	db SOUTH | EAST ; connections

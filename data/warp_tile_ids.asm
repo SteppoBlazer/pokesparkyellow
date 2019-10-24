@@ -26,6 +26,7 @@ WarpTileIDPointers:
 	dw BeachHouseWarpTileIDs
 	dw MasaraTownWarpTileIDs
 	dw TokiwaCityWarpTileIDs
+	dw HanadaCityWarpTileIDs
 
 OverworldWarpTileIDs:
 	db $1B,$58,$FF
@@ -94,4 +95,7 @@ MasaraTownWarpTileIDs:
 	db $1B,$23,$39,$FF
 
 TokiwaCityWarpTileIDs:
+	db $1B,$38,$39,$4B,$6E,$FF
+
+HanadaCityWarpTileIDs:
 	db $1B,$38,$39,$4B,$6E,$FF

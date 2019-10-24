@@ -5,11 +5,11 @@ Route4Object:
 	warp 24, 5, 7, MT_MOON_2
 
 	db 1 ; signs
-	sign 27, 7, 3 ; Route4Text6
+	sign 27,  7, 3 ; Route4Text6
 
 	db 2 ; objects
-	object SPRITE_LASS, 63, 3, STAY, RIGHT, 1, OPP_LASS, 4
-	object SPRITE_BALL, 57, 3, STAY, NONE, 2, TM_04
+	object SPRITE_LASS, 71,  2, STAY, RIGHT, 1, OPP_LASS, 4
+	object SPRITE_BALL, 57,  2, STAY, NONE, 2, TM_04
 
 	; warp-to
 	warp_to 24, 5, ROUTE_4_WIDTH ; MT_MOON_2
