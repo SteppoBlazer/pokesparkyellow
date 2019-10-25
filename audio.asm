@@ -684,7 +684,6 @@ INCLUDE "audio/music/routes3.asm"
 INCLUDE "audio/music/routes4.asm"
 INCLUDE "audio/music/indigoplateau.asm"
 INCLUDE "audio/music/pallettown.asm"
-INCLUDE "audio/music/unusedsong.asm"
 INCLUDE "audio/music/cities1.asm"
 INCLUDE "audio/sfx/get_item1_1.asm"
 INCLUDE "audio/music/museumguy.asm"
@@ -749,6 +748,7 @@ SECTION "Music 4", ROMX, BANK[AUDIO_4]
 INCLUDE "audio/music/surfingpikachu.asm"
 INCLUDE "audio/music/yellowunusedsong.asm"
 INCLUDE "audio/music/meetjessiejames.asm"
+INCLUDE "audio/music/unusedsong.asm"
 
 SECTION "Pikachu Cries 1",ROMX,BANK[PCM_1]
 PikachuCry1::
