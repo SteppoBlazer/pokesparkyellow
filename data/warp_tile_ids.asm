@@ -92,7 +92,7 @@ BeachHouseWarpTileIDs:
 	db $FF
 
 MasaraTownWarpTileIDs:
-	db $1B,$23,$39,$FF
+	db $1B,$23,$39,$70,$FF
 
 TokiwaCityWarpTileIDs:
 	db $1B,$38,$39,$4B,$6E,$FF
