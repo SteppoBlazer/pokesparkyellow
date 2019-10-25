@@ -48,7 +48,7 @@ HiddenItemCoords:
 	db ROUTE_9, $07, $0e
 	db COPYCATS_HOUSE_2F, $01, $01
 	db VIRIDIAN_CITY, $04, $0e
-	db CERULEAN_CITY, $08, $0f
+	db CERULEAN_CITY, $07, $0d
 	db UNKNOWN_DUNGEON_1, $0e, $01
 	db POKEMONTOWER_5, $0c, $04
 	db VERMILION_CITY, $0b, $0e
