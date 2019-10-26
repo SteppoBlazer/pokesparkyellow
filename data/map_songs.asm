@@ -42,14 +42,14 @@ MapSongBanks:
 	db MUSIC_OAKS_LAB, BANK(Music_OaksLab) ; OaksLab
 	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; ViridianPokecenter
 	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; ViridianMart
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; School
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; ViridianHouse
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; School
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; ViridianHouse
 	db MUSIC_GYM, BANK(Music_Gym) ; ViridianGym
 	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ; DiglettsCaveRoute2
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; ViridianForestExit
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; Route2House
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; Route2Gate
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; ViridianForestEntrance
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; ViridianForestExit
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; Route2House
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; Route2Gate
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; ViridianForestEntrance
 	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ; ViridianForest
 	db MUSIC_CITIES1, BANK(Music_Cities1) ; Museum1F
 	db MUSIC_CITIES1, BANK(Music_Cities1) ; Museum2F
@@ -109,7 +109,7 @@ MapSongBanks:
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ;unused
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ;unused
-	db MUSIC_ROUTES1, BANK(Music_Routes1) ; route2north
+	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; route2north
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Lance
@@ -119,7 +119,7 @@ MapSongBanks:
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
 	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ; HallofFameRoom
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ; UndergroundPathNS
-	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Gary
+	db MUSIC_YELLOW_UNUSED_SONG, BANK(Music_YellowUnusedSong) ; Gary
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ; UndergroundPathWE
 	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; CeladonMart1
 	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; CeladonMart2

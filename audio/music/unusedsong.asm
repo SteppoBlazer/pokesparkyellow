@@ -173,9 +173,9 @@ Music_UnusedSong_Ch1_sub_0:
 Music_UnusedSong_Ch1::
 	tempo 144
 	volume 5, 5
-	vibrato 5, 1, 6
+	vibrato 8, 2, 4
 	duty 3
-	notetype 12, 15, 0
+	notetype 12, 12, 5
 	callchannel Music_UnusedSong_Ch1_sub_0
 	rest 6
 	callchannel Music_UnusedSong_Ch1_sub_0
@@ -332,9 +332,9 @@ Music_UnusedSong_Ch2_sub_0:
 	D# 2
 	endchannel
 Music_UnusedSong_Ch2::
-	vibrato 6, 1, 5
+	vibrato 5, 1, 5
 	duty 3
-	notetype 12, 15, 0
+	notetype 12, 12, 4
 	callchannel Music_UnusedSong_Ch2_sub_0
 	rest 6
 	callchannel Music_UnusedSong_Ch2_sub_0
@@ -476,6 +476,7 @@ Music_UnusedSong_Ch3_sub_0:
 Music_UnusedSong_Ch3::
 	vibrato 0, 0, 0
 	notetype 12, 1, 1
+	toggleperfectpitch
 	octave 4
 	callchannel Music_UnusedSong_Ch3_sub_0
 	rest 6
@@ -486,115 +487,115 @@ Music_UnusedSong_Ch3::
 	callchannel Music_UnusedSong_Ch3_sub_0
 	endchannel
 Music_UnusedSong_Ch4_sub_0:
-	mutedsnare1 6
-	mutedsnare1 6
+	snare6 6
+	snare6 6
+	triangle1 6
+	triangle1 6
+	snare6 2
+	snare6 2
 	triangle2 6
 	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 4
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 4
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle2 6
+	snare6 4
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 4
+	triangle1 6
+	triangle2 6
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle2 6
+	snare6 4
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
+	snare6 2
+	snare6 2
+	triangle1 6
+	triangle2 6
+	snare6 4
+	triangle1 6
+	triangle1 6
+	snare6 4
 	triangle2 6
 	triangle1 6
-	mutedsnare1 4
-	triangle2 6
+	snare6 2
+	snare6 2
 	triangle1 6
-	mutedsnare1 4
 	triangle2 6
+	snare6 4
 	triangle1 6
-	mutedsnare1 4
-	triangle2 6
 	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 2
-	mutedsnare1 2
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
-	triangle2 6
-	triangle1 6
-	mutedsnare1 4
+	snare6 4
 	endchannel
 Music_UnusedSong_Ch4::
 	dspeed 12
-	mutedsnare1 6
+	snare6 6
 	callchannel Music_UnusedSong_Ch4_sub_0
-	mutedsnare1 6
+	snare6 6
 	callchannel Music_UnusedSong_Ch4_sub_0
 	endchannel
