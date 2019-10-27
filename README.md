@@ -67,8 +67,7 @@ Possible Features to be added
 • Automatic Repel System
 To Be Continued
 
-Screenies
-[img]https://i.imgur.com/W31AXcY.png[/img]
+![SCREENIES](https://imgur.com/W31AXcY)
 
 
 
