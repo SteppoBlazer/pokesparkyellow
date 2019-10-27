@@ -1,4 +1,5 @@
 Pokémon Spark Yellow
+
 Hack of: Yellow version (using the pokeyellow disassembly)
 
 Introduction
@@ -67,7 +68,9 @@ Possible Features to be added
 To Be Continued
 
 Screenies
-<blockquote class="imgur-embed-pub" lang="en" data-id="W31AXcY"><a href="//imgur.com/W31AXcY">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[img]https://i.imgur.com/W31AXcY.png[/img]
+
+
 
 Bugs to iron out
 • Palette for indoor maps not updating properly, probably my attempt at a night day system palette switch and the new tileset I inserted messed the all thing up.
