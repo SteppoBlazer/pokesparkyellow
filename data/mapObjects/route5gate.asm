@@ -2,10 +2,10 @@ Route5GateObject:
 	db $a ; border block
 
 	db 4 ; warps
-	warp 3, 5, 2, $ff
-	warp 4, 5, 2, $ff
-	warp 3, 0, 1, $ff
-	warp 4, 0, 0, $ff
+	warp 3, 5, 8, SAFFRON_CITY
+	warp 4, 5, 8, SAFFRON_CITY
+	warp 3, 0, 0, ROUTE_5
+	warp 4, 0, 1, ROUTE_5
 
 	db 0 ; signs
 

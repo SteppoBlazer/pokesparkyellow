@@ -1,7 +1,7 @@
 SaffronCityObject:
 	db $f ; border block
 
-	db 8 ; warps
+	db 12 ; warps
 	warp  7,  5, 0, COPYCATS_HOUSE_1F
 	warp 26, 3, 0, FIGHTING_DOJO
 	warp 34,  3, 0, SAFFRON_GYM
@@ -10,13 +10,17 @@ SaffronCityObject:
 	warp 18, 21, 0, SILPH_CO_1F
 	warp 9, 29, 0, SAFFRON_POKECENTER
 	warp 29, 29, 0, SAFFRON_HOUSE_2
+	warp 19, 1, 0, ROUTE_5_GATE
+	warp 2, 19, 0, ROUTE_7_GATE
+	warp 37, 19, 0, ROUTE_8_GATE
+	warp 21, 31, 0, ROUTE_6_GATE
 
 	db 10 ; signs
 	sign 17,  5, 10 ; SaffronCityText16
 	sign 27, 5, 11 ; SaffronCityText17
 	sign 35,  5, 12 ; SaffronCityText18
 	sign 26, 11, 13 ; MartSignText
-	sign 39, 19, 14 ; SaffronCityText20
+	sign 38, 19, 14 ; SaffronCityText20
 	sign  5, 21, 15 ; SaffronCityText21
 	sign 15, 21, 16 ; SaffronCityText22
 	sign 10, 29, 17 ; PokeCenterSignText
@@ -48,5 +52,9 @@ SaffronCityObject:
 	warp_to 18, 21, SAFFRON_CITY_WIDTH ; SILPH_CO_1F
 	warp_to 9, 29, SAFFRON_CITY_WIDTH ; SAFFRON_POKECENTER
 	warp_to 29, 29, SAFFRON_CITY_WIDTH ; SAFFRON_HOUSE_2
+	warp_to 19, 1, SAFFRON_CITY_WIDTH ; ROUTE_5_GATE
+	warp_to 2, 19, SAFFRON_CITY_WIDTH ; ROUTE_7_GATE
+	warp_to 37, 19, SAFFRON_CITY_WIDTH ; ROUTE_8_GATE
+	warp_to 21, 31, SAFFRON_CITY_WIDTH ; ROUTE_6_GATE
 
 
