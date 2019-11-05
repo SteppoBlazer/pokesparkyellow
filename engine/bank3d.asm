@@ -222,14 +222,6 @@ TitleScreen_PlacePikachu:
 	ld de, TitleScreenPikachuTilemap
 	lb bc, 9, 12
 	call Bank3D_CopyBox
-	coord hl, 16, 10
-	ld [hl], $96
-	coord hl, 16, 11
-	ld [hl], $9d
-	coord hl, 16, 12
-	ld [hl], $a7
-	coord hl, 16, 13
-	ld [hl], $b1
 	ld hl, TitleScreenPikachuEyesOAMData
 	ld de, wOAMBuffer
 	ld bc, $20
@@ -269,7 +261,7 @@ TitleScreenPokemonLogoTilemap:
 ; 16x7 (xy)
 	db $f4, $f4, $f4, $f4, $f4, $f4, $49, $f4, $72, $30, $f4, $f4, $f4, $f4, $f4, $f4
 	db $fd, $01, $02, $03, $04, $05, $06, $07, $08, $09, $0a, $0b, $f4, $0d, $0e, $0f
-	db $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $1a, $1b, $1c, $1d, $1e, $1f
+	db $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $90, $1b, $1c, $1d, $1e, $1f
 	db $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $2a, $2b, $2c, $2d, $2e, $2f
 	db $f4, $31, $32, $33, $34, $35, $36, $37, $38, $39, $3a, $3b, $3c, $3d, $3e, $3f
 	db $f4, $41, $42, $43, $44, $45, $46, $47, $48, $f4, $4a, $4b, $4c, $4d, $4e, $4f
@@ -288,15 +280,15 @@ TitleScreenPikaBubbleTilemap:
 
 TitleScreenPikachuTilemap:
 ; 12x9 (xy)
-	db $80, $81, $82, $83, $00, $00, $00, $00, $84, $85, $86, $87
-	db $88, $89, $8a, $8b, $8c, $8d, $8d, $8e, $8f, $8a, $90, $91
-	db $00, $92, $93, $8a, $8a, $8a, $8a, $8a, $8a, $94, $95, $00
-	db $00, $00, $97, $8a, $8a, $98, $99, $8a, $8a, $9a, $9b, $9c
-	db $00, $00, $9e, $9f, $a0, $a1, $a2, $a3, $a4, $a5, $a6, $8a
-	db $00, $a8, $a9, $aa, $8a, $ab, $ac, $8a, $ad, $ae, $af, $b0
-	db $00, $b2, $b3, $b4, $8a, $8a, $8a, $8a, $b5, $b6, $b7, $b8
-	db $00, $b9, $ba, $8a, $8a, $8a, $8a, $8a, $8a, $bb, $bc, $00
-	db $00, $00, $bd, $8a, $8a, $8a, $8a, $8a, $8a, $be, $bf, $00
+	db $80, $81, $82, $00, $00, $00, $00, $00, $00, $83, $84, $85
+	db $00, $86, $87, $88, $89, $8a, $8a, $8b, $8c, $8d, $8e, $00
+	db $f8, $91, $92, $93, $8f, $8f, $8f, $8f, $94, $95, $96, $f9
+	db $00, $00, $97, $8f, $8f, $98, $99, $8f, $8f, $9a, $00, $9b
+	db $00, $00, $9c, $9d, $8f, $9e, $9f, $8f, $a0, $a1, $a2, $a3
+	db $00, $a4, $a5, $a6, $8f, $a7, $a8, $8f, $a9, $aa, $ab, $ac
+	db $00, $ad, $ae, $af, $8f, $8f, $8f, $8f, $b0, $b1, $b2, $b3
+	db $00, $b4, $b5, $8f, $b6, $b7, $b8, $b9, $8f, $ba, $bb, $00
+	db $00, $00, $bc, $bd, $90, $90, $90, $90, $be, $bf, $f5, $00
 
 ; f46f9 (3d:46f9)
 PokemonLogoGraphics:	     INCBIN "gfx/pokemon_logo.2bpp"
