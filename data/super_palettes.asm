@@ -84,10 +84,10 @@ SuperPalettes:
 	RGB 21, 00, 04
 
 	; PAL_LOGO2
-	RGB 31, 31, 30
-	RGB 30, 30, 17
-	RGB 18, 18, 24
-	RGB  7,  7, 16
+	RGB 31, 31, 31
+	RGB 30, 23, 09
+	RGB 18, 19, 18
+	RGB 05, 12, 22
 
 	; PAL_EXP
 	RGB 31, 31, 31
@@ -2426,7 +2426,7 @@ GBCBasePalettes:
 
 	; PAL_LOGO2
 	RGB 31, 31, 31
-	RGB 31, 20, 31
+	RGB 31, 31,  0
 	RGB  7,  7, 25
 	RGB  0,  0, 17
 
