@@ -157,14 +157,14 @@ PokedexEntryPointers:
 ; text entry
 
 BulbasaurDexEntry:
-	db "Seed@"
+	db "Bulb@"
 	db 0,70 ;70 CM
 	dw 069
 	TX_FAR _BulbasaurDexEntry
 	db "@"
 
 IvysaurDexEntry:
-	db "Seed@"
+	db "Flower@"
 	db 1,0 ; 1 m
 	dw 130
 	TX_FAR _IvysaurDexEntry
@@ -612,56 +612,56 @@ AlakazamDexEntry:
 	db "@"
 
 MachopDexEntry:
-	db "Super Strenght@"
+	db "Strenght@"
 	db 0,80
 	dw 195
 	TX_FAR _MachopDexEntry
 	db "@"
 
 MachokeDexEntry:
-	db "Super Strenght@"
+	db "Strenght@"
 	db 1,5
 	dw 705
 	TX_FAR _MachokeDexEntry
 	db "@"
 
 MachampDexEntry:
-	db "Super Strenght@"
+	db "Strenght@"
 	db 1,6
 	dw 1300
 	TX_FAR _MachampDexEntry
 	db "@"
 
 BellsproutDexEntry:
-	db "Pitcher plant@"
+	db "Pitcherplant@"
 	db 0,70
 	dw 040
 	TX_FAR _BellsproutDexEntry
 	db "@"
 
 WeepinbellDexEntry:
-	db "Pitcher plant@"
+	db "Pitcherplant@"
 	db 1,0
 	dw 064
 	TX_FAR _WeepinbellDexEntry
 	db "@"
 
 VictreebelDexEntry:
-	db "Pitcher plant@"
+	db "Pitcherplant@"
 	db 1,7
 	dw 155
 	TX_FAR _VictreebelDexEntry
 	db "@"
 
 TentacoolDexEntry:
-	db "Jellyfish@"
+	db "Venom Squid@"
 	db 0,90
 	dw 455
 	TX_FAR _TentacoolDexEntry
 	db "@"
 
 TentacruelDexEntry:
-	db "Jellyfish@"
+	db "Venom Squid@"
 	db 1,6
 	dw 550
 	TX_FAR _TentacruelDexEntry
@@ -682,14 +682,14 @@ GravelerDexEntry:
 	db "@"
 
 GolemDexEntry:
-	db "Megaton@"
+	db "Mass@"
 	db 1,4
 	dw 3000
 	TX_FAR _GolemDexEntry
 	db "@"
 
 PonytaDexEntry:
-	db "Fire Horse@"
+	db "Fire Pony@"
 	db 1,0
 	dw 300
 	TX_FAR _PonytaDexEntry
@@ -710,7 +710,7 @@ SlowpokeDexEntry:
 	db "@"
 
 SlowbroDexEntry:
-	db "Slow-witted@"
+	db "Slowitted@"
 	db 1,6
 	dw 785
 	TX_FAR _SlowbroDexEntry
@@ -738,14 +738,14 @@ FarfetchdDexEntry:
 	db "@"
 
 DoduoDexEntry:
-	db "Roadrunner@"
+	db "Ostrich@"
 	db 1,4
 	dw 392
 	TX_FAR _DoduoDexEntry
 	db "@"
 
 DodrioDexEntry:
-	db "Ostrich@"
+	db "Cassowary@"
 	db 1,8
 	dw 852
 	TX_FAR _DodrioDexEntry
@@ -780,170 +780,170 @@ MukDexEntry:
 	db "@"
 
 ShellderDexEntry:
-	db "Clam@"
+	db "Scallop@"
 	db 0,30
 	dw 040
 	TX_FAR _ShellderDexEntry
 	db "@"
 
 CloysterDexEntry:
-	db "Bivalve@"
+	db "Spinyoyster@"
 	db 1,5
 	dw 1325
 	TX_FAR _CloysterDexEntry
 	db "@"
 
 GastlyDexEntry:
-	db "GAS@"
+	db "Ghost@"
 	db 1,3
 	dw 0001
 	TX_FAR _GastlyDexEntry
 	db "@"
 
 HaunterDexEntry:
-	db "GAS@"
+	db "Spectre@"
 	db 1,6
 	dw 0001
 	TX_FAR _HaunterDexEntry
 	db "@"
 
 GengarDexEntry:
-	db "SHADOW@"
+	db "Phantom@"
 	db 1,5
 	dw 405
 	TX_FAR _GengarDexEntry
 	db "@"
 
 OnixDexEntry:
-	db "ROCK SNAKE@"
+	db "Rock Snake@"
 	db 8,8
 	dw 2100
 	TX_FAR _OnixDexEntry
 	db "@"
 
 DrowzeeDexEntry:
-	db "HYPNOSIS@"
+	db "Tapir@"
 	db 1,0
 	dw 324
 	TX_FAR _DrowzeeDexEntry
 	db "@"
 
 HypnoDexEntry:
-	db "HYPNOSIS@"
+	db "Hypnosis@"
 	db 1,6
 	dw 756
 	TX_FAR _HypnoDexEntry
 	db "@"
 
 KrabbyDexEntry:
-	db "RIVER CRAB@"
+	db "Sand Crab@"
 	db 0,40
 	dw 065
 	TX_FAR _KrabbyDexEntry
 	db "@"
 
 KinglerDexEntry:
-	db "PINCER@"
+	db "Fiddlercrab@"
 	db 1,3
 	dw 600
 	TX_FAR _KinglerDexEntry
 	db "@"
 
 VoltorbDexEntry:
-	db "BALL@"
+	db "Ball@"
 	db 0,50
 	dw 104
 	TX_FAR _VoltorbDexEntry
 	db "@"
 
 ElectrodeDexEntry:
-	db "BALL@"
-	db 3,11
-	dw 1470
+	db "Ball@"
+	db 1,2
+	dw 666
 	TX_FAR _ElectrodeDexEntry
 	db "@"
 
 ExeggcuteDexEntry:
-	db "EGG@"
-	db 1,4
-	dw 60
+	db "Seeds@"
+	db 0,4
+	dw 025
 	TX_FAR _ExeggcuteDexEntry
 	db "@"
 
 ExeggutorDexEntry:
-	db "COCONUT@"
-	db 6,7
-	dw 2650
+	db "Tree@"
+	db 2,0
+	dw 120
 	TX_FAR _ExeggutorDexEntry
 	db "@"
 
 CuboneDexEntry:
-	db "LONELY@"
-	db 1,4
-	dw 140
+	db "Orphan@"
+	db 0,4
+	dw 065
 	TX_FAR _CuboneDexEntry
 	db "@"
 
 MarowakDexEntry:
-	db "BONEKEEPER@"
-	db 3,3
-	dw 990
+	db "Guardian@"
+	db 1,0
+	dw 450
 	TX_FAR _MarowakDexEntry
 	db "@"
 
 HitmonleeDexEntry:
-	db "KICKING@"
-	db 4,11
-	dw 1100
+	db "Kickboxer@"
+	db 1,5
+	dw 498
 	TX_FAR _HitmonleeDexEntry
 	db "@"
 
 HitmonchanDexEntry:
-	db "PUNCHING@"
-	db 4,7
-	dw 1110
+	db "Boxer@"
+	db 1,4
+	dw 502
 	TX_FAR _HitmonchanDexEntry
 	db "@"
 
 LickitungDexEntry:
-	db "LICKING@"
-	db 3,11
-	dw 1440
+	db "Licker@"
+	db 1,2
+	dw 655
 	TX_FAR _LickitungDexEntry
 	db "@"
 
 KoffingDexEntry:
-	db "POISON GAS@"
-	db 2,
-	dw 20
+	db "Pollution@"
+	db 0,6
+	dw 10
 	TX_FAR _KoffingDexEntry
 	db "@"
 
 WeezingDexEntry:
-	db "POISON GAS@"
-	db 3,11
-	dw 210
+	db "Pollution@"
+	db 1,2
+	dw 95
 	TX_FAR _WeezingDexEntry
 	db "@"
 
 RhyhornDexEntry:
-	db "SPIKES@"
-	db 3,3
-	dw 2540
+	db "Rhinoceros@"
+	db 1,0
+	dw 1150
 	TX_FAR _RhyhornDexEntry
 	db "@"
 
 RhydonDexEntry:
-	db "DRILL@"
-	db 6,3
-	dw 2650
+	db "Armor Rhino@"
+	db 1,9
+	dw 1200
 	TX_FAR _RhydonDexEntry
 	db "@"
 
 ChanseyDexEntry:
-	db "EGG@"
-	db 3,7
-	dw 760
+	db "Incubator@"
+	db 1,1
+	dw 346
 	TX_FAR _ChanseyDexEntry
 	db "@"
 
