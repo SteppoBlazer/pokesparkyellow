@@ -29,9 +29,10 @@ const_value = 0
 	const TOKIWACITY ; 26
 	const NIBICITY ; 27
 	const HANADACITY ; 28
-	const KUCHIBACITY ; 29
-	const SHIONTOWN ; 30
-	const TAMAMUSHICITY ; 31
-	const SEKICHIKUCITY ; 32
-	const YAMABUKICITY ; 33
-	const GURENTOWN ; 34
+	const POWERPLANT ;29
+	const KUCHIBACITY ; 30
+	const SHIONTOWN ; 31
+	const TAMAMUSHICITY ; 32
+	const SEKICHIKUCITY ; 33
+	const YAMABUKICITY ; 34
+	const GURENTOWN ; 35

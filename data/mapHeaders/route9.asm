@@ -1,5 +1,5 @@
 Route9_h:
-	db OVERWORLD ; tileset
+	db POWERPLANT ; tileset
 	db ROUTE_9_HEIGHT, ROUTE_9_WIDTH ; dimensions (y, x)
 	dw Route9Blocks, Route9TextPointers, Route9Script ; blocks, texts, scripts
 	db EAST ; connections
