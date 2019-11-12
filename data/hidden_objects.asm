@@ -8,7 +8,7 @@ HiddenObjectMaps:
 	dbw SAFARI_ZONE_WEST,       SafariZoneWestHiddenObjects
 	dbw UNKNOWN_DUNGEON_2,      UnknownDungeon2HiddenObjects
 	dbw UNKNOWN_DUNGEON_3,      UnknownDungeon3HiddenObjects
-	dbw UNUSED_MAP_6F,          UnusedMap6FHiddenObjects
+	dbw ROUTE_10_SOUTH,         UnusedMap6FHiddenObjects
 	dbw SEAFOAM_ISLANDS_3,      SeafoamIslands3HiddenObjects
 	dbw SEAFOAM_ISLANDS_4,      SeafoamIslands4HiddenObjects
 	dbw SEAFOAM_ISLANDS_5,      SeafoamIslands5HiddenObjects

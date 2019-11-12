@@ -111,7 +111,7 @@ MapHeaderPointers::
 	dw VictoryRoad1_h
 	dw Route1Gate_h
 	dw Route2North_h
-	dw Lance_h ; unused
+	dw Route10South_h
 	dw Lance_h ; unused
 	dw Lance_h
 	dw Lance_h ; unused

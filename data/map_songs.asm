@@ -110,7 +110,7 @@ MapSongBanks:
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ;unused
 	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; route2north
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
+	db MUSIC_ROUTES3, BANK(Music_Routes3) ;route10south
 	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Lance
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused

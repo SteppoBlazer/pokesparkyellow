@@ -2,10 +2,10 @@ RockTunnel1Object:
 	db $3 ; border block
 
 	db 8 ; warps
-	warp 15, 3, 1, $ff
-	warp 15, 0, 1, $ff
-	warp 15, 33, 2, $ff
-	warp 15, 35, 2, $ff
+	warp 15, 3, 1, ROUTE_10
+	warp 15, 0, 1, ROUTE_10
+	warp 15, 33, 2, ROUTE_10_SOUTH
+	warp 15, 35, 2, ROUTE_10_SOUTH
 	warp 37, 3, 0, ROCK_TUNNEL_2
 	warp 5, 3, 1, ROCK_TUNNEL_2
 	warp 17, 11, 2, ROCK_TUNNEL_2

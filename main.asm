@@ -1342,6 +1342,10 @@ INCLUDE "data/mapHeaders/route10.asm"
 INCLUDE "data/mapObjects/Route10.asm"
 Route10Blocks: INCBIN "maps/Route10.blk"
 
+INCLUDE "data/mapHeaders/route10south.asm"
+INCLUDE "data/mapObjects/Route10South.asm"
+Route10SouthBlocks: INCBIN "maps/Route10South.blk"
+
 INCLUDE "data/mapHeaders/route11.asm"
 INCLUDE "data/mapObjects/Route11.asm"
 Route11Blocks: INCBIN "maps/Route11.blk" ; 5855f
@@ -1373,6 +1377,7 @@ INCLUDE "engine/overworld/oaks_aide.asm"
 INCLUDE "scripts/route6.asm"
 INCLUDE "scripts/route8.asm"
 INCLUDE "scripts/route10.asm"
+INCLUDE "scripts/route10south.asm"
 INCLUDE "scripts/route11.asm"
 INCLUDE "scripts/route12.asm"
 INCLUDE "scripts/route15.asm"
@@ -2221,5 +2226,8 @@ TokiwaCity_GFX:    INCBIN "gfx/tilesets/tokiwacity.2bpp"
 TokiwaCity_Block:  INCBIN "gfx/blocksets/tokiwacity.bst"
 HanadaCity_GFX:    INCBIN "gfx/tilesets/hanadacity.2bpp"
 HanadaCity_Block:  INCBIN "gfx/blocksets/hanadacity.bst"
+
+SECTION "bank47",ROMX,BANK[$47]
+
 PowerPlant_GFX:    INCBIN "gfx/tilesets/powerplantext.2bpp"
 PowerPlant_Block:  INCBIN "gfx/blocksets/powerplantext.bst"

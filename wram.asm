@@ -3264,8 +3264,10 @@ wSeafoamIslands5CurScript:: ; d667
 	ds 1
 wRoute18GateCurScript:: ; d668
 	ds 1
+wRoute10SouthCurScript::
+	ds 1
 
-	ds 78
+	ds 77
 wGameProgressFlagsEnd:: ; d6b7
 
 wEvolutionData::
