@@ -2902,15 +2902,25 @@ _SetToBoxText::
 
 _BoxIsFullText::
 	text "There's no more"
-	line "room for #MON!"
+	line "room for #mon!"
 
-	para "The #MON BOX"
+	para "The #mon Box"
 	line "is full and can't"
 	cont "accept any more!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Change the Box at"
+	line "a #mon Center!"
 	done
+
+_BoxIsFullReminderText::
+	text "The #mon Box"
+	line "is now full."
+	cont "It won't hold"
+	cont "more #mon."
+	
+	para "Change the Box at"
+	line "a #mon Center!"
+	prompt
 
 INCLUDE "text/maps/pallet_town.asm"
 INCLUDE "text/maps/viridian_city.asm"
