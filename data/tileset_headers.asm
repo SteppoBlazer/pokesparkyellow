@@ -30,3 +30,4 @@ Tilesets:
 	tileset NibiCity_Block,    NibiCity_GFX,    NibiCity_Coll,    $FF,$FF,$FF, $52, OUTDOOR
 	tileset HanadaCity_Block,  HanadaCity_GFX,  HanadaCity_Coll,  $FF,$FF,$FF, $52, OUTDOOR
 	tileset PowerPlant_Block,  PowerPlant_GFX,  PowerPlant_Coll,  $FF,$FF,$FF, $52, OUTDOOR
+	tileset ShionTown_Block,   ShionTown_GFX,   ShionTown_Coll,   $FF,$FF,$FF, $52, OUTDOOR

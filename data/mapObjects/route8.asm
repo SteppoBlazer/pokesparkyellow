@@ -9,7 +9,7 @@ Route8Object:
 	warp 13, 3, 0, PATH_ENTRANCE_ROUTE_8
 
 	db 1 ; signs
-	sign 17, 3, 10 ; Route8Text10
+	sign 16,  5, 10 ; Route8Text10
 
 	db 9 ; objects
 	object SPRITE_BLACK_HAIR_BOY_2, 8, 5, STAY, RIGHT, 1, OPP_SUPER_NERD, 3
@@ -23,8 +23,8 @@ Route8Object:
 	object SPRITE_LASS, 51, 12, STAY, LEFT, 9, OPP_LASS, 16
 
 	; warp-to
-	warp_to 1, 9, ROUTE_8_WIDTH; ROUTE_8_GATE
+	warp_to  1,  9, ROUTE_8_WIDTH; ROUTE_8_GATE
 	warp_to 1, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 8, 9, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 8, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
-	warp_to 13, 3, ROUTE_8_WIDTH ; PATH_ENTRANCE_ROUTE_8
+	warp_to  8,  9, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to  8, 10, ROUTE_8_WIDTH ; ROUTE_8_GATE
+	warp_to 13,  3, ROUTE_8_WIDTH ; PATH_ENTRANCE_ROUTE_8

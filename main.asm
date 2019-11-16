@@ -2231,3 +2231,5 @@ SECTION "bank47",ROMX,BANK[$47]
 
 PowerPlant_GFX:    INCBIN "gfx/tilesets/powerplantext.2bpp"
 PowerPlant_Block:  INCBIN "gfx/blocksets/powerplantext.bst"
+ShionTown_GFX:     INCBIN "gfx/tilesets/shiontown.2bpp"
+ShionTown_Block:   INCBIN "gfx/blocksets/shiontown.bst"

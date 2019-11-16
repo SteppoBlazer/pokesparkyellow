@@ -1,5 +1,5 @@
 Route10South_h:
-	db OVERWORLD ; tileset
+	db SHIONTOWN ; tileset
 	db ROUTE_10_SOUTH_HEIGHT, ROUTE_10_SOUTH_WIDTH ; dimensions (y, x)
 	dw Route10SouthBlocks, Route10SouthTextPointers, Route10SouthScript ; blocks, texts, scripts
 	db SOUTH ; connections

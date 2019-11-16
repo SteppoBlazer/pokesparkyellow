@@ -1,5 +1,5 @@
 Route8_h:
-	db OVERWORLD ; tileset
+	db SHIONTOWN ; tileset
 	db ROUTE_8_HEIGHT, ROUTE_8_WIDTH ; dimensions (y, x)
 	dw Route8Blocks, Route8TextPointers, Route8Script ; blocks, texts, scripts
 	db WEST | EAST ; connections
