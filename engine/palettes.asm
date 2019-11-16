@@ -1228,7 +1228,7 @@ SendOakPal:
 	jr SendCustomPacket
 
 SendNidoPal:
-	ld a, PAL_NIDORINO
+	ld a, PAL_CUBONE
 	jr SendCustomPacket
 
 SendPlayerPal:

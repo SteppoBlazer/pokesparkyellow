@@ -262,7 +262,7 @@ Char58:: ; prompt
 .ok
 	call ProtectedDelay3
 	call ManualTextScroll
-	ld a, "-"
+	ld a, $de
 	Coorda 18, 17
 Char57:: ; done
 	pop hl
@@ -282,7 +282,7 @@ Char51:: ; para
 	coord hl, 1, 13
 	lb bc, 4, 18
 	call ClearScreenArea
-	ld a, "─"
+	ld a, $de
 	Coorda 18, 17
 	ld c, 20
 	call DelayFrames
@@ -321,7 +321,7 @@ Char4B::
 	push de
 	call ManualTextScroll
 	pop de
-	ld a, "-"
+	ld a, $de
 	Coorda 18, 17
 	;fall through
 Char4C::
@@ -512,7 +512,7 @@ TextCommand06::
 	push bc
 	call ManualTextScroll ; blink arrow and wait for A or B to be pressed
 	pop bc
-	ld a, "-"
+	ld a, $de
 	Coorda 18, 17 ; overwrite down arrow with border
 	pop hl
 	jp NextTextCommand
@@ -521,7 +521,7 @@ TextCommand06::
 ; 07
 ; (no arguments)
 TextCommand07::
-	ld a, "-"
+	ld a, $de
 	Coorda 18, 17 ; place border in lower right corner of dialogue text box
 	call ScrollTextUpOneLine
 	call ScrollTextUpOneLine
@@ -631,7 +631,7 @@ TextCommandSounds::
 	db $10, SFX_GET_ITEM_2
 	db $11, SFX_GET_KEY_ITEM
 	db $13, SFX_TRADE_MACHINE
-	db $14, NIDORINO  ; used in OakSpeech
+	db $14, CUBONE  ; used in OakSpeech
 	db $15, PIDGEOT  ; used in SaffronCityText12
 	db $16, DEWGONG  ; unused?
 

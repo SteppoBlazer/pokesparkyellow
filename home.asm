@@ -3569,7 +3569,7 @@ WaitForTextScrollButtonPress::
 	pop de
 .skipAnimation
 	coord hl, 18, 17
-	ld a, "─"
+	ld a, $de
 	call HandleDownArrowBlinkTiming
 	pop hl
 	call JoypadLowSensitivity

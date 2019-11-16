@@ -74,12 +74,12 @@ OakSpeech:
 	call GBFadeOutToWhite
 	call ClearScreen
 	callba SendNidoPal
-	ld a, NIDORINO
+	ld a, CUBONE
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader
 	coord hl, 6, 4
-	call LoadFlippedFrontSpriteByMonIndex
+	call LoadFrontSpriteByMonIndex
 	call MovePicLeft
 	ld hl,OakSpeechText2
 	call PrintText
