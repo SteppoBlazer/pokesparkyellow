@@ -2,7 +2,7 @@ VermilionDockObject:
 	db $f ; border block
 
 	db 2 ; warps
-	warp 14, 0, 5, $ff
+	warp 14, 0, 5, VERMILION_CITY
 	warp 14, 2, 1, SS_ANNE_1
 
 	db 0 ; signs

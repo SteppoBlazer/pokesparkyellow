@@ -28,7 +28,7 @@ ENDM
 	mapconst ROUTE_9,                     9, 30 ; $14
 	mapconst ROUTE_10,                   21, 10 ; $15
 	mapconst ROUTE_11,                    9, 30 ; $16
-	mapconst ROUTE_12,                   54, 10 ; $17
+	mapconst ROUTE_12,                   11, 10 ; $17
 	mapconst ROUTE_13,                    9, 30 ; $18
 	mapconst ROUTE_14,                   27, 10 ; $19
 	mapconst ROUTE_15,                    9, 30 ; $1A
@@ -117,7 +117,7 @@ ENDM
 	mapconst ROUTE_1_GATE,                3,  4 ; $6D
 	mapconst ROUTE_2_NORTH,              21, 10 ; $6E
 	mapconst ROUTE_10_SOUTH,             11, 10 ; $6F
-	mapconst UNUSED_MAP_70,               0,  0 ; $70
+	mapconst ROUTE_12_SOUTH,             43, 10 ; $70
 	mapconst LANCES_ROOM,                13, 13 ; $71
 	mapconst UNUSED_MAP_72,               0,  0 ; $72
 	mapconst UNUSED_MAP_73,               0,  0 ; $73

@@ -1,15 +1,18 @@
-SaffronHouse2Object:
+SaffronHouse1Object:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 7, $ff
-	warp 3, 7, 7, $ff
+	warp 2, 7, 3, SAFFRON_CITY
+	warp 3, 7, 3, SAFFRON_CITY
 
 	db 0 ; signs
 
-	db 1 ; objects
-	object SPRITE_FISHER, 5, 3, STAY, LEFT, 1 ; person
+	db 4 ; objects
+	object SPRITE_BRUNETTE_GIRL, 2, 3, STAY, RIGHT, 1 ; person
+	object SPRITE_BIRD, 0, 4, WALK, 1, 2 ; person
+	object SPRITE_BUG_CATCHER, 4, 1, STAY, DOWN, 3 ; person
+	object SPRITE_PAPER_SHEET, 3, 3, STAY, NONE, 4 ; person
 
 	; warp-to
-	warp_to 2, 7, SAFFRON_HOUSE_2_WIDTH
-	warp_to 3, 7, SAFFRON_HOUSE_2_WIDTH
+	warp_to 2, 7, SAFFRON_HOUSE_1_WIDTH
+	warp_to 3, 7, SAFFRON_HOUSE_1_WIDTH

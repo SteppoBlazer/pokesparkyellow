@@ -1,16 +1,19 @@
-PewterHouse2Object:
+PewterHouse1Object:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 5, $ff
-	warp 3, 7, 5, $ff
+	warp 2, 7, 3, PEWTER_CITY
+	warp 3, 7, 3, PEWTER_CITY
 
 	db 0 ; signs
 
-	db 2 ; objects
-	object SPRITE_GAMBLER, 2, 3, STAY, RIGHT, 1 ; person
-	object SPRITE_BUG_CATCHER, 4, 5, STAY, NONE, 2 ; person
+	db 3 ; objects
+	object SPRITE_SLOWBRO, 4, 5, STAY, LEFT, 1 ; person
+	object SPRITE_YOUNG_BOY, 3, 5, STAY, RIGHT, 2 ; person
+	object SPRITE_FAT_BALD_GUY, 1, 2, STAY, NONE, 3 ; person
 
 	; warp-to
-	warp_to 2, 7, PEWTER_HOUSE_2_WIDTH
-	warp_to 3, 7, PEWTER_HOUSE_2_WIDTH
+	warp_to 2, 7, PEWTER_HOUSE_1_WIDTH
+	warp_to 3, 7, PEWTER_HOUSE_1_WIDTH
+
+

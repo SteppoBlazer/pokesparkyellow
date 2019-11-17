@@ -1,0 +1,25 @@
+Route12SouthObject:
+	db $43 ; border block
+
+	db 2 ; warps
+	warp 10,  1, 0, ROUTE_12_GATE_1F
+	warp 11, 55, 1, ROUTE_12_HOUSE
+
+	db 1 ; signs
+	sign 11, 41, 12 ; Route12Text12
+
+	db 10 ; objects
+	object SPRITE_SNORLAX, 10, 40, STAY, DOWN, 1 ; person
+	object SPRITE_FISHER2, 14,  9, STAY, LEFT, 2, OPP_FISHER, 3
+	object SPRITE_FISHER2,  5, 17, STAY, UP, 3, OPP_FISHER, 4
+	object SPRITE_BLACK_HAIR_BOY_1, 11, 92, STAY, LEFT, 4, OPP_JR_TRAINER_M, 9
+	object SPRITE_BLACK_HAIR_BOY_2, 14, 54, STAY, UP, 5, OPP_ROCKER, 2
+	object SPRITE_FISHER2, 12, 18, STAY, LEFT, 6, OPP_FISHER, 5
+	object SPRITE_FISHER2,  9, 30, STAY, RIGHT, 7, OPP_FISHER, 6
+	object SPRITE_FISHER2,  6, 65, STAY, DOWN, 8, OPP_FISHER, 11
+	object SPRITE_BALL, 14, 13, STAY, NONE, 9, TM_16
+	object SPRITE_BALL,  5, 67, STAY, NONE, 10, IRON
+
+	; warp-to
+	warp_to 10,  1, ROUTE_12_SOUTH_WIDTH ; ROUTE_12_GATE_1F
+	warp_to 11, 55, ROUTE_12_SOUTH_WIDTH ; ROUTE_12_HOUSE

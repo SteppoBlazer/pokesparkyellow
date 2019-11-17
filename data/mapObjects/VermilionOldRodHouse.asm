@@ -1,17 +1,15 @@
-VermilionHouse1Object:
+VermilionHouse2Object:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 4, $ff
-	warp 3, 7, 4, $ff
+	warp 2, 7, 8, VERMILION_CITY
+	warp 3, 7, 8, VERMILION_CITY
 
 	db 0 ; signs
 
-	db 3 ; objects
-	object SPRITE_BUG_CATCHER, 5, 3, STAY, LEFT, 1 ; person
-	object SPRITE_BIRD, 3, 5, WALK, 2, 2 ; person
-	object SPRITE_PAPER_SHEET, 4, 3, STAY, NONE, 3 ; person
+	db 1 ; objects
+	object SPRITE_FISHER, 2, 4, STAY, RIGHT, 1 ; person
 
 	; warp-to
-	warp_to 2, 7, VERMILION_HOUSE_1_WIDTH
-	warp_to 3, 7, VERMILION_HOUSE_1_WIDTH
+	warp_to 2, 7, VERMILION_HOUSE_2_WIDTH
+	warp_to 3, 7, VERMILION_HOUSE_2_WIDTH

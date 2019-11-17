@@ -3266,8 +3266,10 @@ wRoute18GateCurScript:: ; d668
 	ds 1
 wRoute10SouthCurScript::
 	ds 1
+wRoute12SouthCurScript::
+	ds 1
 
-	ds 77
+	ds 76
 wGameProgressFlagsEnd:: ; d6b7
 
 wEvolutionData::

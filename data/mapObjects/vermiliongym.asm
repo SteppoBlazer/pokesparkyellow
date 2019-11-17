@@ -2,8 +2,8 @@ VermilionGymObject:
 	db $3 ; border block
 
 	db 2 ; warps
-	warp 4, 17, 3, $ff
-	warp 5, 17, 3, $ff
+	warp 4, 17, 3, VERMILION_CITY
+	warp 5, 17, 3, VERMILION_CITY
 
 	db 0 ; signs
 

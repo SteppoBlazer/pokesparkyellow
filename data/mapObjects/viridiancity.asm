@@ -7,7 +7,7 @@ ViridianCityObject:
 	warp 23, 15, 0, VIRIDIAN_SCHOOL
 	warp 23,  9, 0, VIRIDIAN_HOUSE
 	warp 32,  7, 0, VIRIDIAN_GYM
-	warp 21, 33, 0, ROUTE_1_GATE
+	warp 21, 33, 3, ROUTE_1_GATE
 
 	db 6 ; signs
 	sign 17, 17, 9 ; ViridianCityText8
