@@ -4,6 +4,8 @@ Route12SouthObject:
 	db 2 ; warps
 	warp 10,  1, 0, ROUTE_12_GATE_1F
 	warp 11, 55, 1, ROUTE_12_HOUSE
+	warp 2,  40, 2, ROUTE_11_GATE_1F
+	warp 2,  41, 3, ROUTE_11_GATE_1F
 
 	db 1 ; signs
 	sign 11, 41, 12 ; Route12Text12
@@ -23,3 +25,5 @@ Route12SouthObject:
 	; warp-to
 	warp_to 10,  1, ROUTE_12_SOUTH_WIDTH ; ROUTE_12_GATE_1F
 	warp_to 11, 55, ROUTE_12_SOUTH_WIDTH ; ROUTE_12_HOUSE
+	warp_to 2,  40, ROUTE_12_SOUTH_WIDTH ; ROUTE_11_GATE_1F
+	warp_to 2,  41, ROUTE_12_SOUTH_WIDTH ; ROUTE_11_GATE_1F

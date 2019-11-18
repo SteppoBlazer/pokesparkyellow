@@ -182,6 +182,9 @@ SnorlaxSprite:         INCBIN "gfx/sprites/snorlax.2bpp"
 OldAmberSprite:        INCBIN "gfx/sprites/old_amber.2bpp"
 LyingOldManSprite:     INCBIN "gfx/sprites/lying_old_man.2bpp"
 QuestionMarkSprite:    INCBIN "gfx/sprites/question_mark.2bpp"
+YoungsterSprite:       INCBIN "gfx/sprites/youngster.2bpp"
+BCatcherBSprite:       INCBIN "gfx/sprites/bcatcher_boy.2bpp"
+
 
 INCLUDE "engine/battle/end_of_battle.asm"
 INCLUDE "engine/battle/wild_encounters.asm"

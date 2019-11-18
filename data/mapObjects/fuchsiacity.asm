@@ -11,7 +11,7 @@ FuchsiaCityObject:
 	warp 22, 13, 0, FUCHSIA_MEETING_ROOM
 	warp 31, 27, 1, FUCHSIA_HOUSE_3
 	warp 31, 24, 0, FUCHSIA_HOUSE_3
-	warp 17, 33, 2, ROUTE_19_GATE
+	warp 17, 33, 3, ROUTE_19_GATE
 
 	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11

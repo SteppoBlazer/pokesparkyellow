@@ -64,11 +64,11 @@ const_value = 1
 	const SPRITE_FISHER2                   ; $2f
 	const SPRITE_BLACKBELT                 ; $30
 	const SPRITE_GUARD                     ; $31
-	const SPRITE_UNUSED_2                  ; $32
+	const SPRITE_BCATCHER_G                ; $32
 	const SPRITE_MOM                       ; $33
 	const SPRITE_BALDING_GUY               ; $34
 	const SPRITE_YOUNG_BOY                 ; $35
-	const SPRITE_UNUSED_3                  ; $36
+	const SPRITE_BEAUTY                    ; $36
 	const SPRITE_GAMEBOY_KID               ; $37
 	const SPRITE_CLEFAIRY                  ; $38
 	const SPRITE_AGATHA                    ; $39
@@ -96,8 +96,8 @@ const_value = 1
 	const SPRITE_SNORLAX                   ; $4d
 	const SPRITE_OLD_AMBER_COPY            ; $4e
 	const SPRITE_OLD_AMBER                 ; $4f
-	const SPRITE_LYING_OLD_MAN_UNUSED_1    ; $50
-	const SPRITE_LYING_OLD_MAN_UNUSED_2    ; $51
+	const SPRITE_YOUNGSTER                 ; $50
+	const SPRITE_BCATCHER_B                ; $51
 	const SPRITE_LYING_OLD_MAN             ; $52
 
 ; different kinds of people events

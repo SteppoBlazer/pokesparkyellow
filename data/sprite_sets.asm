@@ -83,7 +83,7 @@ SpriteSets:
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_BCATCHER_B
 
 ; sprite set $03
 	db SPRITE_PIKACHU
@@ -96,7 +96,7 @@ SpriteSets:
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_BCATCHER_B
 
 ; sprite set $04
 	db SPRITE_PIKACHU
@@ -109,7 +109,7 @@ SpriteSets:
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_BCATCHER_B
 
 ; sprite set $05
 	db SPRITE_PIKACHU
@@ -135,7 +135,7 @@ SpriteSets:
 	db SPRITE_GUARD
 	db SPRITE_GAMBLER
 	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_BCATCHER_B
 
 ; sprite set $07
 	db SPRITE_PIKACHU
@@ -148,7 +148,7 @@ SpriteSets:
 	db SPRITE_ROCKER
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_BCATCHER_B
 
 ; sprite set $08
 	db SPRITE_PIKACHU
@@ -435,10 +435,10 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(GuardSprite)
 
-	; SPRITE_UNUSED_2
-	dw RedSprite
+	; SPRITE_BCATCHER_G
+	dw BCatcherGSprite
 	db $c0 ; byte count
-	db BANK(RedSprite)
+	db BANK(BCatcherGSprite)
 
 	; SPRITE_MOM
 	dw MomSprite
@@ -455,10 +455,10 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(YoungBoySprite)
 
-	; SPRITE_UNUSED_3
-	dw RedSprite
+	; SPRITE_BEAUTY
+	dw BeautySprite
 	db $c0 ; byte count
-	db BANK(RedSprite)
+	db BANK(BeautySprite)
 
 	; SPRITE_GAMEBOY_KID
 	dw GameboyKidSprite
@@ -585,15 +585,15 @@ SpriteSheetPointerTable:
 	db $40 ; byte count
 	db BANK(OldAmberSprite)
 
-	; SPRITE_LYING_OLD_MAN_UNUSED_1
-	dw LyingOldManSprite
-	db $40 ; byte count
-	db BANK(LyingOldManSprite)
+	; SPRITE_YOUNGSTER
+	dw YoungsterSprite
+	db $c0 ; byte count
+	db BANK(YoungsterSprite)
 
-	; SPRITE_LYING_OLD_MAN_UNUSED_2
-	dw LyingOldManSprite
-	db $40 ; byte count
-	db BANK(LyingOldManSprite)
+	; SPRITE_BCATCHER_B
+	dw BCatcherBSprite
+	db $c0 ; byte count
+	db BANK(BCatcherBSprite)
 
 	; SPRITE_LYING_OLD_MAN
 	dw LyingOldManSprite
