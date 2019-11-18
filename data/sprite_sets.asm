@@ -575,10 +575,10 @@ SpriteSheetPointerTable:
 	db $40 ; byte count
 	db BANK(SnorlaxSprite)
 
-	; SPRITE_OLD_AMBER_COPY
-	dw OldAmberSprite
-	db $40 ; byte count
-	db BANK(OldAmberSprite)
+	; SPRITE_BLAINE
+	dw BlaineSprite
+	db $c0 ; byte count
+	db BANK(BlaineSprite)
 
 	; SPRITE_OLD_AMBER
 	dw OldAmberSprite

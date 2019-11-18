@@ -94,7 +94,7 @@ const_value = 1
 	const SPRITE_BOOK_MAP_DEX              ; $4b
 	const SPRITE_CLIPBOARD                 ; $4c
 	const SPRITE_SNORLAX                   ; $4d
-	const SPRITE_OLD_AMBER_COPY            ; $4e
+	const SPRITE_BLAINE                    ; $4e
 	const SPRITE_OLD_AMBER                 ; $4f
 	const SPRITE_YOUNGSTER                 ; $50
 	const SPRITE_BCATCHER_B                ; $51
