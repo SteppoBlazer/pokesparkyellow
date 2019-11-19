@@ -540,6 +540,46 @@ SpriteSheetPointerTable:
 	db $c0
 	db BANK(JamesSprite)
 
+	; SPRITE_OAK_AIDE_F 
+	dw OakLabFSprite
+	db $c0 ; byte count
+	db BANK(OakLabFSprite)
+
+	; SPRITE_OAK_AID_M 
+	dw OakLabMSprite
+	db $c0 ; byte count
+	db BANK(OakLabMSprite)
+
+	; SPRITE_BLAINE
+	dw BlaineSprite
+	db $c0 ; byte count
+	db BANK(BlaineSprite)
+
+	; SPRITE_YOUNGSTER
+	dw YoungsterSprite
+	db $c0 ; byte count
+	db BANK(YoungsterSprite)
+
+	; SPRITE_BCATCHER_B
+	dw BCatcherBSprite
+	db $c0 ; byte count
+	db BANK(BCatcherBSprite)
+
+	; SPRITE_ELECTRICIAN
+	dw ElectricianSprite
+	db $c0 ; byte count
+	db BANK(ElectricianSprite)
+
+	; SPRITE_FATGUYPALLET 
+	dw FGuyPalletSprite
+	db $c0 ; byte count
+	db BANK(FGuyPalletSprite)
+
+	; SPRITE_GIRLPALLET 
+	dw GirlPalletSprite
+	db $c0 ; byte count
+	db BANK(GirlPalletSprite)
+
 	; SPRITE_BALL
 	dw BallSprite
 	db $40 ; byte count
@@ -575,52 +615,12 @@ SpriteSheetPointerTable:
 	db $40 ; byte count
 	db BANK(SnorlaxSprite)
 
-	; SPRITE_BLAINE
-	dw BlaineSprite
-	db $c0 ; byte count
-	db BANK(BlaineSprite)
-
 	; SPRITE_OLD_AMBER
 	dw OldAmberSprite
 	db $40 ; byte count
 	db BANK(OldAmberSprite)
 
-	; SPRITE_YOUNGSTER
-	dw YoungsterSprite
-	db $c0 ; byte count
-	db BANK(YoungsterSprite)
-
-	; SPRITE_BCATCHER_B
-	dw BCatcherBSprite
-	db $c0 ; byte count
-	db BANK(BCatcherBSprite)
-
 	; SPRITE_LYING_OLD_MAN
 	dw LyingOldManSprite
 	db $40 ; byte count
 	db BANK(LyingOldManSprite)
-
-	; SPRITE_ELECTRICIAN
-	dw ElectricianSprite
-	db $c0 ; byte count
-	db BANK(ElectricianSprite)
-
-	; SPRITE_FATGUYPALLET 
-	dw FGuyPalletSprite
-	db $c0 ; byte count
-	db BANK(FGuyPalletSprite)
-
-	; SPRITE_GIRLPALLET 
-	dw GirlPalletSprite
-	db $c0 ; byte count
-	db BANK(GirlPalletSprite)
-
-	; SPRITE_OAK_AIDE_F 
-	dw OakLabFSprite
-	db $c0 ; byte count
-	db BANK(OakLabFSprite)
-
-	; SPRITE_OAK_AID_M 
-	dw OakLabMSprite
-	db $c0 ; byte count
-	db BANK(OakLabMSprite)
