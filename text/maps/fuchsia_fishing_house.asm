@@ -11,8 +11,16 @@ _FuchsiaHouse3Text_561bd::
 	done
 
 _FuchsiaHouse3Text_561c2::
-	text "Grand! I like"
-	line "your style!"
+	text "Fishing's"
+	line "a man's ambition!"
+
+	para "A lousy Old Rod"
+	line "will only reel in"
+	cont "junk, but"
+	cont "with this"
+
+	para "Good Rod, you can"
+	line "catch better #mon!"
 
 	para "Take this and"
 	line "fish, young one!"

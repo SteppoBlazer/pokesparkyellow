@@ -14,7 +14,7 @@ OaksLabObject:
 	object SPRITE_BOOK_MAP_DEX, 2, 1, STAY, NONE, 4 ; person
 	object SPRITE_BOOK_MAP_DEX, 3, 1, STAY, NONE, 5 ; person
 	object SPRITE_OAK, 5, 10, STAY, UP, 6 ; person
-	object SPRITE_GIRL, 1, 9, WALK, 1, 7 ; person
+	object SPRITE_OAK_AIDE, 1, 9, WALK, 1, 7 ; person
 	object SPRITE_OAK_AIDE, 2, 10, STAY, NONE, 8 ; person
 	object SPRITE_OAK_AIDE, 8, 10, STAY, NONE, 9 ; person
 

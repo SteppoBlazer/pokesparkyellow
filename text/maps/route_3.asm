@@ -14,8 +14,8 @@ _Route3BattleText1::
 	done
 
 _Route3EndBattleText1::
-	text "You"
-	line "beat me again!"
+	text "You beated"
+	line "me again!"
 	prompt
 
 _Route3AfterBattleText1::
@@ -26,14 +26,18 @@ _Route3AfterBattleText1::
 	done
 
 _Route3BattleText2::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "Shorts are nice"
+	line "and easy to move"
+	cont "around in!"
+    cont "Why don't you wear"
+    cont "some too?"
 	done
 
 _Route3EndBattleText2::
-	text "I don't"
-	line "believe it!"
+	text "And here"
+	line "I thought that"
+	cont "they'd look good"
+	cont "on you, too..."
 	prompt
 
 _Route3AfterBattleText2::
@@ -44,8 +48,9 @@ _Route3AfterBattleText2::
 	done
 
 _Route3BattleText3::
-	text "You looked at me,"
-	line "didn't you?"
+	text "Excuse me!"
+	line "You looked at me,"
+	cont "didn't you?"
 	done
 
 _Route3EndBattleText3::
@@ -84,18 +89,22 @@ _Route3BattleText5::
 	done
 
 _Route3EndBattleText5::
-	text "Be nice!"
+	text "Can't you"
+	line "be nice to girls?"
 	prompt
 
 _Route3AfterBattleText5::
-	text "Avoid fights by"
-	line "not letting"
+	text "If you don't feel"
+	line "like fighting,"
+	cont "don't let other"
 	cont "people see you!"
 	done
 
 _Route3BattleText6::
 	text "Hey! You're not"
 	line "wearing shorts!"
+	cont "What's wrong"
+	cont "with you?"
 	done
 
 _Route3EndBattleText6::
@@ -126,8 +135,8 @@ _Route3AfterBattleText7::
 	done
 
 _Route3BattleText8::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Eek! Did you just"
+	line "grope me?"
 	done
 
 _Route3EndBattleText8::

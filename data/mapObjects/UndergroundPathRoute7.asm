@@ -8,8 +8,9 @@ UndergroundPathEntranceRoute7Object:
 
 	db 0 ; signs
 
-	db 1 ; objects
-	object SPRITE_FAT_BALD_GUY, 2, 4, STAY, NONE, 1 ; person
+	db 2 ; objects
+	object SPRITE_GIRL, 3, 2, STAY, NONE, 1 ; person
+	object SPRITE_FAT_BALD_GUY, 2, 4, STAY, NONE, 2 ; person
 
 	; warp-to
 	warp_to 3, 7, PATH_ENTRANCE_ROUTE_7_WIDTH

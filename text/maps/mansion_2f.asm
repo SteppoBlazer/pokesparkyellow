@@ -17,19 +17,23 @@ _Mansion2AfterBattleText1::
 
 _Mansion2Text3::
 	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	line "Uncharted Deep"
+	cont "Jungle"
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "While exploring"
+	line "this untouched"
+	cont "part of the"
+	cont "jungle, I"
+	cont "discovered a"
+
+	para "new #mon."
 	done
-
+ 
 _Mansion2Text4::
 	text "Diary: July 10"
-	line "We christened the"
+	line "I christened the"
 	cont "newly discovered"
-	cont "#MON, MEW."
+	cont "#mon, Mew."
 	done
 
 _Mansion2Text_520c2::

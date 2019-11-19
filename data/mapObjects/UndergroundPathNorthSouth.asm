@@ -7,7 +7,8 @@ UndergroundPathNSObject:
 
 	db 0 ; signs
 
-	db 0 ; objects
+	db 1 ; objects
+	object SPRITE_LASS, 4, 21, WALK, NONE, 1 ; person
 
 	; warp-to
 	warp_to 5, 4, UNDERGROUND_PATH_NS_WIDTH ; PATH_ENTRANCE_ROUTE_5

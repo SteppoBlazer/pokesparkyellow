@@ -7,8 +7,9 @@ UndergroundPathWEObject:
 
 	db 0 ; signs
 
-	db 0 ; objects
+	db 1 ; objects
+	object SPRITE_GIRL, 10,  3, WALK, NONE, 1 ; person
 
 	; warp-to
-	warp_to 2, 5, UNDERGROUND_PATH_WE_WIDTH ; PATH_ENTRANCE_ROUTE_7
+	warp_to  2,  5, UNDERGROUND_PATH_WE_WIDTH ; PATH_ENTRANCE_ROUTE_7
 	warp_to 47, 2, UNDERGROUND_PATH_WE_WIDTH ; PATH_ENTRANCE_ROUTE_8

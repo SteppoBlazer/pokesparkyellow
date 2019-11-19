@@ -53,10 +53,11 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
-	done
+	text "Thanks be to"
+	line "the Dragon God,"
+	cont "that I may stand"
+	cont "here to worship"
+	cont "its bones!"
 
 _Museum1FText_5c28e::
 	text "Ssh! I think that"

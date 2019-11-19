@@ -23,7 +23,7 @@ _UGPathRoute7EntranceUnusedText_5d77d::
 	done
 
 _UGPathRoute7EntranceUnusedText_5d782::
-	text "The UNDERGROUND"
+	text "This UNDERGROUND"
 	line "PATH goes beneath"
 	cont "SAFFRON and leads"
 	cont "to LAVENDER."

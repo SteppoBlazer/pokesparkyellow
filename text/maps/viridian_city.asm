@@ -5,22 +5,23 @@ _ViridianCityText_19219:: ; 2d:4478
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Mmn..."
+	line "Looks like I was"
+	cont "pretty drunk!"
 
-	para "Sure, you can go"
-	line "through!"
+	para "Aww..."
+	line "My head hurts..."
 
-	para "I'm sorry I was"
-	line "so rude to you!"
+	para "Hmm? What's that"
+	line "red box you have?"
 
-	para "I see you're using"
-	line "a #DEX."
+	para "An electronic"
+	line "encyclopedia to"
+    cont "catalogue #mon?"
 
-	para "I'll show you how"
-	line "to catch #MON"
-	cont "as my apology."
+    para "Perfect! Let me"
+	line "show you how to"
+	cont "catch one."
 	done
 
 _OldManTextAfterBattle::
@@ -29,14 +30,14 @@ _OldManTextAfterBattle::
 	cont "my touch."
 
 	para "I've run out of"
-	line "# BALLs too."
+	line "#balls too."
 
 	para "I have to get some"
-	line "at #MON MART."
+	line "at the #mart."
 	done
 
 _ViridianCityText1::
-	text "Those # BALLs"
+	text "Those #balls"
 	line "at your waist!"
 	cont "You have #MON!"
 
@@ -80,10 +81,16 @@ _ViridianCityText_19157::
 	done
 
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Good grief,"
+	line "Grandpa!"
+	cont "Sleeping here of"
+	cont "all places!"
+
+	para "It can't be"
+	line "helped..."
+	cont "We have to wait"
+	cont "until he sobers"
+	cont "up..."
 	done
 
 _ViridianCityText_1917a::
@@ -95,11 +102,14 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "Uugh...! Hic..."
+	line "Hold it right"
+	cont "there!"
+	cont "Lissen to what I"
+	cont "hafta say!"
 
-	para "This is private"
-	line "property!"
+	para "...Hey!"
+	line "Don' go, I said!"
 	done
 
 _ViridianCityText_191ca::
@@ -137,7 +147,7 @@ _TM42NoRoomText::
 _OldManAgainText1::
 	text "Hmm? You want me"
 	line "to show you how"
-	cont "to catch #MON"
+	cont "to catch #mon"
 	cont "again?"
 	done
 

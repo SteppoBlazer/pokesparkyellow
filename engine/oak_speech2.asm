@@ -193,14 +193,14 @@ DefaultNamesPlayer:
 	db   "New Name"
 	next "Red"
 	next "Ash"
-	next "Ninty"
+	next "Gefuri"
 	db   "@"
 
 DefaultNamesRival:
 	db   "New Name"
 	next "Green"
 	next "Gary"
-	next "Sony"
+	next "Kuricha"
 	db   "@"
 
 GetDefaultName:
@@ -231,13 +231,13 @@ DefaultNamesPlayerList:
 	db "New Name@"
 	db "Red@"
 	db "Ash@"
-	db "Ninten@"
+	db "Gefuri@"
 
 DefaultNamesRivalList:
 	db "New Name@"
 	db "Green@"
 	db "Gary@"
-	db "Sony@"
+	db "Kuricha@"
 
 TextTerminator_6b20:
 	db "@"

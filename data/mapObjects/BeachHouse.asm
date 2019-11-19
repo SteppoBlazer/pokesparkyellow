@@ -2,8 +2,8 @@ BeachHouseObjects: ; 0xf23a4
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 3, $ff
-	warp 3, 7, 7, $ff
+	warp 2, 7, 3, ROUTE_19
+	warp 3, 7, 7, ROUTE_19
 
 	db 4 ; signs
 	sign 3, 0, 3
