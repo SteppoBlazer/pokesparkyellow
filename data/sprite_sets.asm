@@ -63,8 +63,8 @@ SpriteSets:
 	db SPRITE_PIKACHU
 	db SPRITE_BLUE
 	db SPRITE_BUG_CATCHER
-	db SPRITE_GIRL
-	db SPRITE_FISHER2
+	db SPRITE_GIRLPALLET
+	db SPRITE_FATGUYPALLET
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_GAMBLER
 	db SPRITE_OAK
@@ -599,3 +599,28 @@ SpriteSheetPointerTable:
 	dw LyingOldManSprite
 	db $40 ; byte count
 	db BANK(LyingOldManSprite)
+
+	; SPRITE_ELECTRICIAN
+	dw ElectricianSprite
+	db $c0 ; byte count
+	db BANK(ElectricianSprite)
+
+	; SPRITE_FATGUYPALLET 
+	dw FGuyPalletSprite
+	db $c0 ; byte count
+	db BANK(FGuyPalletSprite)
+
+	; SPRITE_GIRLPALLET 
+	dw GirlPalletSprite
+	db $c0 ; byte count
+	db BANK(GirlPalletSprite)
+
+	; SPRITE_OAK_AIDE_F 
+	dw OakLabFSprite
+	db $c0 ; byte count
+	db BANK(OakLabFSprite)
+
+	; SPRITE_OAK_AID_M 
+	dw OakLabMSprite
+	db $c0 ; byte count
+	db BANK(OakLabMSprite)

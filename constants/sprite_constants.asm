@@ -99,6 +99,11 @@ const_value = 1
 	const SPRITE_YOUNGSTER                 ; $50
 	const SPRITE_BCATCHER_B                ; $51
 	const SPRITE_LYING_OLD_MAN             ; $52
+	const SPRITE_ELECTRICIAN               ; $53
+	const SPRITE_FATGUYPALLET              ; $54
+	const SPRITE_GIRLPALLET                ; $55
+	const SPRITE_OAK_AIDE_F                ; $56
+	const SPRITE_OAK_AID_M                 ; $57
 
 ; different kinds of people events
 ITEM    EQU $80
