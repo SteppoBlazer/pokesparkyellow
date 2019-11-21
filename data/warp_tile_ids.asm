@@ -26,7 +26,10 @@ WarpTileIDPointers:
 	dw BeachHouseWarpTileIDs
 	dw MasaraTownWarpTileIDs
 	dw TokiwaCityWarpTileIDs
+	dw NibiCityWarpTileIDs
 	dw HanadaCityWarpTileIDs
+	dw PowerPlantnewWarpTileIDs
+	dw ShionTownWarpTileIDs
 
 OverworldWarpTileIDs:
 	db $1B,$58,$FF
@@ -97,5 +100,12 @@ MasaraTownWarpTileIDs:
 TokiwaCityWarpTileIDs:
 	db $1B,$38,$39,$4B,$6E,$FF
 
+ShionTownWarpTileIDs:
+NibiCityWarpTileIDs:
+	db $1A,$1A,$6E,$72,$FF
+
 HanadaCityWarpTileIDs:
-	db $1B,$38,$39,$4B,$6E,$FF
+	db $1B,$5E,$6E,$FF
+
+PowerPlantnewWarpTileIDs:
+	db $6E,$72,$FF
