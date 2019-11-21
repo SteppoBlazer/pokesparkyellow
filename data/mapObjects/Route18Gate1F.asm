@@ -2,10 +2,10 @@ Route18GateObject:
 	db $a ; border block
 
 	db 5 ; warps
-	warp 0, 4, 0, $ff
-	warp 0, 5, 1, $ff
-	warp 7, 4, 2, $ff
-	warp 7, 5, 3, $ff
+	warp 0, 4, 0, ROUTE_18
+	warp 0, 5, 1, ROUTE_18
+	warp 7, 4, 10, FUCHSIA_CITY
+	warp 7, 5, 11, FUCHSIA_CITY
 	warp 6, 8, 0, ROUTE_18_GATE_2F
 
 	db 0 ; signs

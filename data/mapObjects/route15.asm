@@ -1,11 +1,9 @@
 Route15Object:
 	db $43 ; border block
 
-	db 4 ; warps
-	warp 7, 8, 0, ROUTE_15_GATE_1F
-	warp 7, 9, 0, ROUTE_15_GATE_1F
+	db 2 ; warps
 	warp 14, 8, 2, ROUTE_15_GATE_1F
-	warp 14, 9, 2, ROUTE_15_GATE_1F
+	warp 14, 9, 3, ROUTE_15_GATE_1F
 
 	db 1 ; signs
 	sign 39, 9, 12 ; Route15Text12
@@ -24,7 +22,5 @@ Route15Object:
 	object SPRITE_BALL, 18, 5, STAY, NONE, 11, TM_20
 
 	; warp-to
-	warp_to 7, 8, ROUTE_15_WIDTH ; ROUTE_15_GATE_1F
-	warp_to 7, 9, ROUTE_15_WIDTH ; ROUTE_15_GATE_1F
 	warp_to 14, 8, ROUTE_15_WIDTH ; ROUTE_15_GATE_1F
 	warp_to 14, 9, ROUTE_15_WIDTH ; ROUTE_15_GATE_1F

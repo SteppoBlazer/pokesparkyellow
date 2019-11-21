@@ -1,15 +1,8 @@
 Route16Object:
 	db $f ; border block
 
-	db 9 ; warps
-	warp 17, 10, 0, ROUTE_16_GATE_1F
-	warp 17, 11, 0, ROUTE_16_GATE_1F
-	warp 24, 10, 2, ROUTE_16_GATE_1F
-	warp 24, 11, 2, ROUTE_16_GATE_1F
-	warp 17, 4, 4, ROUTE_16_GATE_1F
-	warp 17, 5, 4, ROUTE_16_GATE_1F
-	warp 24, 4, 6, ROUTE_16_GATE_1F
-	warp 24, 5, 6, ROUTE_16_GATE_1F
+	db 2 ; warps
+	warp 35, 10, 0, ROUTE_16_GATE_1F
 	warp 7, 5, 0, ROUTE_16_HOUSE
 
 	db 2 ; signs
@@ -26,12 +19,5 @@ Route16Object:
 	object SPRITE_SNORLAX, 26, 10, STAY, DOWN, 7 ; person
 
 	; warp-to
-	warp_to 17, 10, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 17, 11, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 24, 10, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 24, 11, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 17, 4, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 17, 5, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 24, 4, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
-	warp_to 24, 5, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
+	warp_to 35, 10, ROUTE_16_WIDTH ; ROUTE_16_GATE_1F
 	warp_to 7, 5, ROUTE_16_WIDTH ; ROUTE_16_HOUSE

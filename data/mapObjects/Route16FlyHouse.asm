@@ -2,8 +2,8 @@ Route16HouseObject:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 8, ROUTE_16
-	warp 3, 7, 8, ROUTE_16
+	warp 2, 7, 1, ROUTE_16
+	warp 3, 7, 1, ROUTE_16
 
 	db 0 ; signs
 

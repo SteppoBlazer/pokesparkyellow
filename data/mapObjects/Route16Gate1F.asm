@@ -1,30 +1,22 @@
 Route16GateObject:
 	db $a ; border block
 
-	db 9 ; warps
-	warp 0, 8, 0, $ff
-	warp 0, 9, 1, $ff
-	warp 7, 8, 2, $ff
-	warp 7, 9, 2, $ff
-	warp 0, 2, 4, $ff
-	warp 0, 3, 5, $ff
-	warp 7, 2, 6, $ff
-	warp 7, 3, 7, $ff
+	db 5 ; warps
+	warp 0, 8, 0, ROUTE_16
+	warp 0, 9, 0, ROUTE_16
+	warp 7, 8, 8, CELADON_CITY
+	warp 7, 9, 13, CELADON_CITY
 	warp 6, 12, 0, ROUTE_16_GATE_2F
 
 	db 0 ; signs
 
 	db 2 ; objects
 	object SPRITE_GUARD, 4, 5, STAY, DOWN, 1 ; person
-	object SPRITE_GAMBLER, 4, 3, STAY, NONE, 2 ; person
+	object SPRITE_GAMBLER,  5,  8, STAY, NONE, 2 ; person
 
 	; warp-to
-	warp_to 0, 8, ROUTE_16_GATE_1F_WIDTH
-	warp_to 0, 9, ROUTE_16_GATE_1F_WIDTH
-	warp_to 7, 8, ROUTE_16_GATE_1F_WIDTH
-	warp_to 7, 9, ROUTE_16_GATE_1F_WIDTH
-	warp_to 0, 2, ROUTE_16_GATE_1F_WIDTH
-	warp_to 0, 3, ROUTE_16_GATE_1F_WIDTH
-	warp_to 7, 2, ROUTE_16_GATE_1F_WIDTH
-	warp_to 7, 3, ROUTE_16_GATE_1F_WIDTH
+	warp_to 0, 8, ROUTE_16_GATE_1F_WIDTH ; ROUTE_16
+	warp_to 0, 9, ROUTE_16_GATE_1F_WIDTH ; ROUTE_16
+	warp_to 7, 8, ROUTE_16_GATE_1F_WIDTH ; CELADON_CITY
+	warp_to 7, 9, ROUTE_16_GATE_1F_WIDTH ; CELADON_CITY
 	warp_to 6, 12, ROUTE_16_GATE_1F_WIDTH ; ROUTE_16_GATE_2F

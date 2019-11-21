@@ -1,7 +1,7 @@
 FuchsiaCityObject:
 	db $f ; border block
 
-	db 10 ; warps
+	db 14 ; warps
 	warp 5, 13, 0, FUCHSIA_MART
 	warp 11, 27, 0, FUCHSIA_HOUSE_1
 	warp 19, 27, 0, FUCHSIA_POKECENTER
@@ -12,6 +12,10 @@ FuchsiaCityObject:
 	warp 31, 27, 1, FUCHSIA_HOUSE_3
 	warp 31, 24, 0, FUCHSIA_HOUSE_3
 	warp 17, 33, 3, ROUTE_19_GATE
+	warp 2, 18, 2, ROUTE_18_GATE_1F
+	warp 2, 19, 3, ROUTE_18_GATE_1F
+	warp 37, 16, 0, ROUTE_15_GATE_1F
+	warp 37, 17, 1, ROUTE_15_GATE_1F
 
 	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11
@@ -52,3 +56,7 @@ FuchsiaCityObject:
 	warp_to 31, 27, FUCHSIA_CITY_WIDTH ; FUCHSIA_HOUSE_3
 	warp_to 31, 24, FUCHSIA_CITY_WIDTH ; FUCHSIA_HOUSE_3
 	warp_to 17, 33, FUCHSIA_CITY_WIDTH ; ROUTE_19_GATE
+	warp_to 2, 18, FUCHSIA_CITY_WIDTH ; ROUTE_18_GATE_1F
+	warp_to 2, 19, FUCHSIA_CITY_WIDTH ; ROUTE_18_GATE_1F
+	warp_to 37, 16, FUCHSIA_CITY_WIDTH ; ROUTE_15_GATE_1F
+	warp_to 37, 17, FUCHSIA_CITY_WIDTH ; ROUTE_15_GATE_1F

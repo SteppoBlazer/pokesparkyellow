@@ -88,11 +88,17 @@ const_value = 1
 	const SPRITE_OAK_AIDE_F                ; $56
 	const SPRITE_OAK_AID_M
 	const SPRITE_BLAINE
-	const SPRITE_YOUNGSTER                 ; $50
-	const SPRITE_BCATCHER_B                ; $51
-	const SPRITE_ELECTRICIAN               ; $53
-	const SPRITE_FATGUYPALLET              ; $54
-	const SPRITE_GIRLPALLET                ; $55
+	const SPRITE_YOUNGSTER
+	const SPRITE_BCATCHER_B
+	const SPRITE_ELECTRICIAN
+	const SPRITE_FATGUYPALLET
+	const SPRITE_GIRLPALLET     
+	const SPRITE_OAK_AIDE_B
+	const SPRITE_BROCK
+	const SPRITE_MISTY
+	const SPRITE_LTSURGE
+	const SPRITE_KOGA
+	const SPRITE_SABRINA
 
 	; 4-tile sprites
 	const SPRITE_BALL                      ; $47
