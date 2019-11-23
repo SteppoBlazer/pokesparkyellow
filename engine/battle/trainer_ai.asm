@@ -395,36 +395,36 @@ TrainerAIPointers:
 ; one entry per trainer class
 ; first byte, number of times (per Pokémon) it can occur
 ; next two bytes, pointer to AI subroutine for trainer class
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,JugglerAI ; juggler_x
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 3,JugglerAI ; juggler
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 2,BlackbeltAI ; blackbelt
-	dbw 3,GenericAI
-	dbw 3,GenericAI
-	dbw 1,GenericAI ; chief
-	dbw 3,GenericAI
+	dbw 3,GenericAI ;YOUNGSTER
+	dbw 3,GenericAI ;Bugcatcher
+	dbw 3,GenericAI ;LASS
+	dbw 3,GenericAI ;SAILOR
+	dbw 3,GenericAI ;jr_trainer m
+	dbw 3,GenericAI ;jr_trainer f
+	dbw 3,GenericAI ;POKEMANIAC
+	dbw 3,GenericAI ;SUPER NERD
+	dbw 3,GenericAI ;HIKER
+	dbw 3,GenericAI ;BIKER
+	dbw 3,GenericAI ;BURGLAR
+	dbw 3,GenericAI ;ENGINEER
+	dbw 3,GenericAI ; SWIMMER FEMALE
+	dbw 3,GenericAI ;FISHERMAN
+	dbw 3,GenericAI ;SWIMMER MALE
+	dbw 3,GenericAI ;CUE BALL
+	dbw 3,GenericAI ;GAMBLER
+	dbw 3,GenericAI ;BEAUTY
+	dbw 3,GenericAI ;PSYCHIC MALE
+	dbw 3,GenericAI ;ROCKER
+	dbw 3,JugglerAI ; JUGGLER
+	dbw 3,GenericAI ;POKETAMER
+	dbw 3,GenericAI ;BIRDKEEPER
+	dbw 2,BlackbeltAI ; BLACKBELT MALE
+	dbw 3,GenericAI ; GARY1
+	dbw 3,GenericAI ; PROF.OAK
+	dbw 1,GenericAI ; BUGCATCHER FEMALE
+	dbw 3,GenericAI ; SCIENTIST
 	dbw 1,GiovanniAI ; giovanni
-	dbw 3,GenericAI
+	dbw 3,GenericAI ;TEAM ROCKET M
 	dbw 2,CooltrainerMAI ; cooltrainerm
 	dbw 1,CooltrainerFAI ; cooltrainerf
 	dbw 2,BrunoAI ; bruno
@@ -435,11 +435,11 @@ TrainerAIPointers:
 	dbw 2,KogaAI ; koga
 	dbw 2,BlaineAI ; blaine
 	dbw 1,SabrinaAI ; sabrina
-	dbw 3,GenericAI
+	dbw 3,GenericAI; GENTLEMAN
 	dbw 1,Sony2AI ; sony2
 	dbw 1,Sony3AI ; sony3
 	dbw 2,LoreleiAI ; lorelei
-	dbw 3,GenericAI
+	dbw 3,GenericAI; CHANNELER
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
 

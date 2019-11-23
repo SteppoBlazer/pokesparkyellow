@@ -11,7 +11,7 @@ TrainerDataPointers:
 	dw BikerData
 	dw BurglarData
 	dw EngineerData
-	dw Juggler1Data
+	dw SwimmerFData
 	dw FisherData
 	dw SwimmerData
 	dw CueBallData
@@ -25,7 +25,7 @@ TrainerDataPointers:
 	dw BlackbeltData
 	dw Green1Data
 	dw ProfOakData
-	dw ChiefData
+	dw BugCatcherFData
 	dw ScientistData
 	dw GiovanniData
 	dw RocketData
@@ -451,6 +451,7 @@ YoungsterData:
 	db 17, SPEAROW
 	db -1 ; end
 
+BugCatcherFData:
 BugCatcherData:
 ; Viridian Forest
 	; OPP_BUG_CATCHER, 1
@@ -1465,6 +1466,7 @@ FisherData:
 	db 24,MAGIKARP
 	db -1 ; end
 
+SwimmerFData:
 SwimmerData:
 ; Cerulean Gym
 	; OPP_SWIMMER, 1
@@ -1826,8 +1828,6 @@ RockerData:
 	db 29,ELECTRODE
 	db -1 ; end
 
-Juggler1Data: ; There is an unused duplicate Juggler class
-; none
 JugglerData:
 ; Silph Co. 5F
 	; OPP_JUGGLER, 1
@@ -2112,8 +2112,6 @@ BlackbeltData:
 	db 43,MACHOKE
 	db -1 ; end
 
-ChiefData:
-; none
 ScientistData:
 ; Unused
 	; OPP_SCIENTIST, 1
