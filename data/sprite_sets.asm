@@ -12,7 +12,7 @@ MapSpriteSets:
 	db $07 ; SAFFRON_CITY
 	db $01 ; unused map ID
 	db $01 ; ROUTE_1
-	db $f1 ; ROUTE_2
+	db $01 ; ROUTE_2
 	db $02 ; ROUTE_3
 	db $02 ; ROUTE_4
 	db $f9 ; ROUTE_5
@@ -66,9 +66,9 @@ SpriteSets:
 	db SPRITE_GIRLPALLET
 	db SPRITE_FATGUYPALLET
 	db SPRITE_BLACK_HAIR_BOY_1
-	db SPRITE_GAMBLER
+	db SPRITE_DRUNKARD
 	db SPRITE_OAK
-	db SPRITE_OAK_AIDE_F
+	db SPRITE_FISHER2
 	db SPRITE_BALL
 	db SPRITE_LYING_OLD_MAN
 
@@ -177,6 +177,45 @@ SpriteSets:
 	db SPRITE_SNORLAX
 
 ; sprite set $0a
+	db SPRITE_PIKACHU
+	db SPRITE_BLACK_HAIR_BOY_1
+	db SPRITE_CHANSEY
+	db SPRITE_FISHER2
+	db SPRITE_GAMBLER
+	db SPRITE_SLOWBRO
+	db SPRITE_SEEL
+	db SPRITE_SWIMMER
+	db SPRITE_BUG_CATCHER
+	db SPRITE_BALL
+	db SPRITE_OMANYTE
+
+; sprite set $0b
+	db SPRITE_PIKACHU
+	db SPRITE_BLACK_HAIR_BOY_1
+	db SPRITE_CHANSEY
+	db SPRITE_FISHER2
+	db SPRITE_GAMBLER
+	db SPRITE_SLOWBRO
+	db SPRITE_SEEL
+	db SPRITE_SWIMMER
+	db SPRITE_BUG_CATCHER
+	db SPRITE_BALL
+	db SPRITE_OMANYTE
+
+; sprite set $0c
+	db SPRITE_PIKACHU
+	db SPRITE_BLACK_HAIR_BOY_1
+	db SPRITE_CHANSEY
+	db SPRITE_FISHER2
+	db SPRITE_GAMBLER
+	db SPRITE_SLOWBRO
+	db SPRITE_SEEL
+	db SPRITE_SWIMMER
+	db SPRITE_BUG_CATCHER
+	db SPRITE_BALL
+	db SPRITE_OMANYTE
+
+; sprite set $0d
 	db SPRITE_PIKACHU
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_CHANSEY
@@ -609,6 +648,21 @@ SpriteSheetPointerTable:
 	dw SabrinaSprite
 	db $c0 ; byte count
 	db BANK(SabrinaSprite)
+
+	; SPRITE_DRUNKARD 
+	dw DrunkardSprite
+	db $c0 ; byte count
+	db BANK(DrunkardSprite)
+
+	; SPRITE_COSPLAYERM 
+	dw CosplayerMSprite
+	db $c0 ; byte count
+	db BANK(CosplayerMSprite)
+
+	; SPRITE_COSPLAYERF 
+	dw CosplayerFSprite
+	db $c0 ; byte count
+	db BANK(CosplayerFSprite)
 
 	; SPRITE_BALL
 	dw BallSprite

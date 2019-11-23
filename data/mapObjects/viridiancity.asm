@@ -19,13 +19,13 @@ ViridianCityObject:
 
 	db 8 ; objects
 	object SPRITE_BUG_CATCHER, 13, 19, WALK, 0, 1 ; person
-	object SPRITE_GAMBLER, 30, 8, STAY, NONE, 2 ; person
+	object SPRITE_BLACK_HAIR_BOY_1, 30, 8, STAY, NONE, 2 ; person
 	object SPRITE_BUG_CATCHER, 30, 24, WALK, 0, 3 ; person
-	object SPRITE_GIRL, 17,  9, STAY, RIGHT, 4 ; person
+	object SPRITE_GIRLPALLET, 17,  9, STAY, RIGHT, 4 ; person
 	object SPRITE_LYING_OLD_MAN, 18,  9, STAY, NONE, 5 ; person
 	object SPRITE_FISHER2,  6, 24, STAY, DOWN, 6 ; person
-	object SPRITE_GAMBLER, 17,  5, WALK, 2, 7 ; person
-	object SPRITE_GAMBLER, 18,  9, STAY, NONE, 8
+	object SPRITE_DRUNKARD, 17,  5, WALK, 2, 7 ; person
+	object SPRITE_DRUNKARD, 18,  9, STAY, NONE, 8
 
 	; warp-to
 	warp_to 23, 25, VIRIDIAN_CITY_WIDTH ; VIRIDIAN_POKECENTER

@@ -3,7 +3,7 @@ Route2NorthObject:
 
 	db 4 ; warps
 	warp 12, 9, 0, DIGLETTS_CAVE_EXIT
-	warp 3, 11, 1, VIRIDIAN_FOREST_EXIT
+	warp 3, 11, 0, VIRIDIAN_FOREST_EXIT
 	warp 15, 17, 0, ROUTE_2_HOUSE
 	warp 16, 35, 1, ROUTE_2_GATE
 

@@ -99,6 +99,9 @@ const_value = 1
 	const SPRITE_LTSURGE
 	const SPRITE_KOGA
 	const SPRITE_SABRINA
+	const SPRITE_DRUNKARD
+	const SPRITE_COSPLAYERM
+	const SPRITE_COSPLAYERF
 
 	; 4-tile sprites
 	const SPRITE_BALL                      ; $47
