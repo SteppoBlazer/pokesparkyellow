@@ -2,8 +2,8 @@ PokemonTower1Object:
 	db $1 ; border block
 
 	db 3 ; warps
-	warp 10, 17, 1, $ff
-	warp 11, 17, 1, $ff
+	warp 10, 17, 1, LAVENDER_TOWN
+	warp 11, 17, 1, LAVENDER_TOWN
 	warp 18, 9, 1, POKEMONTOWER_2
 
 	db 0 ; signs

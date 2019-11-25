@@ -442,6 +442,7 @@ TrainerAIPointers:
 	dbw 3,GenericAI; CHANNELER
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
+	dbw 3,GenericAI ;POKEMANIACF
 
 JugglerAI:
 	cp $40

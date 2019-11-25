@@ -5,7 +5,7 @@ mapconst: MACRO
 ENDM
 
 	const_def
-	mapconst PALLET_TOWN,                 9, 10 ; $00
+	mapconst PALLET_TOWN,                10, 10 ; $00
 	mapconst VIRIDIAN_CITY,              19, 20 ; $01
 	mapconst PEWTER_CITY,                18, 20 ; $02
 	mapconst CERULEAN_CITY,              18, 20 ; $03
@@ -18,7 +18,7 @@ ENDM
 	mapconst SAFFRON_CITY,               18, 20 ; $0A
 	mapconst UNUSED_MAP_0B,               0,  0 ; $0B
 	mapconst ROUTE_1,                    19, 10 ; $0C
-	mapconst ROUTE_2,                    18, 10 ; $0D
+	mapconst ROUTE_2,                    19, 10 ; $0D
 	mapconst ROUTE_3,                    13, 35 ; $0E
 	mapconst ROUTE_4,                     9, 45 ; $0F
 	mapconst ROUTE_5,                    18, 10 ; $10
@@ -115,7 +115,7 @@ ENDM
 	mapconst ROUTE_9_GATE,                3,  4 ; $6B
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
 	mapconst ROUTE_1_GATE,                3,  4 ; $6D
-	mapconst ROUTE_2_NORTH,              21, 10 ; $6E
+	mapconst ROUTE_2_NORTH,              22, 10 ; $6E
 	mapconst ROUTE_10_SOUTH,             11, 10 ; $6F
 	mapconst ROUTE_12_SOUTH,             43, 10 ; $70
 	mapconst LANCES_ROOM,                13, 13 ; $71

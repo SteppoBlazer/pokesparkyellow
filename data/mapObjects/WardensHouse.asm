@@ -2,8 +2,8 @@ FuchsiaHouse2Object:
 	db $17 ; border block
 
 	db 2 ; warps
-	warp 4, 7, 3, $ff
-	warp 5, 7, 3, $ff
+	warp 4, 7, 3, FUCHSIA_CITY
+	warp 5, 7, 3, FUCHSIA_CITY
 
 	db 2 ; signs
 	sign 4, 3, 4 ; FuchsiaHouse2Text4

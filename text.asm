@@ -67,12 +67,12 @@ _BoulderText::
 _MartSignText::
 	text "All your item"
 	line "needs fulfilled!"
-	cont "#MON MART"
+	cont "#mon mart"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Heal Your #mon!"
+	line "#mon Center"
 	done
 
 _FoundItemText::
@@ -245,11 +245,11 @@ _AIBattleUseItemText::
 	prompt
 
 _BoxFullTest::
-	text "The BOX is full!"
+	text "The Box is full!"
 	done
 
 _BoxWillBeClearedText::
-	text "The BOX will be"
+	text "The Box will be"
 	line "cleared."
 	done
 
@@ -354,7 +354,7 @@ _YeahText::
 	text "Yeah!@@"
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "#dex   Seen:@"
 	TX_NUM wDexRatingNumMonsSeen, 1, 3
 	text ""
 	line "         Owned:@"
@@ -362,7 +362,7 @@ _DexSeenOwnedText::
 	db "@"
 
 _DexRatingText::
-	text "#DEX Rating", $6d
+	text "#dex Rating", $6d
 	done
 
 _GymStatueText1::

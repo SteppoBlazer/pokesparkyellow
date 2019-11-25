@@ -36,10 +36,7 @@ PewterCityScript_1925e:
 	jp DisplayTextID
 
 CoordsData_19277:
-	db $11,$23
-	db $11,$24
-	db $12,$25
-	db $13,$25
+	db $13,$24
 	db $ff
 
 PewterCityScript1:
@@ -62,13 +59,13 @@ PewterCityScript1:
 	call DisplayTextID
 	ld a, $3c
 	ld [$ffeb], a
-	ld a, $30
+	ld a, $30;yPOSITION
 	ld [$ffec], a
 	ld a, $c
 	ld [$ffed], a
-	ld a, $11
+	ld a, $11;XPOSITION
 	ld [$ffee], a
-	ld a, $3
+	ld a, $3 ;OBJECT NUMBER
 	ld [wSpriteIndex], a
 	call SetSpritePosition1
 	ld a, $3

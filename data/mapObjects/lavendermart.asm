@@ -2,8 +2,8 @@ LavenderMartObject:
 	db $0 ; border block
 
 	db $2 ; warps
-	warp 3, 7, 3, $ff
-	warp 4, 7, 3, $ff
+	warp 3, 7, 3, LAVENDER_TOWN
+	warp 4, 7, 3, LAVENDER_TOWN
 
 	db 0 ; signs
 

@@ -2,8 +2,8 @@ LavenderPokecenterObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 0, $ff
-	warp 4, 7, 0, $ff
+	warp 3, 7, 0, LAVENDER_TOWN
+	warp 4, 7, 0, LAVENDER_TOWN
 
 	db 0 ; signs
 

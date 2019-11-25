@@ -141,3 +141,6 @@ TrainerPicAndMoneyPointers:
 
 	dba LancePic
 	money 9900
+
+	dba PokemaniacFPic
+	money 5000

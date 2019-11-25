@@ -2,10 +2,10 @@ CeladonMart1Object:
 	db $f ; border block
 
 	db 6 ; warps
-	warp 2, 7, 0, $ff
-	warp 3, 7, 0, $ff
-	warp 16, 7, 1, $ff
-	warp 17, 7, 1, $ff
+	warp 2, 7, 0, CELADON_CITY
+	warp 3, 7, 0, CELADON_CITY
+	warp 16, 7, 1, CELADON_CITY
+	warp 17, 7, 1, CELADON_CITY
 	warp 12, 1, 0, CELADON_MART_2
 	warp 1, 1, 0, CELADON_MART_ELEVATOR
 

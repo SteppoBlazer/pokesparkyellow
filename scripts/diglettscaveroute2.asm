@@ -1,5 +1,5 @@
 DiglettsCaveRoute2Script:
-	ld a, ROUTE_2
+	ld a, ROUTE_2_NORTH
 	ld [wLastMap], a
 	jp EnableAutoTextBoxDrawing
 

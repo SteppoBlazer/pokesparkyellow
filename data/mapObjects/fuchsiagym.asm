@@ -2,8 +2,8 @@ FuchsiaGymObject:
 	db $3 ; border block
 
 	db 2 ; warps
-	warp 4, 17, 5, $ff
-	warp 5, 17, 5, $ff
+	warp 4, 17, 5, FUCHSIA_CITY
+	warp 5, 17, 5, FUCHSIA_CITY
 
 	db 0 ; signs
 

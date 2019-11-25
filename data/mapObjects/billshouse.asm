@@ -2,8 +2,8 @@ BillsHouseObject:
 	db $d ; border block
 
 	db 2 ; warps
-	warp 2, 7, 0, $ff
-	warp 3, 7, 0, $ff
+	warp 2, 7, 0, ROUTE_25
+	warp 3, 7, 0, ROUTE_25
 
 	db 0 ; signs
 

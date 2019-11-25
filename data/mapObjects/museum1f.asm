@@ -2,11 +2,11 @@ Museum1FObject:
 	db $a ; border block
 
 	db 5 ; warps
-	warp 10, 7, 0, $ff
-	warp 11, 7, 0, $ff
-	warp 16, 7, 1, $ff
-	warp 17, 7, 1, $ff
-	warp 7, 7, 0, MUSEUM_2F
+	warp 10, 7, 0, PEWTER_CITY
+	warp 11, 7, 0, PEWTER_CITY
+	warp 16, 7, 1, PEWTER_CITY
+	warp 17, 7, 1, PEWTER_CITY
+	warp  7, 7, 0, MUSEUM_2F
 
 	db 0 ; signs
 
@@ -22,4 +22,4 @@ Museum1FObject:
 	warp_to 11, 7, MUSEUM_1F_WIDTH
 	warp_to 16, 7, MUSEUM_1F_WIDTH
 	warp_to 17, 7, MUSEUM_1F_WIDTH
-	warp_to 7, 7, MUSEUM_1F_WIDTH ; MUSEUM_2F
+	warp_to  7, 7, MUSEUM_1F_WIDTH ; MUSEUM_2F

@@ -374,11 +374,11 @@ INCLUDE "data/mapObjects/ViridianNicknameHouse.asm"
 
 INCLUDE "data/mapHeaders/pewterhouse1.asm"
 INCLUDE "scripts/pewterhouse1.asm"
-INCLUDE "data/mapObjects/NameRatersHouse.asm"
+INCLUDE "data/mapObjects/PewterNidoranHouse.asm"
 
 INCLUDE "data/mapHeaders/pewterhouse2.asm"
 INCLUDE "scripts/pewterhouse2.asm"
-INCLUDE "data/mapObjects/PewterNidoranHouse.asm"
+INCLUDE "data/mapObjects/PewterSpeechHouse.asm"
 
 INCLUDE "data/mapHeaders/ceruleanhousetrashed.asm"
 INCLUDE "scripts/ceruleanhousetrashed.asm"
@@ -403,7 +403,7 @@ INCLUDE "data/mapObjects/MrFujisHouse.asm"
 
 INCLUDE "data/mapHeaders/namerater.asm"
 INCLUDE "scripts/namerater.asm"
-INCLUDE "data/mapObjects/MrPsychicsHouse.asm"
+INCLUDE "data/mapObjects/NameRatersHouse.asm"
 
 INCLUDE "data/mapHeaders/vermilionhouse1.asm"
 INCLUDE "scripts/vermilionhouse1.asm"
@@ -425,11 +425,11 @@ FuchsiaMartBlocks: INCBIN "maps/FuchsiaMart.blk"
 
 INCLUDE "data/mapHeaders/saffronhouse1.asm"
 INCLUDE "scripts/saffronhouse1.asm"
-INCLUDE "data/mapObjects/Route2TradeHouse.asm"
+INCLUDE "data/mapObjects/SaffronPidgeyHouse.asm"
 
 INCLUDE "data/mapHeaders/saffronhouse2.asm"
 INCLUDE "scripts/saffronhouse2.asm"
-INCLUDE "data/mapObjects/SaffronPidgeyHouse.asm"
+INCLUDE "data/mapObjects/MrPsychicsHouse.asm"
 
 INCLUDE "data/mapHeaders/diglettscaveroute2.asm"
 INCLUDE "scripts/diglettscaveroute2.asm"
@@ -437,7 +437,7 @@ INCLUDE "data/mapObjects/DiglettsCaveExit.asm"
 
 INCLUDE "data/mapHeaders/route2house.asm"
 INCLUDE "scripts/route2house.asm"
-INCLUDE "data/mapObjects/Route16FlyHouse.asm"
+INCLUDE "data/mapObjects/Route2TradeHouse.asm"
 
 INCLUDE "data/mapHeaders/route5gate.asm"
 INCLUDE "scripts/route5gate.asm"
@@ -479,7 +479,7 @@ INCLUDE "data/mapObjects/DiglettsCaveEntrance.asm"
 
 INCLUDE "data/mapHeaders/route16house.asm"
 INCLUDE "scripts/route16house.asm"
-INCLUDE "data/mapObjects/Route12SuperRodHouse.asm"
+INCLUDE "data/mapObjects/Route16FlyHouse.asm"
 
 INCLUDE "data/mapHeaders/route19gate.asm"
 INCLUDE "scripts/route19gate.asm"
@@ -1242,7 +1242,6 @@ INCLUDE "data/mapObjects/Route2.asm"
 Route2Blocks: INCBIN "maps/Route2.blk" ; 54086
 
 INCLUDE "data/mapHeaders/route2north.asm"
-INCLUDE "scripts/route2north.asm"
 INCLUDE "data/mapObjects/Route2North.asm"
 Route2NorthBlocks: INCBIN "maps/Route2North.blk"
 
@@ -1290,6 +1289,7 @@ FuchsiaHouse3Blocks: INCBIN "maps/FuchsiaGoodRodHouse.blk"
 INCLUDE "engine/battle/experience.asm"
 
 INCLUDE "scripts/route2.asm"
+INCLUDE "scripts/route2north.asm"
 INCLUDE "scripts/route3.asm"
 INCLUDE "scripts/route4.asm"
 INCLUDE "scripts/route5.asm"
@@ -1319,7 +1319,7 @@ INCLUDE "data/mapObjects/Daycare.asm"
 
 INCLUDE "data/mapHeaders/route12house.asm"
 INCLUDE "scripts/route12house.asm"
-INCLUDE "data/mapObjects/PewterSpeechHouse.asm"
+INCLUDE "data/mapObjects/Route12SuperRodHouse.asm"
 
 INCLUDE "data/mapHeaders/silphco8.asm"
 INCLUDE "scripts/silphco8.asm"
@@ -2215,6 +2215,7 @@ ChannelerPic:     INCBIN "pic/trainer/channeler.pic"
 AgathaPic:        INCBIN "pic/trainer/agatha.pic"
 LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
+PokemaniacFPic:   INCBIN "pic/trainer/pokemaniacf.pic"
 
 SECTION "Item Descriptions", ROMX
 

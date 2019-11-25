@@ -2,8 +2,8 @@ FuchsiaMeetingRoomObject:
 	db $17 ; border block
 
 	db 2 ; warps
-	warp 4, 7, 6, $ff
-	warp 5, 7, 6, $ff
+	warp 4, 7, 6, FUCHSIA_CITY
+	warp 5, 7, 6, FUCHSIA_CITY
 
 	db 0 ; signs
 

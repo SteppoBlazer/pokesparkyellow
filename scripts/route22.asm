@@ -78,6 +78,8 @@ Route22Script0:
 .Route22RivalBattleCoords
 	db $04, $1D
 	db $05, $1D
+	db $06, $1D
+	db $07, $1D
 	db $FF
 
 .firstRivalBattle
@@ -199,6 +201,7 @@ Route22MoveRival1:
 Route22RivalExitMovementData1:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT	
 	db NPC_MOVEMENT_DOWN
 	db NPC_MOVEMENT_DOWN
 	db NPC_MOVEMENT_DOWN
@@ -208,6 +211,7 @@ Route22RivalExitMovementData1:
 
 Route22RivalExitMovementData2:
 	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT

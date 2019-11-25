@@ -208,6 +208,7 @@ const_value = 0
 	const PAL_DRAGONITE  ; $BC
 	const PAL_MEWTWO     ; $BD
 	const PAL_MEW        ; $BE
+	const PAL_HERO          ; $EE
 	const PAL_YOUNGSTER     ; $BF
 	const PAL_BUGCATCHER    ; $C0
 	const PAL_LASS          ; $C1
@@ -255,7 +256,7 @@ const_value = 0
 	const PAL_CHANNELER     ; $EB
 	const PAL_AGATHA        ; $EC
 	const PAL_LANCE         ; $ED
-	const PAL_HERO          ; $EE
+	const PAL_POKEMANIACF
 	const PAL_SHINY_MEWMON
 	const PAL_SHINY_BULBASAUR
 	const PAL_SHINY_IVYSAUR

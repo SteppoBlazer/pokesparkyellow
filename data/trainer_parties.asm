@@ -46,6 +46,7 @@ TrainerDataPointers:
 	dw ChannelerData
 	dw AgathaData
 	dw LanceData
+	dw PokemaniacFData
 
 ; Trainer data structure:
 ; - db TRAINERTYPE_* constant
@@ -963,6 +964,7 @@ JrTrainerFData:
 	db 30,SEEL
 	db -1 ; end
 
+PokemaniacFData:
 PokemaniacData:
 ; Route 10
 	; OPP_POKEMANIAC, 1
