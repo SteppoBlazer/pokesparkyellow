@@ -20,10 +20,10 @@ PewterCityObject:
 	sign 25, 22, 12 ; PewterCityText12
 
 	db 5 ; objects
-	object SPRITE_LASS,  5, 16, STAY, NONE, 1 ; person
+	object SPRITE_GIRLPALLET,  5, 16, STAY, NONE, 1 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 18, 26, STAY, NONE, 2 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 28, 17, STAY, NONE, 3 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 26, 25, WALK, 2, 4 ; person
+	object SPRITE_FISHER2, 28, 17, STAY, NONE, 3 ; person
+	object SPRITE_BLACK_HAIR_BOY_1, 26, 25, WALK, 2, 4 ; person
 	object SPRITE_BUG_CATCHER, 36, 18, STAY, DOWN, 5 ; person
 
 	; warp-to

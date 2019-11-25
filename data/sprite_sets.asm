@@ -1,9 +1,9 @@
 MapSpriteSets:
 	db $01 ; PALLET_TOWN
 	db $01 ; VIRIDIAN_CITY
-	db $02 ; PEWTER_CITY
-	db $02 ; CERULEAN_CITY
-	db $03 ; LAVENDER_TOWN
+	db $01 ; PEWTER_CITY
+	db $01 ; CERULEAN_CITY
+	db $01 ; LAVENDER_TOWN
 	db $04 ; VERMILION_CITY
 	db $05 ; CELADON_CITY
 	db $0a ; FUCHSIA_CITY
@@ -13,14 +13,14 @@ MapSpriteSets:
 	db $01 ; unused map ID
 	db $01 ; ROUTE_1
 	db $01 ; ROUTE_2
-	db $02 ; ROUTE_3
-	db $02 ; ROUTE_4
-	db $f9 ; ROUTE_5
+	db $01 ; ROUTE_3
+	db $01 ; ROUTE_4
+	db $01 ; ROUTE_5
 	db $fa ; ROUTE_6
 	db $fb ; ROUTE_7
-	db $fc ; ROUTE_8
-	db $02 ; ROUTE_9
-	db $f2 ; ROUTE_10
+	db $01 ; ROUTE_8
+	db $01 ; ROUTE_9
+	db $01 ; ROUTE_10
 	db $f3 ; ROUTE_11
 	db $f4 ; ROUTE_12
 	db $08 ; ROUTE_13
@@ -34,8 +34,8 @@ MapSpriteSets:
 	db $01 ; ROUTE_21
 	db $01 ; ROUTE_22
 	db $06 ; ROUTE_23
-	db $02 ; ROUTE_24
-	db $02 ; ROUTE_25
+	db $01 ; ROUTE_24
+	db $01 ; ROUTE_25
 
 ; Format:
 ; 00: determines whether the map is split East/West or North/South

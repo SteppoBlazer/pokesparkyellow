@@ -4,6 +4,6 @@ Route2NorthScript:
 Route2NorthTextPointers:
 	dw Route2NorthText4
 
-Route22NorthText4:
+Route2NorthText4:
 	TX_FAR _Route2Text4
 	db "@"

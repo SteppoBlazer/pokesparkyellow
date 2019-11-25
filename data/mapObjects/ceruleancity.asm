@@ -24,16 +24,16 @@ CeruleanCityObject:
 
 	db 11 ; objects
 	object SPRITE_BLUE, 20, 2, STAY, DOWN, 1 ; person
-	object SPRITE_ROCKET, 31,  6, STAY, NONE, 2, OPP_ROCKET, 5
+	object SPRITE_DRUNKARD, 31,  6, STAY, NONE, 2, OPP_ROCKET, 5
 	object SPRITE_BLACK_HAIR_BOY_1, 31, 20, STAY, DOWN, 3 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 18, 25, WALK, 1, 4 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 12, 21, WALK, 2, 5 ; person
-	object SPRITE_OFFICER_JENNY, 28, 12, STAY, DOWN, 6 ; person
-	object SPRITE_LASS, 29, 28, STAY, LEFT, 7 ; person
+	object SPRITE_BLACK_HAIR_BOY_1, 18, 25, WALK, 1, 4 ; person
+	object SPRITE_BLACK_HAIR_BOY_1, 12, 21, WALK, 2, 5 ; person
+	object SPRITE_OAK, 28, 12, STAY, DOWN, 6 ; person
+	object SPRITE_GIRLPALLET, 29, 28, STAY, LEFT, 7 ; person
 	object SPRITE_BALL, 28, 28, STAY, DOWN, 8 ; person
-	object SPRITE_LASS, 12, 29, WALK, 2, 9 ; person
-	object SPRITE_BLACK_HAIR_BOY_2,  0, 12, STAY, DOWN, 10 ; person
-	object SPRITE_OFFICER_JENNY, 27, 12, STAY, DOWN, 11 ; person
+	object SPRITE_GIRLPALLET, 12, 29, WALK, 2, 9 ; person
+	object SPRITE_BLACK_HAIR_BOY_1,  0, 12, STAY, DOWN, 10 ; person
+	object SPRITE_OAK, 27, 12, STAY, DOWN, 11 ; person
 
 	; warp-to
 	warp_to 27, 11, CERULEAN_CITY_WIDTH ; TRASHED_HOUSE
