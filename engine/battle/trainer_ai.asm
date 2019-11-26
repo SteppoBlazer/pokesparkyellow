@@ -443,6 +443,7 @@ TrainerAIPointers:
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
 	dbw 3,GenericAI ;POKEMANIACF
+	dbw 3,GenericAI ;BIKERF
 
 JugglerAI:
 	cp $40

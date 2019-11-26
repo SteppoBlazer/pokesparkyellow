@@ -194,16 +194,16 @@ PewterMovementScript_WalkToMuseum:
 
 RLEList_PewterMuseumPlayer:
 	db 0, $01
-	db D_UP, $02
-	db D_LEFT, $07
+	db D_UP, $03
+	db D_LEFT, $0D
 	db D_UP, $06
 	db $FF
 
 RLEList_PewterMuseumGuy:
-	db NPC_MOVEMENT_UP, $05
-	db NPC_MOVEMENT_LEFT, $08
-	db NPC_MOVEMENT_UP, $02
-	db NPC_MOVEMENT_LEFT, $06
+	db NPC_MOVEMENT_UP, $06
+	db NPC_MOVEMENT_LEFT, $0D
+	db NPC_MOVEMENT_UP, $03
+	db NPC_MOVEMENT_LEFT, $01
 	db $FF
 
 PewterMovementScript_Done:
@@ -251,19 +251,20 @@ PewterMovementScript_WalkToGym:
 
 RLEList_PewterGymPlayer:
 	db 0, $01
-	db D_LEFT, $05
-	db D_UP, $03
-	db D_LEFT, $02
-	db D_UP, $08
-	db D_LEFT, $10
+	db D_RIGHT, $02
+	db D_DOWN, $05
+	db D_LEFT, $0B
+	db D_UP, $05
+	db D_LEFT, $0F
 	db $FF
 
 RLEList_PewterGymGuy:
-	db NPC_MOVEMENT_LEFT, $10
-	db NPC_MOVEMENT_UP, $08
-	db NPC_MOVEMENT_LEFT, $02
-	db NPC_MOVEMENT_UP, $01
-	db NPC_MOVEMENT_LEFT, $06
+	db NPC_MOVEMENT_DOWN, $02
+	db NPC_MOVEMENT_LEFT, $0F
+	db NPC_MOVEMENT_UP, $05
+	db NPC_MOVEMENT_LEFT, $0B
+	db NPC_MOVEMENT_DOWN, $05
+	db NPC_MOVEMENT_RIGHT, $03
 	db $FF
 
 INCLUDE "engine/overworld/pewter_guys.asm"

@@ -201,3 +201,4 @@ TrainerPalettes:
 	db PAL_AGATHA
 	db PAL_LANCE
     db PAL_POKEMANIACF
+	db PAL_BIKERF

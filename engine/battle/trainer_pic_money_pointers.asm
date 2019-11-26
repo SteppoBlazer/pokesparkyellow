@@ -144,3 +144,6 @@ TrainerPicAndMoneyPointers:
 
 	dba PokemaniacFPic
 	money 5000
+
+	dba BikerFPic
+	money 2000

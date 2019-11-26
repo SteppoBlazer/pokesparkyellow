@@ -57,11 +57,11 @@ _TM34ExplanationText::
 	para "It can be used"
 	line "again and again!"
 	cont "But remember, not"
-	cont "all #mon can learn"
-	cont "a certain technique."
+	cont "all #mon can"
+	cont "learn a certain"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "technique. TM34"
+	line "contains Bide!"
 
 	para "Your #MON will"
 	line "absorb damage in"

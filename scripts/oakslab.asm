@@ -1032,7 +1032,7 @@ OaksLabRivalTakesText5:
 
 OaksLabText18:
 	TX_ASM
-	ld a, PIKACHU
+	ld a, BLASTOISE
 	ld [wPlayerStarter], a
 	ld [wd11e], a
 	call GetMonName
@@ -1044,9 +1044,9 @@ OaksLabText18:
 	call PrintText
 	xor a
 	ld [wMonDataLocation], a
-	ld a, 5
+	ld a, 50
 	ld [wCurEnemyLVL], a
-	ld a, PIKACHU
+	ld a, BLASTOISE
 	ld [wd11e], a
 	ld [wcf91], a
 	call AddPartyMon

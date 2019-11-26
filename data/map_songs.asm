@@ -1,6 +1,6 @@
 MapSongBanks:
 	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ;PALLET_TOWN
-	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; VIRIDIAN_CITY
+	db MUSIC_CITIES2, BANK(Music_Cities2) ; VIRIDIAN_CITY
 	db MUSIC_CITIES1, BANK(Music_Cities1) ; PEWTER_CITY
 	db MUSIC_CITIES2, BANK(Music_Cities2) ; CERULEAN_CITY
 	db MUSIC_LAVENDER, BANK(Music_Lavender) ; LAVENDER_TOWN
@@ -37,7 +37,7 @@ MapSongBanks:
 	db MUSIC_ROUTES2, BANK(Music_Routes2) ; ROUTE_24
 	db MUSIC_ROUTES2, BANK(Music_Routes2) ; ROUTE_25
 	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ; RedsHouse1F
-	db MUSIC_UNUSED_SONG, BANK(Music_UnusedSong) ; RedsHouse2F
+	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ; RedsHouse2F
 	db MUSIC_PALLET_TOWN, BANK(Music_PalletTown) ; BluesHouse
 	db MUSIC_OAKS_LAB, BANK(Music_OaksLab) ; OaksLab
 	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ; ViridianPokecenter

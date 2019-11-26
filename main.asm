@@ -1238,46 +1238,52 @@ INCLUDE "engine/hidden_object_functions14.asm"
 SECTION "bank15",ROMX,BANK[$15]
 
 INCLUDE "data/mapHeaders/route2.asm"
+INCLUDE "scripts/route2.asm"
 INCLUDE "data/mapObjects/Route2.asm"
 Route2Blocks: INCBIN "maps/Route2.blk" ; 54086
 
-INCLUDE "data/mapHeaders/route2north.asm"
-INCLUDE "data/mapObjects/Route2North.asm"
-Route2NorthBlocks: INCBIN "maps/Route2North.blk"
-
 INCLUDE "data/mapHeaders/route3.asm"
+INCLUDE "scripts/route3.asm"
 INCLUDE "data/mapObjects/Route3.asm"
 Route3Blocks: INCBIN "maps/Route3.blk" ; 5425d
 
 INCLUDE "data/mapHeaders/route4.asm"
+INCLUDE "scripts/route4.asm"
 INCLUDE "data/mapObjects/Route4.asm"
 Route4Blocks: INCBIN "maps/Route4.blk" ; 543f4
 
 INCLUDE "data/mapHeaders/route5.asm"
+INCLUDE "scripts/route5.asm"
 INCLUDE "data/mapObjects/Route5.asm"
 Route5Blocks: INCBIN "maps/Route5.blk" ; 545da
 
 INCLUDE "data/mapHeaders/route9.asm"
+INCLUDE "scripts/route9.asm"
 INCLUDE "data/mapObjects/Route9.asm"
 Route9Blocks: INCBIN "maps/Route9.blk" ; 54706
 
 INCLUDE "data/mapHeaders/route13.asm"
+INCLUDE "scripts/route13.asm"
 INCLUDE "data/mapObjects/Route13.asm"
 Route13Blocks: INCBIN "maps/Route13.blk"
 
 INCLUDE "data/mapHeaders/route14.asm"
+INCLUDE "scripts/route14.asm"
 INCLUDE "data/mapObjects/Route14.asm"
 Route14Blocks: INCBIN "maps/Route14.blk"
 
 INCLUDE "data/mapHeaders/route17.asm"
+INCLUDE "scripts/route17.asm"
 INCLUDE "data/mapObjects/Route17.asm"
 Route17Blocks: INCBIN "maps/Route17.blk"
 
 INCLUDE "data/mapHeaders/route19.asm"
+INCLUDE "scripts/route19.asm"
 INCLUDE "data/mapObjects/Route19.asm"
 Route19Blocks: INCBIN "maps/Route19.blk"
 
 INCLUDE "data/mapHeaders/route21.asm"
+INCLUDE "scripts/route21.asm"
 INCLUDE "data/mapObjects/Route21.asm"
 Route21Blocks: INCBIN "maps/Route21.blk" ; 5507d
 
@@ -1285,20 +1291,6 @@ DayCareMBlocks:
 VermilionHouse2Blocks:
 Route12HouseBlocks: INCBIN "maps/Daycare.blk"
 FuchsiaHouse3Blocks: INCBIN "maps/FuchsiaGoodRodHouse.blk"
-
-INCLUDE "engine/battle/experience.asm"
-
-INCLUDE "scripts/route2.asm"
-INCLUDE "scripts/route2north.asm"
-INCLUDE "scripts/route3.asm"
-INCLUDE "scripts/route4.asm"
-INCLUDE "scripts/route5.asm"
-INCLUDE "scripts/route9.asm"
-INCLUDE "scripts/route13.asm"
-INCLUDE "scripts/route14.asm"
-INCLUDE "scripts/route17.asm"
-INCLUDE "scripts/route19.asm"
-INCLUDE "scripts/route21.asm"
 
 INCLUDE "data/mapHeaders/vermilionhouse2.asm"
 INCLUDE "scripts/vermilionhouse2.asm"
@@ -1327,9 +1319,8 @@ INCLUDE "data/mapObjects/SilphCo8F.asm"
 SilphCo8Blocks: INCBIN "maps/SilphCo8F.blk"
 
 INCLUDE "engine/menu/diploma_1.asm"
-
 INCLUDE "engine/overworld/trainers.asm"
-
+INCLUDE "engine/battle/experience.asm"
 
 SECTION "bank16",ROMX,BANK[$16]
 
@@ -1426,6 +1417,11 @@ INCLUDE "engine/overworld/saffron_guards.asm"
 
 
 SECTION "bank17",ROMX,BANK[$17]
+
+INCLUDE "data/mapHeaders/route2north.asm"
+INCLUDE "data/mapObjects/Route2North.asm"
+Route2NorthBlocks: INCBIN "maps/Route2North.blk"
+INCLUDE "scripts/route2north.asm"
 
 CeruleanMartBlocks:
 VermilionMartBlocks:
@@ -2216,6 +2212,7 @@ AgathaPic:        INCBIN "pic/trainer/agatha.pic"
 LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 PokemaniacFPic:   INCBIN "pic/trainer/pokemaniacf.pic"
+BikerFPic:        INCBIN "pic/trainer/bikerf.pic"
 
 SECTION "Item Descriptions", ROMX
 

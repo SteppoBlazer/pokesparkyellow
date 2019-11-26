@@ -6,6 +6,7 @@ FemaleTrainerList::
 	db OPP_BUG_CATCHERF
 	db OPP_COOLTRAINER_F
 	db OPP_POKEMANIACF
+	db OPP_BIKERF
 	db $FF
 
 EvilTrainerList::

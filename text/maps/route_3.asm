@@ -152,3 +152,14 @@ _Route3Text10::
 	text "ROUTE 3"
 	line "MT.MOON AHEAD"
 	done
+
+_Route3Text11::
+	text "Ouch! I tripped"
+	line "over a rocky"
+	cont "#MON, GEODUDE!"
+	done
+
+_Route3Text12::
+	text "MT.MOON"
+	line "Tunnel Entrance"
+	done
