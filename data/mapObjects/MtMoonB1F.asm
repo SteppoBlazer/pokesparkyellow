@@ -7,9 +7,9 @@ MtMoon2Object:
 	warp 25, 9, 3, MT_MOON_1
 	warp 25, 15, 4, MT_MOON_1
 	warp 21, 17, 1, MT_MOON_3
-	warp 23, 27, 2, MT_MOON_3
+	warp 13, 27, 2, MT_MOON_3
 	warp 23, 3, 3, MT_MOON_3
-	warp 27, 3, 2, $ff
+	warp 27, 3, 2, ROUTE_4
 
 	db 0 ; signs
 
@@ -21,6 +21,6 @@ MtMoon2Object:
 	warp_to 25, 9, MT_MOON_2_WIDTH ; MT_MOON_1
 	warp_to 25, 15, MT_MOON_2_WIDTH ; MT_MOON_1
 	warp_to 21, 17, MT_MOON_2_WIDTH ; MT_MOON_3
-	warp_to 23, 27, MT_MOON_2_WIDTH ; MT_MOON_3
+	warp_to 13, 27, MT_MOON_2_WIDTH ; MT_MOON_3
 	warp_to 23, 3, MT_MOON_2_WIDTH ; MT_MOON_3
 	warp_to 27, 3, MT_MOON_2_WIDTH
