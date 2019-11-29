@@ -59,6 +59,8 @@ TrainerDataPointers:
 	dw DojoMasterData
 	dw FiremanData
 	dw FirewomanData
+	dw SoldierData
+	dw ExecutiveData
 
 ; Trainer data structure:
 ; - db TRAINERTYPE_* constant
@@ -1376,6 +1378,7 @@ BurglarData:
 	db 34,PONYTA
 	db -1 ; end
 
+SoldierData:
 EngineerData:
 ; Unused
 	; OPP_ENGINEER, 1
@@ -2231,6 +2234,7 @@ ScientistData:
 	db 34,ELECTRODE
 	db -1 ; end
 
+ExecutiveData:
 RocketFData:
 RocketData:
 ; Mt. Moon B2F
@@ -2718,6 +2722,7 @@ GentlemanData:
 	; OPP_GENTLEMAN, 3
 	db TRAINERTYPE_NORMAL
 	db 23,PIKACHU
+	db 21,MAGNEMITE
 	db -1 ; end
 
 ; Unused

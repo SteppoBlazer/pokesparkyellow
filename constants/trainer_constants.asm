@@ -66,6 +66,8 @@ const_value = 1
 	trainer_const DOJOMASTER
 	trainer_const FIREMAN
 	trainer_const FIREWOMAN
+	trainer_const SOLDIER
+	trainer_const EXECUTIVE
 
 ; trainer type constants
 ; used in data/trainer_parties.asm to define trainer party info

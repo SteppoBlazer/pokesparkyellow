@@ -59,3 +59,5 @@ TrainerNames:
 	db "Dojo Master@"
 	db "Fireman@"
 	db "Firewoman@"
+	db "Soldier@"
+	db "Archer@"

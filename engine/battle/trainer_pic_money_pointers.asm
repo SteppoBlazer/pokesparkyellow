@@ -180,3 +180,9 @@ TrainerPicAndMoneyPointers:
 
 	dba FirewomanPic
 	money 5000
+
+	dba SoldierPic
+	money 3000
+
+	dba ExecutivePic
+	money 5000

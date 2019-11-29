@@ -455,6 +455,8 @@ TrainerAIPointers:
 	dbw 3,BrunoAI ; dojomaster
 	dbw 3,GenericAI ;Fireman
 	dbw 3,GenericAI ;Firewoman
+	dbw 3,GenericAI; SOLDIER
+	dbw 1,GiovanniAI ; Executive
 
 JugglerAI:
 	cp $40

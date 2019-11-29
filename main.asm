@@ -2224,6 +2224,8 @@ DelinquentPic:    INCBIN "pic/trainer/delinquent.pic"
 DojoMasterPic:    INCBIN "pic/trainer/dojomaster.pic"
 FiremanPic:       INCBIN "pic/trainer/firefighter.pic"
 FirewomanPic:     INCBIN "pic/trainer/firewoman.pic"
+SoldierPic:       INCBIN "pic/trainer/soldier.pic"
+ExecutivePic:     INCBIN "pic/ytrainer/archer.pic"
 
 SECTION "Item Descriptions", ROMX
 

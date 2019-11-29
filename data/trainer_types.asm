@@ -24,4 +24,5 @@ EvilTrainerList::
 	db OPP_SCIENTISTF
 	db OPP_ROCKETF
 	db OPP_DELINQUENT
+	db OPP_EXECUTIVE
 	db $FF
