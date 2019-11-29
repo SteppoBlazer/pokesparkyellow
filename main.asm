@@ -2221,6 +2221,9 @@ RocketFPic:       INCBIN "pic/trainer/rocketf.pic"
 MadamePic:        INCBIN "pic/trainer/socialite.pic"
 ChannelerMPic:    INCBIN "pic/trainer/channelerm.pic"
 DelinquentPic:    INCBIN "pic/trainer/delinquent.pic"
+DojoMasterPic:    INCBIN "pic/trainer/dojomaster.pic"
+FiremanPic:       INCBIN "pic/trainer/firefighter.pic"
+FirewomanPic:     INCBIN "pic/trainer/firewoman.pic"
 
 SECTION "Item Descriptions", ROMX
 

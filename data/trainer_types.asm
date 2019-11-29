@@ -11,6 +11,7 @@ FemaleTrainerList::
 	db OPP_BIRDKEEPERF
     db OPP_BLACKBELTF
 	db OPP_MADAME
+	db OPP_FIREWOMAN
 	db $FF
 
 EvilTrainerList::

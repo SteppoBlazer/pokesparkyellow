@@ -56,3 +56,6 @@ TrainerNames:
 	db "Madame@"
 	db "Priest@"
 	db "Delinquent@"
+	db "Dojo Master@"
+	db "Fireman@"
+	db "Firewoman@"

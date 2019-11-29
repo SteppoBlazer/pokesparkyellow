@@ -171,3 +171,12 @@ TrainerPicAndMoneyPointers:
 
 	dba DelinquentPic
 	money 500
+
+	dba DojoMasterPic
+	money 2500
+
+	dba FiremanPic
+	money 5000
+
+	dba FirewomanPic
+	money 5000

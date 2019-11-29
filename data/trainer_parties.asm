@@ -56,6 +56,9 @@ TrainerDataPointers:
 	dw MadameData
 	dw ChannelerMData
 	dw DelinquentData
+	dw DojoMasterData
+	dw FiremanData
+	dw FirewomanData
 
 ; Trainer data structure:
 ; - db TRAINERTYPE_* constant
@@ -1312,6 +1315,8 @@ BikerData:
 	db 29,MUK
 	db -1 ; end
 
+FiremanData:
+FirewomanData:
 BurglarData:
 ; Unused
 	; OPP_BURGLAR, 1
@@ -2063,6 +2068,7 @@ BirdKeeperData:
 	db 28,FEAROW
 	db -1 ; end
 
+DojoMasterData:
 BlackbeltFData:
 BlackbeltData:
 ; Fighting Dojo

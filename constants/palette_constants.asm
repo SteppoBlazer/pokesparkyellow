@@ -257,7 +257,7 @@ const_value = 0
 	const PAL_AGATHA        ; $EC
 	const PAL_LANCE         ; $ED
 	const PAL_POKEMANIACF
-	const PAL_BIKERF         ; $C8
+	const PAL_BIKERF
 	const PAL_PSYCHICF
 	const PAL_BIRDKEEPERF
 	const PAL_BLACKBELTF
@@ -266,6 +266,9 @@ const_value = 0
 	const PAL_MADAME
 	const PAL_CHANNELERM
 	const PAL_DELINQUENT
+	const PAL_DOJOMASTER
+	const PAL_FIREMAN
+	const PAL_FIREWOMAN
 	const PAL_SHINY_MEWMON
 	const PAL_SHINY_BULBASAUR
 	const PAL_SHINY_IVYSAUR

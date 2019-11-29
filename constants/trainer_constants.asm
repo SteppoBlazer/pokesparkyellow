@@ -63,6 +63,9 @@ const_value = 1
 	trainer_const MADAME
 	trainer_const CHANNELERM
 	trainer_const DELINQUENT
+	trainer_const DOJOMASTER
+	trainer_const FIREMAN
+	trainer_const FIREWOMAN
 
 ; trainer type constants
 ; used in data/trainer_parties.asm to define trainer party info

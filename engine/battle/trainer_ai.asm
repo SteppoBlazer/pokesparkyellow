@@ -452,6 +452,9 @@ TrainerAIPointers:
 	dbw 3,GenericAI; madame
 	dbw 3,GenericAI; CHANNELERM
 	dbw 3,GenericAI ;delinquent
+	dbw 3,BrunoAI ; dojomaster
+	dbw 3,GenericAI ;Fireman
+	dbw 3,GenericAI ;Firewoman
 
 JugglerAI:
 	cp $40
