@@ -2213,6 +2213,14 @@ LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 PokemaniacFPic:   INCBIN "pic/trainer/pokemaniacf.pic"
 BikerFPic:        INCBIN "pic/trainer/bikerf.pic"
+PsychicFPic:      INCBIN "pic/trainer/psyf.pic"
+BirdKeeperFPic:   INCBIN "pic/trainer/birdkeeperf.pic"
+BlackbeltFPic:    INCBIN "pic/trainer/blackbeltf.pic"
+ScientistFPic:    INCBIN "pic/trainer/scientistf.pic"
+RocketFPic:       INCBIN "pic/trainer/rocketf.pic"
+MadamePic:        INCBIN "pic/trainer/socialite.pic"
+ChannelerMPic:    INCBIN "pic/trainer/channelerm.pic"
+DelinquentPic:    INCBIN "pic/trainer/delinquent.pic"
 
 SECTION "Item Descriptions", ROMX
 

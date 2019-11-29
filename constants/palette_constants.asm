@@ -258,6 +258,14 @@ const_value = 0
 	const PAL_LANCE         ; $ED
 	const PAL_POKEMANIACF
 	const PAL_BIKERF         ; $C8
+	const PAL_PSYCHICF
+	const PAL_BIRDKEEPERF
+	const PAL_BLACKBELTF
+	const PAL_SCIENTISTF
+    const PAL_ROCKETF
+	const PAL_MADAME
+	const PAL_CHANNELERM
+	const PAL_DELINQUENT
 	const PAL_SHINY_MEWMON
 	const PAL_SHINY_BULBASAUR
 	const PAL_SHINY_IVYSAUR

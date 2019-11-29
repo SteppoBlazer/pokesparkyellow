@@ -147,3 +147,27 @@ TrainerPicAndMoneyPointers:
 
 	dba BikerFPic
 	money 2000
+
+	dba PsychicFPic
+	money 1000
+
+	dba BirdKeeperFPic
+	money 2500
+
+	dba BlackbeltFPic
+	money 2500
+
+	dba ScientistFPic
+	money 5000
+
+	dba RocketFPic
+	money 3000
+
+	dba MadamePic
+	money 7000
+
+	dba ChannelerMPic
+	money 3000
+
+	dba DelinquentPic
+	money 500

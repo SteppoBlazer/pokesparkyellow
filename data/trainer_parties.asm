@@ -48,6 +48,14 @@ TrainerDataPointers:
 	dw LanceData
 	dw PokemaniacFData
 	dw BikerDataF
+	dw PsychicFData
+	dw BirdKeeperFData
+	dw BlackbeltFData
+	dw ScientistFData
+	dw RocketFData
+	dw MadameData
+	dw ChannelerMData
+	dw DelinquentData
 
 ; Trainer data structure:
 ; - db TRAINERTYPE_* constant
@@ -1570,6 +1578,7 @@ SwimmerData:
 	db 32,SEADRA
 	db -1 ; end
 
+DelinquentData:
 CueBallData:
 ; Route 16
 	; OPP_CUE_BALL, 1
@@ -1784,6 +1793,7 @@ BeautyData:
 	db 30,SEADRA
 	db -1 ; end
 
+PsychicFData:
 PsychicData:
 ; Saffron Gym
 	; OPP_PSYCHIC_TR, 1
@@ -1927,6 +1937,7 @@ TamerData:
 	db 42,TAUROS
 	db -1 ; end
 
+BirdKeeperFData:
 BirdKeeperData:
 ; Route 13
 	; OPP_BIRD_KEEPER, 1
@@ -2052,6 +2063,7 @@ BirdKeeperData:
 	db 28,FEAROW
 	db -1 ; end
 
+BlackbeltFData:
 BlackbeltData:
 ; Fighting Dojo
 	; OPP_BLACKBELT, 1
@@ -2112,6 +2124,7 @@ BlackbeltData:
 	db 43,MACHOKE
 	db -1 ; end
 
+ScientistFData:
 ScientistData:
 ; Unused
 	; OPP_SCIENTIST, 1
@@ -2212,6 +2225,7 @@ ScientistData:
 	db 34,ELECTRODE
 	db -1 ; end
 
+RocketFData:
 RocketData:
 ; Mt. Moon B2F
 	; OPP_ROCKET, 1
@@ -2679,6 +2693,7 @@ CooltrainerFData:
 	db 43,RAICHU
 	db -1 ; end
 
+MadameData:
 GentlemanData:
 ; SS Anne 1F Rooms
 	; OPP_GENTLEMAN, 1
@@ -2712,6 +2727,7 @@ GentlemanData:
 	db 17,PONYTA
 	db -1 ; end
 
+ChannelerMData:
 ChannelerData:
 ; Unused
 	; OPP_CHANNELER, 1

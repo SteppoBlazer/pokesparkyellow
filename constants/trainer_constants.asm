@@ -55,6 +55,14 @@ const_value = 1
 	trainer_const LANCE         ; $2F | OPP = $F7
 	trainer_const POKEMANIACF
 	trainer_const BIKERF
+	trainer_const PSYCHICF
+	trainer_const BIRDKEEPERF
+	trainer_const BLACKBELTF
+	trainer_const SCIENTISTF
+	trainer_const ROCKETF
+	trainer_const MADAME
+	trainer_const CHANNELERM
+	trainer_const DELINQUENT
 
 ; trainer type constants
 ; used in data/trainer_parties.asm to define trainer party info

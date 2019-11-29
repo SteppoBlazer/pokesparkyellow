@@ -8,7 +8,7 @@ Route2NorthObject:
 	warp 16, 35, 1, ROUTE_2_GATE
 
 	db 1 ; signs
-	sign 11, 11, 4 ; Route2Text4
+	sign 11, 11, 1 ; Route2NorthText1
 
 	db 0 ; objects
 

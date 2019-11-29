@@ -1517,7 +1517,7 @@ _EnemyAppearedText::
 _TrainerWantsToFightText::
 	TX_RAM wTrainerName
 	text " wants"
-	line "to fight!"
+	line "to battle!"
 	prompt
 
 _UnveiledGhostText::

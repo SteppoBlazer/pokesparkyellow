@@ -58,6 +58,7 @@ _Museum1FText_5c251::
 	cont "that I may stand"
 	cont "here to worship"
 	cont "its bones!"
+	done
 
 _Museum1FText_5c28e::
 	text "Ssh! I think that"

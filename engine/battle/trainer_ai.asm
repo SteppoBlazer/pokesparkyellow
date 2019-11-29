@@ -439,11 +439,19 @@ TrainerAIPointers:
 	dbw 1,Sony2AI ; sony2
 	dbw 1,Sony3AI ; sony3
 	dbw 2,LoreleiAI ; lorelei
-	dbw 3,GenericAI; CHANNELER
+	dbw 3,GenericAI; CHANNELERF
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
 	dbw 3,GenericAI ;POKEMANIACF
 	dbw 3,GenericAI ;BIKERF
+	dbw 3,GenericAI ;PSYCHIC FEMALE
+	dbw 3,GenericAI ;BIRDKEEPERF
+	dbw 2,BlackbeltAI ; BLACKBELT FEMALE
+	dbw 3,GenericAI ; SCIENTISTF
+	dbw 3,GenericAI ; ROCKETF
+	dbw 3,GenericAI; madame
+	dbw 3,GenericAI; CHANNELERM
+	dbw 3,GenericAI ;delinquent
 
 JugglerAI:
 	cp $40
