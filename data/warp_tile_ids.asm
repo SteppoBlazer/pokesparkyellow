@@ -102,7 +102,7 @@ TokiwaCityWarpTileIDs:
 
 ShionTownWarpTileIDs:
 NibiCityWarpTileIDs:
-	db $1A,$1A,$38,$39,$6E,$72,$FF
+	db $1B,$1A,$38,$39,$6E,$72,$FF
 
 HanadaCityWarpTileIDs:
 	db $1B,$5E,$6E,$FF

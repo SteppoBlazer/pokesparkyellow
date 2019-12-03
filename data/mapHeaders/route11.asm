@@ -1,5 +1,5 @@
 Route11_h:
-	db OVERWORLD ; tileset
+	db KUCHIBACITY ; tileset
 	db ROUTE_11_HEIGHT, ROUTE_11_WIDTH ; dimensions (y, x)
 	dw Route11Blocks, Route11TextPointers, Route11Script ; blocks, texts, scripts
 	db WEST ; connections

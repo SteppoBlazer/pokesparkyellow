@@ -33,6 +33,7 @@ const_value = 0
 	const SHIONTOWN ; 30
 	const KUCHIBACITY ; 31
 	const TAMAMUSHICITY ; 32
-	const SEKICHIKUCITY ; 33
-	const YAMABUKICITY ; 34
-	const GURENTOWN ; 35
+	const CYCLINGROAD ; 33
+	const SEKICHIKUCITY ; 34
+	const YAMABUKICITY ; 35
+	const GURENTOWN ; 36

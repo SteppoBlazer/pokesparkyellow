@@ -1,5 +1,5 @@
 VermilionCity_h:
-	db OVERWORLD ; tileset
+	db KUCHIBACITY ; tileset
 	db VERMILION_CITY_HEIGHT, VERMILION_CITY_WIDTH ; dimensions (y, x)
 	dw VermilionCityBlocks, VermilionCityTextPointers, VermilionCityScript ; blocks, texts, scripts
 	db NORTH | EAST ; connections

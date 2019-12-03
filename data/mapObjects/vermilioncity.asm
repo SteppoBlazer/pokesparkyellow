@@ -2,41 +2,41 @@ VermilionCityObject:
 	db $2b ; border block
 
 	db 9 ; warps
-	warp 11, 3, 0, VERMILION_POKECENTER
-	warp 9, 13, 0, POKEMON_FAN_CLUB
-	warp 23, 13, 0, VERMILION_MART
-	warp 12, 19, 0, VERMILION_GYM
-	warp 23, 19, 0, VERMILION_HOUSE_1
+	warp  9,  5, 0, VERMILION_POKECENTER
+	warp  7, 15, 0, POKEMON_FAN_CLUB
+	warp 21, 15, 0, VERMILION_MART
+	warp 10, 23, 0, VERMILION_GYM
+	warp 21, 23, 0, VERMILION_HOUSE_1
 	warp 18, 31, 0, VERMILION_DOCK
 	warp 19, 31, 0, VERMILION_DOCK
-	warp 15, 13, 0, VERMILION_HOUSE_3
-	warp 7, 3, 0, VERMILION_HOUSE_2
+	warp 13, 15, 0, VERMILION_HOUSE_3
+	warp  5,  5, 0, VERMILION_HOUSE_2
 
 	db 7 ; signs
-	sign 27, 3, 8 ; VermilionCityText7
-	sign 37, 13, 9 ; VermilionCityText8
-	sign 24, 13, 10 ; MartSignText
-	sign 12, 3, 11 ; PokeCenterSignText
-	sign 7, 13, 12 ; VermilionCityText11
-	sign 7, 19, 13 ; VermilionCityText12
-	sign 29, 15, 14 ; VermilionCityText13
+	sign 16,  9, 8 ; VermilionCityText7
+	sign 38, 14, 9 ; VermilionCityText8
+	sign 22, 15, 10 ; MartSignText
+	sign 10,  5, 11 ; PokeCenterSignText
+	sign 10, 15, 12 ; VermilionCityText11
+	sign  5, 23, 13 ; VermilionCityText12
+	sign 33, 15, 14 ; VermilionCityText13
 
 	db 7 ; objects
-	object SPRITE_LASS, 19, 7, WALK, 2, 1 ; person
-	object SPRITE_GAMBLER, 14, 6, STAY, NONE, 2 ; person
+	object SPRITE_LASS, 19,  9, WALK, 2, 1 ; person
+	object SPRITE_GAMBLER, 14,  7, STAY, NONE, 2 ; person
 	object SPRITE_SAILOR, 19, 30, STAY, UP, 3 ; person
 	object SPRITE_GAMBLER, 30, 7, STAY, NONE, 4 ; person
 	object SPRITE_SLOWBRO, 29, 9, WALK, 1, 5 ; person
-	object SPRITE_SAILOR, 25, 27, WALK, 2, 6 ; person
+	object SPRITE_SAILOR, 28, 28, WALK, 2, 6 ; person
 	object SPRITE_OFFICER_JENNY, 19, 15, STAY, NONE, 7 ; person
 
 	; warp_to
-	warp_to 11, 3, VERMILION_CITY_WIDTH ; VERMILION_POKECENTER
-	warp_to 9, 13, VERMILION_CITY_WIDTH ; POKEMON_FAN_CLUB
-	warp_to 23, 13, VERMILION_CITY_WIDTH ; VERMILION_MART
-	warp_to 12, 19, VERMILION_CITY_WIDTH ; VERMILION_GYM
-	warp_to 23, 19, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_1
+	warp_to  9,  5, VERMILION_CITY_WIDTH ; VERMILION_POKECENTER
+	warp_to  7, 15, VERMILION_CITY_WIDTH ; POKEMON_FAN_CLUB
+	warp_to 21, 15, VERMILION_CITY_WIDTH ; VERMILION_MART
+	warp_to 10, 23, VERMILION_CITY_WIDTH ; VERMILION_GYM
+	warp_to 21, 23, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_1
 	warp_to 18, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
 	warp_to 19, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
-	warp_to 15, 13, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_3
-	warp_to 7, 3, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_2
+	warp_to 13, 15, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_3
+	warp_to  5,  5, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_2
