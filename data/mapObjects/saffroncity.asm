@@ -13,7 +13,7 @@ SaffronCityObject:
 	warp 19, 1, 0, ROUTE_5_GATE
 	warp 2, 19, 0, ROUTE_7_GATE
 	warp 37, 19, 0, ROUTE_8_GATE
-	warp 21, 31, 0, ROUTE_6_GATE
+	warp 21, 31, 2, ROUTE_6_GATE
 
 	db 10 ; signs
 	sign 17,  5, 10 ; SaffronCityText16
