@@ -7,8 +7,8 @@ VermilionCityObject:
 	warp 21, 15, 0, VERMILION_MART
 	warp 10, 23, 0, VERMILION_GYM
 	warp 21, 23, 0, VERMILION_HOUSE_1
-	warp 18, 31, 0, VERMILION_DOCK
-	warp 19, 31, 0, VERMILION_DOCK
+	warp 18, 35, 0, VERMILION_DOCK
+	warp 19, 35, 0, VERMILION_DOCK
 	warp 13, 15, 0, VERMILION_HOUSE_3
 	warp  5,  5, 0, VERMILION_HOUSE_2
 
@@ -23,11 +23,11 @@ VermilionCityObject:
 
 	db 7 ; objects
 	object SPRITE_LASS, 19,  9, WALK, 2, 1 ; person
-	object SPRITE_GAMBLER, 14,  7, STAY, NONE, 2 ; person
-	object SPRITE_SAILOR, 19, 30, STAY, UP, 3 ; person
+	object SPRITE_GAMBLER, 12,  7, STAY, NONE, 2 ; person
+	object SPRITE_SAILOR, 19, 34, STAY, UP, 3 ; person
 	object SPRITE_GAMBLER, 30, 7, STAY, NONE, 4 ; person
 	object SPRITE_SLOWBRO, 29, 9, WALK, 1, 5 ; person
-	object SPRITE_SAILOR, 28, 28, WALK, 2, 6 ; person
+	object SPRITE_SAILOR, 28, 29, WALK, 2, 6 ; person
 	object SPRITE_OFFICER_JENNY, 19, 15, STAY, NONE, 7 ; person
 
 	; warp_to
@@ -36,7 +36,7 @@ VermilionCityObject:
 	warp_to 21, 15, VERMILION_CITY_WIDTH ; VERMILION_MART
 	warp_to 10, 23, VERMILION_CITY_WIDTH ; VERMILION_GYM
 	warp_to 21, 23, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_1
-	warp_to 18, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
-	warp_to 19, 31, VERMILION_CITY_WIDTH ; VERMILION_DOCK
+	warp_to 18, 35, VERMILION_CITY_WIDTH ; VERMILION_DOCK
+	warp_to 19, 35, VERMILION_CITY_WIDTH ; VERMILION_DOCK
 	warp_to 13, 15, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_3
 	warp_to  5,  5, VERMILION_CITY_WIDTH ; VERMILION_HOUSE_2

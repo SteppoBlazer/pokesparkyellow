@@ -2,8 +2,8 @@ SilphCo1Object:
 	db $2e ; border block
 
 	db 5 ; warps
-	warp 10, 17, 5, $ff
-	warp 11, 17, 5, $ff
+	warp 10, 17, 5, SAFFRON_CITY
+	warp 11, 17, 5, SAFFRON_CITY
 	warp 26, 0, 0, SILPH_CO_2F
 	warp 20, 0, 0, SILPH_CO_ELEVATOR
 	warp 16, 10, 6, SILPH_CO_3F

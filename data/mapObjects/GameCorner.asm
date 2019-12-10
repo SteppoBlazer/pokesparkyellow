@@ -2,8 +2,8 @@ CeladonGameCornerObject:
 	db $f ; border block
 
 	db 3 ; warps
-	warp 17, 15, 7, $ff
-	warp 17, 16, 7, $ff
+	warp 17, 15, 7, CELADON_CITY
+	warp 17, 16, 7, CELADON_CITY
 	warp 4, 17, 1, ROCKET_HIDEOUT_1
 
 	db 1 ; signs

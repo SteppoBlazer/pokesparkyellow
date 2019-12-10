@@ -3130,7 +3130,7 @@ CheckDayNight::
 ; set carry flag if it's day
 ; Looks at total play time. Alternates between night and day every half hour.
 	ld a, [wPlayTimeMinutes + 1]
-	cp 30
+	cp 55
 	ret
 
 Func_35f7::

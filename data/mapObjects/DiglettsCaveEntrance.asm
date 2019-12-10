@@ -2,8 +2,8 @@ DiglettsCaveEntranceRoute11Object:
 	db $7d ; border block
 
 	db 3 ; warps
-	warp 2, 7, 4, $ff
-	warp 3, 7, 4, $ff
+	warp 2, 7, 4, ROUTE_11
+	warp 3, 7, 4, ROUTE_11
 	warp 4, 4, 1, DIGLETTS_CAVE
 
 	db 0 ; signs

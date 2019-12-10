@@ -2,8 +2,8 @@ Lab1Object:
 	db $17 ; border block
 
 	db 5 ; warps
-	warp 2, 7, 2, $ff
-	warp 3, 7, 2, $ff
+	warp 2, 7, 2, CINNABAR_ISLAND
+	warp 3, 7, 2, CINNABAR_ISLAND
 	warp 8, 4, 0, CINNABAR_LAB_2
 	warp 12, 4, 0, CINNABAR_LAB_3
 	warp 16, 4, 0, CINNABAR_LAB_4

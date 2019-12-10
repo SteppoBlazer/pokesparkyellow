@@ -2,8 +2,8 @@ CinnabarPokecenterObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 3, $ff
-	warp 4, 7, 3, $ff
+	warp 3, 7, 3, CINNABAR_ISLAND
+	warp 4, 7, 3, CINNABAR_ISLAND
 
 	db 0 ; signs
 

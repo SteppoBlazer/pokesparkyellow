@@ -2,8 +2,8 @@ CeruleanHouse1Object:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 1, $ff
-	warp 3, 7, 1, $ff
+	warp 2, 7, 1, CERULEAN_CITY
+	warp 3, 7, 1, CERULEAN_CITY
 
 	db 0 ; signs
 

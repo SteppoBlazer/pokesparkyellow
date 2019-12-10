@@ -339,9 +339,8 @@ ViridianCityText_192b4:
 	db "@"
 
 ViridianCityText_8:
-	TX_ASM
-	callba Func_f19c5
-	jp TextScriptEnd
+	TX_FAR _ViridianCityText8
+	db "@"
 
 ViridianCityText_9:
 	TX_ASM

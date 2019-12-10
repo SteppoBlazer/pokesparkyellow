@@ -2,8 +2,8 @@ CopycatsHouse1FObject:
 	db $a ; border block
 
 	db 3 ; warps
-	warp 2, 7, 0, $ff
-	warp 3, 7, 0, $ff
+	warp 2, 7, 0, SAFFRON_CITY
+	warp 3, 7, 0, SAFFRON_CITY
 	warp 7, 1, 0, COPYCATS_HOUSE_2F
 
 	db 0 ; signs

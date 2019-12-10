@@ -109,9 +109,9 @@ WildDataPointers:
 	dw NoMons
 	dw PlateauMons1
 	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw NoMons;Route2Mons
+	dw NoMons;Route10Mons
+	dw NoMons;Route12Mons
 	dw NoMons
 	dw NoMons
 	dw NoMons
@@ -248,7 +248,6 @@ WildDataPointers:
 	dw NoMons
 	dw NoMons
 	dw NoMons
-	dw $FFFF
 
 ; wild pokemon data is divided into two parts.
 ; first part:  pokemon found in grass

@@ -22,8 +22,8 @@ _OaksLabText41::
 
 _OaksLabText39::
 	text "That's a #"
-	line "BALL. There's a"
-	cont "#MON inside!"
+	line "ball. There's a"
+	cont "#mon inside!"
 	done
 
 _OaksLabPikachuText::

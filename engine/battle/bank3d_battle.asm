@@ -105,8 +105,7 @@ InitWildBattle:
 	ld [wTrainerClass], a
 	ld [$ffe1], a
 	; check for night time, put enemy to sleep
-	ld a, [wPlayTimeMinutes + 1]
-	cp 30
+    call CheckDayNight
 	jr c, .goOn
 	call Random
 	cp 26 ; only 10% of pokemon at night are asleep

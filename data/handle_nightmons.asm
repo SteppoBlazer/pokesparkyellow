@@ -27,21 +27,21 @@ HandleNightMons:
 	ret
 
 NightWildMonPointers:
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
 	dw Route1NightMons  ; ROUTE_1
 	dw Route2NightMons  ; ROUTE_2
-	dw NoMons  ; ROUTE_3
+	dw Route3NightMons  ; ROUTE_3
 	dw Route4NightMons  ; ROUTE_4
 	dw Route5NightMons  ; ROUTE_5
 	dw Route6NightMons  ; ROUTE_6
@@ -56,226 +56,226 @@ NightWildMonPointers:
 	dw Route15NightMons ; ROUTE_15
 	dw Route16NightMons ; ROUTE_16
 	dw Route17NightMons ; ROUTE_17
-	dw NoMons ; ROUTE_18
-	dw NoMons ; ROUTE_19
-	dw NoMons ; ROUTE_20
+	dw NoNightMons ; ROUTE_18
+	dw NoNightMons ; ROUTE_19
+	dw NoNightMons ; ROUTE_20
 	dw Route21NightMons ; ROUTE_21
 	dw Route22NightMons ; ROUTE_22
 	dw Route23NightMons ; ROUTE_23
 	dw Route24NightMons ; ROUTE_24
 	dw Route25NightMons ; ROUTE_25
-	dw NoMons      ; REDS_HOUSE_1F
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ; ViridianForest
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw MoonNightMons1 ; Mt.Moon1
-	dw MoonNightMonsB1 ; Mt.Moon2
-	dw MoonNightMonsB2 ; Mt.Moon3
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ; Rock Tunnel 1
-	dw NoMons ; Power Plant
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ; Victory Road
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons ;Pokemon Tower Lavender 
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Seafoam Island1
-	dw NoMons ;Seafoam Island2
-	dw NoMons ;Seafoam Island3
-	dw NoMons ;Seafoam Island4
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Pokemn Mansion Cinnabar
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Seafoam Island
-	dw NoMons
-	dw NoMons ; Victory Road
-	dw NoMons
-	dw NoMons
-	dw NoMons ; Diglett Cave
-	dw NoMons ; Victory Road
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Pokemn Mansion Cinnabar
-	dw NoMons ;Pokemn Mansion Cinnabar
-	dw NoMons ;Pokemn Mansion Cinnabar
-	dw NoMons ;Safari Zone
-	dw NoMons ;Safari Zone
-	dw NoMons ;Safari Zone
-	dw NoMons ;Safari Zone
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ;Cerulean Cave
-	dw NoMons ;Cerulean Cave
-	dw NoMons ;Cerulean Cave
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons ; Rock tunnel 2
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw NoNightMons      ; REDS_HOUSE_1F
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; ViridianForest
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; Mt.Moon1
+	dw NoNightMons ; Mt.Moon2
+	dw NoNightMons ; Mt.Moon3
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; Rock Tunnel 1
+	dw NoNightMons ; Power Plant
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; Victory Road
+	dw NoNightMons
+	dw NoNightMons;Route2NightMons
+	dw NoNightMons;Route10NightMons
+	dw NoNightMons;Route12NightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons ;Pokemon Tower Lavender 
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Seafoam Island1
+	dw NoNightMons ;Seafoam Island2
+	dw NoNightMons ;Seafoam Island3
+	dw NoNightMons ;Seafoam Island4
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Pokemn Mansion Cinnabar
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Seafoam Island
+	dw NoNightMons
+	dw NoNightMons ; Victory Road
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; Diglett Cave
+	dw NoNightMons ; Victory Road
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Pokemn Mansion Cinnabar
+	dw NoNightMons ;Pokemn Mansion Cinnabar
+	dw NoNightMons ;Pokemn Mansion Cinnabar
+	dw NoNightMons ;Safari Zone
+	dw NoNightMons ;Safari Zone
+	dw NoNightMons ;Safari Zone
+	dw NoNightMons ;Safari Zone
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ;Cerulean Cave
+	dw NoNightMons ;Cerulean Cave
+	dw NoNightMons ;Cerulean Cave
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons ; Rock tunnel 2
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
+	dw NoNightMons
 
 NoNightMons:
 	db $ff
@@ -290,10 +290,15 @@ Route2NightMons:
 	db 4, RATTATA
 	db 6, RATTATA
 
-Route4NightMons:
-	db 8, ZUBAT
+Route3NightMons:
+	db 9, ZUBAT
 	db 10, PARAS
-	db 10, CLEFAIRY
+	db 12, CLEFAIRY
+
+Route4NightMons:
+	db 10, ZUBAT
+	db 12, PARAS
+	db 9, CLEFAIRY
 
 Route5NightMons:
 	db 15, MEOWTH
@@ -384,18 +389,3 @@ Route25NightMons:
 	db 12, ODDISH
 	db 14, VENONAT
 	db 13, ODDISH
-
-MoonNightMons1:
-	db 8, CLEFAIRY
-	db 6, ZUBAT
-	db 10, CLEFAIRY
-
-MoonNightMonsB1:
-	db 8, CLEFAIRY
-	db 10, CLEFAIRY
-	db 9, PARAS
-
-MoonNightMonsB2:
-	db 10, CLEFAIRY
-	db 11, PARAS
-	db 13, ZUBAT

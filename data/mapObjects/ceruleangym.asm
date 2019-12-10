@@ -2,8 +2,8 @@ CeruleanGymObject:
 	db $3 ; border block
 
 	db 2 ; warps
-	warp 4, 13, 3, $ff
-	warp 5, 13, 3, $ff
+	warp 4, 13, 3, CERULEAN_CITY
+	warp 5, 13, 3, CERULEAN_CITY
 
 	db 0 ; signs
 

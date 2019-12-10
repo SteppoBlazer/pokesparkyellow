@@ -2,8 +2,8 @@ DayCareMObject:
 	db $a ; border block
 
 	db 2 ; warps
-	warp 2, 7, 4, $ff
-	warp 3, 7, 4, $ff
+	warp 2, 7, 3, ROUTE_5
+	warp 3, 7, 3, ROUTE_5
 
 	db 0 ; signs
 

@@ -2,8 +2,8 @@ UndergroundPathEntranceRoute5Object:
 	db $a ; border block
 
 	db 3 ; warps
-	warp 3, 7, 3, $ff
-	warp 4, 7, 3, $ff
+	warp 3, 7, 2, ROUTE_5
+	warp 4, 7, 2, ROUTE_5
 	warp 4, 4, 0, UNDERGROUND_PATH_NS
 
 	db 0 ; signs

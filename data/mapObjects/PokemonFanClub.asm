@@ -2,8 +2,8 @@ FanClubObject:
 	db $d ; border block
 
 	db 2 ; warps
-	warp 2, 7, 1, $ff
-	warp 3, 7, 1, $ff
+	warp 2, 7, 1, VERMILION_CITY
+	warp 3, 7, 1, VERMILION_CITY
 
 	db 0 ; signs
 

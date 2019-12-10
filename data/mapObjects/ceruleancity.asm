@@ -1,7 +1,7 @@
 CeruleanCityObject:
 	db $a ; border block
 
-	db 11 ; warps
+	db 12 ; warps
 	warp 27, 11, 0, TRASHED_HOUSE
 	warp 17, 19, 0, CERULEAN_HOUSE_1
 	warp 21, 19, 0, CERULEAN_POKECENTER
@@ -10,9 +10,10 @@ CeruleanCityObject:
 	warp 21, 27, 0, CERULEAN_MART
 	warp  0, 11, 0, UNKNOWN_DUNGEON_1
 	warp 27,  7, 2, TRASHED_HOUSE
-	warp  7, 11, 1, CERULEAN_HOUSE_2
-	warp  7,  7, 0, CERULEAN_HOUSE_2
-	warp 37, 17, 3, ROUTE_9_GATE
+	warp  7, 11, 1, CERULEAN_HOUSE_2;8 entrance
+	warp  7,  7, 0, CERULEAN_HOUSE_2;9 back exit
+	warp 37, 16, 0, ROUTE_9_GATE;10
+	warp 37, 17, 1, ROUTE_9_GATE;11
 
 	db 6 ; signs
 	sign 25, 19, 12 ; CeruleanCityText12
@@ -24,7 +25,7 @@ CeruleanCityObject:
 
 	db 11 ; objects
 	object SPRITE_BLUE, 20, 2, STAY, DOWN, 1 ; person
-	object SPRITE_DRUNKARD, 31,  6, STAY, NONE, 2, OPP_ROCKET, 5
+	object SPRITE_DRUNKARD, 31,  9, STAY, NONE, 2, OPP_ROCKET, 5
 	object SPRITE_BLACK_HAIR_BOY_1, 31, 20, STAY, DOWN, 3 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 18, 25, WALK, 1, 4 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 12, 21, WALK, 2, 5 ; person
@@ -46,5 +47,6 @@ CeruleanCityObject:
 	warp_to 27,  7, CERULEAN_CITY_WIDTH ; TRASHED_HOUSE
 	warp_to  7, 11, CERULEAN_CITY_WIDTH ; CERULEAN_HOUSE_2
 	warp_to  7,  7, CERULEAN_CITY_WIDTH ; CERULEAN_HOUSE_2
+	warp_to 37, 16, CERULEAN_CITY_WIDTH ; ROUTE_9_GATE
 	warp_to 37, 17, CERULEAN_CITY_WIDTH ; ROUTE_9_GATE
 	

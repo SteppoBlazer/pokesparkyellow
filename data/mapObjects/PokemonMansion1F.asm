@@ -1,15 +1,13 @@
 Mansion1Object:
 	db $2e ; border block
 
-	db $8 ; warps
-	warp 4, 27, 0, $ff
-	warp 5, 27, 0, $ff
-	warp 6, 27, 0, $ff
-	warp 7, 27, 0, $ff
+	db 6 ; warps
+	warp 4, 27, 0, CINNABAR_ISLAND
+	warp 5, 27, 0, CINNABAR_ISLAND
+	warp 6, 27, 0, CINNABAR_ISLAND
+	warp 7, 27, 0, CINNABAR_ISLAND
 	warp 5, 10, 0, MANSION_2
 	warp 21, 23, 0, MANSION_4
-	warp 26, 27, 0, $ff
-	warp 27, 27, 0, $ff
 
 	db 0 ; signs
 
@@ -25,5 +23,3 @@ Mansion1Object:
 	warp_to 7, 27, MANSION_1_WIDTH
 	warp_to 5, 10, MANSION_1_WIDTH ; MANSION_2
 	warp_to 21, 23, MANSION_1_WIDTH ; MANSION_4
-	warp_to 26, 27, MANSION_1_WIDTH
-	warp_to 27, 27, MANSION_1_WIDTH

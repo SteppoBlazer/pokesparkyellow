@@ -2,7 +2,7 @@ Route16GateUpstairsObject:
 	db $a ; border block
 
 	db 1 ; warps
-	warp 7, 7, 8, ROUTE_16_GATE_1F
+	warp 7, 7, 4, ROUTE_16_GATE_1F;0
 
 	db 2 ; signs
 	sign 1, 2, 3 ; Route16GateUpstairsText3

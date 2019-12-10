@@ -2,8 +2,8 @@ CinnabarGymObject:
 	db $2e ; border block
 
 	db 2 ; warps
-	warp 16, 17, 1, $ff
-	warp 17, 17, 1, $ff
+	warp 16, 17, 1, CINNABAR_ISLAND
+	warp 17, 17, 1, CINNABAR_ISLAND
 
 	db 0 ; signs
 

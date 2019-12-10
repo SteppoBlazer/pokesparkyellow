@@ -2,9 +2,9 @@ CeruleanHouse2Object:
 	db $c ; border block
 
 	db 3 ; warps
-	warp 2, 0, 9, $ff
-	warp 2, 7, 8, $ff
-	warp 3, 7, 8, $ff
+	warp 2, 0, 9, CERULEAN_CITY
+	warp 2, 7, 8, CERULEAN_CITY
+	warp 3, 7, 8, CERULEAN_CITY
 
 	db 0 ; signs
 

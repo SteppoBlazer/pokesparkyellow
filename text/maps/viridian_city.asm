@@ -162,7 +162,7 @@ _OldManAgainText3::
 	done
 
 _ViridianCityText8::
-	text "VIRIDIAN CITY "
+	text "VIRIDIAN CITY"
 	line "The Eternally"
 	cont "Green Paradise"
 	done

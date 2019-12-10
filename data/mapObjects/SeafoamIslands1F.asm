@@ -2,10 +2,10 @@ SeafoamIslands1Object:
 	db $7d ; border block
 
 	db 7 ; warps
-	warp 4, 17, 0, $ff
-	warp 5, 17, 0, $ff
-	warp 26, 17, 1, $ff
-	warp 27, 17, 1, $ff
+	warp 4, 17, 0, ROUTE_20
+	warp 5, 17, 0, ROUTE_20
+	warp 26, 17, 1, ROUTE_20
+	warp 27, 17, 1, ROUTE_20
 	warp 7, 5, 1, SEAFOAM_ISLANDS_2
 	warp 25, 3, 6, SEAFOAM_ISLANDS_2
 	warp 23, 15, 4, SEAFOAM_ISLANDS_2

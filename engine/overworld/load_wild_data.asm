@@ -1,7 +1,6 @@
 LoadWildData:
 	ld hl,WildDataPointers
 	ld a,[wCurMap]
-
 	; get wild data for current map
 	ld c,a
 	ld b,0
@@ -18,8 +17,7 @@ LoadWildData:
 	ld de,wGrassMons ; otherwise, load grass data
 	ld bc,$0014
 	call CopyData
-	ld a, [wPlayTimeMinutes + 1]
-	cp 30
+    call CheckDayNight
 	jr c, .day
 	ld hl, HandleNightMons
 	ld b, Bank(HandleNightMons)

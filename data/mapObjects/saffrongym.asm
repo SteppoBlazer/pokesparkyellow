@@ -2,8 +2,8 @@ SaffronGymObject:
 	db $2e ; border block
 
 	db 20 ; warps
-	warp 8, 17, 2, $ff
-	warp 9, 17, 2, $ff
+	warp 8, 17, 2, SAFFRON_CITY
+	warp 9, 17, 2, SAFFRON_CITY
 	warp 1, 3, 22, SAFFRON_GYM
 	warp 5, 3, 15, SAFFRON_GYM
 	warp 1, 5, 18, SAFFRON_GYM

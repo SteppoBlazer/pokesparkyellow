@@ -202,7 +202,7 @@ SetPal_Overworld:
 	;cp SAFFRON_CITY + 1
 	;jr c, .town
 	;ld a, PAL_ROUTE - 1
-	callab CheckDayNight
+	call CheckDayNight
 	jr nc, .night
 	ld a, PAL_CYANMON
 	jr .gotPaletteID

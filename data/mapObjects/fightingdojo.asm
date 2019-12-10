@@ -2,8 +2,8 @@ FightingDojoObject:
 	db $3 ; border block
 
 	db 2 ; warps
-	warp 4, 11, 1, $ff
-	warp 5, 11, 1, $ff
+	warp 4, 11, 1, SAFFRON_CITY
+	warp 5, 11, 1, SAFFRON_CITY
 
 	db 0 ; signs
 

@@ -2,8 +2,8 @@ SaffronMartObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 4, $ff
-	warp 4, 7, 4, $ff
+	warp 3, 7, 4, SAFFRON_CITY
+	warp 4, 7, 4, SAFFRON_CITY
 
 	db 0 ; signs
 

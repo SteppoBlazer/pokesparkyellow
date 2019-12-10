@@ -2,9 +2,9 @@ CeruleanHouseTrashedObject:
 	db $a ; border block
 
 	db 3 ; warps
-	warp 2, 7, 0, $ff
-	warp 3, 7, 0, $ff
-	warp 3, 0, 7, $ff
+	warp 2, 7, 0, CERULEAN_CITY
+	warp 3, 7, 0, CERULEAN_CITY
+	warp 3, 0, 7, CERULEAN_CITY
 
 	db 1 ; signs
 	sign 3, 0, 3 ; CeruleanHouseTrashedText3

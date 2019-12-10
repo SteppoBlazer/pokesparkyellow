@@ -10,7 +10,7 @@ ENDM
 	mapconst PEWTER_CITY,                18, 20 ; $02
 	mapconst CERULEAN_CITY,              18, 20 ; $03
 	mapconst LAVENDER_TOWN,               9, 10 ; $04
-	mapconst VERMILION_CITY,             18, 20 ; $05
+	mapconst VERMILION_CITY,             19, 20 ; $05
 	mapconst CELADON_CITY,               18, 25 ; $06
 	mapconst FUCHSIA_CITY,               18, 20 ; $07
 	mapconst CINNABAR_ISLAND,             9, 10 ; $08
@@ -25,7 +25,7 @@ ENDM
 	mapconst ROUTE_6,                    18, 10 ; $11
 	mapconst ROUTE_7,                     9, 10 ; $12
 	mapconst ROUTE_8,                     9, 30 ; $13
-	mapconst ROUTE_9,                     9, 30 ; $14
+	mapconst ROUTE_9,                     9, 31 ; $14
 	mapconst ROUTE_10,                   21, 10 ; $15
 	mapconst ROUTE_11,                    9, 30 ; $16
 	mapconst ROUTE_12,                   11, 10 ; $17

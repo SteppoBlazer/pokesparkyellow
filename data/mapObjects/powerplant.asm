@@ -1,10 +1,9 @@
 PowerPlantObject:
 	db $2e ; border block
 
-	db 3 ; warps
-	warp 4, 35, 3, $ff
-	warp 5, 35, 3, $ff
-	warp 0, 11, 3, $ff
+	db 2 ; warps
+	warp 4, 35, 3, ROUTE_10
+	warp 5, 35, 3, ROUTE_10
 
 	db 0 ; signs
 
@@ -27,4 +26,3 @@ PowerPlantObject:
 	; warp-to
 	warp_to 4, 35, POWER_PLANT_WIDTH
 	warp_to 5, 35, POWER_PLANT_WIDTH
-	warp_to 0, 11, POWER_PLANT_WIDTH

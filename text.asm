@@ -2494,10 +2494,8 @@ INCLUDE "text/maps/bike_shop.asm"
 INCLUDE "text/maps/cerulean_mart.asm"
 INCLUDE "text/maps/cerulean_badge_house_1.asm"
 
-
 SECTION "Text 6", ROMX, BANK[TEXT_6]
 
-INCLUDE "text/maps/cerulean_badge_house_2.asm"
 INCLUDE "text/maps/lavender_pokecenter.asm"
 INCLUDE "text/maps/pokemon_tower_1f.asm"
 INCLUDE "text/maps/pokemon_tower_2f.asm"

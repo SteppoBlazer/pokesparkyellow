@@ -12,7 +12,7 @@ PewterCityObject:
 
 	db 7 ; signs
 	sign 13, 29, 6 ; PewterCityText6
-	sign 33, 23, 7 ; PewterCityText7
+	sign 33, 17, 7 ; PewterCityText7
 	sign 24, 17, 8 ; MartSignText
 	sign 16, 25, 9 ; PokeCenterSignText
 	sign  9,  4, 10 ; PewterCityText10
@@ -20,9 +20,9 @@ PewterCityObject:
 	sign 25, 22, 12 ; PewterCityText12
 
 	db 5 ; objects
-	object SPRITE_GIRLPALLET,  5, 16, STAY, NONE, 1 ; person
+	object SPRITE_GIRLPALLET, 29, 15, STAY, NONE, 1 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 18, 26, STAY, NONE, 2 ; person
-	object SPRITE_FISHER2, 28, 17, STAY, NONE, 3 ; person
+	object SPRITE_FISHER2,  5, 10, STAY, NONE, 3 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 26, 25, WALK, 2, 4 ; person
 	object SPRITE_BUG_CATCHER, 36, 18, STAY, DOWN, 5 ; person
 

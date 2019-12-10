@@ -2,8 +2,8 @@ UnknownDungeon1Object:
 	db $7d ; border block
 
 	db 9 ; warps
-	warp 24, 17, 6, $ff
-	warp 25, 17, 6, $ff
+	warp 24, 17, 6, CERULEAN_CITY
+	warp 25, 17, 6, CERULEAN_CITY
 	warp 27, 1, 0, UNKNOWN_DUNGEON_2
 	warp 23, 7, 1, UNKNOWN_DUNGEON_2
 	warp 18, 9, 2, UNKNOWN_DUNGEON_2

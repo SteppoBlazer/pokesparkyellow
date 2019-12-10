@@ -259,6 +259,7 @@ OverworldLoopLessDelay::
 	jr z, .notRunning ; If you aren't holding B, skip ahead to step normally.
 .surfFaster
 	call DoBikeSpeedup ; Make you go faster if you were holding B
+
 .notRunning ; Normal code resumes here
 	call AdvancePlayerSprite
 	ld a, [wWalkCounter]
@@ -701,6 +702,12 @@ CheckIfInOutsideMap::
 	and a ; most towns/routes have tileset 0 (OVERWORLD)
 	ret z
 	cp PLATEAU ; Route 23 / Indigo Plateau
+	cp MASARATOWN
+	cp TOKIWACITY
+	cp HANADACITY
+	cp POWERPLANT
+	cp SHIONTOWN
+	cp KUCHIBACITY
 	ret
 
 ; this function is an extra check that sometimes has to pass in order to warp, beyond just standing on a warp
@@ -749,7 +756,6 @@ MapEntryAfterBattle::
 HandleBlackOut::
 ; For when all the player's pokemon faint.
 ; Does not print the "blacked out" message.
-
 	call GBFadeOutToBlack
 	ld a, $08
 	call StopMusic
@@ -802,7 +808,6 @@ Func_07c4::
 
 LoadPlayerSpriteGraphics::
 ; Load sprite graphics based on whether the player is standing, biking, or surfing.
-
 	; 0: standing
 	; 1: biking
 	; 2: surfing
@@ -1810,6 +1815,7 @@ LoadSurfingPlayerSpriteGraphics::
 LoadBikePlayerSpriteGraphics::
 	ld b, BANK(RedCyclingSprite)
 	ld de, RedCyclingSprite
+
 LoadPlayerSpriteGraphicsCommon::
 	ld hl, vNPCSprites
 	push de

@@ -136,8 +136,7 @@ DrawStartMenu:
 	lb bc, 3, 7
 	call TextBoxBorder
 	coord hl, 3, 2
-	ld a, [wPlayTimeMinutes + 1]
-	cp 30
+    call CheckDayNight
 	jr nc, .night
 	ld de, DayText
 	jr .gotText
