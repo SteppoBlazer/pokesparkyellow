@@ -1,15 +1,26 @@
 IsMonShiny:
 	ld h, d
 	ld l, e
-	ld a, [hli]
-	bit 5, a
-	jr z, .notShiny
-	and a, $f
-	cp 10
-	jr nz, .notShiny
+	; attack DV >= 10?
 	ld a, [hl]
-	cp (10 << 4) | 10
-	jr nz, .notShiny
+	and $f0
+	cp 10 << 4
+	jr c, .notShiny
+	; defense DV >= 10?
+	ld a, [hli]
+	and $f
+	cp 10
+	jr c, .notShiny
+	; speed DV >= 10?
+	ld a, [hl]
+	and $f0
+	cp 10 << 4
+	jr c, .notShiny
+	; special DV >= 10?
+	ld a, [hl]
+	and $f
+	cp 10
+	jr c, .notShiny
 	and a
 	ret
 
