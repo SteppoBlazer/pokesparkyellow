@@ -1540,6 +1540,11 @@ SwimmerData:
 	db 27,HORSEA
 	db 27,TENTACRUEL
 	db -1 ; end
+; Cerulean Gym
+	; OPP_SWIMMERF, 9
+	db TRAINERTYPE_NORMAL
+	db 19,GOLDEEN
+	db -1 ; end
 
 ; Route 20
 	; OPP_SWIMMER, 9

@@ -15,7 +15,7 @@ ENDM
 	mapconst FUCHSIA_CITY,               18, 20 ; $07
 	mapconst CINNABAR_ISLAND,             9, 10 ; $08
 	mapconst INDIGO_PLATEAU,              9, 10 ; $09
-	mapconst SAFFRON_CITY,               18, 20 ; $0A
+	mapconst SAFFRON_CITY,               22, 24 ; $0A
 	mapconst UNUSED_MAP_0B,               0,  0 ; $0B
 	mapconst ROUTE_1,                    19, 10 ; $0C
 	mapconst ROUTE_2,                    19, 10 ; $0D

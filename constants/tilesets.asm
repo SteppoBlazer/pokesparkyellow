@@ -32,8 +32,4 @@ const_value = 0
 	const POWERPLANT ;29
 	const SHIONTOWN ; 30
 	const KUCHIBACITY ; 31
-	const TAMAMUSHICITY ; 32
-	const CYCLINGROAD ; 33
-	const SEKICHIKUCITY ; 34
 	const YAMABUKICITY ; 35
-	const GURENTOWN ; 36

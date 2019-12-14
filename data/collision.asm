@@ -30,3 +30,8 @@ HanadaCity_Coll::   INCLUDE  "gfx/tilesets/hanadacity.asm"
 PowerPlant_Coll::   INCLUDE  "gfx/tilesets/powerplantnew.asm"
 ShionTown_Coll::    INCLUDE  "gfx/tilesets/shiontown.asm"
 KuchibaCity_Coll::  INCLUDE  "gfx/tilesets/kuchibacity.asm"
+
+
+
+YamabukiCity_Coll::  INCLUDE  "gfx/tilesets/yamabukicity.asm"
+

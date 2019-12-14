@@ -32,3 +32,4 @@ Tilesets:
 	tileset PowerPlant_Block,  PowerPlant_GFX,  PowerPlant_Coll,  $FF,$FF,$FF, $52, OUTDOOR
 	tileset ShionTown_Block,   ShionTown_GFX,   ShionTown_Coll,   $FF,$FF,$FF, $52, OUTDOOR
 	tileset KuchibaCity_Block, KuchibaCity_GFX, KuchibaCity_Coll, $FF,$FF,$FF, $52, OUTDOOR
+	tileset YamabukiCity_Block,YamabukiCity_GFX,YamabukiCity_Coll,$FF,$FF,$FF, $52, OUTDOOR

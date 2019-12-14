@@ -708,6 +708,7 @@ CheckIfInOutsideMap::
 	cp POWERPLANT
 	cp SHIONTOWN
 	cp KUCHIBACITY
+	cp YAMABUKICITY
 	ret
 
 ; this function is an extra check that sometimes has to pass in order to warp, beyond just standing on a warp

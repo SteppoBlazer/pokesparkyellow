@@ -2265,3 +2265,5 @@ CosplayerFSprite:      INCBIN "gfx/sprites/cosplayerf.2bpp"
 SECTION "bank48",ROMX,BANK[$48]
 KuchibaCity_GFX:   INCBIN "gfx/tilesets/kuchibacity.2bpp"
 KuchibaCity_Block: INCBIN "gfx/blocksets/kuchibacity.bst"
+YamabukiCity_GFX:   INCBIN "gfx/tilesets/yamabukicity.2bpp"
+YamabukiCity_Block: INCBIN "gfx/blocksets/yamabukicity.bst"
