@@ -24,11 +24,11 @@ VermilionCityObject:
 	db 7 ; objects
 	object SPRITE_LASS, 19,  9, WALK, 2, 1 ; person
 	object SPRITE_GAMBLER, 12,  7, STAY, NONE, 2 ; person
-	object SPRITE_SAILOR, 19, 34, STAY, UP, 3 ; person
+	object SPRITE_SAILOR, 19, 30, STAY, UP, 3 ; person
 	object SPRITE_GAMBLER, 30, 7, STAY, NONE, 4 ; person
 	object SPRITE_SLOWBRO, 29, 9, WALK, 1, 5 ; person
 	object SPRITE_SAILOR, 28, 29, WALK, 2, 6 ; person
-	object SPRITE_OFFICER_JENNY, 19, 15, STAY, NONE, 7 ; person
+	object SPRITE_OFFICER_JENNY, 18, 15, STAY, NONE, 7 ; person
 
 	; warp_to
 	warp_to  9,  5, VERMILION_CITY_WIDTH ; VERMILION_POKECENTER
