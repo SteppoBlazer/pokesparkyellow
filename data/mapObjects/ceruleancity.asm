@@ -16,12 +16,12 @@ CeruleanCityObject:
 	warp 37, 17, 1, ROUTE_9_GATE;11
 
 	db 6 ; signs
-	sign 25, 19, 12 ; CeruleanCityText12
-	sign 17, 29, 13 ; CeruleanCityText13
+	sign 18, 22, 12 ; CeruleanCityText12
+	sign 19, 29, 13 ; CeruleanCityText13
 	sign 22, 27, 14 ; MartSignText
 	sign 22, 19, 15 ; PokeCenterSignText
 	sign  9, 27, 16 ; CeruleanCityText16
-	sign 18, 22, 17 ; CeruleanCityText17
+	sign 25, 19, 17 ; CeruleanCityText17
 
 	db 11 ; objects
 	object SPRITE_BLUE, 20, 2, STAY, DOWN, 1 ; person
