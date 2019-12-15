@@ -2,7 +2,7 @@ RedsHouse2FObject:
 	db $0A ; border block
 
 	db 1 ; warps
-	warp 7, 1, 1, VERMILION_CITY
+	warp 7, 1, 2, REDS_HOUSE_1F
 
 	db 0 ; signs
 

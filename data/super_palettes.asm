@@ -115,8 +115,8 @@ SuperPalettes:
 
 	; PAL_CYANMON
 	RGB 31, 31, 31
-	RGB 12, 23, 13
-	RGB 11, 18, 08
+	RGB 20, 30, 09
+	RGB 15, 25, 04
 	RGB 06, 06, 06
 
 	; PAL_PURPLEMON
@@ -2546,8 +2546,8 @@ GBCBasePalettes:
 
 	; PAL_CYANMON
 	RGB 31, 31, 31
-	RGB 16, 23, 13
-	RGB 11, 18, 08
+	RGB 20, 30, 09
+	RGB 15, 25, 04
 	RGB  3,  3,  3
 
 	; PAL_PURPLEMON

@@ -2802,7 +2802,7 @@ IsSurfingPikachuInParty::
 	ld [wd472], a
 	ld hl, wPartyMon1
 	ld c, PARTY_LENGTH
-	ld b, NO_MOVE
+	ld b, SURF
 .loop
 	ld a, [hl]
 	cp PIKACHU
@@ -2827,6 +2827,9 @@ IsSurfingPikachuInParty::
 	set 6, a
 	ld [wd472], a
 .noSurf
+	ld a, [wd472]
+	set 5, a
+	ld [wd472], a
 	pop hl
 .notPikachu
 	ld de, wPartyMon2 - wPartyMon1

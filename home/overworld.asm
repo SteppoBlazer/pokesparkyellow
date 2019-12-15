@@ -269,7 +269,7 @@ OverworldLoopLessDelay::
 	call StepCountCheck
 	CheckEvent EVENT_IN_SAFARI_ZONE ; in the safari zone?
 	jr z, .notSafariZone
-	callba SafariZoneCheckSteps
+	callba SafariZoneCheck
 	ld a, [wSafariZoneGameOver]
 	and a
 	jp nz, WarpFound2

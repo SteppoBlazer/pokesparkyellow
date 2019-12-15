@@ -26,7 +26,7 @@ VermilionCityObject:
 	object SPRITE_GAMBLER, 12,  7, STAY, NONE, 2 ; person
 	object SPRITE_SAILOR, 19, 30, STAY, UP, 3 ; person
 	object SPRITE_GAMBLER, 30, 7, STAY, NONE, 4 ; person
-	object SPRITE_SLOWBRO, 29, 9, WALK, 1, 5 ; person
+	object SPRITE_SLOWBRO, 28,  7, WALK, 1, 5 ; person
 	object SPRITE_SAILOR, 28, 29, WALK, 2, 6 ; person
 	object SPRITE_OFFICER_JENNY, 18, 15, STAY, NONE, 7 ; person
 

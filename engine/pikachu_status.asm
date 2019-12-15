@@ -198,7 +198,7 @@ IsSurfingPikachuInThePlayersParty::
 	ld b, NUM_MOVES
 .moveSearchLoop
 	ld a, [hli]
-	cp NO_MOVE
+	cp SURF
 	jr z, .foundSurfingPikachu
 	dec b
 	jr nz, .moveSearchLoop

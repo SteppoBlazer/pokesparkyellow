@@ -13,7 +13,7 @@ BeachHouseTextPointers:
 SurfinDudeText:
 	TX_ASM
 	ld a, [wd472]
-	bit 6, a
+	bit 5, a
 	jr nz, .next
 	ld hl, .SurfinDudeText4
 	call PrintText
@@ -75,7 +75,7 @@ BeachHouseSign1Text:
 	TX_ASM
 	ld hl, .BeachHouseSign1Text2
 	ld a, [wd472]
-	bit 6, a
+	bit 5, a
 	jr z, .next
 	ld hl, .BeachHouseSign1Text1
 .next
@@ -93,7 +93,7 @@ BeachHouseSign2Text:
 	TX_ASM
 	ld hl, .BeachHouseSign2Text2
 	ld a, [wd472]
-	bit 6, a
+	bit 5, a
 	jr z, .next
 	ld hl, .BeachHouseSign2Text1
 .next
@@ -111,7 +111,7 @@ BeachHouseSign3Text:
 	TX_ASM
 	ld hl, .BeachHouseSign3Text2
 	ld a, [wd472]
-	bit 6, a
+	bit 5, a
 	jr z, .next
 	ld hl, .BeachHouseSign3Text1
 .next
@@ -130,7 +130,7 @@ BeachHouseSign4Text:
 	ld a, 1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
 	ld a, [wd472]
-	bit 6, a
+	bit 5, a
 	jr z, .asm_f2369
 
 	ld hl, wd492

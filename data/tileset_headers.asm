@@ -32,4 +32,16 @@ Tilesets:
 	tileset PowerPlant_Block,  PowerPlant_GFX,  PowerPlant_Coll,  $FF,$FF,$FF, $52, OUTDOOR
 	tileset ShionTown_Block,   ShionTown_GFX,   ShionTown_Coll,   $FF,$FF,$FF, $52, OUTDOOR
 	tileset KuchibaCity_Block, KuchibaCity_GFX, KuchibaCity_Coll, $FF,$FF,$FF, $52, OUTDOOR
-	tileset YamabukiCity_Block,YamabukiCity_GFX,YamabukiCity_Coll,$FF,$FF,$FF, $52, OUTDOOR
+	tileset YamabukiCity_Block,YamabukiCity_GFX,YamabukiCity_Coll,$FF,$FF,$FF, $FF, OUTDOOR
+; tilesets' headers macro
+;tileset: MACRO
+;	db BANK(\2)   ; BANK(GFX)
+;	dw \1, \2, \3 ; Block, GFX, Coll
+;	db \4, \5, \6 ; counter tiles
+;	db \7         ; grass tile
+;	db \8         ; permission (indoor, cave, outdoor)
+;ENDM
+
+;INDOOR  EQU 0
+;CAVE    EQU 1
+;OUTDOOR EQU 2
