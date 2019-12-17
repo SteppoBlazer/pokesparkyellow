@@ -30,6 +30,7 @@ WarpTileIDPointers:
 	dw HanadaCityWarpTileIDs
 	dw PowerPlantnewWarpTileIDs
 	dw ShionTownWarpTileIDs
+    dw KuchibaCityWarpTileIDs
 
 OverworldWarpTileIDs:
 	db $1B,$58,$FF
@@ -109,3 +110,6 @@ HanadaCityWarpTileIDs:
 
 PowerPlantnewWarpTileIDs:
 	db $1D,$2C,$6E,$72,$FF
+
+KuchibaCityWarpTileIDs:
+	db $1B,$1D,$26,$2C,$38,$39,$6E,$72,$FF

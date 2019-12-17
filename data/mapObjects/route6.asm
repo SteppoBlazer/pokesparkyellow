@@ -2,9 +2,9 @@ Route6Object:
 	db $f ; border block
 
 	db 3 ; warps
-	warp  9,  5, 0, ROUTE_6_GATE
-	warp 10,  5, 1, ROUTE_6_GATE
-	warp 15, 11, 0, PATH_ENTRANCE_ROUTE_6
+	warp  9,  5, 0, ROUTE_6_GATE;0
+	warp 10,  5, 1, ROUTE_6_GATE;1
+	warp 15, 11, 0, PATH_ENTRANCE_ROUTE_6;2
 
 	db 1 ; signs
 	sign 17, 12, 7 ; Route6Text7

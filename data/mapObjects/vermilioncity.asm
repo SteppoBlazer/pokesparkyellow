@@ -1,16 +1,16 @@
 VermilionCityObject:
-	db $2b ; border block
+	db $43 ; border block
 
 	db 9 ; warps
-	warp  9,  5, 0, VERMILION_POKECENTER
-	warp  7, 15, 0, POKEMON_FAN_CLUB
-	warp 21, 15, 0, VERMILION_MART
-	warp 10, 23, 0, VERMILION_GYM
-	warp 21, 23, 0, VERMILION_HOUSE_1
-	warp 18, 35, 0, VERMILION_DOCK
-	warp 19, 35, 0, VERMILION_DOCK
-	warp 13, 15, 0, VERMILION_HOUSE_3
-	warp  5,  5, 0, VERMILION_HOUSE_2
+	warp  9,  5, 0, VERMILION_POKECENTER;0
+	warp  7, 15, 0, POKEMON_FAN_CLUB;1
+	warp 21, 15, 0, VERMILION_MART;2
+	warp 10, 23, 0, VERMILION_GYM;3
+	warp 21, 23, 0, VERMILION_HOUSE_1;4
+	warp 18, 35, 0, VERMILION_DOCK;5
+	warp 19, 35, 0, VERMILION_DOCK;6
+	warp 13, 15, 0, VERMILION_HOUSE_3;7
+	warp  5,  5, 0, VERMILION_HOUSE_2;8
 
 	db 7 ; signs
 	sign 16,  9, 8 ; VermilionCityText7

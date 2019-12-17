@@ -2,8 +2,8 @@ UndergroundPathNSObject:
 	db $1 ; border block
 
 	db 2 ; warps
-	warp 5, 4, 2, PATH_ENTRANCE_ROUTE_5
-	warp 2, 41, 2, PATH_ENTRANCE_ROUTE_6
+	warp 5, 4, 2, PATH_ENTRANCE_ROUTE_5;0
+	warp 2, 41, 2, PATH_ENTRANCE_ROUTE_6;1
 
 	db 0 ; signs
 

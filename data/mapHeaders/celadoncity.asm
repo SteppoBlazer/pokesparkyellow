@@ -1,5 +1,5 @@
 CeladonCity_h:
-	db OVERWORLD ; tileset
+	db TAMAMUSHICITY ; tileset
 	db CELADON_CITY_HEIGHT, CELADON_CITY_WIDTH ; dimensions (y, x)
 	dw CeladonCityBlocks, CeladonCityTextPointers, CeladonCityScript ; blocks, texts, scripts
 	db EAST ; connections

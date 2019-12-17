@@ -11,7 +11,7 @@ ENDM
 	mapconst CERULEAN_CITY,              18, 20 ; $03
 	mapconst LAVENDER_TOWN,               9, 10 ; $04
 	mapconst VERMILION_CITY,             21, 20 ; $05
-	mapconst CELADON_CITY,               18, 25 ; $06
+	mapconst CELADON_CITY,               18, 26 ; $06
 	mapconst FUCHSIA_CITY,               18, 20 ; $07
 	mapconst CINNABAR_ISLAND,             9, 10 ; $08
 	mapconst INDIGO_PLATEAU,              9, 10 ; $09

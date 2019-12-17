@@ -407,7 +407,7 @@ INCLUDE "data/mapObjects/NameRatersHouse.asm"
 
 INCLUDE "data/mapHeaders/vermilionhouse1.asm"
 INCLUDE "scripts/vermilionhouse1.asm"
-INCLUDE "data/mapObjects/VermilionOldRodHouse.asm"
+INCLUDE "data/mapObjects/VermilionPidgeyHouse.asm"
 
 INCLUDE "data/mapHeaders/vermiliondock.asm"
 INCLUDE "scripts/vermiliondock.asm"
@@ -1294,7 +1294,7 @@ FuchsiaHouse3Blocks: INCBIN "maps/FuchsiaGoodRodHouse.blk"
 
 INCLUDE "data/mapHeaders/vermilionhouse2.asm"
 INCLUDE "scripts/vermilionhouse2.asm"
-INCLUDE "data/mapObjects/VermilionPidgeyHouse.asm"
+INCLUDE "data/mapObjects/VermilionOldRodHouse.asm"
 
 INCLUDE "data/mapHeaders/celadonmart2.asm"
 INCLUDE "scripts/celadonmart2.asm"
@@ -2267,3 +2267,7 @@ KuchibaCity_GFX:   INCBIN "gfx/tilesets/kuchibacity.2bpp"
 KuchibaCity_Block: INCBIN "gfx/blocksets/kuchibacity.bst"
 YamabukiCity_GFX:   INCBIN "gfx/tilesets/yamabukicity.2bpp"
 YamabukiCity_Block: INCBIN "gfx/blocksets/yamabukicity.bst"
+
+SECTION "bank49",ROMX,BANK[$49]
+TamamushiCity_GFX:   INCBIN "gfx/tilesets/tamamushicity.2bpp"
+TamamushiCity_Block: INCBIN "gfx/blocksets/tamamushicity.bst"

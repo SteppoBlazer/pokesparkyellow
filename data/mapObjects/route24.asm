@@ -1,5 +1,5 @@
 Route24Object:
-	db $2c ; border block
+	db $6d ; border block
 
 	db 0 ; warps
 

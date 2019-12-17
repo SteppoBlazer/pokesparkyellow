@@ -704,11 +704,13 @@ CheckIfInOutsideMap::
 	cp PLATEAU ; Route 23 / Indigo Plateau
 	cp MASARATOWN
 	cp TOKIWACITY
+	cp NIBICITY
 	cp HANADACITY
 	cp POWERPLANT
 	cp SHIONTOWN
 	cp KUCHIBACITY
 	cp YAMABUKICITY
+	cp TAMAMUSHICITY
 	ret
 
 ; this function is an extra check that sometimes has to pass in order to warp, beyond just standing on a warp
@@ -737,6 +739,24 @@ ExtraWarpCheck::
 	cp SHIP_PORT ; Vermilion Port tileset
 	jr z, .useFunction2
 	cp PLATEAU ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp MASARATOWN ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp TOKIWACITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp NIBICITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp HANADACITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp POWERPLANT ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp SHIONTOWN ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp KUCHIBACITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp YAMABUKICITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp TAMAMUSHICITY ; Indigo Plateau tileset
 	jr z, .useFunction2
 .useFunction1
 	ld hl, IsPlayerFacingEdgeOfMap
