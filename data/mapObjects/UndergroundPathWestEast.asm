@@ -2,8 +2,8 @@ UndergroundPathWEObject:
 	db $1 ; border block
 
 	db 2 ; warps
-	warp 2, 5, 2, PATH_ENTRANCE_ROUTE_7
-	warp 47, 2, 2, PATH_ENTRANCE_ROUTE_8
+	warp 2, 5, 2, PATH_ENTRANCE_ROUTE_7;0
+	warp 47, 2, 2, PATH_ENTRANCE_ROUTE_8;1
 
 	db 0 ; signs
 

@@ -3,7 +3,7 @@ UndergroundPathEntranceRoute6Object:
 
 	db 3 ; warps
 	warp 3, 7, 2, ROUTE_6;0
-	warp 4, 7, 2, ROUTE_6;1
+	warp 4, 7, 3, ROUTE_6;1
 	warp 4, 4, 1, UNDERGROUND_PATH_NS;2
 
 	db 0 ; signs

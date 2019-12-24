@@ -4,8 +4,8 @@ Route16GateObject:
 	db 5 ; warps
 	warp 0, 8, 0, ROUTE_16;0;ROUTE 16
 	warp 0, 9, 0, ROUTE_16;1 SAME
-	warp 7, 8, 8, CELADON_CITY;2
-	warp 7, 9, 13, CELADON_CITY;3
+	warp 7, 8, 7, CELADON_CITY;2
+	warp 7, 9, 12, CELADON_CITY;3
 	warp 6, 12, 0, ROUTE_16_GATE_2F;4
 
 	db 0 ; signs

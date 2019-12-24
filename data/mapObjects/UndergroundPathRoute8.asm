@@ -2,9 +2,9 @@ UndergroundPathEntranceRoute8Object:
 	db $a ; border block
 
 	db 3 ; warps
-	warp 3, 7, 4, ROUTE_8
-	warp 4, 7, 4, ROUTE_8
-	warp 4, 4, 1, UNDERGROUND_PATH_WE
+	warp 3, 7, 2, ROUTE_8;0
+	warp 4, 7, 2, ROUTE_8;1
+	warp 4, 4, 1, UNDERGROUND_PATH_WE;2
 
 	db 0 ; signs
 

@@ -1297,8 +1297,8 @@ SuperPalettes:
 
 	; PAL_GARY1
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19	
 	RGB 00, 00, 00
 
 	; PAL_OAK
@@ -1399,14 +1399,14 @@ SuperPalettes:
 
 	; PAL_GARY2
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19
 	RGB 00, 00, 00
 
 	; PAL_GARY3
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19
 	RGB 00, 00, 00
 
 	; PAL_LORELEI
@@ -3728,8 +3728,8 @@ GBCBasePalettes:
 
 	; PAL_GARY1
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19	
 	RGB 00, 00, 00
 
 	; PAL_OAK
@@ -3830,14 +3830,14 @@ GBCBasePalettes:
 
 	; PAL_GARY2
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19
 	RGB 00, 00, 00
 
 	; PAL_GARY3
 	RGB 31, 31, 31
-	RGB 29, 21, 16
-	RGB 11, 08, 18	
+	RGB 28, 20, 13
+	RGB 12, 09, 19
 	RGB 00, 00, 00
 
 	; PAL_LORELEI

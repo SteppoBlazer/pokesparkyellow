@@ -34,3 +34,4 @@ const_value = 0
 	const KUCHIBACITY ; 31
 	const YAMABUKICITY ; 32
 	const TAMAMUSHICITY ; 33
+    const SEKICHIKUCITY ; 34

@@ -2271,3 +2271,5 @@ YamabukiCity_Block: INCBIN "gfx/blocksets/yamabukicity.bst"
 SECTION "bank49",ROMX,BANK[$49]
 TamamushiCity_GFX:   INCBIN "gfx/tilesets/tamamushicity.2bpp"
 TamamushiCity_Block: INCBIN "gfx/blocksets/tamamushicity.bst"
+SekichikuCity_GFX:   INCBIN "gfx/tilesets/sekichikucity.2bpp"
+SekichikuCity_Block: INCBIN "gfx/blocksets/sekichikucity.bst"

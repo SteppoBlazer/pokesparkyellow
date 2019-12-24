@@ -711,6 +711,7 @@ CheckIfInOutsideMap::
 	cp KUCHIBACITY
 	cp YAMABUKICITY
 	cp TAMAMUSHICITY
+	cp SEKICHIKUCITY
 	ret
 
 ; this function is an extra check that sometimes has to pass in order to warp, beyond just standing on a warp
@@ -757,6 +758,8 @@ ExtraWarpCheck::
 	cp YAMABUKICITY ; Indigo Plateau tileset
 	jr z, .useFunction2
 	cp TAMAMUSHICITY ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp SEKICHIKUCITY ; Indigo Plateau tileset
 	jr z, .useFunction2
 .useFunction1
 	ld hl, IsPlayerFacingEdgeOfMap

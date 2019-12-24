@@ -2,9 +2,9 @@ Route11Object:
 	db $f ; border block
 
 	db 3 ; warps
-	warp 53,  8, 0, ROUTE_11_GATE_1F
-	warp 53,  9, 1, ROUTE_11_GATE_1F
-	warp 10,  7, 0, DIGLETTS_CAVE_ENTRANCE
+	warp 53,  8, 0, ROUTE_11_GATE_1F;0
+	warp 53,  9, 1, ROUTE_11_GATE_1F;1
+	warp 10,  7, 0, DIGLETTS_CAVE_ENTRANCE;2
 
 	db 1 ; signs
 	sign  8,  8, 11 ; Route11Text11

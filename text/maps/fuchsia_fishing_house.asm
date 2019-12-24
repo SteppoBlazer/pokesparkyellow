@@ -3,7 +3,7 @@ _FuchsiaHouse3Text_561bd::
 	line "GURU's older"
 	cont "brother!"
 
-	para "I simply Looove"
+	para "I simply love"
 	line "fishing!"
 
 	para "Do you like to"
@@ -15,12 +15,12 @@ _FuchsiaHouse3Text_561c2::
 	line "a man's ambition!"
 
 	para "A lousy Old Rod"
-	line "will only reel in"
-	cont "junk, but"
-	cont "with this"
+	line "will only reel"
+	cont "in junk... But"
+	cont "using my Good"
 
-	para "Good Rod, you can"
-	line "catch better #mon!"
+	para "Rod, you'll catch"
+	line "better #mon!"
 
 	para "Take this and"
 	line "fish, young one!"

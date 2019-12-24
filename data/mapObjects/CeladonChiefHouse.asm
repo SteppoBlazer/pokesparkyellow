@@ -2,8 +2,8 @@ CeladonHouseObject:
 	db $f ; border block
 
 	db 2 ; warps
-	warp 2, 7, 11, CELADON_CITY
-	warp 3, 7, 11, CELADON_CITY
+	warp 2, 7, 10, CELADON_CITY
+	warp 3, 7, 10, CELADON_CITY
 
 	db 0 ; signs
 

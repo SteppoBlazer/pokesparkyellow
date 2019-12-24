@@ -2,9 +2,9 @@ Route8Object:
 	db $2c ; border block
 
 	db 3 ; warps
-	warp  6, 10, 2, ROUTE_8_GATE
-	warp  6, 11, 2, ROUTE_8_GATE
-	warp 10,  5, 0, PATH_ENTRANCE_ROUTE_8
+	warp  6, 10, 2, ROUTE_8_GATE;0
+	warp  6, 11, 2, ROUTE_8_GATE;1
+	warp 10,  5, 0, PATH_ENTRANCE_ROUTE_8;2
 
 	db 1 ; signs
 	sign 12,  4, 10 ; Route8Text10

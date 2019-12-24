@@ -2,8 +2,8 @@ CeladonPokecenterObject:
 	db $0 ; border block
 
 	db 2 ; warps
-	warp 3, 7, 5, CELADON_CITY
-	warp 4, 7, 5, CELADON_CITY
+	warp 3, 7, 4, CELADON_CITY
+	warp 4, 7, 4, CELADON_CITY
 
 	db 0 ; signs
 

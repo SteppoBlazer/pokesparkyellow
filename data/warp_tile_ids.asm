@@ -31,7 +31,11 @@ WarpTileIDPointers:
 	dw PowerPlantnewWarpTileIDs
 	dw ShionTownWarpTileIDs
     dw KuchibaCityWarpTileIDs
+	dw YamabukiWarpTileIDs
+    dw TamamushiCityWarpTileIDs
+	dw SekichikuCityWarpTileIDs
 
+YamabukiWarpTileIDs:
 OverworldWarpTileIDs:
 	db $1B,$58,$FF
 
@@ -113,3 +117,9 @@ PowerPlantnewWarpTileIDs:
 
 KuchibaCityWarpTileIDs:
 	db $1B,$1D,$26,$2C,$38,$39,$6E,$72,$FF
+
+TamamushiCityWarpTileIDs:
+    db $10,$1B,$2B,$2C,$62,$63,$FF
+
+SekichikuCityWarpTileIDs:
+    db $19,$1B,$1D,$2C,$2F,$FF
