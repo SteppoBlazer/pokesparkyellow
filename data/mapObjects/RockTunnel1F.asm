@@ -2,14 +2,14 @@ RockTunnel1Object:
 	db $3 ; border block
 
 	db 8 ; warps
-	warp 15, 3, 1, ROUTE_10
-	warp 15, 0, 1, ROUTE_10
-	warp 15, 33, 2, ROUTE_10_SOUTH
-	warp 15, 35, 2, ROUTE_10_SOUTH
-	warp 37, 3, 0, ROCK_TUNNEL_2
-	warp 5, 3, 1, ROCK_TUNNEL_2
-	warp 17, 11, 2, ROCK_TUNNEL_2
-	warp 37, 17, 3, ROCK_TUNNEL_2
+	warp 15, 3, 1, ROUTE_10;0
+	warp 15, 0, 1, ROUTE_10;1
+	warp 15, 33, 0, ROUTE_10_SOUTH;2
+	warp 15, 35, 0, ROUTE_10_SOUTH;3
+	warp 37, 3, 0, ROCK_TUNNEL_2;4
+	warp 5, 3, 1, ROCK_TUNNEL_2;5
+	warp 17, 11, 2, ROCK_TUNNEL_2;6
+	warp 37, 17, 3, ROCK_TUNNEL_2;7
 
 	db 1 ; signs
 	sign 11, 29, 8 ; RockTunnel1Text8

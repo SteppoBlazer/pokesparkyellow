@@ -13,15 +13,15 @@ Route10SouthScriptPointers:
 	dw EndTrainerBattle
 
 Route10SouthTextPointers:
-    dw Route10Text2
-    dw Route10Text3
-    dw Route10Text5
-    dw Route10Text6
-	dw Route10Text9
+    dw Route10SouthText1
+    dw Route10SouthText2
+    dw Route10SouthText3
+    dw Route10SouthText4
+	dw Route10SouthText5
 
 Route10SouthTrainerHeaders:
 
-Route10TrainerHeader1:
+Route10SouthTrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_1
 	db ($3 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_1
@@ -30,7 +30,7 @@ Route10TrainerHeader1:
 	dw Route10EndBattleText2 ; TextEndBattle
 	dw Route10EndBattleText2 ; TextEndBattle
 
-Route10TrainerHeader2:
+Route10SouthTrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_2
 	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_2
@@ -39,7 +39,7 @@ Route10TrainerHeader2:
 	dw Route10EndBattleText3 ; TextEndBattle
 	dw Route10EndBattleText3 ; TextEndBattle
 
-Route10TrainerHeader4:
+Route10SouthTrainerHeader2:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_4
 	db ($2 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_4
@@ -48,7 +48,7 @@ Route10TrainerHeader4:
 	dw Route10EndBattleText5 ; TextEndBattle
 	dw Route10EndBattleText5 ; TextEndBattle
 
-Route10TrainerHeader5:
+Route10SouthTrainerHeader3:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_5
 	db ($2 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_5
@@ -59,9 +59,9 @@ Route10TrainerHeader5:
 
 	db $ff
 
-Route10Text2:
+Route10SouthText1:
 	TX_ASM
-	ld hl, Route10TrainerHeader1
+	ld hl, Route10SouthTrainerHeader0
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -77,9 +77,9 @@ Route10AfterBattleText2:
 	TX_FAR _Route10AfterBattleText2
 	db "@"
 
-Route10Text3:
+Route10SouthText2:
 	TX_ASM
-	ld hl, Route10TrainerHeader2
+	ld hl, Route10SouthTrainerHeader1
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -96,9 +96,9 @@ Route10AfterBattleText3:
 	db "@"
 
 
-Route10Text5:
+Route10SouthText3:
 	TX_ASM
-	ld hl, Route10TrainerHeader4
+	ld hl, Route10SouthTrainerHeader2
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -114,9 +114,9 @@ Route10AfterBattleText5:
 	TX_FAR _Route10AfterBattleText5
 	db "@"
 
-Route10Text6:
+Route10SouthText4:
 	TX_ASM
-	ld hl, Route10TrainerHeader5
+	ld hl, Route10SouthTrainerHeader3
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -132,6 +132,6 @@ Route10AfterBattleText6:
 	TX_FAR _Route10AfterBattleText6
 	db "@"
 
-Route10Text9:
+Route10SouthText5:
 	TX_FAR _Route10Text7 ; _Route10Text9
 	db "@"

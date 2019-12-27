@@ -15,7 +15,7 @@ FuchsiaCityObject:
 	warp  2, 18, 2, ROUTE_18_GATE_1F
 	warp  2, 19, 3, ROUTE_18_GATE_1F
 	warp 37, 19, 0, ROUTE_15_GATE_1F
-	warp 37, 19, 1, ROUTE_15_GATE_1F
+	warp 37, 18, 1, ROUTE_15_GATE_1F
 
 	db 14 ; signs
 	sign 15, 23, 11 ; FuchsiaCityText11
@@ -59,4 +59,4 @@ FuchsiaCityObject:
 	warp_to  2, 18, FUCHSIA_CITY_WIDTH ; ROUTE_18_GATE_1F
 	warp_to  2, 19, FUCHSIA_CITY_WIDTH ; ROUTE_18_GATE_1F
 	warp_to 37, 19, FUCHSIA_CITY_WIDTH ; ROUTE_15_GATE_1F
-	warp_to 37, 19, FUCHSIA_CITY_WIDTH ; ROUTE_15_GATE_1F
+	warp_to 37, 18, FUCHSIA_CITY_WIDTH ; ROUTE_15_GATE_1F

@@ -1,16 +1,16 @@
-_Route10BattleText1::
+_Route10BattleText1::;POWER PLANT SIDE
 	text "Wow, are you a"
 	line "#MANIAC too?"
 	cont "Want to see my"
 	cont "collection?"
 	done
 
-_Route10EndBattleText1::
+_Route10EndBattleText1::;POWER PLANT SIDE
 	text "Humph."
 	line "I'm not angry!"
 	prompt
 
-_Route10AfterBattleText1::
+_Route10AfterBattleText1::;POWER PLANT SIDE
 	text "I have more rare"
 	line "#MON at home!"
 	done
@@ -47,19 +47,19 @@ _Route10AfterBattleText3::
 	line "for beating me!"
 	done
 
-_Route10BattleText4::
+_Route10BattleText4::;POWER PLANT SIDE
 	text "I've been to a"
 	line "#MON GYM a few"
 	cont "times. But, I"
 	cont "lost each time."
 	done
 
-_Route10EndBattleText4::
+_Route10EndBattleText4::;POWER PLANT SIDE
 	text "Ohh!"
 	line "Blew it again!"
 	prompt
 
-_Route10AfterBattleText4::
+_Route10AfterBattleText4::;POWER PLANT SIDE
 	text "I noticed some"
 	line "#MANIACs"
 	cont "prowling around."
@@ -98,12 +98,11 @@ _Route10AfterBattleText6::
 	cont "pink one with a"
 	cont "floral pattern!"
 	done
-
-_Route10Text9::
-_Route10Text7::
+	
+_Route10Text7::;POWER PLANT SIDE
 	text "ROCK TUNNEL"
 	done
 
-_Route10Text10::
+_Route10Text10::;POWER PLANT SIDE
 	text "POWER PLANT"
 	done

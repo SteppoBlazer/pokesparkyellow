@@ -116,7 +116,7 @@ ENDM
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
 	mapconst ROUTE_1_GATE,                3,  4 ; $6D
 	mapconst ROUTE_2_NORTH,              22, 10 ; $6E
-	mapconst ROUTE_10_SOUTH,             11, 10 ; $6F
+	mapconst ROUTE_10_SOUTH,             11, 12 ; $6F
 	mapconst ROUTE_12_SOUTH,             43, 10 ; $70
 	mapconst LANCES_ROOM,                13, 13 ; $71
 	mapconst UNUSED_MAP_72,               0,  0 ; $72
