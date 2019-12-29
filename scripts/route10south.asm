@@ -20,7 +20,6 @@ Route10SouthTextPointers:
 	dw Route10SouthText5
 
 Route10SouthTrainerHeaders:
-
 Route10SouthTrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_1
 	db ($3 << 4) ; trainer's view range
@@ -94,7 +93,6 @@ Route10EndBattleText3:
 Route10AfterBattleText3:
 	TX_FAR _Route10AfterBattleText3
 	db "@"
-
 
 Route10SouthText3:
 	TX_ASM
